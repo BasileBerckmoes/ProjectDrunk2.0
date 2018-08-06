@@ -1,0 +1,12 @@
+/Users/basileberckmoes/Documents/GitHub/ProjectDrunk/iOS/bin/iPhoneSimulator/Debug/ProjectDrunk.iOS.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.20/lib/mono/Xamarin.iOS/mscorlib.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.20/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.20/lib/mono/Xamarin.iOS/System.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.20/lib/mono/Xamarin.iOS/Mono.Security.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.20/lib/mono/Xamarin.iOS/System.Xml.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.20/lib/mono/Xamarin.iOS/System.Core.dll
+/Users/basileberckmoes/Documents/GitHub/ProjectDrunk/ProjectDrunk/bin/Debug/ProjectDrunk.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.20/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.20/lib/mono/Xamarin.iOS/System.ComponentModel.Composition.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.20/lib/mono/Xamarin.iOS/Facades/System.Collections.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.20/lib/mono/Xamarin.iOS/Facades/System.Runtime.Extensions.dll

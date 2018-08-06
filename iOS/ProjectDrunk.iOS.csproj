@@ -1,0 +1,143 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{C7AC4D35-0D4C-4527-B00A-E6125730E147}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ProjectDrunk.iOS</RootNamespace>
+    <AssemblyName>ProjectDrunk.iOS</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>51538</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IOSDebuggerPort>51909</IOSDebuggerPort>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectDrunk\ProjectDrunk.csproj">
+      <Project>{E6C736F6-E022-497D-99C2-F5D60976B7BA}</Project>
+      <Name>ProjectDrunk</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Image.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Aas.imageset\Aas-1.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Aas.imageset\Aas.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Aas.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\.DS_Store" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="ViewControllers\" />
+    <Folder Include="Resources\SpelerTableview\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewControllers\GameSelection.cs" />
+    <Compile Include="ViewControllers\GameSelection.designer.cs">
+      <DependentUpon>GameSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\HogerLagerViewController.cs" />
+    <Compile Include="ViewControllers\HogerLagerViewController.designer.cs">
+      <DependentUpon>HogerLagerViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\ViewController.cs" />
+    <Compile Include="ViewControllers\ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\SpelerTableview\ButtonCellClass.cs" />
+    <Compile Include="Resources\SpelerTableview\ButtonCellClass.designer.cs">
+      <DependentUpon>ButtonCellClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\SpelerTableview\TableSource.cs" />
+    <Compile Include="Resources\SpelerTableview\TextCellClass.cs" />
+    <Compile Include="Resources\SpelerTableview\TextCellClass.designer.cs">
+      <DependentUpon>TextCellClass.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Abadi MT Condensed Extra Bold.ttf" />
+    <BundleResource Include="Resources\Abadi_MT_Condensed_Extra_Bold.ttf" />
+    <BundleResource Include="Resources\.DS_Store" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>
