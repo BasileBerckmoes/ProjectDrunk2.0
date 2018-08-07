@@ -28,7 +28,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpelLogica\HogerLager.cs" />
+    <Compile Include="SpelLogica\HogerLagerOLD.cs" />
     <Compile Include="DataLaag\SpelData.cs" />
     <Compile Include="Globals\Speler.cs" />
     <Compile Include="Globals\Kaart.cs" />

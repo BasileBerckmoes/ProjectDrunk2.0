@@ -1,16 +1,15 @@
 ﻿<Properties StartupConfiguration="{C7AC4D35-0D4C-4527-B00A-E6125730E147}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProjectDrunk/LogischeLaag/HogerLager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.storyboard">
     <Files>
       <File FileName="iOS/Main.storyboard" />
-      <File FileName="ProjectDrunk/LogischeLaag/HogerLager.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.ProjectDrunk.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
-  <MonoDevelop.Ide.ItemProperties.ProjectDrunk.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9448D733-4359-45D3-95E6-A2D653132AFC" />
+  <MonoDevelop.Ide.ItemProperties.ProjectDrunk.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.3b6c183f513cf0297feb88a47079e8b97ae76a7b" />
 </Properties>

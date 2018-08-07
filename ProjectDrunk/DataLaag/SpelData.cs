@@ -10,7 +10,7 @@ namespace ProjectDrunk.DataLaag
 
         public int Moeilijkheid { get; private set; }
 
-        public Random RandomSpeler { get; private set; }
+        public Random RndmGetal { get; private set; }
 
         public byte HuidigeSpelerIndex { get; private set; }
 
@@ -20,7 +20,7 @@ namespace ProjectDrunk.DataLaag
         {
             this.Spelers = spelers;
             this.Moeilijkheid = moeilijkheid;
-            RandomSpeler = new Random();
+            RndmGetal = new Random();
             HuidigeSpelerIndex = 0;
 
         }
@@ -35,10 +35,11 @@ namespace ProjectDrunk.DataLaag
             }
         }
 
-
         public Speler GeefRandomSpeler()
         {
-            return Spelers[RandomSpeler.Next(Spelers.Count)];
+            HuidigeSpelerIndex = (byte)RndmGetal.Next(Spelers.Count);
+            if (HuidigeSpelerIndex >= Spelers.Count) HuidigeSpelerIndex = 0;
+            return Spelers[HuidigeSpelerIndex];
         }
 
         public void VoegSpelerToe(Speler nieuwe){

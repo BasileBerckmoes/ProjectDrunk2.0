@@ -4,15 +4,16 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using Foundation;
+using ProjectDrunk.DataLaag;
+using ProjectDrunk.LogischeLaag;
 using UIKit;
 
 namespace ProjectDrunk.iOS
 {
     public partial class HogerLagerViewController : UIViewController
     {
-        List<String> spelers;
-        int graad;
-        HogerLager spel;
+        
+        public HogerLager Spel { get; private set; }
 
         public HogerLagerViewController(IntPtr handle) : base(handle)
         {
@@ -21,50 +22,53 @@ namespace ProjectDrunk.iOS
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            spel = new HogerLager(spelers, graad);
-            werkLabelsBij();
+            WerkLabelsBij();
         }
 
-        public void werkLabelsBij(){
-            SpelerNaam.Text = spel.getSpeler();
-			HuidigePunten.Text = spel.getStreak().ToString();
-			gokGetal.Text = spel.getGetal().ToString();
+        public void WerkLabelsBij(){
+           //LNaam.Text = "test";//= Spel.HuidigeSpeler.Naam;
+			//HuidigePunten.Text = Spel.Streak.ToString();
+			LKaart.Text = Spel.HuidigeKaart.BestandsNaam;
         }
 
-        public void setSpelerData(List<String> lijst, int graad)
+        public void SetSpelerData(SpelData data)
         {
-            spelers = lijst;
-            this.graad = graad;
+            Spel = new HogerLager(data);
+
+
         }
 
         partial void GokHoger(UIButton sender)
         {
-            if (spel.GokHoger()){
-				spel.nieuweSpeler();
-                werkLabelsBij();
+            if (Spel.GokHoger()){
+				Spel.CorrecteGok();
+
             }else{
                 ShowErrorMessage();
+                Spel.FouteGok();
             }
 
+            WerkLabelsBij();
         }
 
         partial void GokLager(UIButton sender)
         {
-            if (spel.GokLager()){
-                spel.nieuweSpeler();
-                werkLabelsBij();
+            if (Spel.GokLager()){
+                Spel.CorrecteGok();
+
 			}
 			else{
 				ShowErrorMessage();
+                Spel.FouteGok();
 			}
-
+            WerkLabelsBij();
         }
 
         public void ShowErrorMessage(){
             UIAlertView alert = new UIAlertView()
             {
-                Title = spel.getSpeler(),
-                Message = "Drink " + spel.getSlokken() + " keer!"
+                Title = Spel.HuidigeSpeler.Naam,
+                Message = "Drink " + Spel.Streak + " keer!"
 			};
 			alert.AddButton("OK");
 			alert.Show();
@@ -73,8 +77,8 @@ namespace ProjectDrunk.iOS
 
 		private void Alert_Dismissed(object sender, UIButtonEventArgs e)
 		{
-            spel.nieuweSpeler();
-			werkLabelsBij();
+            //spel.nieuweSpeler();
+			//werkLabelsBij();
 		}
 
         public override void DidReceiveMemoryWarning()

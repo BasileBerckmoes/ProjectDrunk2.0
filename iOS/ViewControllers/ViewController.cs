@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ProjectDrunk.DataLaag;
 using UIKit;
 
 
@@ -7,8 +8,10 @@ namespace ProjectDrunk.iOS
 {
     public partial class ViewController : UIViewController
     {
-
+        
         TableSource tabelData;
+        //public SpelData Spelers { get; private set; }
+
         public ViewController(IntPtr handle) : base(handle)
         {
         }
@@ -16,6 +19,7 @@ namespace ProjectDrunk.iOS
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+            //Spelers = new SpelData()
             //Console.WriteLine("test");
             List<String> spelers = new List<String>();
             spelers.Add("speler 1");
@@ -72,10 +76,15 @@ namespace ProjectDrunk.iOS
                 EditingDidEnd(huidigeTextField);
             }
             base.PrepareForSegue(segue, sender);
-            var GameSelectionVar = segue.DestinationViewController as GameSelection;
-            if (GameSelectionVar != null)
+
+            if (segue.DestinationViewController is GameSelection GameSelectionVar)
             {
-                GameSelectionVar.setSpelerData(tabelData.GetLijst(), (int)DrunkBar.Value);
+                List<Speler> spelers = new List<Speler>();
+                foreach (String speler in tabelData.GetLijst())
+                {
+                    spelers.Add(new Speler(speler));
+                }
+                GameSelectionVar.setSpelerData(new SpelData((int)DrunkBar.Value, spelers));
             }
         }
     }

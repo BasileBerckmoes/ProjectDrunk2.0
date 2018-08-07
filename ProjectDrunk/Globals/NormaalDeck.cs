@@ -19,13 +19,14 @@ namespace ProjectDrunk.Globals
         public NormaalDeck()
         {
             string[] nummer = { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
-            string[] teken = { "Hearts", "Clubs", "Diamonds", "Spades" }; 
+            string[] teken = { "Hearts", "Clubs", "Diamonds", "Spades" };
 
+            AantalKaarten = 52;
             Deck = new Kaart[AantalKaarten];
 
             RanNum = new Random();
             for (int count = 0; count < Deck.Length; count++){
-                Deck[count] = new Kaart(nummer[count % 13], teken[count / 13]); 
+                Deck[count] = new Kaart(nummer[count % 13],((count % 13) + 1), teken[count / 13]); 
             }
                 
         }
@@ -48,6 +49,16 @@ namespace ProjectDrunk.Globals
             if (HuidigeKaart < Deck.Length)
                 return Deck[HuidigeKaart++];
             else  return null;
+        }
+
+        public Kaart SneakPeakVolgende()
+        {
+            if (HuidigeKaart < Deck.Length)
+            {
+                return Deck[HuidigeKaart];
+            }
+            else return null;
+
         }
     }
 }

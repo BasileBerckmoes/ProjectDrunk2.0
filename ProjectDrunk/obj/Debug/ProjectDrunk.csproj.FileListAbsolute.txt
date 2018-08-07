@@ -42,7 +42,6 @@
 /Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/bin/Debug/SkiaSharp.xml
 /Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/bin/Debug/Xamarin.Forms.Core.xml
 /Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/bin/Debug/Xamarin.Forms.Xaml.xml
-/Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/obj/Debug/ProjectDrunk.csprojResolveAssemblyReference.cache
 /Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/obj/Debug/ProjectDrunk.csproj.CoreCompileInputs.cache
 /Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/obj/Debug/ProjectDrunk.dll
 /Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/obj/Debug/ProjectDrunk.pdb

@@ -4,11 +4,11 @@ namespace ProjectDrunk
 {
     public class Speler
     {
-        String naam;
+        public String Naam { get; private set; }
         //String geslacht;
         public Speler(String naam)
         {
-            this.naam = naam;
+            this.Naam = naam;
         }
     }
 }

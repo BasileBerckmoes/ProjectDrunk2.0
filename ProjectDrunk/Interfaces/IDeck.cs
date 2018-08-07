@@ -14,6 +14,7 @@ namespace ProjectDrunk.Interfaces
 
         void Shuffle();
         Kaart ToonVolgende();
+        Kaart SneakPeakVolgende();
 
     }
 }

@@ -3,14 +3,15 @@
 using System;
 using System.Collections.Generic;
 using Foundation;
+using ProjectDrunk.DataLaag;
 using UIKit;
 
 namespace ProjectDrunk.iOS
 {
     public partial class GameSelection : UIViewController
     {
-        List<String> spelers;
-        int graad;
+        public SpelData Data { get; private set; }
+
         public GameSelection(IntPtr handle) : base(handle)
         {
 
@@ -24,10 +25,9 @@ namespace ProjectDrunk.iOS
             // Perform any additional setup after loading the view, typically from a nib.
         }
 
-        public void setSpelerData(List<String> lijst, int graad)
+        public void setSpelerData(SpelData data)
         {
-            spelers = lijst;
-            this.graad = graad;
+            this.Data = data;
         }
 
         public override void DidReceiveMemoryWarning()
@@ -39,11 +39,10 @@ namespace ProjectDrunk.iOS
 		public override void PrepareForSegue(UIStoryboardSegue segue, Foundation.NSObject sender)
 		{
 			base.PrepareForSegue(segue, sender);
-            var GameHogerLager = segue.DestinationViewController as HogerLagerViewController;
-			if (GameHogerLager != null)
-			{
-                GameHogerLager.setSpelerData(spelers, graad);
-			}
-		}
+            if (segue.DestinationViewController is HogerLagerViewController GameHogerLager)
+            {
+                GameHogerLager.SetSpelerData(Data);
+            }
+        }
     }
 }

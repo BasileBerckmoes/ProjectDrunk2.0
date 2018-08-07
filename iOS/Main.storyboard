@@ -199,7 +199,7 @@
                                 <rect key="frame" x="148.5" y="106" width="78" height="32"/>
                                 <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
                                 <state key="normal" title="Hoger lager">
-                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1"/>
                                 </state>
                                 <connections>
                                     <segue destination="Mhf-bh-7n9" kind="show" id="hbc-JN-vKZ"/>
@@ -211,6 +211,9 @@
                                 <state key="normal" title="Ring of fire">
                                     <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue id="809" destination="q6f-Rb-y4U" kind="show"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Aas" translatesAutoresizingMaskIntoConstraints="NO" id="uyT-Wi-AIT">
                                 <rect key="frame" x="102" y="242" width="170" height="250"/>
@@ -239,7 +242,7 @@
         <!--View Controller-->
         <scene sceneID="OO9-xK-Day">
             <objects>
-                <viewController id="q6f-Rb-y4U" sceneMemberID="viewController">
+                <viewController id="q6f-Rb-y4U" sceneMemberID="viewController" customClass="HogerLagerViewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LjZ-1H-DbQ"/>
                         <viewControllerLayoutGuide type="bottom" id="RW5-oc-Cdm"/>
@@ -248,7 +251,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="811" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="166" y="323" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                     </view>
+                    <connections>
+                        <outlet property="LKaart" destination="811" id="name-outlet-811"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zC-kf-BTw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -266,18 +281,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Naam]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFq-4g-Eku">
-                                <rect key="frame" x="148" y="72" width="79" height="31.5"/>
-                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="27"/>
-                                <color key="textColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hoger of lager dan:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeh-zn-uzr">
-                                <rect key="frame" x="123" y="111.5" width="130" height="20"/>
-                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ywb-hl-8Qz">
                                 <rect key="frame" x="16" y="575" width="150" height="52"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -313,49 +316,55 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[getal]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="suy-gT-ooO">
-                                <rect key="frame" x="113" y="285" width="150" height="75"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="G8F-9Q-0Q6"/>
-                                    <constraint firstAttribute="width" constant="150" id="yOO-0F-X2d"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[x]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGt-uX-VNY">
                                 <rect key="frame" x="75.5" y="635" width="20.5" height="20"/>
                                 <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="325" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="166" y="86" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hoger of lager dan: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="326" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="119" y="177" width="162" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="327" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="166" y="262" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.32549019610000002" green="0.32156862749999998" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="lFq-4g-Eku" firstAttribute="top" secondItem="98M-9C-0xO" secondAttribute="bottom" constant="8" id="2wQ-GB-3JA"/>
                             <constraint firstItem="Ywb-hl-8Qz" firstAttribute="width" secondItem="XD1-JJ-tgC" secondAttribute="width" id="5Vd-tR-ohX"/>
                             <constraint firstItem="cus-85-7Cw" firstAttribute="top" secondItem="Ywb-hl-8Qz" secondAttribute="bottom" constant="8" id="8i0-uz-839"/>
                             <constraint firstItem="WjM-18-x3t" firstAttribute="top" secondItem="cus-85-7Cw" secondAttribute="bottom" constant="12" id="8nV-3L-bkU"/>
                             <constraint firstItem="WjM-18-x3t" firstAttribute="top" secondItem="bGt-uX-VNY" secondAttribute="bottom" constant="12" id="8ra-Bm-XOr"/>
                             <constraint firstItem="bGt-uX-VNY" firstAttribute="leading" secondItem="cus-85-7Cw" secondAttribute="trailing" constant="8" id="DY2-cL-prh"/>
-                            <constraint firstItem="WjM-18-x3t" firstAttribute="top" secondItem="suy-gT-ooO" secondAttribute="bottom" constant="307" id="G1Z-z4-N5u"/>
                             <constraint firstItem="XD1-JJ-tgC" firstAttribute="trailing" secondItem="vTF-u6-5Z8" secondAttribute="trailingMargin" id="PjN-H0-kiO"/>
                             <constraint firstItem="Ywb-hl-8Qz" firstAttribute="leading" secondItem="vTF-u6-5Z8" secondAttribute="leadingMargin" id="YqP-cw-nt0"/>
                             <constraint firstItem="cus-85-7Cw" firstAttribute="top" secondItem="XD1-JJ-tgC" secondAttribute="bottom" constant="8" id="kvT-gh-moI"/>
-                            <constraint firstItem="xeh-zn-uzr" firstAttribute="centerX" secondItem="vTF-u6-5Z8" secondAttribute="centerX" id="l8b-c5-wsj"/>
                             <constraint firstItem="Ywb-hl-8Qz" firstAttribute="height" secondItem="XD1-JJ-tgC" secondAttribute="height" id="m5w-Px-Qgy"/>
-                            <constraint firstItem="suy-gT-ooO" firstAttribute="centerX" secondItem="vTF-u6-5Z8" secondAttribute="centerX" id="nqB-cM-yI8"/>
-                            <constraint firstItem="lFq-4g-Eku" firstAttribute="centerX" secondItem="vTF-u6-5Z8" secondAttribute="centerX" id="nrp-kE-hCs"/>
                             <constraint firstItem="cus-85-7Cw" firstAttribute="leading" secondItem="vTF-u6-5Z8" secondAttribute="leadingMargin" id="rrR-Yx-BeZ"/>
                             <constraint firstItem="XD1-JJ-tgC" firstAttribute="leading" secondItem="Ywb-hl-8Qz" secondAttribute="trailing" constant="43" id="u85-eX-bOU"/>
-                            <constraint firstItem="xeh-zn-uzr" firstAttribute="top" secondItem="lFq-4g-Eku" secondAttribute="bottom" constant="8" id="vPk-rl-2sN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ZyB-Xw-ubz"/>
                     <connections>
                         <outlet property="HuidigePunten" destination="bGt-uX-VNY" id="2RH-i2-IcO"/>
-                        <outlet property="SpelerNaam" destination="lFq-4g-Eku" id="GNa-We-d3l"/>
-                        <outlet property="gokGetal" destination="suy-gT-ooO" id="bXu-9O-OZ4"/>
+                        <outlet property="LKaart" destination="327" id="name-outlet-327"/>
+                        <outlet property="LInfo" destination="326" id="name-outlet-326"/>
+                        <outlet property="LNaam" destination="325" id="name-outlet-325"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="izF-en-Ypj" userLabel="First Responder" sceneMemberID="firstResponder"/>

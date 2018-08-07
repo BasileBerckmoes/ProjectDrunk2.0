@@ -14,13 +14,20 @@ namespace ProjectDrunk.iOS
     partial class HogerLagerViewController
     {
         [Outlet]
-        UIKit.UILabel gokGetal { get; set; }
-
-        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel HuidigePunten { get; set; }
 
         [Outlet]
-        UIKit.UILabel SpelerNaam { get; set; }
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel LInfo { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel LKaart { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel LNaam { get; set; }
 
         [Action ("GokHoger:")]
         partial void GokHoger (UIKit.UIButton sender);
@@ -30,19 +37,24 @@ namespace ProjectDrunk.iOS
 
         void ReleaseDesignerOutlets ()
         {
-            if (gokGetal != null) {
-                gokGetal.Dispose ();
-                gokGetal = null;
-            }
-
             if (HuidigePunten != null) {
                 HuidigePunten.Dispose ();
                 HuidigePunten = null;
             }
 
-            if (SpelerNaam != null) {
-                SpelerNaam.Dispose ();
-                SpelerNaam = null;
+            if (LInfo != null) {
+                LInfo.Dispose ();
+                LInfo = null;
+            }
+
+            if (LKaart != null) {
+                LKaart.Dispose ();
+                LKaart = null;
+            }
+
+            if (LNaam != null) {
+                LNaam.Dispose ();
+                LNaam = null;
             }
         }
     }

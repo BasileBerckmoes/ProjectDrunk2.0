@@ -10,3 +10,17 @@
 /Users/basileberckmoes/Projects/ProjectDrunk/iOS/obj/iPhone/Debug/ProjectDrunk.iOS.csproj.CoreCompileInputs.cache
 /Users/basileberckmoes/Projects/ProjectDrunk/iOS/obj/iPhone/Debug/ProjectDrunk.iOS.exe
 /Users/basileberckmoes/Projects/ProjectDrunk/iOS/obj/iPhone/Debug/ProjectDrunk.iOS.pdb
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/bin/iPhone/Debug/ProjectDrunk.iOS.exe
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/bin/iPhone/Debug/ProjectDrunk.iOS.pdb
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/bin/iPhone/Debug/ProjectDrunk.dll
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/bin/iPhone/Debug/ProjectDrunk.pdb
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/actool/_PartialAppManifest.items
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/actool/_BundleResourceWithLogicalName.items
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/coremlc/_PartialAppManifest.items
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/optimized/
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/ProjectDrunk.iOS.csprojResolveAssemblyReference.cache
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/ProjectDrunk.iOS.csproj.CoreCompileInputs.cache
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/ProjectDrunk.iOS.exe
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/ProjectDrunk.iOS.pdb
