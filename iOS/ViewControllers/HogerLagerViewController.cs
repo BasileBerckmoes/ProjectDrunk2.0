@@ -26,8 +26,8 @@ namespace ProjectDrunk.iOS
         }
 
         public void WerkLabelsBij(){
-           //LNaam.Text = "test";//= Spel.HuidigeSpeler.Naam;
-			//HuidigePunten.Text = Spel.Streak.ToString();
+            LSpeler.Text = Spel.HuidigeSpeler.Naam;
+			LPunten.Text = Spel.Streak.ToString();
 			LKaart.Text = Spel.HuidigeKaart.BestandsNaam;
         }
 
@@ -40,28 +40,51 @@ namespace ProjectDrunk.iOS
 
         partial void GokHoger(UIButton sender)
         {
-            if (Spel.GokHoger()){
-				Spel.CorrecteGok();
+            try
+            {
+                if (Spel.GokHoger())
+                {
+                    Spel.CorrecteGok();
 
-            }else{
-                ShowErrorMessage();
-                Spel.FouteGok();
+                }
+                else
+                {
+                    ShowErrorMessage();
+                    Spel.FouteGok();
+                }
+
+                WerkLabelsBij();
             }
+            catch (Exception)
+            {
 
-            WerkLabelsBij();
+                this.NavigationController.PopViewController(true);
+            }
+            
         }
 
         partial void GokLager(UIButton sender)
         {
-            if (Spel.GokLager()){
-                Spel.CorrecteGok();
+            try
+            {
+                if (Spel.GokLager())
+                {
+                    Spel.CorrecteGok();
 
-			}
-			else{
-				ShowErrorMessage();
-                Spel.FouteGok();
-			}
-            WerkLabelsBij();
+                }
+                else
+                {
+                    ShowErrorMessage();
+                    Spel.FouteGok();
+                }
+                WerkLabelsBij();
+            }
+            catch (Exception)
+            {
+
+                this.NavigationController.PopViewController(true);
+            }
+            
         }
 
         public void ShowErrorMessage(){

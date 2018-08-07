@@ -25,7 +25,7 @@ namespace ProjectDrunk.iOS
             // Perform any additional setup after loading the view, typically from a nib.
         }
 
-        public void setSpelerData(SpelData data)
+        public void SetSpelerData(SpelData data)
         {
             this.Data = data;
         }

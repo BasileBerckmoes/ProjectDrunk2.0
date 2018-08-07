@@ -45,3 +45,9 @@
 /Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/obj/Debug/ProjectDrunk.csproj.CoreCompileInputs.cache
 /Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/obj/Debug/ProjectDrunk.dll
 /Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/obj/Debug/ProjectDrunk.pdb
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\ProjectDrunk\bin\Debug\ProjectDrunk.dll
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\ProjectDrunk\bin\Debug\ProjectDrunk.pdb
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\ProjectDrunk\obj\Debug\ProjectDrunk.csprojAssemblyReference.cache
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\ProjectDrunk\obj\Debug\ProjectDrunk.csproj.CoreCompileInputs.cache
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\ProjectDrunk\obj\Debug\ProjectDrunk.dll
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\ProjectDrunk\obj\Debug\ProjectDrunk.pdb

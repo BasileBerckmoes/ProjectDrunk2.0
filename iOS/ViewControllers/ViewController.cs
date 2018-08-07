@@ -84,7 +84,7 @@ namespace ProjectDrunk.iOS
                 {
                     spelers.Add(new Speler(speler));
                 }
-                GameSelectionVar.setSpelerData(new SpelData((int)DrunkBar.Value, spelers));
+                GameSelectionVar.SetSpelerData(new SpelData((int)DrunkBar.Value, spelers));
             }
         }
     }

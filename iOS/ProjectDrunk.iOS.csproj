@@ -82,7 +82,8 @@
         <Command>
           <type>BeforeBuild</type>
           <command>xattr -cr .</command>
-          <workingdir></workingdir>
+          <workingdir>
+          </workingdir>
           <externalConsole>True</externalConsole>
         </Command>
       </CustomCommands>
@@ -102,13 +103,27 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\Image.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\Aas.imageset\Aas-1.png" />
-    <ImageAsset Include="Resources\Assets.xcassets\Aas.imageset\Aas.png" />
-    <ImageAsset Include="Resources\Assets.xcassets\Aas.imageset\Contents.json" />
-    <ImageAsset Include="Resources\Assets.xcassets\.DS_Store" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\Image.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\Aas.imageset\Aas-1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\Aas.imageset\Aas.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\Aas.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Assets.xcassets\.DS_Store">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

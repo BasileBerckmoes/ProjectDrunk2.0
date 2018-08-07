@@ -22,11 +22,7 @@ namespace ProjectDrunk.LogischeLaag
         {
             Streak = 0;
 
-            //this.Spelers = spelData;
-            var list = new List<Speler>();
-            list.Add(new Speler("jaak"));
-            list.Add(new Speler("marietje"));
-            Spelers = new SpelData(5, list);
+            this.Spelers = spelData;
             HuidigeSpeler = Spelers.GeefRandomSpeler();
 
             Deck = new NormaalDeck();
