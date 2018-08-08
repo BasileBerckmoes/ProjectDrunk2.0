@@ -1,7 +1,16 @@
 ﻿<Properties StartupConfiguration="{C7AC4D35-0D4C-4527-B00A-E6125730E147}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ViewControllers/ViewController.cs">
     <Files>
+      <File FileName="iOS/ViewControllers/GameSelection.cs" Line="58" Column="18" />
+      <File FileName="iOS/ViewControllers/GameSelection.designer.cs" Line="26" Column="1" />
       <File FileName="iOS/Main.storyboard" />
+      <File FileName="iOS/ViewControllers/HogerLagerViewController.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/SpelTableView/SpelCell.cs" Line="19" Column="12" />
+      <File FileName="iOS/SpelTableView/SpelCell.designer.cs" Line="1" Column="1" />
+      <File FileName="iOS/SpelerTableview/TableSource.cs" Line="26" Column="37" />
+      <File FileName="iOS/SpelerTableview/TextCellClass.cs" Line="1" Column="1" />
+      <File FileName="iOS/ViewControllers/ViewController.cs" Line="23" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -10,5 +19,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ProjectDrunk.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7BF3F828-ACA8-4303-9126-C92ECD5F387A" />
+  <MonoDevelop.Ide.ItemProperties.ProjectDrunk.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CD21B98C-2956-4F45-9B45-6E58695AA858" />
 </Properties>

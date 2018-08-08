@@ -1,0 +1,6 @@
+RemoveDynamicRegistrar:true
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/bin/iPhone/Debug/device-builds/iphone8.4-11.4.1/ProjectDrunk.iOS.app:/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/Link/ProjectDrunk.iOS.exe
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/bin/iPhone/Debug/device-builds/iphone8.4-11.4.1/ProjectDrunk.iOS.app:/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/Link/mscorlib.dll
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/bin/iPhone/Debug/device-builds/iphone8.4-11.4.1/ProjectDrunk.iOS.app:/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/bin/iPhone/Debug/device-builds/iphone8.4-11.4.1/ProjectDrunk.iOS.app:/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/Link/System.dll
+/Users/basileberckmoes/Documents/ProjectDrunk/iOS/bin/iPhone/Debug/device-builds/iphone8.4-11.4.1/ProjectDrunk.iOS.app:/Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/Link/ProjectDrunk.dll

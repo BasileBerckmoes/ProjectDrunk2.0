@@ -81,10 +81,8 @@
       <CustomCommands>
         <Command>
           <type>BeforeBuild</type>
-          <command>xattr -cr .</command>
-          <workingdir>
-          </workingdir>
-          <externalConsole>True</externalConsole>
+          <command>xattr -cr</command>
+          <workingdir></workingdir>
         </Command>
       </CustomCommands>
     </CustomCommands>
@@ -128,7 +126,9 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="ViewControllers\" />
-    <Folder Include="Resources\SpelerTableview\" />
+    <Folder Include="SpelerTableview\" />
+    <Folder Include="SpelTableView\" />
+    <Folder Include="Delegates\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -153,15 +153,21 @@
     <Compile Include="ViewControllers\ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="Resources\SpelerTableview\ButtonCellClass.cs" />
-    <Compile Include="Resources\SpelerTableview\ButtonCellClass.designer.cs">
-      <DependentUpon>ButtonCellClass.cs</DependentUpon>
+    <Compile Include="SpelerTableview\ButtonCellClass.cs" />
+    <Compile Include="SpelerTableview\ButtonCellClass.designer.cs">
+      <DependentUpon>..\Resources\SpelerTableview\ButtonCellClass.cs</DependentUpon>
     </Compile>
-    <Compile Include="Resources\SpelerTableview\TableSource.cs" />
-    <Compile Include="Resources\SpelerTableview\TextCellClass.cs" />
-    <Compile Include="Resources\SpelerTableview\TextCellClass.designer.cs">
-      <DependentUpon>TextCellClass.cs</DependentUpon>
+    <Compile Include="SpelerTableview\TableSource.cs" />
+    <Compile Include="SpelerTableview\TextCellClass.cs" />
+    <Compile Include="SpelerTableview\TextCellClass.designer.cs">
+      <DependentUpon>..\Resources\SpelerTableview\TextCellClass.cs</DependentUpon>
     </Compile>
+    <Compile Include="SpelTableView\SpelCell.cs" />
+    <Compile Include="SpelTableView\SpelCell.designer.cs">
+      <DependentUpon>..\Resources\SpelTableView\SpelCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delegates\GestureDelegate.cs" />
+    <Compile Include="SpelTableView\SpelTableViewSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Abadi MT Condensed Extra Bold.ttf">

@@ -13,8 +13,29 @@ namespace ProjectDrunk.iOS
     [Register ("GameSelection")]
     partial class GameSelection
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton BBack { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITableView SpelTableView { get; set; }
+
+        [Action ("BBack_TouchUpInside:")]
+        partial void BBack_TouchUpInside (UIKit.UIButton sender);
+
+
         void ReleaseDesignerOutlets ()
         {
+            if (BBack != null) {
+                BBack.Dispose ();
+                BBack = null;
+            }
+
+            if (SpelTableView != null) {
+                SpelTableView.Dispose ();
+                SpelTableView = null;
+            }
         }
     }
 }

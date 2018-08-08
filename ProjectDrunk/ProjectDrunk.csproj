@@ -30,17 +30,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpelLogica\HogerLagerOLD.cs" />
     <Compile Include="DataLaag\SpelData.cs" />
     <Compile Include="Globals\Speler.cs" />
     <Compile Include="Globals\Kaart.cs" />
     <Compile Include="Globals\NormaalDeck.cs" />
     <Compile Include="Interfaces\IDeck.cs" />
     <Compile Include="LogischeLaag\HogerLager.cs" />
+    <Compile Include="Globals\Spel.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Xamarin.iOS">
+      <HintPath>..\..\..\..\..\Library\Frameworks\Xamarin.iOS.framework\Versions\Current\lib\mono\Xamarin.iOS\Xamarin.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

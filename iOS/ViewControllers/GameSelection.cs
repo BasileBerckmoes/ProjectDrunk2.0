@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using Foundation;
 using ProjectDrunk.DataLaag;
+using ProjectDrunk.Globals;
 using UIKit;
 
 namespace ProjectDrunk.iOS
@@ -11,30 +12,52 @@ namespace ProjectDrunk.iOS
     public partial class GameSelection : UIViewController
     {
         public SpelData Data { get; private set; }
+        public SpelTableViewSource Source { get; private set; }
 
         public GameSelection(IntPtr handle) : base(handle)
         {
-
-
+            
         }
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-
-
-            // Perform any additional setup after loading the view, typically from a nib.
+            List<Spel> games = new List<Spel>
+            {
+                new Spel("Game 1", "Test uitleg"),
+                new Spel("Game 2", "Test uitleggggggggg")
+            };
+            Source = new SpelTableViewSource(games);
+            SpelTableView.Source = Source;
+       
+            //SpelTableView.
+           // Perform any additional setup after loading the view, typically from a nib.
         }
+
+        //public void gestureShouldBegin(UIGestureRecognizer )
 
         public void SetSpelerData(SpelData data)
         {
             this.Data = data;
         }
 
+        partial void BBack_TouchUpInside(UIButton sender)
+        {
+            this.NavigationController.PopViewController(true);
+        }
+
         public override void DidReceiveMemoryWarning()
         {
             base.DidReceiveMemoryWarning();
 
+
         }
+        partial void BSpelNaam_TouchUpInside(UIKit.UIButton sender){
+
+            var idOfView = "A"; //pretend this value comes from a array :D
+            var viewController = Storyboard.InstantiateViewController(idOfView);
+            Self.
+        }
+
 
 		public override void PrepareForSegue(UIStoryboardSegue segue, Foundation.NSObject sender)
 		{

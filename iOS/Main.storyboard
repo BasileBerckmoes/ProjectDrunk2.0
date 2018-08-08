@@ -1,57 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7pJ-Pc-rpP">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Abadi_MT_Condensed_Extra_Bold.ttf">
+        <array key="Abadi MT Condensed Extra Bold.ttf">
             <string>AbadiMT-CondensedExtraBold</string>
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Root View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="5wp-rG-ca9"/>
+                        <viewControllerLayoutGuide type="bottom" id="SMk-ip-6hJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME PLACEHOLDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cI6-bh-ZHg">
-                                <rect key="frame" x="17" y="72" width="286" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Ffo-5S-uXW"/>
-                                    <constraint firstAttribute="width" constant="286" id="zek-fQ-S7Z"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alcohol intoxicatie niveau" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1n-U5-Pck">
-                                <rect key="frame" x="44" y="448" width="231" height="21"/>
-                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="mmW-RQ-uxy" misplaced="YES">
-                                <rect key="frame" x="42" y="584" width="290" height="22"/>
-                                <color key="tintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <connections>
-                                    <action selector="DrunkBarEditingDidEnd:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="dpz-l9-tXJ"/>
-                                </connections>
-                            </slider>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Uzs-Ns-uKV" misplaced="YES">
-                                <rect key="frame" x="17" y="90" width="286" height="417"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Uzs-Ns-uKV">
+                                <rect key="frame" x="44" y="110" width="286" height="336.5"/>
                                 <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TextCell" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TextCell" id="z29-2P-3br" customClass="TextCellClass">
@@ -61,8 +39,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="286" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rLU-n3-C2b" misplaced="YES">
-                                                    <rect key="frame" x="15" y="7" width="256" height="30"/>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rLU-n3-C2b">
+                                                    <rect key="frame" x="0.0" y="7" width="286" height="30"/>
                                                     <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="textColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
@@ -75,9 +53,10 @@
                                             </subviews>
                                             <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
-                                                <constraint firstItem="rLU-n3-C2b" firstAttribute="centerY" secondItem="ZNu-xj-3lS" secondAttribute="centerY" id="NgK-o7-o5I"/>
-                                                <constraint firstItem="rLU-n3-C2b" firstAttribute="leading" secondItem="ZNu-xj-3lS" secondAttribute="leadingMargin" id="qbJ-V1-IKQ"/>
-                                                <constraint firstItem="rLU-n3-C2b" firstAttribute="trailing" secondItem="ZNu-xj-3lS" secondAttribute="trailingMargin" id="xiH-ah-1Fg"/>
+                                                <constraint firstAttribute="trailing" secondItem="rLU-n3-C2b" secondAttribute="trailing" id="C6l-3s-VwL"/>
+                                                <constraint firstItem="rLU-n3-C2b" firstAttribute="centerY" secondItem="ZNu-xj-3lS" secondAttribute="centerY" id="EuK-62-f0V"/>
+                                                <constraint firstItem="rLU-n3-C2b" firstAttribute="centerX" secondItem="ZNu-xj-3lS" secondAttribute="centerX" id="eot-c8-2Kg"/>
+                                                <constraint firstItem="rLU-n3-C2b" firstAttribute="leading" secondItem="ZNu-xj-3lS" secondAttribute="leading" id="pkd-RO-Q21"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -91,20 +70,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="286" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQz-Oa-IiP">
-                                                    <rect key="frame" x="8" y="6" width="72" height="32"/>
-                                                    <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
-                                                    <color key="tintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="Add Player"/>
-                                                    <connections>
-                                                        <action selector="VoegSpelerToe:" destination="BYZ-38-t0r" eventType="touchDown" id="rhc-hQ-BUn"/>
-                                                    </connections>
-                                                </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OO2-gk-QZk">
-                                                    <rect key="frame" x="155" y="6" width="123" height="32"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="123" id="V1p-Aa-HTh"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="182" y="6" width="89" height="32"/>
                                                     <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
                                                     <state key="normal" title="Delete Player">
                                                         <color key="titleColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -113,13 +80,22 @@
                                                         <action selector="DeleteSpeler:" destination="BYZ-38-t0r" eventType="touchDown" id="Ecu-AD-tY2"/>
                                                     </connections>
                                                 </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQz-Oa-IiP">
+                                                    <rect key="frame" x="0.0" y="6" width="72" height="32"/>
+                                                    <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
+                                                    <color key="tintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="Add Player"/>
+                                                    <connections>
+                                                        <action selector="VoegSpelerToe:" destination="BYZ-38-t0r" eventType="touchDown" id="rhc-hQ-BUn"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
-                                                <constraint firstItem="OO2-gk-QZk" firstAttribute="top" secondItem="mCT-0q-53T" secondAttribute="top" constant="6" id="0JY-IS-mdg"/>
-                                                <constraint firstItem="bQz-Oa-IiP" firstAttribute="top" secondItem="mCT-0q-53T" secondAttribute="top" constant="6" id="g9m-GX-Sen"/>
-                                                <constraint firstItem="OO2-gk-QZk" firstAttribute="leading" secondItem="bQz-Oa-IiP" secondAttribute="trailing" constant="75" id="gZV-YD-TQN"/>
-                                                <constraint firstItem="bQz-Oa-IiP" firstAttribute="leading" secondItem="mCT-0q-53T" secondAttribute="leading" constant="8" id="itl-CJ-lRa"/>
+                                                <constraint firstItem="bQz-Oa-IiP" firstAttribute="leading" secondItem="mCT-0q-53T" secondAttribute="leading" id="5aC-bf-seV"/>
+                                                <constraint firstAttribute="trailing" secondItem="OO2-gk-QZk" secondAttribute="trailing" constant="15" id="SID-hy-1NB"/>
+                                                <constraint firstItem="OO2-gk-QZk" firstAttribute="centerY" secondItem="mCT-0q-53T" secondAttribute="centerY" id="l1U-Xm-1tn"/>
+                                                <constraint firstItem="bQz-Oa-IiP" firstAttribute="centerY" secondItem="mCT-0q-53T" secondAttribute="centerY" id="w7d-1S-F9T"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -128,9 +104,22 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alcohol intoxicatie niveau" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1n-U5-Pck">
+                                <rect key="frame" x="44" y="495.5" width="286" height="24.5"/>
+                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="21"/>
+                                <color key="textColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="mmW-RQ-uxy">
+                                <rect key="frame" x="42" y="536" width="290" height="31"/>
+                                <color key="tintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="DrunkBarEditingDidEnd:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="dpz-l9-tXJ"/>
+                                </connections>
+                            </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCY-Ez-9fj">
-                                <rect key="frame" x="139.5" y="527" width="41" height="21"/>
-                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
+                                <rect key="frame" x="44" y="587" width="286" height="60"/>
+                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="41"/>
                                 <state key="normal" title="START">
                                     <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -138,121 +127,180 @@
                                     <segue destination="vXk-rF-HFt" kind="show" id="shy-jL-Swk"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROJECT DRUNK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="cI6-bh-ZHg">
+                                <rect key="frame" x="44" y="47" width="286" height="54.5"/>
+                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="47"/>
+                                <color key="textColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="X1n-U5-Pck" firstAttribute="top" secondItem="Uzs-Ns-uKV" secondAttribute="bottom" constant="29" id="4oq-nL-Sdj"/>
-                            <constraint firstItem="cI6-bh-ZHg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7VD-hf-9e6"/>
-                            <constraint firstItem="X1n-U5-Pck" firstAttribute="height" secondItem="cI6-bh-ZHg" secondAttribute="height" id="BUp-Sr-QwV"/>
-                            <constraint firstItem="Uzs-Ns-uKV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CxL-De-Xgs"/>
-                            <constraint firstItem="Uzs-Ns-uKV" firstAttribute="top" secondItem="cI6-bh-ZHg" secondAttribute="bottom" constant="8" id="DvZ-dX-3dc"/>
-                            <constraint firstItem="mmW-RQ-uxy" firstAttribute="height" secondItem="cI6-bh-ZHg" secondAttribute="height" id="H8x-Zu-2g7"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="X1n-U5-Pck" secondAttribute="trailing" constant="29" id="JMt-lS-aQy"/>
-                            <constraint firstItem="mmW-RQ-uxy" firstAttribute="top" secondItem="X1n-U5-Pck" secondAttribute="bottom" constant="16" id="OPP-ob-EFW"/>
-                            <constraint firstItem="Uzs-Ns-uKV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="UBp-oo-5Sf"/>
-                            <constraint firstItem="mmW-RQ-uxy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VQm-cY-2jW"/>
-                            <constraint firstItem="xCY-Ez-9fj" firstAttribute="top" secondItem="mmW-RQ-uxy" secondAttribute="bottom" constant="21" id="cj2-Qx-fog"/>
-                            <constraint firstItem="Uzs-Ns-uKV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-24" id="eAT-sM-gfM"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Uzs-Ns-uKV" secondAttribute="trailing" constant="29" id="eJc-Q7-b8l"/>
-                            <constraint firstItem="cI6-bh-ZHg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="g6m-GK-fNB"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="mmW-RQ-uxy" secondAttribute="trailing" constant="29" id="jt5-8T-uv6"/>
-                            <constraint firstItem="xCY-Ez-9fj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k4D-eN-a5i"/>
-                            <constraint firstItem="mmW-RQ-uxy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="nRS-Dp-PnD"/>
-                            <constraint firstItem="X1n-U5-Pck" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="p4d-4Y-Omu"/>
-                            <constraint firstItem="xCY-Ez-9fj" firstAttribute="height" secondItem="cI6-bh-ZHg" secondAttribute="height" id="tDl-ub-v0J"/>
+                            <constraint firstItem="X1n-U5-Pck" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="44" id="3v2-4e-j6U"/>
+                            <constraint firstItem="Uzs-Ns-uKV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EwL-zK-Xtb"/>
+                            <constraint firstItem="Uzs-Ns-uKV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="44" id="FjT-Br-k9B"/>
+                            <constraint firstItem="SMk-ip-6hJ" firstAttribute="top" secondItem="xCY-Ez-9fj" secondAttribute="bottom" constant="20" id="GTu-e2-zNF"/>
+                            <constraint firstItem="cI6-bh-ZHg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GeY-u4-yhq"/>
+                            <constraint firstAttribute="trailing" secondItem="mmW-RQ-uxy" secondAttribute="trailing" constant="45" id="Gfj-dO-fMu"/>
+                            <constraint firstAttribute="trailing" secondItem="cI6-bh-ZHg" secondAttribute="trailing" constant="45" id="KVc-oY-6ok"/>
+                            <constraint firstAttribute="trailing" secondItem="Uzs-Ns-uKV" secondAttribute="trailing" constant="45" id="NOC-v3-xsA"/>
+                            <constraint firstItem="xCY-Ez-9fj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="44" id="Q7J-xO-HLa"/>
+                            <constraint firstItem="Uzs-Ns-uKV" firstAttribute="top" secondItem="cI6-bh-ZHg" secondAttribute="bottom" constant="8.5" id="SJp-QT-M5F"/>
+                            <constraint firstItem="mmW-RQ-uxy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="44" id="VHu-QP-jpo"/>
+                            <constraint firstItem="xCY-Ez-9fj" firstAttribute="top" secondItem="mmW-RQ-uxy" secondAttribute="bottom" constant="21" id="YBx-07-9Kn"/>
+                            <constraint firstAttribute="trailing" secondItem="xCY-Ez-9fj" secondAttribute="trailing" constant="45" id="ak6-Tg-NCo"/>
+                            <constraint firstItem="cI6-bh-ZHg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="44" id="ipD-d4-YUl"/>
+                            <constraint firstItem="cI6-bh-ZHg" firstAttribute="top" secondItem="5wp-rG-ca9" secondAttribute="bottom" constant="27" id="nrs-aP-AAm"/>
+                            <constraint firstItem="mmW-RQ-uxy" firstAttribute="top" secondItem="X1n-U5-Pck" secondAttribute="bottom" constant="16" id="p5P-P6-ASj"/>
+                            <constraint firstItem="X1n-U5-Pck" firstAttribute="top" secondItem="Uzs-Ns-uKV" secondAttribute="bottom" constant="49" id="vpI-tz-0xr"/>
+                            <constraint firstAttribute="trailing" secondItem="X1n-U5-Pck" secondAttribute="trailing" constant="45" id="zA8-dH-55F"/>
                         </constraints>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="irA-dk-dAI" appends="YES" id="qaW-0w-WtP"/>
-                        </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="JE3-zo-lO5">
-                        <barButtonItem key="backBarButtonItem" title=" " id="WgL-mg-TKb"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="1VY-qz-qaH"/>
                     <connections>
                         <outlet property="DrunkBar" destination="mmW-RQ-uxy" id="5OU-Hh-aR1"/>
                         <outlet property="SpelerTabelView" destination="Uzs-Ns-uKV" id="WUH-ju-YSQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="irA-dk-dAI">
-                    <connections>
-                        <action selector="TapOpSCherm:" destination="BYZ-38-t0r" id="3Pf-Na-3aE"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="437.6" y="-98.50075"/>
+            <point key="canvasLocation" x="437.6" y="-100.2999"/>
         </scene>
         <!--Game Selection-->
         <scene sceneID="jNN-Oe-yDN">
             <objects>
                 <viewController storyboardIdentifier="GameSelection" id="vXk-rF-HFt" customClass="GameSelection" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Zqf-Fz-WsM"/>
-                        <viewControllerLayoutGuide type="bottom" id="TVv-iq-pIS"/>
+                        <viewControllerLayoutGuide type="top" id="Mb3-6p-ben"/>
+                        <viewControllerLayoutGuide type="bottom" id="V2m-rf-JW5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="q1b-pO-2GD">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwf-g5-uhF" misplaced="YES">
-                                <rect key="frame" x="121" y="106" width="78" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIU-QT-SVB" misplaced="YES">
+                                <rect key="frame" x="150" y="130.5" width="76" height="32"/>
                                 <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
-                                <state key="normal" title="Hoger lager">
-                                    <color key="titleColor" colorSpace="calibratedRGB" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1"/>
+                                <state key="normal" title="dont mind this">
+                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="q6f-Rb-y4U" kind="show" id="809"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Biy-jF-3aG">
+                                <rect key="frame" x="31" y="179.5" width="313" height="321.5"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SpelCellID" id="RBN-Oq-dki" customClass="SpelCell">
+                                        <rect key="frame" x="0.0" y="28" width="313" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RBN-Oq-dki" id="PXa-py-GSZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="313" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCL-mx-8yK">
+                                                    <rect key="frame" x="268" y="1" width="30" height="42"/>
+                                                    <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="26"/>
+                                                    <state key="normal" title="?"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12255">
+                                                    <rect key="frame" x="15" y="7" width="117" height="30"/>
+                                                    <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="19"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <connections>
+                                                        <action selector="BSpelNaam_TouchUpInside:" destination="RBN-Oq-dki" id="17936" eventType="touchUpInside"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="tintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="12255" firstAttribute="leading" secondItem="PXa-py-GSZ" secondAttribute="leading" constant="15" id="12256"/>
+                                                <constraint firstItem="12255" firstAttribute="top" secondItem="PXa-py-GSZ" secondAttribute="top" constant="7" id="12257"/>
+                                                <constraint firstItem="gCL-mx-8yK" firstAttribute="centerY" secondItem="PXa-py-GSZ" secondAttribute="centerY" id="8in-IZ-ur0"/>
+                                                <constraint firstAttribute="trailing" secondItem="gCL-mx-8yK" secondAttribute="trailing" constant="15" id="zP5-FI-AaS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES"/>
+                                        </accessibility>
+                                        <connections>
+                                            <outlet property="BSpelInfo" destination="gCL-mx-8yK" id="name-outlet-gCL-mx-8yK"/>
+                                            <outlet property="BSpelNaam" destination="12255" id="name-outlet-12255"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Games" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="uTx-QD-TIG" misplaced="YES">
+                                <rect key="frame" x="103" y="36" width="169.5" height="54.5"/>
+                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="47"/>
+                                <color key="textColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Buj-NJ-glh" misplaced="YES">
+                                <rect key="frame" x="16" y="36" width="49" height="42"/>
+                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="26"/>
+                                <state key="normal" title="&lt;">
+                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="BBack_TouchUpInside:" destination="vXk-rF-HFt" eventType="touchUpInside" id="6613"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwf-g5-uhF" misplaced="YES">
+                                <rect key="frame" x="148" y="98.5" width="78" height="32"/>
+                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
+                                <state key="normal" title="Dont mind this">
+                                    <color key="titleColor" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="Mhf-bh-7n9" kind="show" id="hbc-JN-vKZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIU-QT-SVB" misplaced="YES">
-                                <rect key="frame" x="122" y="139" width="76" height="32"/>
-                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
-                                <state key="normal" title="Ring of fire">
-                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue id="809" destination="q6f-Rb-y4U" kind="show"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Aas" translatesAutoresizingMaskIntoConstraints="NO" id="uyT-Wi-AIT" misplaced="YES">
-                                <rect key="frame" x="75" y="242" width="170" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="170" id="l4o-hO-4dh"/>
-                                    <constraint firstAttribute="height" constant="250" id="vhc-rt-X9K"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="gIU-QT-SVB" firstAttribute="top" secondItem="Iwf-g5-uhF" secondAttribute="bottom" constant="1" id="1Z7-dZ-m0V"/>
-                            <constraint firstItem="Iwf-g5-uhF" firstAttribute="centerX" secondItem="q1b-pO-2GD" secondAttribute="centerX" id="78F-dy-nc8"/>
-                            <constraint firstItem="uyT-Wi-AIT" firstAttribute="centerX" secondItem="q1b-pO-2GD" secondAttribute="centerX" id="B6n-s0-VCM"/>
-                            <constraint firstItem="Iwf-g5-uhF" firstAttribute="top" secondItem="Zqf-Fz-WsM" secondAttribute="bottom" constant="8" id="EG4-MS-x4D"/>
-                            <constraint firstItem="uyT-Wi-AIT" firstAttribute="top" secondItem="gIU-QT-SVB" secondAttribute="bottom" constant="71" id="MpN-Kf-J0A"/>
-                            <constraint firstItem="gIU-QT-SVB" firstAttribute="centerX" secondItem="q1b-pO-2GD" secondAttribute="centerX" id="f0u-pF-cRQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Biy-jF-3aG" secondAttribute="trailing" constant="31" id="19b-Fs-XLc"/>
+                            <constraint firstItem="Buj-NJ-glh" firstAttribute="top" secondItem="Mb3-6p-ben" secondAttribute="bottom" constant="16" id="1iS-aW-qrk"/>
+                            <constraint firstItem="uTx-QD-TIG" firstAttribute="leading" secondItem="Buj-NJ-glh" secondAttribute="trailing" constant="38" id="6Ow-vz-ztw"/>
+                            <constraint firstItem="Biy-jF-3aG" firstAttribute="centerX" secondItem="q1b-pO-2GD" secondAttribute="centerX" id="C2z-15-cz1"/>
+                            <constraint firstItem="V2m-rf-JW5" firstAttribute="top" secondItem="Biy-jF-3aG" secondAttribute="bottom" constant="166" id="DHI-9U-O92"/>
+                            <constraint firstItem="Iwf-g5-uhF" firstAttribute="centerX" secondItem="q1b-pO-2GD" secondAttribute="centerX" id="KNL-AS-hgW"/>
+                            <constraint firstItem="gIU-QT-SVB" firstAttribute="top" secondItem="Iwf-g5-uhF" secondAttribute="bottom" id="NO8-Uj-JVH"/>
+                            <constraint firstItem="uTx-QD-TIG" firstAttribute="top" secondItem="Mb3-6p-ben" secondAttribute="bottom" constant="16" id="Xyz-Pp-bpT"/>
+                            <constraint firstItem="Iwf-g5-uhF" firstAttribute="top" secondItem="uTx-QD-TIG" secondAttribute="bottom" constant="8" id="jcX-NB-GW4"/>
+                            <constraint firstItem="Biy-jF-3aG" firstAttribute="top" secondItem="gIU-QT-SVB" secondAttribute="bottom" constant="17" id="nkg-Uc-Uea"/>
+                            <constraint firstItem="gIU-QT-SVB" firstAttribute="centerX" secondItem="q1b-pO-2GD" secondAttribute="centerX" id="ok9-Pt-8A2"/>
+                            <constraint firstItem="uTx-QD-TIG" firstAttribute="centerX" secondItem="q1b-pO-2GD" secondAttribute="centerX" id="p5a-6F-F8X"/>
+                            <constraint firstItem="Biy-jF-3aG" firstAttribute="leading" secondItem="q1b-pO-2GD" secondAttribute="leading" constant="31" id="pu2-3h-qii"/>
+                            <constraint firstItem="Buj-NJ-glh" firstAttribute="leading" secondItem="q1b-pO-2GD" secondAttribute="leading" constant="16" id="vbB-7N-TlP"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="ZZi-r6-V7W"/>
+                    <connections>
+                        <outlet property="BBack" destination="Buj-NJ-glh" id="name-outlet-Buj-NJ-glh"/>
+                        <outlet property="SpelTableView" destination="Biy-jF-3aG" id="name-outlet-Biy-jF-3aG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVN-Zs-xB7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1261.6" y="-99.4003"/>
+            <point key="canvasLocation" x="1261.6" y="-101.1994"/>
         </scene>
-        <!--View Controller-->
+        <!--Hoger Lager View Controller-->
         <scene sceneID="OO9-xK-Day">
             <objects>
-                <viewController id="q6f-Rb-y4U" sceneMemberID="viewController" customClass="HogerLagerViewController">
+                <viewController id="q6f-Rb-y4U" customClass="HogerLagerViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="LjZ-1H-DbQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="RW5-oc-Cdm"/>
+                        <viewControllerLayoutGuide type="top" id="Y5p-jg-zBa"/>
+                        <viewControllerLayoutGuide type="bottom" id="Oid-98-CRG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="94I-px-mCe">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="811" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="811">
                                 <rect key="frame" x="166" y="323" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -260,6 +308,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="LKaart" destination="811" id="name-outlet-811"/>
@@ -272,16 +321,16 @@
         <!--Hoger Lager View Controller-->
         <scene sceneID="axX-k3-pqR">
             <objects>
-                <viewController id="Mhf-bh-7n9" customClass="HogerLagerViewController" sceneMemberID="viewController">
+                <viewController id="Mhf-bh-7n9" customClass="HogerLagerViewController" sceneMemberID="viewController" storyboardIdentifier="A">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="98M-9C-0xO"/>
-                        <viewControllerLayoutGuide type="bottom" id="WjM-18-x3t"/>
+                        <viewControllerLayoutGuide type="top" id="s8b-MR-ath"/>
+                        <viewControllerLayoutGuide type="bottom" id="cUR-4m-V63"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vTF-u6-5Z8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ywb-hl-8Qz" misplaced="YES">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ywb-hl-8Qz">
                                 <rect key="frame" x="0.0" y="310" width="320" height="52"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -294,7 +343,7 @@
                                     <action selector="GokHoger:" destination="Mhf-bh-7n9" eventType="touchDown" id="Cft-or-KnE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XD1-JJ-tgC" misplaced="YES">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XD1-JJ-tgC">
                                 <rect key="frame" x="0.0" y="413" width="320" height="52"/>
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -307,68 +356,68 @@
                                     <action selector="GokLager:" destination="Mhf-bh-7n9" eventType="touchDown" id="h2H-7r-daS"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Punten:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cus-85-7Cw" misplaced="YES">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Punten:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cus-85-7Cw">
                                 <rect key="frame" x="68" y="528" width="52" height="20"/>
                                 <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[x]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGt-uX-VNY" misplaced="YES">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="[x]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGt-uX-VNY">
                                 <rect key="frame" x="222" y="506" width="29" height="34"/>
                                 <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="325" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="325">
                                 <rect key="frame" x="0.0" y="88" width="320" height="21"/>
                                 <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
-                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1"/>
+                                <color key="textColor" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hoger of lager dan: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="326" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hoger of lager dan: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="326">
                                 <rect key="frame" x="0.0" y="140" width="320" height="44"/>
                                 <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
-                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1"/>
+                                <color key="textColor" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="327" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="327">
                                 <rect key="frame" x="0.0" y="221.5" width="320" height="21"/>
                                 <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
-                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1"/>
+                                <color key="textColor" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.32549019610000002" green="0.32156862749999998" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint id="4718" firstItem="325" firstAttribute="top" secondItem="98M-9C-0xO" secondAttribute="bottom" constant="22"/>
-                            <constraint id="4719" firstItem="326" firstAttribute="top" secondItem="325" secondAttribute="centerY" constant="43"/>
-                            <constraint id="4720" firstItem="327" firstAttribute="top" secondItem="326" secondAttribute="centerY" constant="59"/>
-                            <constraint id="5070" firstItem="vTF-u6-5Z8" firstAttribute="leadingMargin" secondItem="XD1-JJ-tgC" secondAttribute="leading" constant="16"/>
-                            <constraint id="5071" firstItem="vTF-u6-5Z8" firstAttribute="leadingMargin" secondItem="Ywb-hl-8Qz" secondAttribute="leading" constant="16"/>
-                            <constraint id="5072" firstItem="vTF-u6-5Z8" firstAttribute="leadingMargin" secondItem="325" secondAttribute="leading" constant="16"/>
-                            <constraint id="5074" firstItem="vTF-u6-5Z8" firstAttribute="trailingMargin" secondItem="cus-85-7Cw" secondAttribute="trailing" constant="184"/>
-                            <constraint id="5075" firstItem="Ywb-hl-8Qz" firstAttribute="trailing" secondItem="vTF-u6-5Z8" secondAttribute="trailingMargin" constant="16"/>
-                            <constraint id="5076" firstItem="XD1-JJ-tgC" firstAttribute="trailing" secondItem="vTF-u6-5Z8" secondAttribute="trailingMargin" constant="16"/>
-                            <constraint id="5078" firstItem="327" firstAttribute="trailing" secondItem="vTF-u6-5Z8" secondAttribute="trailingMargin" constant="16"/>
-                            <constraint id="5079" firstItem="vTF-u6-5Z8" firstAttribute="leadingMargin" secondItem="327" secondAttribute="leading" constant="16"/>
-                            <constraint id="5080" firstItem="326" firstAttribute="trailing" secondItem="vTF-u6-5Z8" secondAttribute="trailingMargin" constant="16"/>
-                            <constraint id="5081" firstItem="vTF-u6-5Z8" firstAttribute="leadingMargin" secondItem="326" secondAttribute="leading" constant="16"/>
-                            <constraint id="5082" firstItem="325" firstAttribute="trailing" secondItem="vTF-u6-5Z8" secondAttribute="trailingMargin" constant="16"/>
-                            <constraint id="5450" firstItem="vTF-u6-5Z8" firstAttribute="trailingMargin" secondItem="bGt-uX-VNY" secondAttribute="trailing" constant="54"/>
-                            <constraint id="5456" firstItem="XD1-JJ-tgC" firstAttribute="top" secondItem="Ywb-hl-8Qz" secondAttribute="bottom" constant="51"/>
-                            <constraint id="5457" firstItem="Ywb-hl-8Qz" firstAttribute="top" secondItem="327" secondAttribute="bottom" constant="67"/>
-                            <constraint id="5823" firstItem="cus-85-7Cw" firstAttribute="top" secondItem="XD1-JJ-tgC" secondAttribute="bottom" constant="63"/>
-                            <constraint id="5824" firstItem="bGt-uX-VNY" firstAttribute="top" secondItem="XD1-JJ-tgC" secondAttribute="bottom" constant="49"/>
+                            <constraint firstItem="325" firstAttribute="top" secondItem="s8b-MR-ath" secondAttribute="bottom" constant="22" id="4718"/>
+                            <constraint firstItem="326" firstAttribute="top" secondItem="325" secondAttribute="centerY" constant="43" id="4719"/>
+                            <constraint firstItem="327" firstAttribute="top" secondItem="326" secondAttribute="centerY" constant="59" id="4720"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="XD1-JJ-tgC" secondAttribute="leading" constant="16" id="5070"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Ywb-hl-8Qz" secondAttribute="leading" constant="16" id="5071"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="325" secondAttribute="leading" constant="16" id="5072"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cus-85-7Cw" secondAttribute="trailing" constant="184" id="5074"/>
+                            <constraint firstItem="Ywb-hl-8Qz" firstAttribute="trailing" secondItem="vTF-u6-5Z8" secondAttribute="trailingMargin" constant="16" id="5075"/>
+                            <constraint firstItem="XD1-JJ-tgC" firstAttribute="trailing" secondItem="vTF-u6-5Z8" secondAttribute="trailingMargin" constant="16" id="5076"/>
+                            <constraint firstItem="327" firstAttribute="trailing" secondItem="vTF-u6-5Z8" secondAttribute="trailingMargin" constant="16" id="5078"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="327" secondAttribute="leading" constant="16" id="5079"/>
+                            <constraint firstItem="326" firstAttribute="trailing" secondItem="vTF-u6-5Z8" secondAttribute="trailingMargin" constant="16" id="5080"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="326" secondAttribute="leading" constant="16" id="5081"/>
+                            <constraint firstItem="325" firstAttribute="trailing" secondItem="vTF-u6-5Z8" secondAttribute="trailingMargin" constant="16" id="5082"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bGt-uX-VNY" secondAttribute="trailing" constant="54" id="5450"/>
+                            <constraint firstItem="XD1-JJ-tgC" firstAttribute="top" secondItem="Ywb-hl-8Qz" secondAttribute="bottom" constant="51" id="5456"/>
+                            <constraint firstItem="Ywb-hl-8Qz" firstAttribute="top" secondItem="327" secondAttribute="bottom" constant="67" id="5457"/>
+                            <constraint firstItem="cus-85-7Cw" firstAttribute="top" secondItem="XD1-JJ-tgC" secondAttribute="bottom" constant="63" id="5823"/>
+                            <constraint firstItem="bGt-uX-VNY" firstAttribute="top" secondItem="XD1-JJ-tgC" secondAttribute="bottom" constant="49" id="5824"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ZyB-Xw-ubz"/>
                     <connections>
-                        <outlet property="LPunten" destination="bGt-uX-VNY" id="name-outlet-bGt-uX-VNY"/>
-                        <outlet property="LKaart" destination="327" id="name-outlet-327"/>
-                        <outlet property="LInfo" destination="326" id="name-outlet-326"/>
-                        <outlet property="LSpeler" destination="325" id="name-outlet-325"/>
-                        <outlet property="LInfo2" destination="cus-85-7Cw" id="name-outlet-cus-85-7Cw"/>
                         <outlet property="BHoger" destination="Ywb-hl-8Qz" id="name-outlet-Ywb-hl-8Qz"/>
                         <outlet property="BLager" destination="XD1-JJ-tgC" id="name-outlet-XD1-JJ-tgC"/>
+                        <outlet property="LInfo" destination="326" id="name-outlet-326"/>
+                        <outlet property="LInfo2" destination="cus-85-7Cw" id="name-outlet-cus-85-7Cw"/>
+                        <outlet property="LKaart" destination="327" id="name-outlet-327"/>
+                        <outlet property="LPunten" destination="bGt-uX-VNY" id="name-outlet-bGt-uX-VNY"/>
+                        <outlet property="LSpeler" destination="325" id="name-outlet-325"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="izF-en-Ypj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -378,18 +427,18 @@
         <!--Navigation Controller-->
         <scene sceneID="pm5-Nt-lMt">
             <objects>
-                <navigationController id="7pJ-Pc-rpP" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="7pJ-Pc-rpP" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Raa-7W-mSR">
-                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.32549019610000002" green="0.32156862749999998" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="5MG-ow-lv8">
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xw3-xL-RlO">
                         <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="lYX-Gf-Ls0"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ElP-Ff-cwu"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B5H-WM-Vex" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -397,7 +446,4 @@
             <point key="canvasLocation" x="-369" y="-99"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Aas" width="531" height="768"/>
-    </resources>
 </document>

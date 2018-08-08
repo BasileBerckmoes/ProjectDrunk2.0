@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using ProjectDrunk.DataLaag;
+using ProjectDrunk.IOS;
 using UIKit;
 
 
@@ -9,7 +10,7 @@ namespace ProjectDrunk.iOS
     public partial class ViewController : UIViewController
     {
         
-        TableSource tabelData;
+        public TableSource TableData { get; private set; }
         //public SpelData Spelers { get; private set; }
 
         public ViewController(IntPtr handle) : base(handle)
@@ -19,26 +20,28 @@ namespace ProjectDrunk.iOS
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+
+            NavigationController.InteractivePopGestureRecognizer.Delegate = new GestureDelegate();
             //Spelers = new SpelData()
             //Console.WriteLine("test");
             List<String> spelers = new List<String>();
             spelers.Add("speler 1");
             spelers.Add("speler 2");
             spelers.Add("speler 3");
-            tabelData = new TableSource(spelers);
-            SpelerTabelView.Source = tabelData;
+            TableData = new TableSource(spelers);
+            SpelerTabelView.Source = TableData;
             // Perform any additional setup after loading the view, typically from a nib.
 
         }
         partial void VoegSpelerToe(UIButton sender)
         {
-            tabelData.VoegSpelerToeAanLijst();
+            TableData.VoegSpelerToeAanLijst();
             //SpelerTabelView.Source = tabelData;
             SpelerTabelView.ReloadData();
         }
         partial void DeleteSpeler(UIButton sender)
         {
-            tabelData.DeleteSpeler();
+            TableData.DeleteSpeler();
 			SpelerTabelView.ReloadData();
         }
         partial void DrunkBarEditingDidEnd(UISlider sender)
@@ -49,14 +52,14 @@ namespace ProjectDrunk.iOS
         UITextField huidigeTextField;
         partial void StartEditing(UITextField sender)
         {
-            Console.WriteLine("START");
+            //Console.WriteLine("START");
             huidigeTextField = sender;
             oudeNaam = sender.Text;
         }
         partial void EditingDidEnd(UITextField sender)
         {
-            Console.WriteLine("END");
-            tabelData.ReplaceItemInList(oudeNaam, sender.Text);
+            //Console.WriteLine("END");
+            TableData.ReplaceItemInList(oudeNaam, sender.Text);
             SpelerTabelView.ReloadData();
         }
         public override void DidReceiveMemoryWarning()
@@ -80,7 +83,7 @@ namespace ProjectDrunk.iOS
             if (segue.DestinationViewController is GameSelection GameSelectionVar)
             {
                 List<Speler> spelers = new List<Speler>();
-                foreach (String speler in tabelData.GetLijst())
+                foreach (String speler in TableData.GetLijst())
                 {
                     spelers.Add(new Speler(speler));
                 }
