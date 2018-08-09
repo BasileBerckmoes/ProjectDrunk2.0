@@ -51,3 +51,4 @@ C:/Users/BasileBerckmoes/Documents/GitHub/ProjectDrunk2.0/ProjectDrunk/obj/Debug
 /Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/obj/Debug/ProjectDrunk.csproj.CoreCompileInputs.cache
 /Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/obj/Debug/ProjectDrunk.dll
 /Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/obj/Debug/ProjectDrunk.pdb
+/Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/obj/Debug/ProjectDrunk.csprojResolveAssemblyReference.cache

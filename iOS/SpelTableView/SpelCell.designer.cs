@@ -16,26 +16,22 @@ namespace ProjectDrunk.iOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton BSpelInfo { get; set; }
+        UIKit.UILabel LSpelInfo { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton BSpelNaam { get; set; }
-
-        [Action ("BSpelNaam_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void BSpelNaam_TouchUpInside (UIKit.UIButton sender);
+        UIKit.UILabel LSpelNaam { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (BSpelInfo != null) {
-                BSpelInfo.Dispose ();
-                BSpelInfo = null;
+            if (LSpelInfo != null) {
+                LSpelInfo.Dispose ();
+                LSpelInfo = null;
             }
 
-            if (BSpelNaam != null) {
-                BSpelNaam.Dispose ();
-                BSpelNaam = null;
+            if (LSpelNaam != null) {
+                LSpelNaam.Dispose ();
+                LSpelNaam = null;
             }
         }
     }

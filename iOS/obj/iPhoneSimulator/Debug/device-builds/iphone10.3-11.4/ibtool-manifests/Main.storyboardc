@@ -7,22 +7,6 @@
 	<key>com.apple.ibtool.document.notices</key>
 	<dict/>
 	<key>com.apple.ibtool.document.warnings</key>
-	<dict>
-		<key>shy-jL-Swk</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>shy-jL-Swk</string>
-				</array>
-				<key>message</key>
-				<string>Disabling segue animation is not available prior to iOS 9.0</string>
-				<key>type</key>
-				<string>IBIssueTypeAttributeUnavailable</string>
-				<key>type-value</key>
-				<integer>5</integer>
-			</dict>
-		</array>
-	</dict>
+	<dict/>
 </dict>
 </plist>

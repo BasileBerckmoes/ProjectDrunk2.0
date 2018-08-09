@@ -24,7 +24,6 @@ namespace ProjectDrunk.iOS
         [Action ("BBack_TouchUpInside:")]
         partial void BBack_TouchUpInside (UIKit.UIButton sender);
 
-
         void ReleaseDesignerOutlets ()
         {
             if (BBack != null) {

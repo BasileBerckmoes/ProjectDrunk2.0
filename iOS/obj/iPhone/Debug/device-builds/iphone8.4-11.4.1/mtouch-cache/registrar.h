@@ -25,6 +25,7 @@
 @class ProjectDrunk_iOS_TableSource;
 @class TextCellClass;
 @class SpelCell;
+@class RingOfFireViewController;
 @class ProjectDrunk_iOS_SpelTableViewSource;
 @class UIKit_UIAlertView__UIAlertViewDelegate;
 @class UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate;
@@ -190,16 +191,27 @@
 
 @interface SpelCell : UITableViewCell {
 }
-	@property (nonatomic, assign) UIButton * BSpelInfo;
-	@property (nonatomic, assign) UIButton * BSpelNaam;
+	@property (nonatomic, assign) UILabel * LSpelInfo;
+	@property (nonatomic, assign) UILabel * LSpelNaam;
 	-(void) release;
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(UIButton *) BSpelInfo;
-	-(void) setBSpelInfo:(UIButton *)p0;
-	-(UIButton *) BSpelNaam;
-	-(void) setBSpelNaam:(UIButton *)p0;
+	-(UILabel *) LSpelInfo;
+	-(void) setLSpelInfo:(UILabel *)p0;
+	-(UILabel *) LSpelNaam;
+	-(void) setLSpelNaam:(UILabel *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface RingOfFireViewController : UIViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewDidLoad;
+	-(void) didReceiveMemoryWarning;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
@@ -211,6 +223,7 @@
 	-(void) xamarinSetGCHandle: (int) gchandle;
 	-(UITableViewCell *) tableView:(UITableView *)p0 cellForRowAtIndexPath:(NSIndexPath *)p1;
 	-(NSInteger) tableView:(UITableView *)p0 numberOfRowsInSection:(NSInteger)p1;
+	-(void) tableView:(UITableView *)p0 didSelectRowAtIndexPath:(NSIndexPath *)p1;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 

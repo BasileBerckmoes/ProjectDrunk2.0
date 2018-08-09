@@ -20,7 +20,6 @@ namespace ProjectDrunk.iOS
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-
             NavigationController.InteractivePopGestureRecognizer.Delegate = new GestureDelegate();
             //Spelers = new SpelData()
             //Console.WriteLine("test");

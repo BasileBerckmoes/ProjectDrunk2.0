@@ -168,6 +168,10 @@
     </Compile>
     <Compile Include="Delegates\GestureDelegate.cs" />
     <Compile Include="SpelTableView\SpelTableViewSource.cs" />
+    <Compile Include="ViewControllers\RingOfFireViewController.cs" />
+    <Compile Include="ViewControllers\RingOfFireViewController.designer.cs">
+      <DependentUpon>RingOfFireViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Abadi MT Condensed Extra Bold.ttf">

@@ -1679,9 +1679,9 @@ ldr x0, [x16, #0]
 .word 0xd2800021
 bl _p_15
 .word 0xaa0003e1
-.word 0xd2800e00
+.word 0xd2800e20
 .word 0xf2a04000
-.word 0xd2800e00
+.word 0xd2800e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_16
@@ -1872,9 +1872,9 @@ ldr x0, [x16, #0]
 .word 0xd2800021
 bl _p_15
 .word 0xaa0003e1
-.word 0xd2800e00
+.word 0xd2800e20
 .word 0xf2a04000
-.word 0xd2800e00
+.word 0xd2800e20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_16
@@ -3226,13 +3226,13 @@ bl _p_28
 .word 0x910003bf
 .word 0xa8d87bfd
 .word 0xd65f03c0
-.word 0xd28010e0
+.word 0xd2801100
 .word 0xaa1103e1
 bl _p_30
-.word 0xd28013e0
+.word 0xd2801400
 .word 0xaa1103e1
 bl _p_30
-.word 0xd2800cc0
+.word 0xd2800ce0
 .word 0xaa1103e1
 bl _p_30
 
@@ -3470,7 +3470,7 @@ bl _p_28
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28010e0
+.word 0xd2801100
 .word 0xaa1103e1
 bl _p_30
 
@@ -3610,7 +3610,7 @@ bl _p_31
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28010e0
+.word 0xd2801100
 .word 0xaa1103e1
 bl _p_30
 
@@ -3743,7 +3743,7 @@ bl _p_33
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28010e0
+.word 0xd2801100
 .word 0xaa1103e1
 bl _p_30
 
@@ -4012,10 +4012,10 @@ bl _p_35
 Lme_31:
 .text
 	.align 4
-	.no_dead_strip ProjectDrunk_DataLaag_SpelData_get_Spelers
-ProjectDrunk_DataLaag_SpelData_get_Spelers:
-.file 6 "/Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/DataLaag/SpelData.cs"
-.loc 6 9 0 prologue_end
+	.no_dead_strip ProjectDrunk_Globals_NewGameEvent_get_SpelNaam
+ProjectDrunk_Globals_NewGameEvent_get_SpelNaam:
+.file 6 "/Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/Globals/NewGameEvent.cs"
+.loc 6 6 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4051,9 +4051,9 @@ ldr x16, [x16, #752]
 Lme_32:
 .text
 	.align 4
-	.no_dead_strip ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler
-ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler:
-.loc 6 9 0 prologue_end
+	.no_dead_strip ProjectDrunk_Globals_NewGameEvent_set_SpelNaam_string
+ProjectDrunk_Globals_NewGameEvent_set_SpelNaam_string:
+.loc 6 6 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4103,16 +4103,176 @@ ldr x2, [x16, #16]
 Lme_33:
 .text
 	.align 4
-	.no_dead_strip ProjectDrunk_DataLaag_SpelData_get_Moeilijkheid
-ProjectDrunk_DataLaag_SpelData_get_Moeilijkheid:
-.loc 6 11 0 prologue_end
+	.no_dead_strip ProjectDrunk_Globals_NewGameEvent__ctor_string
+ProjectDrunk_Globals_NewGameEvent__ctor_string:
+.loc 6 7 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xaa0003f9
+.word 0xf9000fa1
+
+adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
+ldr x16, [x16, #768]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_36
+.word 0xf94013b1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 8 0
+.word 0xf94013b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 9 0
+.word 0xf94013b1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9400fa1
+.word 0xaa1903e0
+bl _p_37
+.word 0xf94013b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 10 0
+.word 0xf94013b1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_34:
+.text
+	.align 4
+	.no_dead_strip ProjectDrunk_DataLaag_SpelData_get_Spelers
+ProjectDrunk_DataLaag_SpelData_get_Spelers:
+.file 7 "/Users/basileberckmoes/Documents/ProjectDrunk/ProjectDrunk/DataLaag/SpelData.cs"
+.loc 7 9 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #776]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400800
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_35:
+.text
+	.align 4
+	.no_dead_strip ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler
+ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler:
+.loc 7 9 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
+ldr x16, [x16, #784]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba1
+.word 0xf9400fa0
+.word 0xf9000820
+.word 0x91004021
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94013b1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_36:
+.text
+	.align 4
+	.no_dead_strip ProjectDrunk_DataLaag_SpelData_get_Moeilijkheid
+ProjectDrunk_DataLaag_SpelData_get_Moeilijkheid:
+.loc 7 11 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
+ldr x16, [x16, #792]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4138,12 +4298,12 @@ ldr x16, [x16, #768]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_34:
+Lme_37:
 .text
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData_set_Moeilijkheid_int
 ProjectDrunk_DataLaag_SpelData_set_Moeilijkheid_int:
-.loc 6 11 0 prologue_end
+.loc 7 11 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4151,7 +4311,7 @@ ProjectDrunk_DataLaag_SpelData_set_Moeilijkheid_int:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #800]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4178,19 +4338,19 @@ ldr x16, [x16, #776]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_35:
+Lme_38:
 .text
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData_get_RndmGetal
 ProjectDrunk_DataLaag_SpelData_get_RndmGetal:
-.loc 6 13 0 prologue_end
+.loc 7 13 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #808]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4216,12 +4376,12 @@ ldr x16, [x16, #784]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_36:
+Lme_39:
 .text
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData_set_RndmGetal_System_Random
 ProjectDrunk_DataLaag_SpelData_set_RndmGetal_System_Random:
-.loc 6 13 0 prologue_end
+.loc 7 13 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4229,7 +4389,7 @@ ProjectDrunk_DataLaag_SpelData_set_RndmGetal_System_Random:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #816]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4268,19 +4428,19 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_37:
+Lme_3a:
 .text
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData_get_HuidigeSpelerIndex
 ProjectDrunk_DataLaag_SpelData_get_HuidigeSpelerIndex:
-.loc 6 15 0 prologue_end
+.loc 7 15 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #824]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4306,12 +4466,12 @@ ldr x16, [x16, #800]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_38:
+Lme_3b:
 .text
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte
 ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte:
-.loc 6 15 0 prologue_end
+.loc 7 15 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4319,7 +4479,7 @@ ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #832]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4346,12 +4506,12 @@ ldr x16, [x16, #808]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_39:
+Lme_3c:
 .text
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler
 ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler:
-.loc 6 19 0 prologue_end
+.loc 7 19 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bb8
@@ -4361,7 +4521,7 @@ ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_Proje
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #840]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4382,12 +4542,12 @@ ldr x16, [x16, #816]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 20 0
+.loc 7 20 0
 .word 0xf94017b1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 21 0
+.loc 7 21 0
 .word 0xf94017b1
 .word 0xf9409231
 .word 0xb4000051
@@ -4395,12 +4555,12 @@ ldr x16, [x16, #816]
 .word 0xaa1803e0
 .word 0xf94013a1
 .word 0xaa1803e0
-bl _p_36
+bl _p_38
 .word 0xf94017b1
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 22 0
+.loc 7 22 0
 .word 0xf94017b1
 .word 0xf940c231
 .word 0xb4000051
@@ -4408,12 +4568,12 @@ bl _p_36
 .word 0xaa1803e0
 .word 0xb9801ba1
 .word 0xaa1803e0
-bl _p_37
+bl _p_39
 .word 0xf94017b1
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 23 0
+.loc 7 23 0
 .word 0xf94017b1
 .word 0xf940f231
 .word 0xb4000051
@@ -4434,12 +4594,12 @@ bl _p_26
 .word 0xd63f0220
 .word 0xf94023a1
 .word 0xaa1803e0
-bl _p_38
+bl _p_40
 .word 0xf94017b1
 .word 0xf9414231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 24 0
+.loc 7 24 0
 .word 0xf94017b1
 .word 0xf9415231
 .word 0xb4000051
@@ -4448,12 +4608,12 @@ bl _p_38
 .word 0xd2800000
 .word 0xaa1803e0
 .word 0xd2800001
-bl _p_39
+bl _p_41
 .word 0xf94017b1
 .word 0xf9417631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 26 0
+.loc 7 26 0
 .word 0xf94017b1
 .word 0xf9418631
 .word 0xb4000051
@@ -4467,12 +4627,12 @@ bl _p_39
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3a:
+Lme_3d:
 .text
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData_VolgendeSpeler
 ProjectDrunk_DataLaag_SpelData_VolgendeSpeler:
-.loc 6 29 0 prologue_end
+.loc 7 29 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa90163b7
@@ -4481,7 +4641,7 @@ ProjectDrunk_DataLaag_SpelData_VolgendeSpeler:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #848]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -4500,14 +4660,14 @@ ldr x16, [x16, #824]
 .word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 30 0
+.loc 7 30 0
 .word 0xf9401bb1
 .word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_40
+bl _p_42
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401bb1
@@ -4516,7 +4676,7 @@ bl _p_40
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_41
+bl _p_43
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf940ba31
@@ -4525,7 +4685,7 @@ bl _p_41
 .word 0xf94033a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_42
+bl _p_44
 .word 0x93407c00
 .word 0xf9002fa0
 .word 0xf9401bb1
@@ -4544,14 +4704,14 @@ bl _p_42
 .word 0xf9411231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 31 0
+.loc 7 31 0
 .word 0xf9401bb1
 .word 0xf9412231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_41
+bl _p_43
 .word 0xf9002fa0
 .word 0xf9401bb1
 .word 0xf9414231
@@ -4559,7 +4719,7 @@ bl _p_41
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_40
+bl _p_42
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -4574,7 +4734,7 @@ bl _p_40
 .word 0x11000700
 .word 0x53001c01
 .word 0xaa1a03e0
-bl _p_39
+bl _p_41
 .word 0xf9401bb1
 .word 0xf9419a31
 .word 0xb4000051
@@ -4583,7 +4743,7 @@ bl _p_39
 .word 0xaa1803e1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_43
+bl _p_45
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf941c231
@@ -4592,12 +4752,12 @@ bl _p_43
 .word 0xf9402ba0
 .word 0xaa0003f7
 .word 0x14000033
-.loc 6 32 0
+.loc 7 32 0
 .word 0xf9401bb1
 .word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 33 0
+.loc 7 33 0
 .word 0xf9401bb1
 .word 0xf941ee31
 .word 0xb4000051
@@ -4606,19 +4766,19 @@ bl _p_43
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_39
+bl _p_41
 .word 0xf9401bb1
 .word 0xf9421231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 34 0
+.loc 7 34 0
 .word 0xf9401bb1
 .word 0xf9422231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_41
+bl _p_43
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf9424231
@@ -4626,7 +4786,7 @@ bl _p_41
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_40
+bl _p_42
 .word 0x53001c00
 .word 0xf9002fa0
 .word 0xf9401bb1
@@ -4637,7 +4797,7 @@ bl _p_40
 .word 0xf94033a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_43
+bl _p_45
 .word 0xf9002ba0
 .word 0xf9401bb1
 .word 0xf9428e31
@@ -4645,7 +4805,7 @@ bl _p_43
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xaa0003f7
-.loc 6 36 0
+.loc 7 36 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -4666,12 +4826,12 @@ bl _p_43
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_3b:
+Lme_3e:
 .text
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
 ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler:
-.loc 6 39 0 prologue_end
+.loc 7 39 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -4680,7 +4840,7 @@ ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #856]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4698,7 +4858,7 @@ ldr x16, [x16, #832]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 40 0
+.loc 7 40 0
 .word 0xf94017b1
 .word 0xf9407231
 .word 0xb4000051
@@ -4706,7 +4866,7 @@ ldr x16, [x16, #832]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_44
+bl _p_46
 .word 0xf90037a0
 .word 0xf94017b1
 .word 0xf9409631
@@ -4714,7 +4874,7 @@ bl _p_44
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_41
+bl _p_43
 .word 0xf9003ba0
 .word 0xf94017b1
 .word 0xf940b631
@@ -4723,7 +4883,7 @@ bl _p_41
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_42
+bl _p_44
 .word 0x93407c00
 .word 0xf90033a0
 .word 0xf94017b1
@@ -4745,19 +4905,19 @@ bl _p_42
 .word 0xf9402fa0
 .word 0x53001c01
 .word 0xaa1a03e0
-bl _p_39
+bl _p_41
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 41 0
+.loc 7 41 0
 .word 0xf94017b1
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_40
+bl _p_42
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94017b1
@@ -4766,7 +4926,7 @@ bl _p_40
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_41
+bl _p_43
 .word 0xf9002ba0
 .word 0xf94017b1
 .word 0xf9418231
@@ -4775,7 +4935,7 @@ bl _p_41
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_42
+bl _p_44
 .word 0x93407c00
 .word 0xf90027a0
 .word 0xf94017b1
@@ -4801,12 +4961,12 @@ bl _p_42
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_39
+bl _p_41
 .word 0xf94017b1
 .word 0xf9420a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 42 0
+.loc 7 42 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -4817,7 +4977,7 @@ bl _p_39
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_41
+bl _p_43
 .word 0xf9002fa0
 .word 0xf94017b1
 .word 0xf9424a31
@@ -4825,7 +4985,7 @@ bl _p_41
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_40
+bl _p_42
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf94017b1
@@ -4836,7 +4996,7 @@ bl _p_40
 .word 0xf9402fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_43
+bl _p_45
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf9429631
@@ -4845,7 +5005,7 @@ bl _p_43
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f8
-.loc 6 43 0
+.loc 7 43 0
 .word 0xf94017b1
 .word 0xf942b231
 .word 0xb4000051
@@ -4862,12 +5022,12 @@ bl _p_43
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_3c:
+Lme_3f:
 .text
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler
 ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler:
-.loc 6 45 0 prologue_end
+.loc 7 45 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4875,7 +5035,7 @@ ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #864]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4891,13 +5051,13 @@ ldr x16, [x16, #840]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 46 0
+.loc 7 46 0
 .word 0xf94013b1
 .word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_41
+bl _p_43
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9408231
@@ -4907,12 +5067,12 @@ bl _p_41
 .word 0xf9400fa1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_45
+bl _p_47
 .word 0xf94013b1
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 47 0
+.loc 7 47 0
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -4925,12 +5085,12 @@ bl _p_45
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3d:
+Lme_40:
 .text
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler
 ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler:
-.loc 6 50 0 prologue_end
+.loc 7 50 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4938,7 +5098,7 @@ ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #872]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4954,13 +5114,13 @@ ldr x16, [x16, #848]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 51 0
+.loc 7 51 0
 .word 0xf94013b1
 .word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_41
+bl _p_43
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9408231
@@ -4970,13 +5130,13 @@ bl _p_41
 .word 0xf9400fa1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_46
+bl _p_48
 .word 0x53001c00
 .word 0xf94013b1
 .word 0xf940aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 52 0
+.loc 7 52 0
 .word 0xf94013b1
 .word 0xf940ba31
 .word 0xb4000051
@@ -4989,13 +5149,13 @@ bl _p_46
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3e:
+Lme_41:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.12.0.4/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
-.loc 7 71 0 prologue_end
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.12.0.4/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.loc 8 71 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -5004,7 +5164,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #880]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5029,21 +5189,21 @@ ldr x16, [x16, #856]
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0x350001c0
-.loc 7 72 0
+.loc 8 72 0
 .word 0xf9400fb1
 .word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_47
+bl _p_49
 .word 0x3980b410
 .word 0xb5000050
-bl _p_48
+bl _p_50
 .word 0xf9402ba0
-bl _p_49
+bl _p_51
 .word 0xf9400000
 .word 0x14000033
-.loc 7 74 0
+.loc 8 74 0
 .word 0xf9400fb1
 .word 0xf940c231
 .word 0xb4000051
@@ -5056,11 +5216,11 @@ bl _p_49
 .word 0x910103a0
 .word 0xf90033a0
 .word 0xf9402ba0
-bl _p_50
+bl _p_52
 .word 0xaa0003ef
 .word 0xf94033a0
 .word 0xaa1a03e1
-bl _p_51
+bl _p_53
 .word 0x910103a0
 .word 0x9100c3a0
 .word 0xf94023a0
@@ -5072,7 +5232,7 @@ bl _p_51
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_50
+bl _p_52
 .word 0xd2800401
 .word 0xd2800401
 bl _p_7
@@ -5104,19 +5264,19 @@ ldr x4, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_40:
+Lme_43:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
 System_Array_InternalArray__ICollection_get_Count:
-.loc 7 61 0 prologue_end
+.loc 8 61 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #888]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5148,19 +5308,19 @@ ldr x16, [x16, #864]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_41:
+Lme_44:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_IsReadOnly
 System_Array_InternalArray__ICollection_get_IsReadOnly:
-.loc 7 66 0 prologue_end
+.loc 8 66 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #896]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5186,19 +5346,19 @@ ldr x16, [x16, #872]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_42:
+Lme_45:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Clear
 System_Array_InternalArray__ICollection_Clear:
-.loc 7 79 0 prologue_end
+.loc 8 79 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #904]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5216,11 +5376,11 @@ ldr x16, [x16, #880]
 .word 0xd63f0220
 .word 0xd283c260
 .word 0xd283c260
-bl _p_52
+bl _p_54
 .word 0xaa0003e1
-.word 0xd2801300
+.word 0xd2801320
 .word 0xf2a04000
-.word 0xd2801300
+.word 0xd2801320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_16
@@ -5232,12 +5392,12 @@ bl _p_16
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_43:
+Lme_46:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
-.loc 7 84 0 prologue_end
+.loc 8 84 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001faf
@@ -5246,7 +5406,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #912]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5264,11 +5424,11 @@ ldr x16, [x16, #888]
 .word 0xd63f0220
 .word 0xd283c860
 .word 0xd283c860
-bl _p_52
+bl _p_54
 .word 0xaa0003e1
-.word 0xd2801300
+.word 0xd2801320
 .word 0xf2a04000
-.word 0xd2801300
+.word 0xd2801320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_16
@@ -5280,12 +5440,12 @@ bl _p_16
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_44:
+Lme_47:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
-.loc 7 89 0 prologue_end
+.loc 8 89 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001faf
@@ -5294,7 +5454,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #920]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5312,11 +5472,11 @@ ldr x16, [x16, #896]
 .word 0xd63f0220
 .word 0xd283c860
 .word 0xd283c860
-bl _p_52
+bl _p_54
 .word 0xaa0003e1
-.word 0xd2801300
+.word 0xd2801320
 .word 0xf2a04000
-.word 0xd2801300
+.word 0xd2801320
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_16
@@ -5328,12 +5488,12 @@ bl _p_16
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_45:
+Lme_48:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
-.loc 7 94 0 prologue_end
+.loc 8 94 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -5344,7 +5504,7 @@ System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #928]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -5376,28 +5536,28 @@ ldr x16, [x16, #904]
 .word 0xd280003e
 .word 0x6b1e001f
 .word 0x540002ad
-.loc 7 95 0
+.loc 8 95 0
 .word 0xf9401bb1
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd283cfe0
 .word 0xd283cfe0
-bl _p_52
-bl _p_53
+bl _p_54
+bl _p_55
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd2801480
+.word 0xd28014a0
 .word 0xf2a04000
-.word 0xd2801480
+.word 0xd28014a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_16
-.loc 7 97 0
+.loc 8 97 0
 .word 0xf9401bb1
 .word 0xf9410231
 .word 0xb4000051
@@ -5411,14 +5571,14 @@ bl _p_16
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xaa0003f9
-.loc 7 98 0
+.loc 8 98 0
 .word 0xf9401bb1
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800018
 .word 0x14000048
-.loc 7 100 0
+.loc 8 100 0
 .word 0xf9401bb1
 .word 0xf9414e31
 .word 0xb4000051
@@ -5427,28 +5587,28 @@ bl _p_16
 .word 0xaa1803e0
 .word 0x910143a0
 .word 0xf94027a0
-bl _p_54
+bl _p_56
 .word 0x93407f00
 .word 0xd37df000
 .word 0x8b000340
 .word 0x91008000
 .word 0xf9400000
 .word 0xf9002ba0
-.loc 7 101 0
+.loc 8 101 0
 .word 0xf9401bb1
 .word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
 .word 0xb50001c0
-.loc 7 102 0
+.loc 8 102 0
 .word 0xf9401bb1
 .word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xb5000440
-.loc 7 103 0
+.loc 8 103 0
 .word 0xf9401bb1
 .word 0xf941ba31
 .word 0xb4000051
@@ -5456,7 +5616,7 @@ bl _p_54
 .word 0xd2800020
 .word 0xd2800020
 .word 0x14000038
-.loc 7 109 0
+.loc 8 109 0
 .word 0xf9401bb1
 .word 0xf941d631
 .word 0xb4000051
@@ -5476,7 +5636,7 @@ bl _p_54
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0x34000100
-.loc 7 110 0
+.loc 8 110 0
 .word 0xf9401bb1
 .word 0xf9422231
 .word 0xb4000051
@@ -5484,7 +5644,7 @@ bl _p_54
 .word 0xd2800020
 .word 0xd2800020
 .word 0x1400001e
-.loc 7 98 0
+.loc 8 98 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5508,7 +5668,7 @@ bl _p_54
 .word 0xaa1903e0
 .word 0x6b19031f
 .word 0x54fff5cb
-.loc 7 114 0
+.loc 8 114 0
 .word 0xf9401bb1
 .word 0xf9429a31
 .word 0xb4000051
@@ -5525,12 +5685,12 @@ bl _p_54
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_46:
+Lme_49:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
-.loc 7 119 0 prologue_end
+.loc 8 119 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa9015bb5
@@ -5542,7 +5702,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #936]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -5587,8 +5747,8 @@ ldr x16, [x16, #912]
 .word 0xf9403ba4
 .word 0xf9402ba0
 .word 0xaa1503e1
-bl _p_55
-.loc 7 120 0
+bl _p_57
+.loc 8 120 0
 .word 0xf9401fb1
 .word 0xf940ee31
 .word 0xb4000051
@@ -5603,7 +5763,7 @@ bl _p_55
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_47:
+Lme_4a:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler
@@ -5619,7 +5779,7 @@ wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_Pro
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #944]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5636,10 +5796,10 @@ ldr x16, [x16, #920]
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #952]
 .word 0xb9400000
 .word 0x34000140
-bl _p_56
+bl _p_58
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -5743,11 +5903,11 @@ bl _p_16
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28010e0
+.word 0xd2801100
 .word 0xaa1103e1
 bl _p_30
 
-Lme_48:
+Lme_4b:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler
@@ -5764,7 +5924,7 @@ wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_P
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #960]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5781,10 +5941,10 @@ ldr x16, [x16, #936]
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #952]
 .word 0xb9400000
 .word 0x34000140
-bl _p_56
+bl _p_58
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
@@ -5893,13 +6053,13 @@ bl _p_16
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28010e0
+.word 0xd2801100
 .word 0xaa1103e1
 bl _p_30
 
-Lme_49:
+Lme_4c:
 .text
-ut_74:
+ut_77:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 ut_end:
@@ -5907,13 +6067,13 @@ ut_end:
 _unbox_trampoline_p:
 
 	.long 0
-LDIFF_SYM3=ut_end - ut_74
+LDIFF_SYM3=ut_end - ut_77
 	.long LDIFF_SYM3
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-.loc 7 218 0 prologue_end
+.loc 8 218 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -5923,7 +6083,7 @@ System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #968]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5954,7 +6114,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 7 219 0
+.loc 8 219 0
 .word 0xf94013b1
 .word 0xf940a631
 .word 0xb4000051
@@ -5965,7 +6125,7 @@ ldr x2, [x16, #16]
 .word 0x9280003e
 .word 0xf2bffffe
 .word 0xb9000b3e
-.loc 7 220 0
+.loc 8 220 0
 .word 0xf94013b1
 .word 0xf940ce31
 .word 0xb4000051
@@ -5979,7 +6139,7 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_4a:
+Lme_4d:
 .text
 	.align 3
 jit_code_end:
@@ -6039,6 +6199,9 @@ bl ProjectDrunk_Globals_Spel_set_Naam_string
 bl ProjectDrunk_Globals_Spel_get_Uitleg
 bl ProjectDrunk_Globals_Spel_set_Uitleg_string
 bl ProjectDrunk_Globals_Spel__ctor_string_string
+bl ProjectDrunk_Globals_NewGameEvent_get_SpelNaam
+bl ProjectDrunk_Globals_NewGameEvent_set_SpelNaam_string
+bl ProjectDrunk_Globals_NewGameEvent__ctor_string
 bl ProjectDrunk_DataLaag_SpelData_get_Spelers
 bl ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler
 bl ProjectDrunk_DataLaag_SpelData_get_Moeilijkheid
@@ -6070,14 +6233,14 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 74
+	.long 77
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
-bl ut_74
+bl ut_77
 
 	.long 0
 .section __TEXT, __const
@@ -6108,453 +6271,469 @@ plt_ProjectDrunk_Speler_set_Naam_string:
 _p_1:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #984]
 br x16
-.word 946
+.word 958
 	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_set_Streak_int
 plt_ProjectDrunk_LogischeLaag_HogerLager_set_Streak_int:
 _p_2:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #992]
 br x16
-.word 951
+.word 963
 	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_set_Spelers_ProjectDrunk_DataLaag_SpelData
 plt_ProjectDrunk_LogischeLaag_HogerLager_set_Spelers_ProjectDrunk_DataLaag_SpelData:
 _p_3:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #1000]
 br x16
-.word 956
+.word 968
 	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_get_Spelers
 plt_ProjectDrunk_LogischeLaag_HogerLager_get_Spelers:
 _p_4:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1008]
 br x16
-.word 961
+.word 973
 	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
 plt_ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler:
 _p_5:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1016]
 br x16
-.word 966
+.word 978
 	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_set_HuidigeSpeler_ProjectDrunk_Speler
 plt_ProjectDrunk_LogischeLaag_HogerLager_set_HuidigeSpeler_ProjectDrunk_Speler:
 _p_6:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1024]
 br x16
-.word 971
+.word 983
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_7:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1032]
 br x16
-.word 976
+.word 988
 	.no_dead_strip plt_ProjectDrunk_Globals_NormaalDeck__ctor
 plt_ProjectDrunk_Globals_NormaalDeck__ctor:
 _p_8:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1040]
 br x16
-.word 984
+.word 996
 	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_set_Deck_ProjectDrunk_Interfaces_IDeck
 plt_ProjectDrunk_LogischeLaag_HogerLager_set_Deck_ProjectDrunk_Interfaces_IDeck:
 _p_9:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1048]
 br x16
-.word 989
+.word 1001
 	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_get_Deck
 plt_ProjectDrunk_LogischeLaag_HogerLager_get_Deck:
 _p_10:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1056]
 br x16
-.word 994
+.word 1006
 	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_set_HuidigeKaart_ProjectDrunk_Globals_Kaart
 plt_ProjectDrunk_LogischeLaag_HogerLager_set_HuidigeKaart_ProjectDrunk_Globals_Kaart:
 _p_11:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1064]
 br x16
-.word 999
+.word 1011
 	.no_dead_strip plt_ProjectDrunk_Globals_Kaart_get_GetalWaarde
 plt_ProjectDrunk_Globals_Kaart_get_GetalWaarde:
 _p_12:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1072]
 br x16
-.word 1004
+.word 1016
 	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_get_HuidigeKaart
 plt_ProjectDrunk_LogischeLaag_HogerLager_get_HuidigeKaart:
 _p_13:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1080]
 br x16
-.word 1009
+.word 1021
 	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_VolgendeSpeler
 plt_ProjectDrunk_DataLaag_SpelData_VolgendeSpeler:
 _p_14:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1088]
 br x16
-.word 1014
+.word 1026
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_15:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1096]
 br x16
-.word 1019
+.word 1031
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_16:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1104]
 br x16
-.word 1039
+.word 1051
 	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_get_Streak
 plt_ProjectDrunk_LogischeLaag_HogerLager_get_Streak:
 _p_17:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1112]
 br x16
-.word 1067
+.word 1079
 	.no_dead_strip plt_ProjectDrunk_Globals_Kaart_set_Nummer_string
 plt_ProjectDrunk_Globals_Kaart_set_Nummer_string:
 _p_18:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1120]
 br x16
-.word 1072
+.word 1084
 	.no_dead_strip plt_ProjectDrunk_Globals_Kaart_set_GetalWaarde_int
 plt_ProjectDrunk_Globals_Kaart_set_GetalWaarde_int:
 _p_19:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1128]
 br x16
-.word 1077
+.word 1089
 	.no_dead_strip plt_ProjectDrunk_Globals_Kaart_set_Teken_string
 plt_ProjectDrunk_Globals_Kaart_set_Teken_string:
 _p_20:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1136]
 br x16
-.word 1082
+.word 1094
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_21:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1144]
 br x16
-.word 1087
+.word 1099
 	.no_dead_strip plt_ProjectDrunk_Globals_Kaart_set_BestandsNaam_string
 plt_ProjectDrunk_Globals_Kaart_set_BestandsNaam_string:
 _p_22:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1152]
 br x16
-.word 1090
+.word 1102
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_23:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1160]
 br x16
-.word 1095
+.word 1107
 	.no_dead_strip plt_ProjectDrunk_Globals_NormaalDeck_set_AantalKaarten_int
 plt_ProjectDrunk_Globals_NormaalDeck_set_AantalKaarten_int:
 _p_24:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1168]
 br x16
-.word 1103
+.word 1115
 	.no_dead_strip plt_ProjectDrunk_Globals_NormaalDeck_get_AantalKaarten
 plt_ProjectDrunk_Globals_NormaalDeck_get_AantalKaarten:
 _p_25:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1176]
 br x16
-.word 1108
+.word 1120
 	.no_dead_strip plt_System_Random__ctor
 plt_System_Random__ctor:
 _p_26:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1184]
 br x16
-.word 1113
+.word 1125
 	.no_dead_strip plt_ProjectDrunk_Globals_NormaalDeck_set_RanNum_System_Random
 plt_ProjectDrunk_Globals_NormaalDeck_set_RanNum_System_Random:
 _p_27:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1192]
 br x16
-.word 1116
+.word 1128
 	.no_dead_strip plt_ProjectDrunk_Globals_NormaalDeck_get_Deck
 plt_ProjectDrunk_Globals_NormaalDeck_get_Deck:
 _p_28:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1200]
 br x16
-.word 1121
+.word 1133
 	.no_dead_strip plt_ProjectDrunk_Globals_Kaart__ctor_string_int_string
 plt_ProjectDrunk_Globals_Kaart__ctor_string_int_string:
 _p_29:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1208]
 br x16
-.word 1126
+.word 1138
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_30:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1216]
 br x16
-.word 1131
+.word 1143
 	.no_dead_strip plt_ProjectDrunk_Globals_NormaalDeck_set_HuidigeKaart_int
 plt_ProjectDrunk_Globals_NormaalDeck_set_HuidigeKaart_int:
 _p_31:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1224]
 br x16
-.word 1166
+.word 1178
 	.no_dead_strip plt_ProjectDrunk_Globals_NormaalDeck_get_RanNum
 plt_ProjectDrunk_Globals_NormaalDeck_get_RanNum:
 _p_32:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1232]
 br x16
-.word 1171
+.word 1183
 	.no_dead_strip plt_ProjectDrunk_Globals_NormaalDeck_get_HuidigeKaart
 plt_ProjectDrunk_Globals_NormaalDeck_get_HuidigeKaart:
 _p_33:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1240]
 br x16
-.word 1176
+.word 1188
 	.no_dead_strip plt_ProjectDrunk_Globals_Spel_set_Naam_string
 plt_ProjectDrunk_Globals_Spel_set_Naam_string:
 _p_34:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1248]
 br x16
-.word 1181
+.word 1193
 	.no_dead_strip plt_ProjectDrunk_Globals_Spel_set_Uitleg_string
 plt_ProjectDrunk_Globals_Spel_set_Uitleg_string:
 _p_35:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1232]
-br x16
-.word 1186
-	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler
-plt_ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler:
-_p_36:
-adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1240]
-br x16
-.word 1191
-	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_set_Moeilijkheid_int
-plt_ProjectDrunk_DataLaag_SpelData_set_Moeilijkheid_int:
-_p_37:
-adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
-ldr x16, [x16, #1248]
-br x16
-.word 1196
-	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_set_RndmGetal_System_Random
-plt_ProjectDrunk_DataLaag_SpelData_set_RndmGetal_System_Random:
-_p_38:
-adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 1201
-	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte
-plt_ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte:
-_p_39:
+.word 1198
+	.no_dead_strip plt_System_EventArgs__ctor
+plt_System_EventArgs__ctor:
+_p_36:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 1206
-	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_get_HuidigeSpelerIndex
-plt_ProjectDrunk_DataLaag_SpelData_get_HuidigeSpelerIndex:
-_p_40:
+.word 1203
+	.no_dead_strip plt_ProjectDrunk_Globals_NewGameEvent_set_SpelNaam_string
+plt_ProjectDrunk_Globals_NewGameEvent_set_SpelNaam_string:
+_p_37:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 1211
-	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_get_Spelers
-plt_ProjectDrunk_DataLaag_SpelData_get_Spelers:
-_p_41:
+.word 1206
+	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler
+plt_ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler:
+_p_38:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 1216
-	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_get_Count
-plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_get_Count:
-_p_42:
+.word 1211
+	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_set_Moeilijkheid_int
+plt_ProjectDrunk_DataLaag_SpelData_set_Moeilijkheid_int:
+_p_39:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 1221
-	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_get_Item_int
-plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_get_Item_int:
-_p_43:
+.word 1216
+	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_set_RndmGetal_System_Random
+plt_ProjectDrunk_DataLaag_SpelData_set_RndmGetal_System_Random:
+_p_40:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 1232
-	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_get_RndmGetal
-plt_ProjectDrunk_DataLaag_SpelData_get_RndmGetal:
-_p_44:
+.word 1221
+	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte
+plt_ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte:
+_p_41:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 1243
-	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_Add_ProjectDrunk_Speler
-plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_Add_ProjectDrunk_Speler:
-_p_45:
+.word 1226
+	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_get_HuidigeSpelerIndex
+plt_ProjectDrunk_DataLaag_SpelData_get_HuidigeSpelerIndex:
+_p_42:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 1248
-	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_Remove_ProjectDrunk_Speler
-plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_Remove_ProjectDrunk_Speler:
-_p_46:
+.word 1231
+	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_get_Spelers
+plt_ProjectDrunk_DataLaag_SpelData_get_Spelers:
+_p_43:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 1259
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
-_p_47:
+.word 1236
+	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_get_Count
+plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_get_Count:
+_p_44:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 1294
-	.no_dead_strip plt__jit_icall_mono_generic_class_init
-plt__jit_icall_mono_generic_class_init:
-_p_48:
+.word 1241
+	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_get_Item_int
+plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_get_Item_int:
+_p_45:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 1302
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
-_p_49:
+.word 1252
+	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData_get_RndmGetal
+plt_ProjectDrunk_DataLaag_SpelData_get_RndmGetal:
+_p_46:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 1328
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
-_p_50:
+.word 1263
+	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_Add_ProjectDrunk_Speler
+plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_Add_ProjectDrunk_Speler:
+_p_47:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 1343
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-_p_51:
+.word 1268
+	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_Remove_ProjectDrunk_Speler
+plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_Remove_ProjectDrunk_Speler:
+_p_48:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 1351
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
-_p_52:
+.word 1279
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
+_p_49:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 1370
-	.no_dead_strip plt_Locale_GetText_string
-plt_Locale_GetText_string:
-_p_53:
+.word 1314
+	.no_dead_strip plt__jit_icall_mono_generic_class_init
+plt__jit_icall_mono_generic_class_init:
+_p_50:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 1399
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
-_p_54:
+.word 1322
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
+_p_51:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 1418
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
-_p_55:
+.word 1348
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
+_p_52:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 1440
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_56:
+.word 1363
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+_p_53:
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 1443
+.word 1371
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
+_p_54:
+adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
+ldr x16, [x16, #1408]
+br x16
+.word 1390
+	.no_dead_strip plt_Locale_GetText_string
+plt_Locale_GetText_string:
+_p_55:
+adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
+ldr x16, [x16, #1416]
+br x16
+.word 1419
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
+_p_56:
+adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
+ldr x16, [x16, #1424]
+br x16
+.word 1438
+	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_System_Array_Copy_System_Array_int_System_Array_int_int:
+_p_57:
+adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
+ldr x16, [x16, #1432]
+br x16
+.word 1460
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_58:
+adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
+ldr x16, [x16, #1440]
+br x16
+.word 1463
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_ProjectDrunk_got, 1408
+.lcomm mono_aot_ProjectDrunk_got, 1448
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -6585,7 +6764,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "36BE4A39-E230-4C48-9FCF-14270500E0F5"
+	.asciz "31F29A4A-E750-4816-A61B-D77C06A71171"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -6664,13 +6843,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 119,1408,57,75,70,391195135,0,8932
-	.long 128,8,8,9,0,25,10048,1104
-	.long 928,488,0,752,896,576,0,392
-	.long 120,1096,0,0,0,0,0,0
+	.long 122,1448,59,78,70,391195135,0,9143
+	.long 128,8,8,9,0,25,10280,1128
+	.long 952,496,0,776,920,592,0,400
+	.long 128,1120,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 208,218,245,168,158,147,18,129,123,213,63,97,84,82,40,169
+	.byte 156,206,164,6,223,243,181,241,232,168,91,127,156,10,178,154
 	.globl _mono_aot_module_ProjectDrunk_info
 	.align 3
 _mono_aot_module_ProjectDrunk_info:
@@ -8826,34 +9005,84 @@ LDIFF_SYM261=Lme_31 - ProjectDrunk_Globals_Spel__ctor_string_string
 Lfde42_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_15:
 
+	.byte 5
+	.asciz "System_EventArgs"
+
+	.byte 16,16
+LDIFF_SYM262=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM262
+	.byte 2,35,0,0,7
+	.asciz "System_EventArgs"
+
+LDIFF_SYM263=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM263
+LTDIE_15_POINTER:
+
+	.byte 13
+LDIFF_SYM264=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM264
+LTDIE_15_REFERENCE:
+
+	.byte 14
+LDIFF_SYM265=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM265
+LTDIE_14:
+
+	.byte 5
+	.asciz "ProjectDrunk_Globals_NewGameEvent"
+
+	.byte 24,16
+LDIFF_SYM266=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM266
+	.byte 2,35,0,6
+	.asciz "<SpelNaam>k__BackingField"
+
+LDIFF_SYM267=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM267
+	.byte 2,35,16,0,7
+	.asciz "ProjectDrunk_Globals_NewGameEvent"
+
+LDIFF_SYM268=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM268
+LTDIE_14_POINTER:
+
+	.byte 13
+LDIFF_SYM269=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM269
+LTDIE_14_REFERENCE:
+
+	.byte 14
+LDIFF_SYM270=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM270
 	.byte 2
-	.asciz "ProjectDrunk.DataLaag.SpelData:get_Spelers"
-	.asciz "ProjectDrunk_DataLaag_SpelData_get_Spelers"
+	.asciz "ProjectDrunk.Globals.NewGameEvent:get_SpelNaam"
+	.asciz "ProjectDrunk_Globals_NewGameEvent_get_SpelNaam"
 
-	.byte 6,9
-	.quad ProjectDrunk_DataLaag_SpelData_get_Spelers
+	.byte 6,6
+	.quad ProjectDrunk_Globals_NewGameEvent_get_SpelNaam
 	.quad Lme_32
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM262=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM262
+LDIFF_SYM271=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM271
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM263=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM263
+LDIFF_SYM272=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM272
 Lfde43_start:
 
 	.long 0
 	.align 3
-	.quad ProjectDrunk_DataLaag_SpelData_get_Spelers
+	.quad ProjectDrunk_Globals_NewGameEvent_get_SpelNaam
 
-LDIFF_SYM264=Lme_32 - ProjectDrunk_DataLaag_SpelData_get_Spelers
-	.long LDIFF_SYM264
+LDIFF_SYM273=Lme_32 - ProjectDrunk_Globals_NewGameEvent_get_SpelNaam
+	.long LDIFF_SYM273
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -8862,37 +9091,37 @@ Lfde43_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "ProjectDrunk.DataLaag.SpelData:set_Spelers"
-	.asciz "ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler"
+	.asciz "ProjectDrunk.Globals.NewGameEvent:set_SpelNaam"
+	.asciz "ProjectDrunk_Globals_NewGameEvent_set_SpelNaam_string"
 
-	.byte 6,9
-	.quad ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler
+	.byte 6,6
+	.quad ProjectDrunk_Globals_NewGameEvent_set_SpelNaam_string
 	.quad Lme_33
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM265=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM265
+LDIFF_SYM274=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM274
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM266=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM266
+LDIFF_SYM275=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM275
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM267=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM267
+LDIFF_SYM276=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM276
 Lfde44_start:
 
 	.long 0
 	.align 3
-	.quad ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler
+	.quad ProjectDrunk_Globals_NewGameEvent_set_SpelNaam_string
 
-LDIFF_SYM268=Lme_33 - ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler
-	.long LDIFF_SYM268
+LDIFF_SYM277=Lme_33 - ProjectDrunk_Globals_NewGameEvent_set_SpelNaam_string
+	.long LDIFF_SYM277
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -8901,36 +9130,148 @@ Lfde44_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "ProjectDrunk.DataLaag.SpelData:get_Moeilijkheid"
-	.asciz "ProjectDrunk_DataLaag_SpelData_get_Moeilijkheid"
+	.asciz "ProjectDrunk.Globals.NewGameEvent:.ctor"
+	.asciz "ProjectDrunk_Globals_NewGameEvent__ctor_string"
 
-	.byte 6,11
-	.quad ProjectDrunk_DataLaag_SpelData_get_Moeilijkheid
+	.byte 6,7
+	.quad ProjectDrunk_Globals_NewGameEvent__ctor_string
 	.quad Lme_34
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM269=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM269
+LDIFF_SYM278=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM278
+	.byte 1,105,3
+	.asciz "viewNaam"
+
+LDIFF_SYM279=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM279
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM280=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM280
+Lfde45_start:
+
+	.long 0
+	.align 3
+	.quad ProjectDrunk_Globals_NewGameEvent__ctor_string
+
+LDIFF_SYM281=Lme_34 - ProjectDrunk_Globals_NewGameEvent__ctor_string
+	.long LDIFF_SYM281
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.align 3
+Lfde45_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ProjectDrunk.DataLaag.SpelData:get_Spelers"
+	.asciz "ProjectDrunk_DataLaag_SpelData_get_Spelers"
+
+	.byte 7,9
+	.quad ProjectDrunk_DataLaag_SpelData_get_Spelers
+	.quad Lme_35
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM282=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM282
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM270=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM270
-Lfde45_start:
+LDIFF_SYM283=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM283
+Lfde46_start:
+
+	.long 0
+	.align 3
+	.quad ProjectDrunk_DataLaag_SpelData_get_Spelers
+
+LDIFF_SYM284=Lme_35 - ProjectDrunk_DataLaag_SpelData_get_Spelers
+	.long LDIFF_SYM284
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde46_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ProjectDrunk.DataLaag.SpelData:set_Spelers"
+	.asciz "ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler"
+
+	.byte 7,9
+	.quad ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler
+	.quad Lme_36
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM285=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM285
+	.byte 2,141,16,3
+	.asciz "value"
+
+LDIFF_SYM286=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM286
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM287=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM287
+Lfde47_start:
+
+	.long 0
+	.align 3
+	.quad ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler
+
+LDIFF_SYM288=Lme_36 - ProjectDrunk_DataLaag_SpelData_set_Spelers_System_Collections_Generic_List_1_ProjectDrunk_Speler
+	.long LDIFF_SYM288
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde47_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ProjectDrunk.DataLaag.SpelData:get_Moeilijkheid"
+	.asciz "ProjectDrunk_DataLaag_SpelData_get_Moeilijkheid"
+
+	.byte 7,11
+	.quad ProjectDrunk_DataLaag_SpelData_get_Moeilijkheid
+	.quad Lme_37
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM289=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM289
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM290=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM290
+Lfde48_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_DataLaag_SpelData_get_Moeilijkheid
 
-LDIFF_SYM271=Lme_34 - ProjectDrunk_DataLaag_SpelData_get_Moeilijkheid
-	.long LDIFF_SYM271
+LDIFF_SYM291=Lme_37 - ProjectDrunk_DataLaag_SpelData_get_Moeilijkheid
+	.long LDIFF_SYM291
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde45_end:
+Lfde48_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -8938,38 +9279,38 @@ Lfde45_end:
 	.asciz "ProjectDrunk.DataLaag.SpelData:set_Moeilijkheid"
 	.asciz "ProjectDrunk_DataLaag_SpelData_set_Moeilijkheid_int"
 
-	.byte 6,11
+	.byte 7,11
 	.quad ProjectDrunk_DataLaag_SpelData_set_Moeilijkheid_int
-	.quad Lme_35
+	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM272=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM272
+LDIFF_SYM292=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM292
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM273=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM273
+LDIFF_SYM293=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM293
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM274=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM274
-Lfde46_start:
+LDIFF_SYM294=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM294
+Lfde49_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_DataLaag_SpelData_set_Moeilijkheid_int
 
-LDIFF_SYM275=Lme_35 - ProjectDrunk_DataLaag_SpelData_set_Moeilijkheid_int
-	.long LDIFF_SYM275
+LDIFF_SYM295=Lme_38 - ProjectDrunk_DataLaag_SpelData_set_Moeilijkheid_int
+	.long LDIFF_SYM295
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde46_end:
+Lfde49_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -8977,33 +9318,33 @@ Lfde46_end:
 	.asciz "ProjectDrunk.DataLaag.SpelData:get_RndmGetal"
 	.asciz "ProjectDrunk_DataLaag_SpelData_get_RndmGetal"
 
-	.byte 6,13
+	.byte 7,13
 	.quad ProjectDrunk_DataLaag_SpelData_get_RndmGetal
-	.quad Lme_36
+	.quad Lme_39
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM276=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM276
+LDIFF_SYM296=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM296
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM277=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM277
-Lfde47_start:
+LDIFF_SYM297=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM297
+Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_DataLaag_SpelData_get_RndmGetal
 
-LDIFF_SYM278=Lme_36 - ProjectDrunk_DataLaag_SpelData_get_RndmGetal
-	.long LDIFF_SYM278
+LDIFF_SYM298=Lme_39 - ProjectDrunk_DataLaag_SpelData_get_RndmGetal
+	.long LDIFF_SYM298
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde47_end:
+Lfde50_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9011,38 +9352,38 @@ Lfde47_end:
 	.asciz "ProjectDrunk.DataLaag.SpelData:set_RndmGetal"
 	.asciz "ProjectDrunk_DataLaag_SpelData_set_RndmGetal_System_Random"
 
-	.byte 6,13
+	.byte 7,13
 	.quad ProjectDrunk_DataLaag_SpelData_set_RndmGetal_System_Random
-	.quad Lme_37
+	.quad Lme_3a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM279=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM279
+LDIFF_SYM299=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM299
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM280=LTDIE_8_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM280
+LDIFF_SYM300=LTDIE_8_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM300
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM281=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM281
-Lfde48_start:
+LDIFF_SYM301=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM301
+Lfde51_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_DataLaag_SpelData_set_RndmGetal_System_Random
 
-LDIFF_SYM282=Lme_37 - ProjectDrunk_DataLaag_SpelData_set_RndmGetal_System_Random
-	.long LDIFF_SYM282
+LDIFF_SYM302=Lme_3a - ProjectDrunk_DataLaag_SpelData_set_RndmGetal_System_Random
+	.long LDIFF_SYM302
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde48_end:
+Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9050,33 +9391,33 @@ Lfde48_end:
 	.asciz "ProjectDrunk.DataLaag.SpelData:get_HuidigeSpelerIndex"
 	.asciz "ProjectDrunk_DataLaag_SpelData_get_HuidigeSpelerIndex"
 
-	.byte 6,15
+	.byte 7,15
 	.quad ProjectDrunk_DataLaag_SpelData_get_HuidigeSpelerIndex
-	.quad Lme_38
+	.quad Lme_3b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM283=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM283
+LDIFF_SYM303=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM303
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM284=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM284
-Lfde49_start:
+LDIFF_SYM304=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM304
+Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_DataLaag_SpelData_get_HuidigeSpelerIndex
 
-LDIFF_SYM285=Lme_38 - ProjectDrunk_DataLaag_SpelData_get_HuidigeSpelerIndex
-	.long LDIFF_SYM285
+LDIFF_SYM305=Lme_3b - ProjectDrunk_DataLaag_SpelData_get_HuidigeSpelerIndex
+	.long LDIFF_SYM305
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde49_end:
+Lfde52_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9084,185 +9425,9 @@ Lfde49_end:
 	.asciz "ProjectDrunk.DataLaag.SpelData:set_HuidigeSpelerIndex"
 	.asciz "ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte"
 
-	.byte 6,15
+	.byte 7,15
 	.quad ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte
-	.quad Lme_39
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM286=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM286
-	.byte 2,141,16,3
-	.asciz "value"
-
-LDIFF_SYM287=LDIE_U1 - Ldebug_info_start
-	.long LDIFF_SYM287
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM288=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM288
-Lfde50_start:
-
-	.long 0
-	.align 3
-	.quad ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte
-
-LDIFF_SYM289=Lme_39 - ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte
-	.long LDIFF_SYM289
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde50_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "ProjectDrunk.DataLaag.SpelData:.ctor"
-	.asciz "ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler"
-
-	.byte 6,19
-	.quad ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler
-	.quad Lme_3a
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM290=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM290
-	.byte 1,104,3
-	.asciz "moeilijkheid"
-
-LDIFF_SYM291=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM291
-	.byte 2,141,24,3
-	.asciz "spelers"
-
-LDIFF_SYM292=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM292
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM293=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM293
-Lfde51_start:
-
-	.long 0
-	.align 3
-	.quad ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler
-
-LDIFF_SYM294=Lme_3a - ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler
-	.long LDIFF_SYM294
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8
-	.align 3
-Lfde51_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "ProjectDrunk.DataLaag.SpelData:VolgendeSpeler"
-	.asciz "ProjectDrunk_DataLaag_SpelData_VolgendeSpeler"
-
-	.byte 6,29
-	.quad ProjectDrunk_DataLaag_SpelData_VolgendeSpeler
-	.quad Lme_3b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM295=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM295
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM296=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM296
-	.byte 1,105,11
-	.asciz "V_1"
-
-LDIFF_SYM297=LDIE_U1 - Ldebug_info_start
-	.long LDIFF_SYM297
-	.byte 1,104,11
-	.asciz "V_2"
-
-LDIFF_SYM298=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM298
-	.byte 1,103,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM299=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM299
-Lfde52_start:
-
-	.long 0
-	.align 3
-	.quad ProjectDrunk_DataLaag_SpelData_VolgendeSpeler
-
-LDIFF_SYM300=Lme_3b - ProjectDrunk_DataLaag_SpelData_VolgendeSpeler
-	.long LDIFF_SYM300
-	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
-	.align 3
-Lfde52_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "ProjectDrunk.DataLaag.SpelData:GeefRandomSpeler"
-	.asciz "ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler"
-
-	.byte 6,39
-	.quad ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
 	.quad Lme_3c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM301=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM301
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM302=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM302
-	.byte 1,105,11
-	.asciz "V_1"
-
-LDIFF_SYM303=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM303
-	.byte 1,104,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM304=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM304
-Lfde53_start:
-
-	.long 0
-	.align 3
-	.quad ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
-
-LDIFF_SYM305=Lme_3c - ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
-	.long LDIFF_SYM305
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13,68,154,12
-	.align 3
-Lfde53_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "ProjectDrunk.DataLaag.SpelData:VoegSpelerToe"
-	.asciz "ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler"
-
-	.byte 6,45
-	.quad ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler
-	.quad Lme_3d
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -9270,28 +9435,204 @@ Lfde53_end:
 LDIFF_SYM306=LTDIE_4_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM306
 	.byte 2,141,16,3
-	.asciz "nieuwe"
+	.asciz "value"
 
-LDIFF_SYM307=LTDIE_0_REFERENCE - Ldebug_info_start
+LDIFF_SYM307=LDIE_U1 - Ldebug_info_start
 	.long LDIFF_SYM307
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM308=Lfde54_end - Lfde54_start
+LDIFF_SYM308=Lfde53_end - Lfde53_start
 	.long LDIFF_SYM308
+Lfde53_start:
+
+	.long 0
+	.align 3
+	.quad ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte
+
+LDIFF_SYM309=Lme_3c - ProjectDrunk_DataLaag_SpelData_set_HuidigeSpelerIndex_byte
+	.long LDIFF_SYM309
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde53_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ProjectDrunk.DataLaag.SpelData:.ctor"
+	.asciz "ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler"
+
+	.byte 7,19
+	.quad ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler
+	.quad Lme_3d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM310=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM310
+	.byte 1,104,3
+	.asciz "moeilijkheid"
+
+LDIFF_SYM311=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM311
+	.byte 2,141,24,3
+	.asciz "spelers"
+
+LDIFF_SYM312=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM312
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM313=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM313
 Lfde54_start:
+
+	.long 0
+	.align 3
+	.quad ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler
+
+LDIFF_SYM314=Lme_3d - ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler
+	.long LDIFF_SYM314
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8
+	.align 3
+Lfde54_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ProjectDrunk.DataLaag.SpelData:VolgendeSpeler"
+	.asciz "ProjectDrunk_DataLaag_SpelData_VolgendeSpeler"
+
+	.byte 7,29
+	.quad ProjectDrunk_DataLaag_SpelData_VolgendeSpeler
+	.quad Lme_3e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM315=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM315
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM316=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM316
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM317=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM317
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM318=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM318
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM319=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM319
+Lfde55_start:
+
+	.long 0
+	.align 3
+	.quad ProjectDrunk_DataLaag_SpelData_VolgendeSpeler
+
+LDIFF_SYM320=Lme_3e - ProjectDrunk_DataLaag_SpelData_VolgendeSpeler
+	.long LDIFF_SYM320
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
+	.align 3
+Lfde55_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ProjectDrunk.DataLaag.SpelData:GeefRandomSpeler"
+	.asciz "ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler"
+
+	.byte 7,39
+	.quad ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
+	.quad Lme_3f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM321=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM321
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM322=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM322
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM323=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM323
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM324=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM324
+Lfde56_start:
+
+	.long 0
+	.align 3
+	.quad ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
+
+LDIFF_SYM325=Lme_3f - ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
+	.long LDIFF_SYM325
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13,68,154,12
+	.align 3
+Lfde56_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "ProjectDrunk.DataLaag.SpelData:VoegSpelerToe"
+	.asciz "ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler"
+
+	.byte 7,45
+	.quad ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler
+	.quad Lme_40
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM326=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM326
+	.byte 2,141,16,3
+	.asciz "nieuwe"
+
+LDIFF_SYM327=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM327
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM328=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM328
+Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler
 
-LDIFF_SYM309=Lme_3d - ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler
-	.long LDIFF_SYM309
+LDIFF_SYM329=Lme_40 - ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler
+	.long LDIFF_SYM329
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde54_end:
+Lfde57_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9299,94 +9640,94 @@ Lfde54_end:
 	.asciz "ProjectDrunk.DataLaag.SpelData:VerwijderSpeler"
 	.asciz "ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler"
 
-	.byte 6,50
+	.byte 7,50
 	.quad ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler
-	.quad Lme_3e
+	.quad Lme_41
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM310=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM310
+LDIFF_SYM330=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM330
 	.byte 2,141,16,3
 	.asciz "oude"
 
-LDIFF_SYM311=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM311
+LDIFF_SYM331=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM331
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM312=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM312
-Lfde55_start:
+LDIFF_SYM332=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM332
+Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler
 
-LDIFF_SYM313=Lme_3e - ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler
-	.long LDIFF_SYM313
+LDIFF_SYM333=Lme_41 - ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler
+	.long LDIFF_SYM333
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde55_end:
+Lfde58_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_14:
+LTDIE_16:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM314=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM314
+LDIFF_SYM334=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM334
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM315=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM315
-LTDIE_14_POINTER:
+LDIFF_SYM335=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM335
+LTDIE_16_POINTER:
 
 	.byte 13
-LDIFF_SYM316=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM316
-LTDIE_14_REFERENCE:
+LDIFF_SYM336=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM336
+LTDIE_16_REFERENCE:
 
 	.byte 14
-LDIFF_SYM317=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM317
+LDIFF_SYM337=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM337
 	.byte 2
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_REF>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF"
 
-	.byte 7,71
+	.byte 8,71
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.quad Lme_40
+	.quad Lme_43
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM318=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM318
+LDIFF_SYM338=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM338
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM319=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM319
-Lfde56_start:
+LDIFF_SYM339=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM339
+Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM320=Lme_40 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM320
+LDIFF_SYM340=Lme_43 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM340
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde56_end:
+Lfde59_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9394,136 +9735,29 @@ Lfde56_end:
 	.asciz "System.Array:InternalArray__ICollection_get_Count"
 	.asciz "System_Array_InternalArray__ICollection_get_Count"
 
-	.byte 7,61
+	.byte 8,61
 	.quad System_Array_InternalArray__ICollection_get_Count
-	.quad Lme_41
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM321=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM321
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM322=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM322
-Lfde57_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_get_Count
-
-LDIFF_SYM323=Lme_41 - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM323
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde57_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_get_IsReadOnly"
-	.asciz "System_Array_InternalArray__ICollection_get_IsReadOnly"
-
-	.byte 7,66
-	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-	.quad Lme_42
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM324=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM324
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM325=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM325
-Lfde58_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-
-LDIFF_SYM326=Lme_42 - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM326
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde58_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Clear"
-	.asciz "System_Array_InternalArray__ICollection_Clear"
-
-	.byte 7,79
-	.quad System_Array_InternalArray__ICollection_Clear
-	.quad Lme_43
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM327=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM327
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM328=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM328
-Lfde59_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__ICollection_Clear
-
-LDIFF_SYM329=Lme_43 - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM329
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde59_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Add<T_REF>"
-	.asciz "System_Array_InternalArray__ICollection_Add_T_REF_T_REF"
-
-	.byte 7,84
-	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 	.quad Lme_44
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM330=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM330
-	.byte 2,141,16,3
-	.asciz "item"
-
-LDIFF_SYM331=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM331
-	.byte 2,141,24,0
+LDIFF_SYM341=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM341
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM332=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM332
+LDIFF_SYM342=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM342
 Lfde60_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.quad System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM333=Lme_44 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.long LDIFF_SYM333
+LDIFF_SYM343=Lme_44 - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM343
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -9532,41 +9766,148 @@ Lfde60_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array:InternalArray__ICollection_Remove<T_REF>"
-	.asciz "System_Array_InternalArray__ICollection_Remove_T_REF_T_REF"
+	.asciz "System.Array:InternalArray__ICollection_get_IsReadOnly"
+	.asciz "System_Array_InternalArray__ICollection_get_IsReadOnly"
 
-	.byte 7,89
-	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.byte 8,66
+	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
 	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM334=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM334
+LDIFF_SYM344=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM344
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM345=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM345
+Lfde61_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
+
+LDIFF_SYM346=Lme_45 - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM346
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde61_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__ICollection_Clear"
+	.asciz "System_Array_InternalArray__ICollection_Clear"
+
+	.byte 8,79
+	.quad System_Array_InternalArray__ICollection_Clear
+	.quad Lme_46
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM347=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM347
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM348=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM348
+Lfde62_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_InternalArray__ICollection_Clear
+
+LDIFF_SYM349=Lme_46 - System_Array_InternalArray__ICollection_Clear
+	.long LDIFF_SYM349
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde62_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__ICollection_Add<T_REF>"
+	.asciz "System_Array_InternalArray__ICollection_Add_T_REF_T_REF"
+
+	.byte 8,84
+	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.quad Lme_47
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM350=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM350
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM335=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM335
+LDIFF_SYM351=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM351
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM336=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM336
-Lfde61_start:
+LDIFF_SYM352=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM352
+Lfde63_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+
+LDIFF_SYM353=Lme_47 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.long LDIFF_SYM353
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde63_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__ICollection_Remove<T_REF>"
+	.asciz "System_Array_InternalArray__ICollection_Remove_T_REF_T_REF"
+
+	.byte 8,89
+	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.quad Lme_48
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM354=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM354
+	.byte 2,141,16,3
+	.asciz "item"
+
+LDIFF_SYM355=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM355
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM356=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM356
+Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 
-LDIFF_SYM337=Lme_45 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.long LDIFF_SYM337
+LDIFF_SYM357=Lme_48 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM357
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde61_end:
+Lfde64_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9574,53 +9915,53 @@ Lfde61_end:
 	.asciz "System.Array:InternalArray__ICollection_Contains<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_Contains_T_REF_T_REF"
 
-	.byte 7,94
+	.byte 8,94
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.quad Lme_46
+	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM338=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM338
+LDIFF_SYM358=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM358
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM339=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM339
+LDIFF_SYM359=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM359
 	.byte 2,141,40,11
 	.asciz "length"
 
-LDIFF_SYM340=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM340
+LDIFF_SYM360=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM360
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM341=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM341
+LDIFF_SYM361=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM361
 	.byte 1,104,11
 	.asciz "value"
 
-LDIFF_SYM342=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM342
+LDIFF_SYM362=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM362
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM343=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM343
-Lfde62_start:
+LDIFF_SYM363=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM363
+Lfde65_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM344=Lme_46 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM344
+LDIFF_SYM364=Lme_49 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM364
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
-Lfde62_end:
+Lfde65_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -9628,539 +9969,539 @@ Lfde62_end:
 	.asciz "System.Array:InternalArray__ICollection_CopyTo<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int"
 
-	.byte 7,119
+	.byte 8,119
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.quad Lme_47
+	.quad Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM345=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM345
+LDIFF_SYM365=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM365
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM346=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM346
+LDIFF_SYM366=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM366
 	.byte 2,141,40,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM347=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM347
+LDIFF_SYM367=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM367
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM348=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM348
-Lfde63_start:
+LDIFF_SYM368=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM368
+Lfde66_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM349=Lme_47 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM349
+LDIFF_SYM369=Lme_4a - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM369
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12
 	.align 3
-Lfde63_end:
+Lfde66_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_22:
+
+	.byte 5
+	.asciz "System_Reflection_MemberInfo"
+
+	.byte 16,16
+LDIFF_SYM370=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM370
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MemberInfo"
+
+LDIFF_SYM371=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM371
+LTDIE_22_POINTER:
+
+	.byte 13
+LDIFF_SYM372=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM372
+LTDIE_22_REFERENCE:
+
+	.byte 14
+LDIFF_SYM373=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM373
+LTDIE_21:
+
+	.byte 5
+	.asciz "System_Reflection_MethodBase"
+
+	.byte 16,16
+LDIFF_SYM374=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM374
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MethodBase"
+
+LDIFF_SYM375=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM375
+LTDIE_21_POINTER:
+
+	.byte 13
+LDIFF_SYM376=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM376
+LTDIE_21_REFERENCE:
+
+	.byte 14
+LDIFF_SYM377=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM377
 LTDIE_20:
 
 	.byte 5
-	.asciz "System_Reflection_MemberInfo"
+	.asciz "System_Reflection_MethodInfo"
 
 	.byte 16,16
-LDIFF_SYM350=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM350
+LDIFF_SYM378=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM378
 	.byte 2,35,0,0,7
-	.asciz "System_Reflection_MemberInfo"
+	.asciz "System_Reflection_MethodInfo"
 
-LDIFF_SYM351=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM351
+LDIFF_SYM379=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM379
 LTDIE_20_POINTER:
 
 	.byte 13
-LDIFF_SYM352=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM352
+LDIFF_SYM380=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM380
 LTDIE_20_REFERENCE:
 
 	.byte 14
-LDIFF_SYM353=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM353
-LTDIE_19:
-
-	.byte 5
-	.asciz "System_Reflection_MethodBase"
-
-	.byte 16,16
-LDIFF_SYM354=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM354
-	.byte 2,35,0,0,7
-	.asciz "System_Reflection_MethodBase"
-
-LDIFF_SYM355=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM355
-LTDIE_19_POINTER:
-
-	.byte 13
-LDIFF_SYM356=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM356
-LTDIE_19_REFERENCE:
-
-	.byte 14
-LDIFF_SYM357=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM357
-LTDIE_18:
-
-	.byte 5
-	.asciz "System_Reflection_MethodInfo"
-
-	.byte 16,16
-LDIFF_SYM358=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM358
-	.byte 2,35,0,0,7
-	.asciz "System_Reflection_MethodInfo"
-
-LDIFF_SYM359=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM359
-LTDIE_18_POINTER:
-
-	.byte 13
-LDIFF_SYM360=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM360
-LTDIE_18_REFERENCE:
-
-	.byte 14
-LDIFF_SYM361=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM361
-LTDIE_22:
+LDIFF_SYM381=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM381
+LTDIE_24:
 
 	.byte 5
 	.asciz "System_Type"
 
 	.byte 24,16
-LDIFF_SYM362=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM362
+LDIFF_SYM382=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM382
 	.byte 2,35,0,6
 	.asciz "_impl"
 
-LDIFF_SYM363=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM363
+LDIFF_SYM383=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM383
 	.byte 2,35,16,0,7
 	.asciz "System_Type"
 
-LDIFF_SYM364=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM364
-LTDIE_22_POINTER:
+LDIFF_SYM384=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM384
+LTDIE_24_POINTER:
 
 	.byte 13
-LDIFF_SYM365=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM365
-LTDIE_22_REFERENCE:
+LDIFF_SYM385=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM385
+LTDIE_24_REFERENCE:
 
 	.byte 14
-LDIFF_SYM366=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM366
-LTDIE_21:
+LDIFF_SYM386=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM386
+LTDIE_23:
 
 	.byte 5
 	.asciz "System_DelegateData"
 
 	.byte 32,16
-LDIFF_SYM367=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM367
+LDIFF_SYM387=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM387
 	.byte 2,35,0,6
 	.asciz "target_type"
 
-LDIFF_SYM368=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM368
+LDIFF_SYM388=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM388
 	.byte 2,35,16,6
 	.asciz "method_name"
 
-LDIFF_SYM369=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM369
+LDIFF_SYM389=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM389
 	.byte 2,35,24,0,7
 	.asciz "System_DelegateData"
 
-LDIFF_SYM370=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM370
-LTDIE_21_POINTER:
+LDIFF_SYM390=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM390
+LTDIE_23_POINTER:
 
 	.byte 13
-LDIFF_SYM371=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM371
-LTDIE_21_REFERENCE:
+LDIFF_SYM391=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM391
+LTDIE_23_REFERENCE:
 
 	.byte 14
-LDIFF_SYM372=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM372
-LTDIE_17:
+LDIFF_SYM392=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM392
+LTDIE_19:
 
 	.byte 5
 	.asciz "System_Delegate"
 
 	.byte 104,16
-LDIFF_SYM373=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM373
+LDIFF_SYM393=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM393
 	.byte 2,35,0,6
 	.asciz "method_ptr"
 
-LDIFF_SYM374=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM374
+LDIFF_SYM394=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM394
 	.byte 2,35,16,6
 	.asciz "invoke_impl"
 
-LDIFF_SYM375=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM375
+LDIFF_SYM395=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM395
 	.byte 2,35,24,6
 	.asciz "m_target"
 
-LDIFF_SYM376=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM376
+LDIFF_SYM396=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM396
 	.byte 2,35,32,6
 	.asciz "method"
 
-LDIFF_SYM377=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM377
+LDIFF_SYM397=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM397
 	.byte 2,35,40,6
 	.asciz "delegate_trampoline"
 
-LDIFF_SYM378=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM378
+LDIFF_SYM398=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM398
 	.byte 2,35,48,6
 	.asciz "extra_arg"
 
-LDIFF_SYM379=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM379
+LDIFF_SYM399=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM399
 	.byte 2,35,56,6
 	.asciz "method_code"
 
-LDIFF_SYM380=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM380
+LDIFF_SYM400=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM400
 	.byte 2,35,64,6
 	.asciz "method_info"
 
-LDIFF_SYM381=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM381
+LDIFF_SYM401=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM401
 	.byte 2,35,72,6
 	.asciz "original_method_info"
 
-LDIFF_SYM382=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM382
+LDIFF_SYM402=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM402
 	.byte 2,35,80,6
 	.asciz "data"
 
-LDIFF_SYM383=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM383
+LDIFF_SYM403=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM403
 	.byte 2,35,88,6
 	.asciz "method_is_virtual"
 
-LDIFF_SYM384=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM384
+LDIFF_SYM404=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM404
 	.byte 2,35,96,0,7
 	.asciz "System_Delegate"
 
-LDIFF_SYM385=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM385
-LTDIE_17_POINTER:
+LDIFF_SYM405=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM405
+LTDIE_19_POINTER:
 
 	.byte 13
-LDIFF_SYM386=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM386
-LTDIE_17_REFERENCE:
+LDIFF_SYM406=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM406
+LTDIE_19_REFERENCE:
 
 	.byte 14
-LDIFF_SYM387=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM387
-LTDIE_16:
+LDIFF_SYM407=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM407
+LTDIE_18:
 
 	.byte 5
 	.asciz "System_MulticastDelegate"
 
 	.byte 112,16
-LDIFF_SYM388=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM388
+LDIFF_SYM408=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM408
 	.byte 2,35,0,6
 	.asciz "delegates"
 
-LDIFF_SYM389=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM389
+LDIFF_SYM409=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM409
 	.byte 2,35,104,0,7
 	.asciz "System_MulticastDelegate"
 
-LDIFF_SYM390=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM390
-LTDIE_16_POINTER:
+LDIFF_SYM410=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM410
+LTDIE_18_POINTER:
 
 	.byte 13
-LDIFF_SYM391=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM391
-LTDIE_16_REFERENCE:
+LDIFF_SYM411=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM411
+LTDIE_18_REFERENCE:
 
 	.byte 14
-LDIFF_SYM392=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM392
-LTDIE_15:
+LDIFF_SYM412=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM412
+LTDIE_17:
 
 	.byte 5
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM393=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM393
+LDIFF_SYM413=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM413
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM394=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM394
-LTDIE_15_POINTER:
+LDIFF_SYM414=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM414
+LTDIE_17_POINTER:
 
 	.byte 13
-LDIFF_SYM395=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM395
-LTDIE_15_REFERENCE:
+LDIFF_SYM415=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM415
+LTDIE_17_REFERENCE:
 
 	.byte 14
-LDIFF_SYM396=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM396
+LDIFF_SYM416=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM416
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<ProjectDrunk.Speler>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler
-	.quad Lme_48
+	.quad Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM397=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM397
+LDIFF_SYM417=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM417
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM398=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM398
+LDIFF_SYM418=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM418
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM399=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM399
+LDIFF_SYM419=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM419
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM400=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM400
+LDIFF_SYM420=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM420
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM401=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM401
+LDIFF_SYM421=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM421
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM402=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM402
+LDIFF_SYM422=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM422
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM403=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM403
+LDIFF_SYM423=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM423
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM404=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM404
+LDIFF_SYM424=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM424
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM405=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM405
-Lfde64_start:
+LDIFF_SYM425=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM425
+Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler
 
-LDIFF_SYM406=Lme_48 - wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler
-	.long LDIFF_SYM406
+LDIFF_SYM426=Lme_4b - wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler
+	.long LDIFF_SYM426
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde64_end:
+Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_23:
+LTDIE_25:
 
 	.byte 5
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM407=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM407
+LDIFF_SYM427=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM427
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM408=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM408
-LTDIE_23_POINTER:
+LDIFF_SYM428=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM428
+LTDIE_25_POINTER:
 
 	.byte 13
-LDIFF_SYM409=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM409
-LTDIE_23_REFERENCE:
+LDIFF_SYM429=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM429
+LTDIE_25_REFERENCE:
 
 	.byte 14
-LDIFF_SYM410=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM410
+LDIFF_SYM430=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM430
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<ProjectDrunk.Speler>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler
-	.quad Lme_49
+	.quad Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM411=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM411
+LDIFF_SYM431=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM431
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM412=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM412
+LDIFF_SYM432=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM432
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM413=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM413
+LDIFF_SYM433=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM433
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM414=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM414
+LDIFF_SYM434=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM434
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM415=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM415
+LDIFF_SYM435=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM435
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM416=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM416
+LDIFF_SYM436=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM436
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM417=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM417
+LDIFF_SYM437=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM437
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM418=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM418
+LDIFF_SYM438=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM438
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM419=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM419
+LDIFF_SYM439=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM439
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM420=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM420
-Lfde65_start:
+LDIFF_SYM440=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM440
+Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler
 
-LDIFF_SYM421=Lme_49 - wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler
-	.long LDIFF_SYM421
+LDIFF_SYM441=Lme_4c - wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler
+	.long LDIFF_SYM441
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde65_end:
+Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_24:
+LTDIE_26:
 
 	.byte 5
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM422=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM422
+LDIFF_SYM442=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM442
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM423=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM423
+LDIFF_SYM443=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM443
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM424=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM424
+LDIFF_SYM444=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM444
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM425=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM425
-LTDIE_24_POINTER:
+LDIFF_SYM445=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM445
+LTDIE_26_POINTER:
 
 	.byte 13
-LDIFF_SYM426=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM426
-LTDIE_24_REFERENCE:
+LDIFF_SYM446=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM446
+LTDIE_26_REFERENCE:
 
 	.byte 14
-LDIFF_SYM427=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM427
+LDIFF_SYM447=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM447
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
-	.byte 7,218,1
+	.byte 8,218,1
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.quad Lme_4a
+	.quad Lme_4d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM428=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM428
+LDIFF_SYM448=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM448
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM429=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM429
+LDIFF_SYM449=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM449
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM430=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM430
-Lfde66_start:
+LDIFF_SYM450=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM450
+Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM431=Lme_4a - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM431
+LDIFF_SYM451=Lme_4d - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM451
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde66_end:
+Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
 

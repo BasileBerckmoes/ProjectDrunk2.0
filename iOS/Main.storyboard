@@ -179,68 +179,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIU-QT-SVB" misplaced="YES">
-                                <rect key="frame" x="150" y="130.5" width="76" height="32"/>
-                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
-                                <state key="normal" title="dont mind this">
-                                    <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="q6f-Rb-y4U" kind="show" id="809"/>
-                                </connections>
-                            </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Biy-jF-3aG">
-                                <rect key="frame" x="31" y="179.5" width="313" height="321.5"/>
+                                <rect key="frame" x="31" y="119" width="313" height="382"/>
                                 <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SpelCellID" id="RBN-Oq-dki" customClass="SpelCell">
-                                        <rect key="frame" x="0.0" y="28" width="313" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" reuseIdentifier="SpelCellID" rowHeight="70" id="RBN-Oq-dki" customClass="SpelCell">
+                                        <rect key="frame" x="0.0" y="28" width="313" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RBN-Oq-dki" id="PXa-py-GSZ">
-                                            <rect key="frame" x="0.0" y="0.0" width="313" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="313" height="70"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCL-mx-8yK">
-                                                    <rect key="frame" x="268" y="1" width="30" height="42"/>
-                                                    <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="26"/>
-                                                    <state key="normal" title="?"/>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12255">
-                                                    <rect key="frame" x="15" y="7" width="117" height="30"/>
-                                                    <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="19"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <connections>
-                                                        <action selector="BSpelNaam_TouchUpInside:" destination="RBN-Oq-dki" id="17936" eventType="touchUpInside"/>
-                                                    </connections>
-                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="LSpelNaam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ag-VH-5ND">
+                                                    <rect key="frame" x="10" y="11" width="288" height="26"/>
+                                                    <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="22"/>
+                                                    <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="LSpelInfo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHG-Bm-e61" horizontalCompressionResistancePriority="1" verticalHuggingPriority="249" numberOfLines="0">
+                                                    <rect key="frame" x="10" y="39" width="296" height="20"/>
+                                                    <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="tintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
-                                                <constraint firstItem="12255" firstAttribute="leading" secondItem="PXa-py-GSZ" secondAttribute="leading" constant="15" id="12256"/>
-                                                <constraint firstItem="12255" firstAttribute="top" secondItem="PXa-py-GSZ" secondAttribute="top" constant="7" id="12257"/>
-                                                <constraint firstItem="gCL-mx-8yK" firstAttribute="centerY" secondItem="PXa-py-GSZ" secondAttribute="centerY" id="8in-IZ-ur0"/>
-                                                <constraint firstAttribute="trailing" secondItem="gCL-mx-8yK" secondAttribute="trailing" constant="15" id="zP5-FI-AaS"/>
+                                                <constraint firstItem="8ag-VH-5ND" firstAttribute="top" secondItem="PXa-py-GSZ" secondAttribute="top" constant="11" id="5bz-7v-PLz"/>
+                                                <constraint firstItem="NHG-Bm-e61" firstAttribute="leading" secondItem="PXa-py-GSZ" secondAttribute="leading" constant="10" id="60g-9L-orR"/>
+                                                <constraint firstItem="NHG-Bm-e61" firstAttribute="top" secondItem="8ag-VH-5ND" secondAttribute="bottom" constant="2.5" id="A5v-Uu-QXV"/>
+                                                <constraint firstItem="8ag-VH-5ND" firstAttribute="leading" secondItem="PXa-py-GSZ" secondAttribute="leading" constant="10" id="J3u-Ge-lR2"/>
+                                                <constraint id="27712" firstItem="PXa-py-GSZ" firstAttribute="bottom" secondItem="NHG-Bm-e61" secondAttribute="bottom" constant="11"/>
+                                                <constraint id="28709" firstItem="PXa-py-GSZ" firstAttribute="trailing" secondItem="NHG-Bm-e61" secondAttribute="trailing" constant="7"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" button="YES"/>
                                         </accessibility>
                                         <connections>
-                                            <outlet property="BSpelInfo" destination="gCL-mx-8yK" id="name-outlet-gCL-mx-8yK"/>
-                                            <outlet property="BSpelNaam" destination="12255" id="name-outlet-12255"/>
+                                            <outlet property="LSpelInfo" destination="NHG-Bm-e61" id="name-outlet-NHG-Bm-e61"/>
+                                            <outlet property="LSpelNaam" destination="8ag-VH-5ND" id="name-outlet-8ag-VH-5ND"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Games" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="uTx-QD-TIG" misplaced="YES">
-                                <rect key="frame" x="103" y="36" width="169.5" height="54.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Games" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="uTx-QD-TIG">
+                                <rect key="frame" x="128.5" y="36" width="119" height="54.5"/>
                                 <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="47"/>
                                 <color key="textColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Buj-NJ-glh" misplaced="YES">
-                                <rect key="frame" x="16" y="36" width="49" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Buj-NJ-glh">
+                                <rect key="frame" x="16" y="36" width="74.5" height="42"/>
                                 <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="26"/>
                                 <state key="normal" title="&lt;">
                                     <color key="titleColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -249,31 +240,17 @@
                                     <action selector="BBack_TouchUpInside:" destination="vXk-rF-HFt" eventType="touchUpInside" id="6613"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwf-g5-uhF" misplaced="YES">
-                                <rect key="frame" x="148" y="98.5" width="78" height="32"/>
-                                <fontDescription key="fontDescription" name="AbadiMT-CondensedExtraBold" family="Abadi MT Condensed Extra Bold" pointSize="17"/>
-                                <state key="normal" title="Dont mind this">
-                                    <color key="titleColor" red="1" green="0.83137254901960789" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Mhf-bh-7n9" kind="show" id="hbc-JN-vKZ"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Biy-jF-3aG" secondAttribute="trailing" constant="31" id="19b-Fs-XLc"/>
                             <constraint firstItem="Buj-NJ-glh" firstAttribute="top" secondItem="Mb3-6p-ben" secondAttribute="bottom" constant="16" id="1iS-aW-qrk"/>
+                            <constraint firstItem="Biy-jF-3aG" firstAttribute="top" secondItem="uTx-QD-TIG" secondAttribute="bottom" constant="28.5" id="4qJ-oQ-XSr"/>
                             <constraint firstItem="uTx-QD-TIG" firstAttribute="leading" secondItem="Buj-NJ-glh" secondAttribute="trailing" constant="38" id="6Ow-vz-ztw"/>
                             <constraint firstItem="Biy-jF-3aG" firstAttribute="centerX" secondItem="q1b-pO-2GD" secondAttribute="centerX" id="C2z-15-cz1"/>
                             <constraint firstItem="V2m-rf-JW5" firstAttribute="top" secondItem="Biy-jF-3aG" secondAttribute="bottom" constant="166" id="DHI-9U-O92"/>
-                            <constraint firstItem="Iwf-g5-uhF" firstAttribute="centerX" secondItem="q1b-pO-2GD" secondAttribute="centerX" id="KNL-AS-hgW"/>
-                            <constraint firstItem="gIU-QT-SVB" firstAttribute="top" secondItem="Iwf-g5-uhF" secondAttribute="bottom" id="NO8-Uj-JVH"/>
                             <constraint firstItem="uTx-QD-TIG" firstAttribute="top" secondItem="Mb3-6p-ben" secondAttribute="bottom" constant="16" id="Xyz-Pp-bpT"/>
-                            <constraint firstItem="Iwf-g5-uhF" firstAttribute="top" secondItem="uTx-QD-TIG" secondAttribute="bottom" constant="8" id="jcX-NB-GW4"/>
-                            <constraint firstItem="Biy-jF-3aG" firstAttribute="top" secondItem="gIU-QT-SVB" secondAttribute="bottom" constant="17" id="nkg-Uc-Uea"/>
-                            <constraint firstItem="gIU-QT-SVB" firstAttribute="centerX" secondItem="q1b-pO-2GD" secondAttribute="centerX" id="ok9-Pt-8A2"/>
                             <constraint firstItem="uTx-QD-TIG" firstAttribute="centerX" secondItem="q1b-pO-2GD" secondAttribute="centerX" id="p5a-6F-F8X"/>
                             <constraint firstItem="Biy-jF-3aG" firstAttribute="leading" secondItem="q1b-pO-2GD" secondAttribute="leading" constant="31" id="pu2-3h-qii"/>
                             <constraint firstItem="Buj-NJ-glh" firstAttribute="leading" secondItem="q1b-pO-2GD" secondAttribute="leading" constant="16" id="vbB-7N-TlP"/>
@@ -282,16 +259,18 @@
                     <connections>
                         <outlet property="BBack" destination="Buj-NJ-glh" id="name-outlet-Buj-NJ-glh"/>
                         <outlet property="SpelTableView" destination="Biy-jF-3aG" id="name-outlet-Biy-jF-3aG"/>
+                        <segue destination="Mhf-bh-7n9" kind="show" id="21499" identifier="Hoger Lager"/>
+                        <segue destination="q6f-Rb-y4U" kind="show" identifier="Ring van Vuur" id="22241"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVN-Zs-xB7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1261.6" y="-101.1994"/>
         </scene>
-        <!--Hoger Lager View Controller-->
+        <!--Ring Of Fire View Controller-->
         <scene sceneID="OO9-xK-Day">
             <objects>
-                <viewController id="q6f-Rb-y4U" customClass="HogerLagerViewController" sceneMemberID="viewController">
+                <viewController id="q6f-Rb-y4U" customClass="RingOfFireViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y5p-jg-zBa"/>
                         <viewControllerLayoutGuide type="bottom" id="Oid-98-CRG"/>
@@ -299,20 +278,8 @@
                     <view key="view" contentMode="scaleToFill" id="94I-px-mCe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="811">
-                                <rect key="frame" x="166" y="323" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="LKaart" destination="811" id="name-outlet-811"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zC-kf-BTw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -321,7 +288,7 @@
         <!--Hoger Lager View Controller-->
         <scene sceneID="axX-k3-pqR">
             <objects>
-                <viewController id="Mhf-bh-7n9" customClass="HogerLagerViewController" sceneMemberID="viewController" storyboardIdentifier="A">
+                <viewController id="Mhf-bh-7n9" customClass="HogerLagerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s8b-MR-ath"/>
                         <viewControllerLayoutGuide type="bottom" id="cUR-4m-V63"/>

@@ -14,20 +14,47 @@ namespace ProjectDrunk.iOS
         public SpelData Data { get; private set; }
         public SpelTableViewSource Source { get; private set; }
 
+
+
         public GameSelection(IntPtr handle) : base(handle)
         {
             
         }
+
+        void HandleNewPage(object sender, EventArgs e)
+        {
+            NewGameEvent eventArgsString;
+            try
+            {
+                eventArgsString = (NewGameEvent)e;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("eventArgs object casting failed!! " + ex.Message);
+            }
+            PerformSegue(eventArgsString.SpelNaam, Self);
+        }
+
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
             List<Spel> games = new List<Spel>
             {
-                new Spel("Game 1", "Test uitleg"),
-                new Spel("Game 2", "Test uitleggggggggg")
+                new Spel("Hoger Lager", "Kan jij raden als de volgend kaart hoger of lager is? Zoja dan verhoog je de streak, zoniet moet je de streak opdrinken!"),
+                new Spel("Ring van Vuur", "Bij dit spel heeft iedere kaart een speciaale eigenschap, je kan in het spel...")
             };
             Source = new SpelTableViewSource(games);
+            Source.ToNewGame += HandleNewPage;
+            SpelTableView.RowHeight = UITableView.AutomaticDimension;
+            SpelTableView.EstimatedRowHeight = 40f;
             SpelTableView.Source = Source;
+            //for (int i = 0; i < Source.Games.Count; i ++){
+            //    int[] test = new int[2]; 
+            //    var nsindex =  NSIndexPath.Create(test);
+            //    SpelTableView.DeselectRow(nsindex.Row, true);
+            //}
+
+
        
             //SpelTableView.
            // Perform any additional setup after loading the view, typically from a nib.
@@ -51,12 +78,12 @@ namespace ProjectDrunk.iOS
 
 
         }
-        partial void BSpelNaam_TouchUpInside(UIKit.UIButton sender){
+        //partial void BSpelNaam_TouchUpInside(UIKit.UIButton sender){
 
-            var idOfView = "A"; //pretend this value comes from a array :D
-            var viewController = Storyboard.InstantiateViewController(idOfView);
-            Self.
-        }
+       //     var idOfView = "A"; //pretend this value comes from a array :D
+       //     var viewController = Storyboard.InstantiateViewController(idOfView);
+       //     Self.
+       // }
 
 
 		public override void PrepareForSegue(UIStoryboardSegue segue, Foundation.NSObject sender)
@@ -65,6 +92,8 @@ namespace ProjectDrunk.iOS
             if (segue.DestinationViewController is HogerLagerViewController GameHogerLager)
             {
                 GameHogerLager.SetSpelerData(Data);
+            } else if (segue.DestinationViewController is RingOfFireViewController ringOfFireViewController){
+                ringOfFireViewController.SetSpelerData(Data);
             }
         }
     }
