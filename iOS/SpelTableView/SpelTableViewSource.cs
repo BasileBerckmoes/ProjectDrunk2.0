@@ -34,8 +34,11 @@ namespace ProjectDrunk.iOS
 
         public override void RowSelected(UITableView tableView, NSIndexPath indexPath)
         {
+            
             String viewNaam = Games[indexPath.Row].Naam;
+            tableView.DeselectRow(indexPath, true);
             ToNewGame(this, new NewGameEvent(viewNaam));
+            //cell.Selected = false;
         }
 
         public Spel GetItem(int id)

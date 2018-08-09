@@ -1037,9 +1037,9 @@ bl _p_6
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a1
-.word 0xd2800e20
+.word 0xd2800e00
 .word 0xf2a04000
-.word 0xd2800e20
+.word 0xd2800e00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_7
@@ -1096,7 +1096,7 @@ bl _p_8
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801180
+.word 0xd2801160
 .word 0xaa1103e1
 bl _p_9
 
@@ -1106,52 +1106,46 @@ Lme_12:
 	.no_dead_strip ProjectDrunk_iOS_GameSelection_ViewDidLoad
 ProjectDrunk_iOS_GameSelection_ViewDidLoad:
 .loc 4 39 0 prologue_end
-.word 0xa9af7bfd
+.word 0xa9b17bfd
 .word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
+.word 0xa90163b7
+.word 0xa9026bb9
 .word 0xaa0003fa
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #368]
-.word 0xf9002bb0
+.word 0xf9001bb0
 .word 0xf9400a11
-.word 0xf9002fb1
+.word 0xf9001fb1
 .word 0xd2800019
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xf9402bb1
-.word 0xf9405631
+.word 0xf9401bb1
+.word 0xf9403e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fb1
+.word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9407631
+.word 0xf9401bb1
+.word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 4 40 0
-.word 0xf9402bb1
-.word 0xf9408631
+.word 0xf9401bb1
+.word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_10
-.word 0xf9402bb1
-.word 0xf940a231
+.word 0xf9401bb1
+.word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 4 41 0
-.word 0xf9402bb1
-.word 0xf940b231
+.word 0xf9401bb1
+.word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -1161,68 +1155,28 @@ ldr x0, [x16, #376]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_11
-.word 0xf90087a0
-bl _p_12
-.word 0xf9402bb1
-.word 0xf940e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94087a0
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xf90073a0
-.word 0xaa1403e0
-.word 0xf9007ba0
-
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #384]
-.word 0xf9007fa0
-
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #392]
-.word 0xf90083a0
-
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #400]
-.word 0xd2800401
-.word 0xd2800401
-bl _p_11
-.word 0xf9407fa1
-.word 0xf94083a2
 .word 0xf90077a0
-bl _p_13
-.word 0xf9402bb1
-.word 0xf9415231
+bl _p_12
+.word 0xf9401bb1
+.word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94077a1
-.word 0xf9407ba2
-.word 0xaa0203e0
-.word 0xf940005e
-bl _p_14
-.word 0xf9402bb1
-.word 0xf9417631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a0
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xf9005fa0
-.word 0xaa1303e0
-.word 0xf90067a0
-
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #408]
+.word 0xf94077a0
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xf90063a0
+.word 0xaa1803e0
 .word 0xf9006ba0
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #416]
+ldr x0, [x16, #384]
 .word 0xf9006fa0
+
+adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
+ldr x0, [x16, #392]
+.word 0xf90073a0
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
@@ -1230,69 +1184,109 @@ ldr x0, [x16, #400]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_11
-.word 0xf9406ba1
-.word 0xf9406fa2
-.word 0xf90063a0
+.word 0xf9406fa1
+.word 0xf94073a2
+.word 0xf90067a0
 bl _p_13
-.word 0xf9402bb1
-.word 0xf941e631
+.word 0xf9401bb1
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94063a1
-.word 0xf94067a2
+.word 0xf94067a1
+.word 0xf9406ba2
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_14
-.word 0xf9402bb1
-.word 0xf9420a31
+.word 0xf9401bb1
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9405fa0
+.word 0xf94063a0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xf9004fa0
+.word 0xaa1703e0
+.word 0xf90057a0
+
+adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
+ldr x0, [x16, #408]
+.word 0xf9005ba0
+
+adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
+ldr x0, [x16, #416]
+.word 0xf9005fa0
+
+adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
+ldr x0, [x16, #400]
+.word 0xd2800401
+.word 0xd2800401
+bl _p_11
+.word 0xf9405ba1
+.word 0xf9405fa2
+.word 0xf90053a0
+bl _p_13
+.word 0xf9401bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a1
+.word 0xf94057a2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_14
+.word 0xf9401bb1
+.word 0xf941f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
 .word 0xaa0003f9
 .loc 4 46 0
-.word 0xf9402bb1
-.word 0xf9422231
+.word 0xf9401bb1
+.word 0xf9420a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1903e0
-.word 0xf9005ba0
+.word 0xf9004ba0
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x0, [x16, #424]
 bl _p_15
-.word 0xf9405ba1
-.word 0xf90057a0
+.word 0xf9404ba1
+.word 0xf90047a0
 bl _p_16
-.word 0xf9402bb1
-.word 0xf9425a31
+.word 0xf9401bb1
+.word 0xf9424231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94057a1
+.word 0xf94047a1
 .word 0xaa1a03e0
 bl _p_17
-.word 0xf9402bb1
-.word 0xf9427631
+.word 0xf9401bb1
+.word 0xf9425e31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 4 47 0
-.word 0xf9402bb1
-.word 0xf9428631
+.word 0xf9401bb1
+.word 0xf9426e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_18
-.word 0xf90053a0
-.word 0xf9402bb1
-.word 0xf942a631
+.word 0xf90043a0
+.word 0xf9401bb1
+.word 0xf9428e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54002160
+.word 0x54001300
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
@@ -1301,10 +1295,10 @@ ldr x0, [x16, #432]
 .word 0xd2800e01
 bl _p_11
 .word 0xaa0003e1
-.word 0xf94053a2
+.word 0xf94043a2
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54001fa0
+.word 0x54001140
 .word 0xf900103a
 .word 0x91008020
 .word 0xd349fc00
@@ -1341,241 +1335,119 @@ ldr x0, [x16, #456]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_19
-.word 0xf9402bb1
-.word 0xf9437231
+.word 0xf9401bb1
+.word 0xf9435a31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 4 48 0
-.word 0xf9402bb1
-.word 0xf9438231
+.word 0xf9401bb1
+.word 0xf9436a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_20
-.word 0xf9004ba0
-.word 0xf9402bb1
-.word 0xf943a231
+.word 0xf9003ba0
+.word 0xf9401bb1
+.word 0xf9438a31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_21
-.word 0xfd004fa0
-.word 0xf9402bb1
-.word 0xf943ba31
+.word 0xfd003fa0
+.word 0xf9401bb1
+.word 0xf943a231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9404ba1
-.word 0xfd404fa0
+.word 0xf9403ba1
+.word 0xfd403fa0
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf940e030
 .word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf943e231
+.word 0xf9401bb1
+.word 0xf943ca31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 4 49 0
-.word 0xf9402bb1
-.word 0xf943f231
+.word 0xf9401bb1
+.word 0xf943da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_20
-.word 0xf90043a0
-.word 0xf9402bb1
-.word 0xf9441231
+.word 0xf90033a0
+.word 0xf9401bb1
+.word 0xf943fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280001e
 .word 0xf2a8441e
 .word 0x9e6703c0
 .word 0x1e22c000
-.word 0xfd0047a0
-.word 0xf9402bb1
-.word 0xf9443631
+.word 0xfd0037a0
+.word 0xf9401bb1
+.word 0xf9441e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94043a1
-.word 0xfd4047a0
+.word 0xf94033a1
+.word 0xfd4037a0
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf940e430
 .word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf9445e31
+.word 0xf9401bb1
+.word 0xf9444631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 4 50 0
-.word 0xf9402bb1
-.word 0xf9446e31
+.word 0xf9401bb1
+.word 0xf9445631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_20
-.word 0xf9003fa0
-.word 0xf9402bb1
-.word 0xf9448e31
+.word 0xf9002fa0
+.word 0xf9401bb1
+.word 0xf9447631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_18
-.word 0xf9003ba0
-.word 0xf9402bb1
-.word 0xf944ae31
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf9449631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9403ba1
-.word 0xf9403fa2
+.word 0xf9402ba1
+.word 0xf9402fa2
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_22
-.word 0xf9402bb1
-.word 0xf944d231
+.word 0xf9401bb1
+.word 0xf944ba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 4 51 0
-.word 0xf9402bb1
-.word 0xf944e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800018
-.word 0x14000041
-.word 0xf9402bb1
-.word 0xf944fa31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 4 52 0
-.word 0xf9402bb1
-.word 0xf9450a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #464]
-.word 0xaa1803e1
-bl _p_23
-.word 0xaa0003f7
-.loc 4 53 0
-.word 0xf9402bb1
-.word 0xf9453631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1703e0
-bl _p_24
-.word 0xf9003fa0
-.word 0xf9402bb1
-.word 0xf9455631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403fa0
-.word 0xaa0003f6
-.loc 4 54 0
-.word 0xf9402bb1
-.word 0xf9456e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_20
-.word 0xf9003ba0
-.word 0xf9402bb1
-.word 0xf9458e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba3
-.word 0xaa1603e1
-.word 0xd2800020
-.word 0xaa0303e0
-.word 0xd2800022
-.word 0xf9400063
-.word 0xf940ec70
-.word 0xd63f0200
-.word 0xf9402bb1
-.word 0xf945be31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 4 55 0
-.word 0xf9402bb1
-.word 0xf945ce31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 4 51 0
-.word 0xf9402bb1
-.word 0xf945de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xf9402fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9460a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_18
-.word 0xf90043a0
-.word 0xf9402bb1
-.word 0xf9462e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_25
-.word 0xf9003fa0
-.word 0xf9402bb1
-.word 0xf9465231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403fa1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_26
-.word 0x93407c00
-.word 0xf9003ba0
-.word 0xf9402bb1
-.word 0xf9467a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0x6b00031f
-.word 0x9a9fa7e0
-.word 0x53001c00
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0x35fff2c0
 .loc 4 61 0
-.word 0xf9402bb1
-.word 0xf946a631
+.word 0xf9401bb1
+.word 0xf944ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf946b631
+.word 0xf9401bb1
+.word 0xf944da31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
+.word 0xa94163b7
+.word 0xa9426bb9
 .word 0x910003bf
-.word 0xa8d17bfd
+.word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd2801340
+.word 0xd2801320
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2800940
+.word 0xd2800920
 .word 0xaa1103e1
 bl _p_9
 
@@ -1592,7 +1464,7 @@ ProjectDrunk_iOS_GameSelection_SetSpelerData_ProjectDrunk_DataLaag_SpelData:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #464]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -1615,7 +1487,7 @@ ldr x16, [x16, #472]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_27
+bl _p_23
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -1645,7 +1517,7 @@ ProjectDrunk_iOS_GameSelection_DidReceiveMemoryWarning:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #472]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1667,7 +1539,7 @@ ldr x16, [x16, #480]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_28
+bl _p_24
 .word 0xf9400fb1
 .word 0xf9407a31
 .word 0xb4000051
@@ -1703,7 +1575,7 @@ ProjectDrunk_iOS_GameSelection_PrepareForSegue_UIKit_UIStoryboardSegue_Foundatio
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #480]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -1732,7 +1604,7 @@ ldr x16, [x16, #488]
 .word 0xaa1903e1
 .word 0xf9402ba2
 .word 0xaa1903e1
-bl _p_29
+bl _p_25
 .word 0xf9402fb1
 .word 0xf940ae31
 .word 0xb4000051
@@ -1762,7 +1634,7 @@ bl _p_29
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #496]
+ldr x1, [x16, #488]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xf9003bbf
@@ -1790,7 +1662,7 @@ ldr x1, [x16, #496]
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xf94027a0
-bl _p_30
+bl _p_26
 .word 0xf9004ba0
 .word 0xf9402fb1
 .word 0xf9418a31
@@ -1799,7 +1671,7 @@ bl _p_30
 .word 0xf9404ba1
 .word 0xaa1703e0
 .word 0xf94002fe
-bl _p_31
+bl _p_27
 .word 0xf9402fb1
 .word 0xf941aa31
 .word 0xb4000051
@@ -1834,7 +1706,7 @@ bl _p_31
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #504]
+ldr x1, [x16, #496]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xf90043bf
@@ -1861,7 +1733,7 @@ ldr x1, [x16, #504]
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xf94027a0
-bl _p_30
+bl _p_26
 .word 0xf9004ba0
 .word 0xf9402fb1
 .word 0xf9429a31
@@ -1870,7 +1742,7 @@ bl _p_30
 .word 0xf9404ba1
 .word 0xaa1503e0
 .word 0xf94002be
-bl _p_32
+bl _p_28
 .word 0xf9402fb1
 .word 0xf942ba31
 .word 0xb4000051
@@ -1914,7 +1786,7 @@ ProjectDrunk_iOS_GameSelection_get_BBack:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #504]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1953,7 +1825,7 @@ ProjectDrunk_iOS_GameSelection_set_BBack_UIKit_UIButton:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #512]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -2004,7 +1876,7 @@ ProjectDrunk_iOS_GameSelection_get_SpelTableView:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #520]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2043,7 +1915,7 @@ ProjectDrunk_iOS_GameSelection_set_SpelTableView_UIKit_UITableView:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #528]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -2095,7 +1967,7 @@ ProjectDrunk_iOS_GameSelection_BBack_TouchUpInside_UIKit_UIButton:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #544]
+ldr x16, [x16, #536]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -2164,7 +2036,7 @@ ProjectDrunk_iOS_GameSelection_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #544]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -2189,7 +2061,7 @@ ldr x16, [x16, #552]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_33
+bl _p_29
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9409231
@@ -2214,7 +2086,7 @@ bl _p_33
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_33
+bl _p_29
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf940f231
@@ -2223,7 +2095,7 @@ bl _p_33
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf94017b1
 .word 0xf9411231
 .word 0xb4000051
@@ -2237,7 +2109,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_35
+bl _p_31
 .word 0xf94017b1
 .word 0xf9414631
 .word 0xb4000051
@@ -2292,7 +2164,7 @@ bl _p_20
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf94017b1
 .word 0xf9421631
 .word 0xb4000051
@@ -2306,7 +2178,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_36
+bl _p_32
 .word 0xf94017b1
 .word 0xf9424a31
 .word 0xb4000051
@@ -2348,7 +2220,7 @@ ProjectDrunk_iOS_HogerLagerViewController_get_Spel:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #552]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2387,7 +2259,7 @@ ProjectDrunk_iOS_HogerLagerViewController_set_Spel_ProjectDrunk_LogischeLaag_Hog
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #560]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -2439,7 +2311,7 @@ ProjectDrunk_iOS_HogerLagerViewController__ctor_intptr:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #576]
+ldr x16, [x16, #568]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -2493,7 +2365,7 @@ ProjectDrunk_iOS_HogerLagerViewController_ViewDidLoad:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #576]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2528,7 +2400,7 @@ bl _p_10
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_37
+bl _p_33
 .word 0xf9400fb1
 .word 0xf940ae31
 .word 0xb4000051
@@ -2560,7 +2432,7 @@ ProjectDrunk_iOS_HogerLagerViewController_WerkLabelsBij:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #584]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2584,7 +2456,7 @@ ldr x16, [x16, #592]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_38
+bl _p_34
 .word 0xf90047a0
 .word 0xf9400fb1
 .word 0xf9408a31
@@ -2592,7 +2464,7 @@ bl _p_38
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_39
+bl _p_35
 .word 0xf9004fa0
 .word 0xf9400fb1
 .word 0xf940aa31
@@ -2601,7 +2473,7 @@ bl _p_39
 .word 0xf9404fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_40
+bl _p_36
 .word 0xf9004ba0
 .word 0xf9400fb1
 .word 0xf940ce31
@@ -2610,7 +2482,7 @@ bl _p_40
 .word 0xf9404ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_41
+bl _p_37
 .word 0xf90043a0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -2633,7 +2505,7 @@ bl _p_41
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_42
+bl _p_38
 .word 0xf90037a0
 .word 0xf9400fb1
 .word 0xf9414a31
@@ -2641,7 +2513,7 @@ bl _p_42
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_39
+bl _p_35
 .word 0xf9003fa0
 .word 0xf9400fb1
 .word 0xf9416a31
@@ -2650,7 +2522,7 @@ bl _p_39
 .word 0xf9403fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_43
+bl _p_39
 .word 0x93407c00
 .word 0xf9003ba0
 .word 0xf9400fb1
@@ -2660,7 +2532,7 @@ bl _p_43
 .word 0xf9403ba0
 .word 0xb90033a0
 .word 0x9100c3a0
-bl _p_44
+bl _p_40
 .word 0xf90033a0
 .word 0xf9400fb1
 .word 0xf941b631
@@ -2683,7 +2555,7 @@ bl _p_44
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_45
+bl _p_41
 .word 0xf90027a0
 .word 0xf9400fb1
 .word 0xf9420e31
@@ -2691,7 +2563,7 @@ bl _p_45
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_39
+bl _p_35
 .word 0xf9002fa0
 .word 0xf9400fb1
 .word 0xf9422e31
@@ -2700,7 +2572,7 @@ bl _p_39
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_46
+bl _p_42
 .word 0xf9002ba0
 .word 0xf9400fb1
 .word 0xf9425231
@@ -2709,7 +2581,7 @@ bl _p_46
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_47
+bl _p_43
 .word 0xf90023a0
 .word 0xf9400fb1
 .word 0xf9427631
@@ -2752,7 +2624,7 @@ ProjectDrunk_iOS_HogerLagerViewController_SetSpelerData_ProjectDrunk_DataLaag_Sp
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #592]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -2780,20 +2652,20 @@ ldr x16, [x16, #600]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #608]
+ldr x0, [x16, #600]
 .word 0xd2800701
 .word 0xd2800701
 bl _p_11
 .word 0xf9402ba1
 .word 0xf90027a0
-bl _p_48
+bl _p_44
 .word 0xf94013b1
 .word 0xf940aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf94027a1
-bl _p_49
+bl _p_45
 .word 0xf94013b1
 .word 0xf940c631
 .word 0xb4000051
@@ -2825,7 +2697,7 @@ ProjectDrunk_iOS_HogerLagerViewController_ShowErrorMessage:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #608]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -2850,10 +2722,10 @@ ldr x16, [x16, #616]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #616]
 bl _p_15
 .word 0xf9005ba0
-bl _p_50
+bl _p_46
 .word 0xf9401bb1
 .word 0xf9409631
 .word 0xb4000051
@@ -2866,7 +2738,7 @@ bl _p_50
 .word 0xf9004fa0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_39
+bl _p_35
 .word 0xf90057a0
 .word 0xf9401bb1
 .word 0xf940ce31
@@ -2875,7 +2747,7 @@ bl _p_39
 .word 0xf94057a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_40
+bl _p_36
 .word 0xf90053a0
 .word 0xf9401bb1
 .word 0xf940f231
@@ -2884,7 +2756,7 @@ bl _p_40
 .word 0xf94053a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_41
+bl _p_37
 .word 0xf9004ba0
 .word 0xf9401bb1
 .word 0xf9411631
@@ -2909,11 +2781,11 @@ bl _p_41
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #632]
+ldr x0, [x16, #624]
 .word 0xf9003ba0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_39
+bl _p_35
 .word 0xf90043a0
 .word 0xf9401bb1
 .word 0xf9418631
@@ -2922,7 +2794,7 @@ bl _p_39
 .word 0xf94043a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_43
+bl _p_39
 .word 0x93407c00
 .word 0xf9003fa0
 .word 0xf9401bb1
@@ -2932,7 +2804,7 @@ bl _p_43
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #632]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_11
@@ -2943,8 +2815,8 @@ bl _p_11
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x2, [x16, #648]
-bl _p_51
+ldr x2, [x16, #640]
+bl _p_47
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf941fa31
@@ -2971,7 +2843,7 @@ bl _p_51
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #656]
+ldr x1, [x16, #648]
 .word 0xaa1903e0
 .word 0xf9400322
 .word 0xf940ec50
@@ -3008,7 +2880,7 @@ ldr x1, [x16, #656]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #664]
+ldr x0, [x16, #656]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_11
@@ -3033,17 +2905,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #664]
 .word 0xf9001420
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #680]
+ldr x0, [x16, #672]
 .word 0xf9002020
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #688]
+ldr x0, [x16, #680]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -3052,7 +2924,7 @@ ldr x0, [x16, #688]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_52
+bl _p_48
 .word 0xf9401bb1
 .word 0xf9438231
 .word 0xb4000051
@@ -3071,10 +2943,10 @@ bl _p_52
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801340
+.word 0xd2801320
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2800940
+.word 0xd2800920
 .word 0xaa1103e1
 bl _p_9
 
@@ -3092,7 +2964,7 @@ ProjectDrunk_iOS_HogerLagerViewController_Alert_Dismissed_object_UIKit_UIButtonE
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #688]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -3133,7 +3005,7 @@ ProjectDrunk_iOS_HogerLagerViewController_DidReceiveMemoryWarning:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #696]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3155,7 +3027,7 @@ ldr x16, [x16, #704]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_28
+bl _p_24
 .word 0xf9400fb1
 .word 0xf9407a31
 .word 0xb4000051
@@ -3186,7 +3058,7 @@ ProjectDrunk_iOS_HogerLagerViewController_get_BHoger:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #704]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3225,7 +3097,7 @@ ProjectDrunk_iOS_HogerLagerViewController_set_BHoger_UIKit_UIButton:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #712]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3276,7 +3148,7 @@ ProjectDrunk_iOS_HogerLagerViewController_get_BLager:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #720]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3315,7 +3187,7 @@ ProjectDrunk_iOS_HogerLagerViewController_set_BLager_UIKit_UIButton:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #728]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3366,7 +3238,7 @@ ProjectDrunk_iOS_HogerLagerViewController_get_LInfo:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #736]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3405,7 +3277,7 @@ ProjectDrunk_iOS_HogerLagerViewController_set_LInfo_UIKit_UILabel:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #744]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3456,7 +3328,7 @@ ProjectDrunk_iOS_HogerLagerViewController_get_LInfo2:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #752]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3495,7 +3367,7 @@ ProjectDrunk_iOS_HogerLagerViewController_set_LInfo2_UIKit_UILabel:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #760]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3546,7 +3418,7 @@ ProjectDrunk_iOS_HogerLagerViewController_get_LKaart:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #768]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3585,7 +3457,7 @@ ProjectDrunk_iOS_HogerLagerViewController_set_LKaart_UIKit_UILabel:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #776]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3636,7 +3508,7 @@ ProjectDrunk_iOS_HogerLagerViewController_get_LPunten:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #784]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3675,7 +3547,7 @@ ProjectDrunk_iOS_HogerLagerViewController_set_LPunten_UIKit_UILabel:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #792]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3726,7 +3598,7 @@ ProjectDrunk_iOS_HogerLagerViewController_get_LSpeler:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #800]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3765,7 +3637,7 @@ ProjectDrunk_iOS_HogerLagerViewController_set_LSpeler_UIKit_UILabel:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #808]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3818,7 +3690,7 @@ ProjectDrunk_iOS_HogerLagerViewController_GokHoger_UIKit_UIButton:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #816]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -3850,7 +3722,7 @@ ldr x16, [x16, #824]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_39
+bl _p_35
 .word 0xf9003fa0
 .word 0xf94017b1
 .word 0xf940aa31
@@ -3859,7 +3731,7 @@ bl _p_39
 .word 0xf9403fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_53
+bl _p_49
 .word 0x53001c00
 .word 0xf9003ba0
 .word 0xf94017b1
@@ -3886,7 +3758,7 @@ bl _p_53
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_39
+bl _p_35
 .word 0xf9003ba0
 .word 0xf94017b1
 .word 0xf9413231
@@ -3895,7 +3767,7 @@ bl _p_39
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_54
+bl _p_50
 .word 0xf94017b1
 .word 0xf9415231
 .word 0xb4000051
@@ -3921,7 +3793,7 @@ bl _p_54
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_55
+bl _p_51
 .word 0xf94017b1
 .word 0xf941ae31
 .word 0xb4000051
@@ -3932,7 +3804,7 @@ bl _p_55
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_39
+bl _p_35
 .word 0xf9003ba0
 .word 0xf94017b1
 .word 0xf941da31
@@ -3941,7 +3813,7 @@ bl _p_39
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_56
+bl _p_52
 .word 0xf94017b1
 .word 0xf941fa31
 .word 0xb4000051
@@ -3961,7 +3833,7 @@ bl _p_56
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_37
+bl _p_33
 .word 0xf94017b1
 .word 0xf9424231
 .word 0xb4000051
@@ -4015,7 +3887,7 @@ bl _p_37
 .word 0xf942f231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_57
+bl _p_53
 .word 0xf90033a0
 .word 0xf94033a0
 .word 0xb4000060
@@ -4054,7 +3926,7 @@ ProjectDrunk_iOS_HogerLagerViewController_GokLager_UIKit_UIButton:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #824]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4086,7 +3958,7 @@ ldr x16, [x16, #832]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_39
+bl _p_35
 .word 0xf9003fa0
 .word 0xf94017b1
 .word 0xf940aa31
@@ -4095,7 +3967,7 @@ bl _p_39
 .word 0xf9403fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_58
+bl _p_54
 .word 0x53001c00
 .word 0xf9003ba0
 .word 0xf94017b1
@@ -4122,7 +3994,7 @@ bl _p_58
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_39
+bl _p_35
 .word 0xf9003ba0
 .word 0xf94017b1
 .word 0xf9413231
@@ -4131,7 +4003,7 @@ bl _p_39
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_54
+bl _p_50
 .word 0xf94017b1
 .word 0xf9415231
 .word 0xb4000051
@@ -4157,7 +4029,7 @@ bl _p_54
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_55
+bl _p_51
 .word 0xf94017b1
 .word 0xf941ae31
 .word 0xb4000051
@@ -4168,7 +4040,7 @@ bl _p_55
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_39
+bl _p_35
 .word 0xf9003ba0
 .word 0xf94017b1
 .word 0xf941da31
@@ -4177,7 +4049,7 @@ bl _p_39
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_56
+bl _p_52
 .word 0xf94017b1
 .word 0xf941fa31
 .word 0xb4000051
@@ -4197,7 +4069,7 @@ bl _p_56
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_37
+bl _p_33
 .word 0xf94017b1
 .word 0xf9424231
 .word 0xb4000051
@@ -4251,7 +4123,7 @@ bl _p_37
 .word 0xf942f231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_57
+bl _p_53
 .word 0xf90033a0
 .word 0xf94033a0
 .word 0xb4000060
@@ -4292,7 +4164,7 @@ ProjectDrunk_iOS_HogerLagerViewController_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #832]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4322,7 +4194,7 @@ ldr x16, [x16, #840]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_59
+bl _p_55
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf940ae31
@@ -4347,7 +4219,7 @@ bl _p_59
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_59
+bl _p_55
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf9410e31
@@ -4356,7 +4228,7 @@ bl _p_59
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf9402bb1
 .word 0xf9412e31
 .word 0xb4000051
@@ -4370,7 +4242,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_60
+bl _p_56
 .word 0xf9402bb1
 .word 0xf9416231
 .word 0xb4000051
@@ -4391,7 +4263,7 @@ bl _p_60
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_61
+bl _p_57
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf941b231
@@ -4416,7 +4288,7 @@ bl _p_61
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_61
+bl _p_57
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf9421231
@@ -4425,7 +4297,7 @@ bl _p_61
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf9402bb1
 .word 0xf9423231
 .word 0xb4000051
@@ -4439,7 +4311,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_62
+bl _p_58
 .word 0xf9402bb1
 .word 0xf9426631
 .word 0xb4000051
@@ -4460,7 +4332,7 @@ bl _p_62
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_63
+bl _p_59
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf942b631
@@ -4485,7 +4357,7 @@ bl _p_63
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_63
+bl _p_59
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf9431631
@@ -4494,7 +4366,7 @@ bl _p_63
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf9402bb1
 .word 0xf9433631
 .word 0xb4000051
@@ -4508,7 +4380,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_64
+bl _p_60
 .word 0xf9402bb1
 .word 0xf9436a31
 .word 0xb4000051
@@ -4529,7 +4401,7 @@ bl _p_64
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_65
+bl _p_61
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf943ba31
@@ -4554,7 +4426,7 @@ bl _p_65
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_65
+bl _p_61
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf9441a31
@@ -4563,7 +4435,7 @@ bl _p_65
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf9402bb1
 .word 0xf9443a31
 .word 0xb4000051
@@ -4577,7 +4449,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_66
+bl _p_62
 .word 0xf9402bb1
 .word 0xf9446e31
 .word 0xb4000051
@@ -4598,7 +4470,7 @@ bl _p_66
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_45
+bl _p_41
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf944be31
@@ -4623,7 +4495,7 @@ bl _p_45
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_45
+bl _p_41
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf9451e31
@@ -4632,7 +4504,7 @@ bl _p_45
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf9402bb1
 .word 0xf9453e31
 .word 0xb4000051
@@ -4646,7 +4518,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_67
+bl _p_63
 .word 0xf9402bb1
 .word 0xf9457231
 .word 0xb4000051
@@ -4667,7 +4539,7 @@ bl _p_67
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_42
+bl _p_38
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf945c231
@@ -4692,7 +4564,7 @@ bl _p_42
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_42
+bl _p_38
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf9462231
@@ -4701,7 +4573,7 @@ bl _p_42
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf9402bb1
 .word 0xf9464231
 .word 0xb4000051
@@ -4715,7 +4587,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_68
+bl _p_64
 .word 0xf9402bb1
 .word 0xf9467631
 .word 0xb4000051
@@ -4736,7 +4608,7 @@ bl _p_68
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_38
+bl _p_34
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf946c631
@@ -4761,7 +4633,7 @@ bl _p_38
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_38
+bl _p_34
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf9472631
@@ -4770,7 +4642,7 @@ bl _p_38
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf9402bb1
 .word 0xf9474631
 .word 0xb4000051
@@ -4784,7 +4656,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_69
+bl _p_65
 .word 0xf9402bb1
 .word 0xf9477a31
 .word 0xb4000051
@@ -4828,7 +4700,7 @@ ProjectDrunk_iOS_ViewController_get_TableData:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #840]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4867,7 +4739,7 @@ ProjectDrunk_iOS_ViewController_set_TableData_ProjectDrunk_iOS_TableSource:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #848]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4919,7 +4791,7 @@ ProjectDrunk_iOS_ViewController__ctor_intptr:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #856]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4973,7 +4845,7 @@ ProjectDrunk_iOS_ViewController_ViewDidLoad:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #864]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5030,10 +4902,10 @@ bl _p_10
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #880]
+ldr x0, [x16, #872]
 bl _p_15
 .word 0xf90037a0
-bl _p_70
+bl _p_66
 .word 0xf94013b1
 .word 0xf9410e31
 .word 0xb4000051
@@ -5042,7 +4914,7 @@ bl _p_70
 .word 0xf9403ba2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_71
+bl _p_67
 .word 0xf94013b1
 .word 0xf9413231
 .word 0xb4000051
@@ -5055,12 +4927,12 @@ bl _p_71
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #880]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_11
 .word 0xf90033a0
-bl _p_72
+bl _p_68
 .word 0xf94013b1
 .word 0xf9417231
 .word 0xb4000051
@@ -5076,10 +4948,10 @@ bl _p_72
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #896]
+ldr x1, [x16, #888]
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_73
+bl _p_69
 .word 0xf94013b1
 .word 0xf941b631
 .word 0xb4000051
@@ -5093,10 +4965,10 @@ bl _p_73
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #904]
+ldr x1, [x16, #896]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_73
+bl _p_69
 .word 0xf94013b1
 .word 0xf941f231
 .word 0xb4000051
@@ -5110,10 +4982,10 @@ bl _p_73
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #912]
+ldr x1, [x16, #904]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_73
+bl _p_69
 .word 0xf94013b1
 .word 0xf9422e31
 .word 0xb4000051
@@ -5129,18 +5001,18 @@ bl _p_73
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #920]
+ldr x0, [x16, #912]
 bl _p_15
 .word 0xf9402fa1
 .word 0xf9002ba0
-bl _p_74
+bl _p_70
 .word 0xf94013b1
 .word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba1
 .word 0xaa1a03e0
-bl _p_75
+bl _p_71
 .word 0xf94013b1
 .word 0xf9429231
 .word 0xb4000051
@@ -5152,7 +5024,7 @@ bl _p_75
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_76
+bl _p_72
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf942c231
@@ -5160,7 +5032,7 @@ bl _p_76
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_77
+bl _p_73
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf942e231
@@ -5201,7 +5073,7 @@ ProjectDrunk_iOS_ViewController_DidReceiveMemoryWarning:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #920]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5223,7 +5095,7 @@ ldr x16, [x16, #928]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_28
+bl _p_24
 .word 0xf9400fb1
 .word 0xf9407a31
 .word 0xb4000051
@@ -5259,7 +5131,7 @@ ProjectDrunk_iOS_ViewController_PrepareForSegue_UIKit_UIStoryboardSegue_Foundati
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #928]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -5316,7 +5188,7 @@ ldr x16, [x16, #936]
 .word 0xaa1803e0
 .word 0xf9401f01
 .word 0xaa1803e0
-bl _p_78
+bl _p_74
 .word 0xf94033b1
 .word 0xf9411a31
 .word 0xb4000051
@@ -5339,7 +5211,7 @@ bl _p_78
 .word 0xf9402ba1
 .word 0xf9402fa2
 .word 0xaa1803e0
-bl _p_29
+bl _p_25
 .word 0xf94033b1
 .word 0xf9416e31
 .word 0xb4000051
@@ -5369,7 +5241,7 @@ bl _p_29
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #944]
+ldr x1, [x16, #936]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800019
@@ -5402,12 +5274,12 @@ ldr x1, [x16, #944]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #952]
+ldr x0, [x16, #944]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_11
 .word 0xf90073a0
-bl _p_79
+bl _p_75
 .word 0xf94033b1
 .word 0xf9426a31
 .word 0xb4000051
@@ -5425,7 +5297,7 @@ bl _p_79
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_77
+bl _p_73
 .word 0xf9006fa0
 .word 0xf94033b1
 .word 0xf942b231
@@ -5434,7 +5306,7 @@ bl _p_77
 .word 0xf9406fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_80
+bl _p_76
 .word 0xf9006ba0
 .word 0xf94033b1
 .word 0xf942d631
@@ -5445,7 +5317,7 @@ bl _p_80
 .word 0xaa0003e8
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_81
+bl _p_77
 .word 0xf94033b1
 .word 0xf942fe31
 .word 0xb4000051
@@ -5471,8 +5343,8 @@ bl _p_81
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x15, [x16, #960]
-bl _p_82
+ldr x15, [x16, #952]
+bl _p_78
 .word 0xf90077a0
 .word 0xf94033b1
 .word 0xf9436a31
@@ -5497,13 +5369,13 @@ bl _p_82
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #968]
+ldr x0, [x16, #960]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_11
 .word 0xf9406fa1
 .word 0xf9006ba0
-bl _p_83
+bl _p_79
 .word 0xf94033b1
 .word 0xf943d631
 .word 0xb4000051
@@ -5511,7 +5383,7 @@ bl _p_83
 .word 0xf9406ba1
 .word 0xaa1403e0
 .word 0xf940029e
-bl _p_84
+bl _p_80
 .word 0xf94033b1
 .word 0xf943f631
 .word 0xb4000051
@@ -5534,8 +5406,8 @@ bl _p_84
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x15, [x16, #960]
-bl _p_85
+ldr x15, [x16, #952]
+bl _p_81
 .word 0x53001c00
 .word 0xf9006ba0
 .word 0xf94033b1
@@ -5548,15 +5420,15 @@ bl _p_85
 .word 0x94000005
 .word 0xf9405ba0
 .word 0xb4000040
-bl _p_86
+bl _p_82
 .word 0x1400000d
 .word 0xf90067be
 .word 0x910243a0
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x15, [x16, #960]
-bl _p_87
+ldr x15, [x16, #952]
+bl _p_83
 .word 0xf94033b1
 .word 0xf9449a31
 .word 0xb4000051
@@ -5575,7 +5447,7 @@ bl _p_87
 .word 0xaa1703e0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_88
+bl _p_84
 .word 0xf90077a0
 .word 0xf94033b1
 .word 0xf944e631
@@ -5600,14 +5472,14 @@ bl _p_88
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #976]
+ldr x0, [x16, #968]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_11
 .word 0xf9406fa1
 .word 0xf9006ba0
 .word 0xaa1403e2
-bl _p_89
+bl _p_85
 .word 0xf94033b1
 .word 0xf9455e31
 .word 0xb4000051
@@ -5615,7 +5487,7 @@ bl _p_89
 .word 0xf9406ba1
 .word 0xaa1703e0
 .word 0xf94002fe
-bl _p_90
+bl _p_86
 .word 0xf94033b1
 .word 0xf9457e31
 .word 0xb4000051
@@ -5659,7 +5531,7 @@ ProjectDrunk_iOS_ViewController_get_DrunkBar:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #976]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5698,7 +5570,7 @@ ProjectDrunk_iOS_ViewController_set_DrunkBar_UIKit_UISlider:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #984]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5749,7 +5621,7 @@ ProjectDrunk_iOS_ViewController_get_SpelerTabelView:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #992]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5788,7 +5660,7 @@ ProjectDrunk_iOS_ViewController_set_SpelerTabelView_UIKit_UITableView:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1000]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5841,7 +5713,7 @@ ProjectDrunk_iOS_ViewController_DeleteSpeler_UIKit_UIButton:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1008]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5864,7 +5736,7 @@ ldr x16, [x16, #1016]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_77
+bl _p_73
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9408a31
@@ -5873,7 +5745,7 @@ bl _p_77
 .word 0xf94027a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_91
+bl _p_87
 .word 0xf94013b1
 .word 0xf940aa31
 .word 0xb4000051
@@ -5885,7 +5757,7 @@ bl _p_91
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_76
+bl _p_72
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940da31
@@ -5927,7 +5799,7 @@ ProjectDrunk_iOS_ViewController_DrunkBarEditingDidEnd_UIKit_UISlider:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1016]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5970,7 +5842,7 @@ ProjectDrunk_iOS_ViewController_EditingDidEnd_UIKit_UITextField:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1024]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5993,7 +5865,7 @@ ldr x16, [x16, #1032]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_77
+bl _p_73
 .word 0xf9002fa0
 .word 0xf94013b1
 .word 0xf9408a31
@@ -6017,7 +5889,7 @@ bl _p_77
 .word 0xf9402fa3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_92
+bl _p_88
 .word 0xf94013b1
 .word 0xf940e631
 .word 0xb4000051
@@ -6029,7 +5901,7 @@ bl _p_92
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_76
+bl _p_72
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9411631
@@ -6072,7 +5944,7 @@ ProjectDrunk_iOS_ViewController_StartEditing_UIKit_UITextField:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1032]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6165,7 +6037,7 @@ ProjectDrunk_iOS_ViewController_TapOpSCherm_UIKit_UITapGestureRecognizer:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1040]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6199,7 +6071,7 @@ ldr x16, [x16, #1048]
 .word 0xf94023a0
 .word 0xd2800021
 .word 0xd2800021
-bl _p_93
+bl _p_89
 .word 0x53001c00
 .word 0xf94013b1
 .word 0xf940b231
@@ -6232,7 +6104,7 @@ ProjectDrunk_iOS_ViewController_VoegSpelerToe_UIKit_UIButton:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1048]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6255,7 +6127,7 @@ ldr x16, [x16, #1056]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_77
+bl _p_73
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9408a31
@@ -6264,7 +6136,7 @@ bl _p_77
 .word 0xf94027a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_94
+bl _p_90
 .word 0xf94013b1
 .word 0xf940aa31
 .word 0xb4000051
@@ -6276,7 +6148,7 @@ bl _p_94
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_76
+bl _p_72
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940da31
@@ -6319,7 +6191,7 @@ ProjectDrunk_iOS_ViewController_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1056]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -6344,7 +6216,7 @@ ldr x16, [x16, #1064]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_88
+bl _p_84
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9409231
@@ -6369,7 +6241,7 @@ bl _p_88
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_88
+bl _p_84
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf940f231
@@ -6378,7 +6250,7 @@ bl _p_88
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf94017b1
 .word 0xf9411231
 .word 0xb4000051
@@ -6392,7 +6264,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_95
+bl _p_91
 .word 0xf94017b1
 .word 0xf9414631
 .word 0xb4000051
@@ -6413,7 +6285,7 @@ bl _p_95
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_76
+bl _p_72
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9419631
@@ -6438,7 +6310,7 @@ bl _p_76
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_76
+bl _p_72
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf941f631
@@ -6447,7 +6319,7 @@ bl _p_76
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf94017b1
 .word 0xf9421631
 .word 0xb4000051
@@ -6461,7 +6333,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_96
+bl _p_92
 .word 0xf94017b1
 .word 0xf9424a31
 .word 0xb4000051
@@ -6504,7 +6376,7 @@ ProjectDrunk_iOS_ButtonCellClass__ctor_intptr:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1064]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6522,7 +6394,7 @@ ldr x16, [x16, #1072]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_97
+bl _p_93
 .word 0xf94013b1
 .word 0xf9407231
 .word 0xb4000051
@@ -6558,7 +6430,7 @@ ProjectDrunk_iOS_ButtonCellClass_SetIndexNummer_int:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1072]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6608,7 +6480,7 @@ ProjectDrunk_iOS_ButtonCellClass_GetIndexNummer:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1080]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6662,7 +6534,7 @@ ProjectDrunk_iOS_ButtonCellClass_get_addButton:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1088]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6701,7 +6573,7 @@ ProjectDrunk_iOS_ButtonCellClass_set_addButton_UIKit_UIButton:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1096]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6753,7 +6625,7 @@ ProjectDrunk_iOS_ButtonCellClass_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1104]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6777,7 +6649,7 @@ ldr x16, [x16, #1112]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_98
+bl _p_94
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9408a31
@@ -6802,7 +6674,7 @@ bl _p_98
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_98
+bl _p_94
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940ea31
@@ -6811,7 +6683,7 @@ bl _p_98
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf94013b1
 .word 0xf9410a31
 .word 0xb4000051
@@ -6825,7 +6697,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_99
+bl _p_95
 .word 0xf94013b1
 .word 0xf9413e31
 .word 0xb4000051
@@ -6866,7 +6738,7 @@ ProjectDrunk_iOS_TableSource_get_Lijst:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1112]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6905,7 +6777,7 @@ ProjectDrunk_iOS_TableSource_set_Lijst_System_Collections_Generic_List_1_string:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1120]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6958,7 +6830,7 @@ ProjectDrunk_iOS_TableSource__ctor_System_Collections_Generic_List_1_string:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1128]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -6976,7 +6848,7 @@ ldr x16, [x16, #1136]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_100
+bl _p_96
 .word 0xf94013b1
 .word 0xf9407631
 .word 0xb4000051
@@ -6994,7 +6866,7 @@ bl _p_100
 .word 0xaa1903e0
 .word 0xf9400fa1
 .word 0xaa1903e0
-bl _p_101
+bl _p_97
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -7031,7 +6903,7 @@ ProjectDrunk_iOS_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1136]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7060,7 +6932,7 @@ ldr x16, [x16, #1144]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_102
+bl _p_98
 .word 0x93407c00
 .word 0xf90043a0
 .word 0xf9402bb1
@@ -7069,7 +6941,7 @@ bl _p_102
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_103
+bl _p_99
 .word 0xf9004ba0
 .word 0xf9402bb1
 .word 0xf940d631
@@ -7078,7 +6950,7 @@ bl _p_103
 .word 0xf9404ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_104
+bl _p_100
 .word 0x93407c00
 .word 0xf90047a0
 .word 0xf9402bb1
@@ -7107,12 +6979,12 @@ bl _p_104
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #1152]
+ldr x1, [x16, #1144]
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xaa1a03e2
 .word 0xf940033e
-bl _p_105
+bl _p_101
 .word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf9417631
@@ -7128,7 +7000,7 @@ bl _p_105
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #1160]
+ldr x1, [x16, #1152]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54001ca1
@@ -7143,7 +7015,7 @@ ldr x1, [x16, #1160]
 .word 0xf9004fa0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_103
+bl _p_99
 .word 0xf90057a0
 .word 0xf9402bb1
 .word 0xf941ea31
@@ -7152,7 +7024,7 @@ bl _p_103
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_102
+bl _p_98
 .word 0x93407c00
 .word 0xf90053a0
 .word 0xf9402bb1
@@ -7163,7 +7035,7 @@ bl _p_102
 .word 0xf94057a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_106
+bl _p_102
 .word 0xf9004ba0
 .word 0xf9402bb1
 .word 0xf9423a31
@@ -7173,7 +7045,7 @@ bl _p_106
 .word 0xf9404fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_107
+bl _p_103
 .word 0xf9402bb1
 .word 0xf9425e31
 .word 0xb4000051
@@ -7188,7 +7060,7 @@ bl _p_107
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_102
+bl _p_98
 .word 0x93407c00
 .word 0xf90043a0
 .word 0xf9402bb1
@@ -7199,7 +7071,7 @@ bl _p_102
 .word 0xf94047a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_108
+bl _p_104
 .word 0xf9402bb1
 .word 0xf942c231
 .word 0xb4000051
@@ -7220,7 +7092,7 @@ bl _p_108
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_102
+bl _p_98
 .word 0x93407c00
 .word 0xf90043a0
 .word 0xf9402bb1
@@ -7229,7 +7101,7 @@ bl _p_102
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_103
+bl _p_99
 .word 0xf9004ba0
 .word 0xf9402bb1
 .word 0xf9433631
@@ -7238,7 +7110,7 @@ bl _p_103
 .word 0xf9404ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_104
+bl _p_100
 .word 0x93407c00
 .word 0xf90047a0
 .word 0xf9402bb1
@@ -7267,12 +7139,12 @@ bl _p_104
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #1168]
+ldr x1, [x16, #1160]
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xaa1a03e2
 .word 0xf940033e
-bl _p_105
+bl _p_101
 .word 0xf90037a0
 .word 0xf9402bb1
 .word 0xf943d631
@@ -7288,7 +7160,7 @@ bl _p_105
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #1176]
+ldr x1, [x16, #1168]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540009a1
@@ -7304,7 +7176,7 @@ ldr x1, [x16, #1176]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_102
+bl _p_98
 .word 0x93407c00
 .word 0xf90043a0
 .word 0xf9402bb1
@@ -7315,7 +7187,7 @@ bl _p_102
 .word 0xf94047a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_109
+bl _p_105
 .word 0xf9402bb1
 .word 0xf9447631
 .word 0xb4000051
@@ -7346,9 +7218,9 @@ ldr x0, [x16, #0]
 .word 0xd28054e1
 bl _p_5
 .word 0xaa0003e1
-.word 0xd2800e20
+.word 0xd2800e00
 .word 0xf2a04000
-.word 0xd2800e20
+.word 0xd2800e00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_7
@@ -7374,7 +7246,7 @@ bl _p_7
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801180
+.word 0xd2801160
 .word 0xaa1103e1
 bl _p_9
 
@@ -7395,7 +7267,7 @@ ProjectDrunk_iOS_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPat
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1176]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -7421,7 +7293,7 @@ ldr x16, [x16, #1184]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_102
+bl _p_98
 .word 0x93407c00
 .word 0xf90033a0
 .word 0xf9401fb1
@@ -7430,7 +7302,7 @@ bl _p_102
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_103
+bl _p_99
 .word 0xf9003ba0
 .word 0xf9401fb1
 .word 0xf940c631
@@ -7439,7 +7311,7 @@ bl _p_103
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_104
+bl _p_100
 .word 0x93407c00
 .word 0xf90037a0
 .word 0xf9401fb1
@@ -7485,7 +7357,7 @@ bl _p_104
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #1160]
+ldr x1, [x16, #1152]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000321
@@ -7515,7 +7387,7 @@ ldr x1, [x16, #1160]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801180
+.word 0xd2801160
 .word 0xaa1103e1
 bl _p_9
 
@@ -7532,7 +7404,7 @@ ProjectDrunk_iOS_TableSource_VoegSpelerToeAanLijst_string:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1184]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7554,7 +7426,7 @@ ldr x16, [x16, #1192]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_103
+bl _p_99
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9408231
@@ -7564,7 +7436,7 @@ bl _p_103
 .word 0xf9400fa1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_73
+bl _p_69
 .word 0xf94013b1
 .word 0xf940a631
 .word 0xb4000051
@@ -7595,7 +7467,7 @@ ProjectDrunk_iOS_TableSource_DeleteSpeler:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1192]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7619,7 +7491,7 @@ ldr x16, [x16, #1200]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_103
+bl _p_99
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9408a31
@@ -7628,7 +7500,7 @@ bl _p_103
 .word 0xf94027a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_104
+bl _p_100
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -7655,7 +7527,7 @@ bl _p_104
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_103
+bl _p_99
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9411631
@@ -7663,7 +7535,7 @@ bl _p_103
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_103
+bl _p_99
 .word 0xf9002ba0
 .word 0xf94013b1
 .word 0xf9413631
@@ -7672,7 +7544,7 @@ bl _p_103
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_104
+bl _p_100
 .word 0x93407c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -7684,7 +7556,7 @@ bl _p_104
 .word 0x51000401
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_110
+bl _p_106
 .word 0xf94013b1
 .word 0xf9418631
 .word 0xb4000051
@@ -7725,7 +7597,7 @@ ProjectDrunk_iOS_TableSource_VoegSpelerToeAanLijst:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1200]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -7748,7 +7620,7 @@ ldr x16, [x16, #1208]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_103
+bl _p_99
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf9408631
@@ -7757,11 +7629,11 @@ bl _p_103
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #1216]
+ldr x0, [x16, #1208]
 .word 0xf90023a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_103
+bl _p_99
 .word 0xf9002fa0
 .word 0xf9400fb1
 .word 0xf940b631
@@ -7770,7 +7642,7 @@ bl _p_103
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_104
+bl _p_100
 .word 0x93407c00
 .word 0xf9002ba0
 .word 0xf9400fb1
@@ -7783,7 +7655,7 @@ bl _p_104
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #632]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_11
@@ -7791,7 +7663,7 @@ bl _p_11
 .word 0xf94023a0
 .word 0xf94027a2
 .word 0xb9001022
-bl _p_111
+bl _p_107
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9412a31
@@ -7801,7 +7673,7 @@ bl _p_111
 .word 0xf9401fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_73
+bl _p_69
 .word 0xf9400fb1
 .word 0xf9414e31
 .word 0xb4000051
@@ -7833,7 +7705,7 @@ ProjectDrunk_iOS_TableSource_GetLijst:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1216]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7856,7 +7728,7 @@ ldr x16, [x16, #1224]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_103
+bl _p_99
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9408631
@@ -7898,7 +7770,7 @@ ProjectDrunk_iOS_TableSource_ReplaceItemInList_string_string:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1224]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -7937,7 +7809,7 @@ ldr x16, [x16, #1232]
 .word 0xaa1903e0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_103
+bl _p_99
 .word 0xf9003ba0
 .word 0xf94023b1
 .word 0xf940ce31
@@ -7948,7 +7820,7 @@ bl _p_103
 .word 0xaa0203e0
 .word 0xaa1703e1
 .word 0xf940005e
-bl _p_106
+bl _p_102
 .word 0xf90037a0
 .word 0xf94023b1
 .word 0xf940fa31
@@ -7957,7 +7829,7 @@ bl _p_106
 .word 0xf94037a1
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_112
+bl _p_108
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf94023b1
@@ -7981,7 +7853,7 @@ bl _p_112
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_103
+bl _p_99
 .word 0xf90033a0
 .word 0xf94023b1
 .word 0xf9417631
@@ -7994,7 +7866,7 @@ bl _p_103
 .word 0xaa1703e1
 .word 0xaa1a03e2
 .word 0xf940007e
-bl _p_113
+bl _p_109
 .word 0xf94023b1
 .word 0xf941a631
 .word 0xb4000051
@@ -8032,7 +7904,7 @@ bl _p_113
 .word 0xaa1703e0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_103
+bl _p_99
 .word 0xf90037a0
 .word 0xf94023b1
 .word 0xf9423631
@@ -8041,7 +7913,7 @@ bl _p_103
 .word 0xf94037a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_104
+bl _p_100
 .word 0x93407c00
 .word 0xf90033a0
 .word 0xf94023b1
@@ -8087,7 +7959,7 @@ ProjectDrunk_iOS_TableSource_GetIndexOfItem_string:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1232]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -8127,7 +7999,7 @@ ldr x16, [x16, #1240]
 .word 0xaa1a03e0
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_103
+bl _p_99
 .word 0xf9003ba0
 .word 0xf94023b1
 .word 0xf940ce31
@@ -8138,7 +8010,7 @@ bl _p_103
 .word 0xaa0203e0
 .word 0xaa1803e1
 .word 0xf940005e
-bl _p_106
+bl _p_102
 .word 0xf90037a0
 .word 0xf94023b1
 .word 0xf940fa31
@@ -8147,7 +8019,7 @@ bl _p_106
 .word 0xf94037a1
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_112
+bl _p_108
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf94023b1
@@ -8196,7 +8068,7 @@ bl _p_112
 .word 0xaa1803e0
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_103
+bl _p_99
 .word 0xf90037a0
 .word 0xf94023b1
 .word 0xf941d231
@@ -8205,7 +8077,7 @@ bl _p_103
 .word 0xf94037a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_104
+bl _p_100
 .word 0x93407c00
 .word 0xf90033a0
 .word 0xf94023b1
@@ -8232,9 +8104,9 @@ ldr x0, [x16, #0]
 .word 0xd2805d21
 bl _p_5
 .word 0xaa0003e1
-.word 0xd2800e20
+.word 0xd2800e00
 .word 0xf2a04000
-.word 0xd2800e20
+.word 0xd2800e00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_7
@@ -8270,7 +8142,7 @@ ProjectDrunk_iOS_TableSource_WijzigLijst_int_string:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1240]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -8292,7 +8164,7 @@ ldr x16, [x16, #1248]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_103
+bl _p_99
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9408631
@@ -8303,7 +8175,7 @@ bl _p_103
 .word 0xf94013a2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_113
+bl _p_109
 .word 0xf94017b1
 .word 0xf940ae31
 .word 0xb4000051
@@ -8336,7 +8208,7 @@ ProjectDrunk_iOS_TableSource_RowsInSection_UIKit_UITableView_System_nint:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1248]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -8359,7 +8231,7 @@ ldr x16, [x16, #1256]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_103
+bl _p_99
 .word 0xf90037a0
 .word 0xf9401bb1
 .word 0xf9408e31
@@ -8368,7 +8240,7 @@ bl _p_103
 .word 0xf94037a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_104
+bl _p_100
 .word 0x93407c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -8416,7 +8288,7 @@ ProjectDrunk_iOS_TextCellClass__ctor_intptr:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1256]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8434,7 +8306,7 @@ ldr x16, [x16, #1264]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_97
+bl _p_93
 .word 0xf94013b1
 .word 0xf9407231
 .word 0xb4000051
@@ -8470,7 +8342,7 @@ ProjectDrunk_iOS_TextCellClass_SetIndexNummer_int:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1264]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8520,7 +8392,7 @@ ProjectDrunk_iOS_TextCellClass_GetIndexNummer:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1272]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8574,7 +8446,7 @@ ProjectDrunk_iOS_TextCellClass_SetText_string:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1280]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8596,7 +8468,7 @@ ldr x16, [x16, #1288]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_114
+bl _p_110
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9408231
@@ -8638,7 +8510,7 @@ ProjectDrunk_iOS_TextCellClass_get_naamField:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1288]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -8677,7 +8549,7 @@ ProjectDrunk_iOS_TextCellClass_set_naamField_UIKit_UITextField:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1296]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8729,7 +8601,7 @@ ProjectDrunk_iOS_TextCellClass_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1304]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8753,7 +8625,7 @@ ldr x16, [x16, #1312]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_114
+bl _p_110
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9408a31
@@ -8778,7 +8650,7 @@ bl _p_114
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_114
+bl _p_110
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf940ea31
@@ -8787,7 +8659,7 @@ bl _p_114
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf94013b1
 .word 0xf9410a31
 .word 0xb4000051
@@ -8801,7 +8673,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_115
+bl _p_111
 .word 0xf94013b1
 .word 0xf9413e31
 .word 0xb4000051
@@ -8842,7 +8714,7 @@ ProjectDrunk_iOS_SpelCell_get_IndexNummer:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1312]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -8881,7 +8753,7 @@ ProjectDrunk_iOS_SpelCell_set_IndexNummer_int:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1320]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8921,7 +8793,7 @@ ProjectDrunk_iOS_SpelCell__ctor_intptr:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1328]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8939,7 +8811,7 @@ ldr x16, [x16, #1336]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_97
+bl _p_93
 .word 0xf94013b1
 .word 0xf9407231
 .word 0xb4000051
@@ -8976,7 +8848,7 @@ ProjectDrunk_iOS_SpelCell_UpdateCell_ProjectDrunk_Globals_Spel:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1336]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8999,7 +8871,7 @@ ldr x16, [x16, #1344]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_116
+bl _p_112
 .word 0xf9002fa0
 .word 0xf94013b1
 .word 0xf9408a31
@@ -9008,7 +8880,7 @@ bl _p_116
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_117
+bl _p_113
 .word 0xf9002ba0
 .word 0xf94013b1
 .word 0xf940ae31
@@ -9031,7 +8903,7 @@ bl _p_117
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_118
+bl _p_114
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf9410631
@@ -9040,7 +8912,7 @@ bl _p_118
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_119
+bl _p_115
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9412a31
@@ -9083,7 +8955,7 @@ ProjectDrunk_iOS_SpelCell_get_LSpelInfo:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1344]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -9122,7 +8994,7 @@ ProjectDrunk_iOS_SpelCell_set_LSpelInfo_UIKit_UILabel:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1352]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9173,7 +9045,7 @@ ProjectDrunk_iOS_SpelCell_get_LSpelNaam:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1360]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -9212,7 +9084,7 @@ ProjectDrunk_iOS_SpelCell_set_LSpelNaam_UIKit_UILabel:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1368]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9265,7 +9137,7 @@ ProjectDrunk_iOS_SpelCell_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1376]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -9290,7 +9162,7 @@ ldr x16, [x16, #1384]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_118
+bl _p_114
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9409231
@@ -9315,7 +9187,7 @@ bl _p_118
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_118
+bl _p_114
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf940f231
@@ -9324,7 +9196,7 @@ bl _p_118
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf94017b1
 .word 0xf9411231
 .word 0xb4000051
@@ -9338,7 +9210,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_120
+bl _p_116
 .word 0xf94017b1
 .word 0xf9414631
 .word 0xb4000051
@@ -9359,7 +9231,7 @@ bl _p_120
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_116
+bl _p_112
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9419631
@@ -9384,7 +9256,7 @@ bl _p_116
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_116
+bl _p_112
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf941f631
@@ -9393,7 +9265,7 @@ bl _p_116
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_34
+bl _p_30
 .word 0xf94017b1
 .word 0xf9421631
 .word 0xb4000051
@@ -9407,7 +9279,7 @@ bl _p_34
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_121
+bl _p_117
 .word 0xf94017b1
 .word 0xf9424a31
 .word 0xb4000051
@@ -9449,7 +9321,7 @@ ProjectDrunk_iOS_SpelTableViewSource_get_Games:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1384]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -9488,7 +9360,7 @@ ProjectDrunk_iOS_SpelTableViewSource_set_Games_System_Collections_Generic_List_1
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1392]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9542,7 +9414,7 @@ ProjectDrunk_iOS_SpelTableViewSource_add_ToNewGame_ProjectDrunk_iOS_SpelTableVie
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1400]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -9562,7 +9434,7 @@ ldr x16, [x16, #1408]
 .word 0xaa1a03e0
 .word 0xaa1803e0
 .word 0xaa1a03e1
-bl _p_122
+bl _p_118
 .word 0xaa0003f5
 .word 0xf94023b1
 .word 0xf9408a31
@@ -9576,7 +9448,7 @@ bl _p_122
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #1416]
+ldr x1, [x16, #1408]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540006c1
@@ -9592,7 +9464,7 @@ ldr x1, [x16, #1416]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #1424]
+ldr x1, [x16, #1416]
 .word 0xc85f7c10
 .word 0xeb17021f
 .word 0x54000061
@@ -9632,10 +9504,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801340
+.word 0xd2801320
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801180
+.word 0xd2801160
 .word 0xaa1103e1
 bl _p_9
 
@@ -9654,7 +9526,7 @@ ProjectDrunk_iOS_SpelTableViewSource_remove_ToNewGame_ProjectDrunk_iOS_SpelTable
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1424]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -9674,7 +9546,7 @@ ldr x16, [x16, #1432]
 .word 0xaa1a03e0
 .word 0xaa1803e0
 .word 0xaa1a03e1
-bl _p_123
+bl _p_119
 .word 0xaa0003f5
 .word 0xf94023b1
 .word 0xf9408a31
@@ -9688,7 +9560,7 @@ bl _p_123
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #1416]
+ldr x1, [x16, #1408]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540006c1
@@ -9704,7 +9576,7 @@ ldr x1, [x16, #1416]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #1424]
+ldr x1, [x16, #1416]
 .word 0xc85f7c10
 .word 0xeb17021f
 .word 0x54000061
@@ -9744,10 +9616,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801340
+.word 0xd2801320
 .word 0xaa1103e1
 bl _p_9
-.word 0xd2801180
+.word 0xd2801160
 .word 0xaa1103e1
 bl _p_9
 
@@ -9765,7 +9637,7 @@ ProjectDrunk_iOS_SpelTableViewSource__ctor_System_Collections_Generic_List_1_Pro
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1432]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9783,7 +9655,7 @@ ldr x16, [x16, #1440]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_100
+bl _p_96
 .word 0xf94013b1
 .word 0xf9407631
 .word 0xb4000051
@@ -9801,7 +9673,7 @@ bl _p_100
 .word 0xaa1903e0
 .word 0xf9400fa1
 .word 0xaa1903e0
-bl _p_124
+bl _p_120
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -9837,7 +9709,7 @@ ProjectDrunk_iOS_SpelTableViewSource_GetCell_UIKit_UITableView_Foundation_NSInde
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1440]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -9865,12 +9737,12 @@ ldr x16, [x16, #1448]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #1456]
+ldr x1, [x16, #1448]
 .word 0xaa1a03e0
 .word 0xaa0303e0
 .word 0xaa1a03e2
 .word 0xf940007e
-bl _p_105
+bl _p_101
 .word 0xaa0003f4
 .word 0xf94027b1
 .word 0xf940ba31
@@ -9884,7 +9756,7 @@ bl _p_105
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x1, [x16, #1464]
+ldr x1, [x16, #1456]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000921
@@ -9896,7 +9768,7 @@ ldr x1, [x16, #1464]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
-bl _p_25
+bl _p_121
 .word 0xf9003fa0
 .word 0xf94027b1
 .word 0xf9411a31
@@ -9905,7 +9777,7 @@ bl _p_25
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_102
+bl _p_98
 .word 0x93407c00
 .word 0xf9003ba0
 .word 0xf94027b1
@@ -9916,7 +9788,7 @@ bl _p_102
 .word 0xf9403fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_125
+bl _p_122
 .word 0xf90037a0
 .word 0xf94027b1
 .word 0xf9416a31
@@ -9935,7 +9807,7 @@ bl _p_125
 .word 0xaa0103e0
 .word 0xaa1403e0
 .word 0xf940029e
-bl _p_126
+bl _p_123
 .word 0xf94027b1
 .word 0xf941ae31
 .word 0xb4000051
@@ -9964,7 +9836,7 @@ bl _p_126
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801180
+.word 0xd2801160
 .word 0xaa1103e1
 bl _p_9
 
@@ -9983,7 +9855,7 @@ ProjectDrunk_iOS_SpelTableViewSource_RowsInSection_UIKit_UITableView_System_nint
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1464]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -10006,7 +9878,7 @@ ldr x16, [x16, #1472]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_25
+bl _p_121
 .word 0xf90037a0
 .word 0xf9401bb1
 .word 0xf9408e31
@@ -10015,7 +9887,7 @@ bl _p_25
 .word 0xf94037a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_26
+bl _p_124
 .word 0x93407c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -10054,22 +9926,23 @@ Lme_71:
 	.no_dead_strip ProjectDrunk_iOS_SpelTableViewSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
 ProjectDrunk_iOS_SpelTableViewSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath:
 .loc 17 36 0 prologue_end
-.word 0xa9b67bfd
+.word 0xa9b77bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xaa0003f9
-.word 0xf90013a1
-.word 0xf90017a2
+.word 0xa90163b7
+.word 0xf90013ba
+.word 0xaa0003f8
+.word 0xf90017a1
+.word 0xaa0203fa
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1472]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
-.word 0xd2800018
+.word 0xd2800017
 .word 0xf9401bb1
-.word 0xf9404231
+.word 0xf9404631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
@@ -10077,103 +9950,121 @@ ldr x16, [x16, #1480]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9406231
+.word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 17 37 0
+.loc 17 38 0
 .word 0xf9401bb1
-.word 0xf9407231
+.word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_25
-.word 0xf9004ba0
-.word 0xf9401bb1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017a1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_102
-.word 0x93407c00
+.word 0xaa1803e0
+.word 0xaa1803e0
+bl _p_121
 .word 0xf90047a0
 .word 0xf9401bb1
-.word 0xf940ba31
+.word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94047a1
-.word 0xf9404ba2
-.word 0xaa0203e0
-.word 0xf940005e
-bl _p_125
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xf940035e
+bl _p_98
+.word 0x93407c00
 .word 0xf90043a0
 .word 0xf9401bb1
-.word 0xf940e231
+.word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_117
+.word 0xf94047a2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_122
 .word 0xf9003fa0
 .word 0xf9401bb1
-.word 0xf9410631
+.word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9403fa0
+.word 0xf9403fa1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_113
 .word 0xf9003ba0
-.word 0xaa0003f8
-.loc 17 38 0
+.word 0xf9401bb1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003f7
+.loc 17 39 0
 .word 0xf9401bb1
 .word 0xf9412231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9403ba0
-.word 0xaa1903e1
-.word 0xf9401b21
-.word 0xf90033a1
-.word 0xaa1903e1
+.word 0xf94017a3
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xaa0303e0
+.word 0xaa1a03e1
+.word 0xd2800022
+.word 0xf9400063
+.word 0xf940ec70
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 40 0
+.word 0xf9401bb1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xf9401b00
+.word 0xf90033a0
+.word 0xaa1803e0
+.word 0xaa1703e0
 .word 0xf90037a0
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #1488]
+ldr x0, [x16, #1480]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_11
 .word 0xf94037a1
 .word 0xf9002fa0
-bl _p_127
+bl _p_125
 .word 0xf9401bb1
-.word 0xf9416e31
+.word 0xf941b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa2
 .word 0xf94033a3
 .word 0xaa0303e0
-.word 0xaa1903e1
+.word 0xaa1803e1
 .word 0xf9002ba3
 .word 0xf9400c70
 .word 0xd63f0200
 .word 0xf9402ba0
 .word 0xf9401bb1
-.word 0xf9419e31
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 17 39 0
+.loc 17 42 0
 .word 0xf9401bb1
-.word 0xf941ae31
+.word 0xf941f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf941be31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94167b8
+.word 0xa94163b7
+.word 0xf94013ba
 .word 0x910003bf
-.word 0xa8ca7bfd
+.word 0xa8c97bfd
 .word 0xd65f03c0
 
 Lme_72:
@@ -10181,7 +10072,7 @@ Lme_72:
 	.align 4
 	.no_dead_strip ProjectDrunk_iOS_SpelTableViewSource_GetItem_int
 ProjectDrunk_iOS_SpelTableViewSource_GetItem_int:
-.loc 17 42 0 prologue_end
+.loc 17 45 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb8
@@ -10190,7 +10081,7 @@ ProjectDrunk_iOS_SpelTableViewSource_GetItem_int:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1488]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -10207,13 +10098,13 @@ ldr x16, [x16, #1496]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 17 43 0
+.loc 17 46 0
 .word 0xf94017b1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-bl _p_25
+bl _p_121
 .word 0xf9002ba0
 .word 0xf94017b1
 .word 0xf9408a31
@@ -10223,7 +10114,7 @@ bl _p_25
 .word 0xb98023a1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_125
+bl _p_122
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf940b231
@@ -10232,7 +10123,7 @@ bl _p_125
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f8
-.loc 17 44 0
+.loc 17 47 0
 .word 0xf94017b1
 .word 0xf940ce31
 .word 0xb4000051
@@ -10261,7 +10152,7 @@ ProjectDrunk_iOS_RingOfFireViewController_get_Data:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1496]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10300,7 +10191,7 @@ ProjectDrunk_iOS_RingOfFireViewController_set_Data_ProjectDrunk_DataLaag_SpelDat
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1504]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10352,7 +10243,7 @@ ProjectDrunk_iOS_RingOfFireViewController__ctor_intptr:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1512]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10405,7 +10296,7 @@ ProjectDrunk_iOS_RingOfFireViewController_ViewDidLoad:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1520]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10458,7 +10349,7 @@ ProjectDrunk_iOS_RingOfFireViewController_SetSpelerData_ProjectDrunk_DataLaag_Sp
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1528]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10481,7 +10372,7 @@ ldr x16, [x16, #1536]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_128
+bl _p_126
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -10511,7 +10402,7 @@ ProjectDrunk_iOS_RingOfFireViewController_DidReceiveMemoryWarning:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1536]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10533,7 +10424,7 @@ ldr x16, [x16, #1544]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_28
+bl _p_24
 .word 0xf9400fb1
 .word 0xf9407a31
 .word 0xb4000051
@@ -10564,7 +10455,7 @@ ProjectDrunk_iOS_RingOfFireViewController_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1544]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10608,7 +10499,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1552]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10639,12 +10530,12 @@ ldr x16, [x16, #1560]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_129
+bl _p_127
 .word 0x3980b410
 .word 0xb5000050
-bl _p_130
+bl _p_128
 .word 0xf9402ba0
-bl _p_131
+bl _p_129
 .word 0xf9400000
 .word 0x14000033
 .loc 20 74 0
@@ -10660,11 +10551,11 @@ bl _p_131
 .word 0x910103a0
 .word 0xf90033a0
 .word 0xf9402ba0
-bl _p_132
+bl _p_130
 .word 0xaa0003ef
 .word 0xf94033a0
 .word 0xaa1a03e1
-bl _p_133
+bl _p_131
 .word 0x910103a0
 .word 0x9100c3a0
 .word 0xf94023a0
@@ -10676,7 +10567,7 @@ bl _p_133
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_132
+bl _p_130
 .word 0xd2800401
 .word 0xd2800401
 bl _p_11
@@ -10720,7 +10611,7 @@ System_Array_InternalArray__ICollection_get_Count:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1560]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10764,7 +10655,7 @@ System_Array_InternalArray__ICollection_get_IsReadOnly:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1568]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10802,7 +10693,7 @@ System_Array_InternalArray__ICollection_Clear:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1576]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10820,11 +10711,11 @@ ldr x16, [x16, #1584]
 .word 0xd63f0220
 .word 0xd283c260
 .word 0xd283c260
-bl _p_134
+bl _p_132
 .word 0xaa0003e1
-.word 0xd2801320
+.word 0xd2801300
 .word 0xf2a04000
-.word 0xd2801320
+.word 0xd2801300
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_7
@@ -10842,6 +10733,54 @@ Lme_83:
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 .loc 20 84 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9001faf
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
+ldr x16, [x16, #1584]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd283c860
+.word 0xd283c860
+bl _p_132
+.word 0xaa0003e1
+.word 0xd2801300
+.word 0xf2a04000
+.word 0xd2801300
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_7
+.word 0xf94013b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_84:
+.text
+	.align 4
+	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
+.loc 20 89 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001faf
@@ -10868,59 +10807,11 @@ ldr x16, [x16, #1592]
 .word 0xd63f0220
 .word 0xd283c860
 .word 0xd283c860
-bl _p_134
+bl _p_132
 .word 0xaa0003e1
-.word 0xd2801320
+.word 0xd2801300
 .word 0xf2a04000
-.word 0xd2801320
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_7
-.word 0xf94013b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_84:
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
-.loc 20 89 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9001faf
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1600]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd283c860
-.word 0xd283c860
-bl _p_134
-.word 0xaa0003e1
-.word 0xd2801320
-.word 0xf2a04000
-.word 0xd2801320
+.word 0xd2801300
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_7
@@ -10948,7 +10839,7 @@ System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1600]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -10987,17 +10878,17 @@ ldr x16, [x16, #1608]
 .word 0xd63f0220
 .word 0xd283cfe0
 .word 0xd283cfe0
-bl _p_134
-bl _p_135
+bl _p_132
+bl _p_133
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd28014a0
+.word 0xd2801480
 .word 0xf2a04000
-.word 0xd28014a0
+.word 0xd2801480
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_7
@@ -11031,7 +10922,7 @@ bl _p_7
 .word 0xaa1803e0
 .word 0x910143a0
 .word 0xf94027a0
-bl _p_136
+bl _p_134
 .word 0x93407f00
 .word 0xd37df000
 .word 0x8b000340
@@ -11146,7 +11037,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1608]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -11191,7 +11082,7 @@ ldr x16, [x16, #1616]
 .word 0xf9403ba4
 .word 0xf9402ba0
 .word 0xaa1503e1
-bl _p_137
+bl _p_135
 .loc 20 120 0
 .word 0xf9401fb1
 .word 0xf940ee31
@@ -11223,7 +11114,7 @@ wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Globals_Spel_invoke_bool
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1616]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -11240,10 +11131,10 @@ ldr x16, [x16, #1624]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #1632]
+ldr x0, [x16, #1624]
 .word 0xb9400000
 .word 0x34000140
-bl _p_138
+bl _p_136
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -11347,7 +11238,7 @@ bl _p_7
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801100
+.word 0xd28010e0
 .word 0xaa1103e1
 bl _p_9
 
@@ -11356,6 +11247,156 @@ Lme_88:
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Globals_Spel_invoke_int_T_T_ProjectDrunk_Globals_Spel_ProjectDrunk_Globals_Spel
 wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Globals_Spel_invoke_int_T_T_ProjectDrunk_Globals_Spel_ProjectDrunk_Globals_Spel:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
+ldr x16, [x16, #1632]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xb9006bbf
+.word 0xf9402bb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xb9400000
+.word 0x34000140
+bl _p_136
+.word 0xf9003ba0
+.word 0xf9403ba1
+.word 0xf9403ba0
+.word 0xf9003fa1
+.word 0xb4000060
+.word 0xf9403fa0
+bl _p_7
+.word 0xf9403fa0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9101a300
+.word 0xf9403700
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb5000500
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91008300
+.word 0xf9401300
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xb4000240
+.word 0xaa1303e0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91004300
+.word 0xf9400b03
+.word 0xaa1303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0x93407c00
+.word 0x1400003b
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91004300
+.word 0xf9400b02
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x93407c00
+.word 0x1400002c
+.word 0xaa1503e0
+.word 0xb9801aa0
+.word 0xaa0003f6
+.word 0xd2800017
+.word 0xaa1503e0
+.word 0xaa1703e0
+.word 0x93407ee0
+.word 0xb9801aa1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000589
+.word 0xd37df000
+.word 0x8b0002a0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f4
+.word 0xaa1403e3
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf90047a3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0x93407c00
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xb9006ba0
+.word 0xaa1703e0
+.word 0x110006e0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xaa1603e1
+.word 0x6b16001f
+.word 0x54fffb6b
+.word 0xb9806ba0
+.word 0xf9402bb1
+.word 0xf9420e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd28010e0
+.word 0xaa1103e1
+bl _p_9
+
+Lme_89:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
+wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -11377,156 +11418,6 @@ ldr x16, [x16, #1640]
 .word 0xd2800015
 .word 0xd2800014
 .word 0xd2800013
-.word 0xb9006bbf
-.word 0xf9402bb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #1632]
-.word 0xb9400000
-.word 0x34000140
-bl _p_138
-.word 0xf9003ba0
-.word 0xf9403ba1
-.word 0xf9403ba0
-.word 0xf9003fa1
-.word 0xb4000060
-.word 0xf9403fa0
-bl _p_7
-.word 0xf9403fa0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9101a300
-.word 0xf9403700
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb5000500
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91008300
-.word 0xf9401300
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xb4000240
-.word 0xaa1303e0
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9100e300
-.word 0xf9401f00
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91004300
-.word 0xf9400b03
-.word 0xaa1303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xd63f0060
-.word 0x93407c00
-.word 0x1400003b
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9100e300
-.word 0xf9401f00
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91004300
-.word 0xf9400b02
-.word 0xaa1903e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x93407c00
-.word 0x1400002c
-.word 0xaa1503e0
-.word 0xb9801aa0
-.word 0xaa0003f6
-.word 0xd2800017
-.word 0xaa1503e0
-.word 0xaa1703e0
-.word 0x93407ee0
-.word 0xb9801aa1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000589
-.word 0xd37df000
-.word 0x8b0002a0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f4
-.word 0xaa1403e3
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa0303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xf90047a3
-.word 0xf9400c70
-.word 0xd63f0200
-.word 0x93407c00
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xb9006ba0
-.word 0xaa1703e0
-.word 0x110006e0
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xaa1603e1
-.word 0x6b16001f
-.word 0x54fffb6b
-.word 0xb9806ba0
-.word 0xf9402bb1
-.word 0xf9420e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801100
-.word 0xaa1103e1
-bl _p_9
-
-Lme_89:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
-wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f8
-.word 0xaa0103f9
-.word 0xaa0203fa
-
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1648]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
 .word 0xf9402bb1
 .word 0xf9405e31
 .word 0xb4000051
@@ -11534,10 +11425,10 @@ ldr x16, [x16, #1648]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #1632]
+ldr x0, [x16, #1624]
 .word 0xb9400000
 .word 0x34000140
-bl _p_138
+bl _p_136
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -11638,7 +11529,7 @@ bl _p_7
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801100
+.word 0xd28010e0
 .word 0xaa1103e1
 bl _p_9
 
@@ -11658,7 +11549,7 @@ wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1648]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -11675,10 +11566,10 @@ ldr x16, [x16, #1656]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #1632]
+ldr x0, [x16, #1624]
 .word 0xb9400000
 .word 0x34000140
-bl _p_138
+bl _p_136
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -11782,7 +11673,7 @@ bl _p_7
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801100
+.word 0xd28010e0
 .word 0xaa1103e1
 bl _p_9
 
@@ -11803,7 +11694,7 @@ wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1656]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -11820,10 +11711,10 @@ ldr x16, [x16, #1664]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #1632]
+ldr x0, [x16, #1624]
 .word 0xb9400000
 .word 0x34000140
-bl _p_138
+bl _p_136
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
@@ -11932,7 +11823,7 @@ bl _p_7
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801100
+.word 0xd28010e0
 .word 0xaa1103e1
 bl _p_9
 
@@ -11952,7 +11843,7 @@ wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_Pro
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1664]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -11969,10 +11860,10 @@ ldr x16, [x16, #1672]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #1632]
+ldr x0, [x16, #1624]
 .word 0xb9400000
 .word 0x34000140
-bl _p_138
+bl _p_136
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -12076,7 +11967,7 @@ bl _p_7
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801100
+.word 0xd28010e0
 .word 0xaa1103e1
 bl _p_9
 
@@ -12085,6 +11976,156 @@ Lme_8d:
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler
 wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
+ldr x16, [x16, #1672]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xb9006bbf
+.word 0xf9402bb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xb9400000
+.word 0x34000140
+bl _p_136
+.word 0xf9003ba0
+.word 0xf9403ba1
+.word 0xf9403ba0
+.word 0xf9003fa1
+.word 0xb4000060
+.word 0xf9403fa0
+bl _p_7
+.word 0xf9403fa0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9101a300
+.word 0xf9403700
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb5000500
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91008300
+.word 0xf9401300
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xb4000240
+.word 0xaa1303e0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91004300
+.word 0xf9400b03
+.word 0xaa1303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0x93407c00
+.word 0x1400003b
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91004300
+.word 0xf9400b02
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x93407c00
+.word 0x1400002c
+.word 0xaa1503e0
+.word 0xb9801aa0
+.word 0xaa0003f6
+.word 0xd2800017
+.word 0xaa1503e0
+.word 0xaa1703e0
+.word 0x93407ee0
+.word 0xb9801aa1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000589
+.word 0xd37df000
+.word 0x8b0002a0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f4
+.word 0xaa1403e3
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf90047a3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0x93407c00
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xb9006ba0
+.word 0xaa1703e0
+.word 0x110006e0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xaa1603e1
+.word 0x6b16001f
+.word 0x54fffb6b
+.word 0xb9806ba0
+.word 0xf9402bb1
+.word 0xf9420e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd28010e0
+.word 0xaa1103e1
+bl _p_9
+
+Lme_8e:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs
+wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -12106,156 +12147,6 @@ ldr x16, [x16, #1680]
 .word 0xd2800015
 .word 0xd2800014
 .word 0xd2800013
-.word 0xb9006bbf
-.word 0xf9402bb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #1632]
-.word 0xb9400000
-.word 0x34000140
-bl _p_138
-.word 0xf9003ba0
-.word 0xf9403ba1
-.word 0xf9403ba0
-.word 0xf9003fa1
-.word 0xb4000060
-.word 0xf9403fa0
-bl _p_7
-.word 0xf9403fa0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9101a300
-.word 0xf9403700
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb5000500
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91008300
-.word 0xf9401300
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xb4000240
-.word 0xaa1303e0
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9100e300
-.word 0xf9401f00
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91004300
-.word 0xf9400b03
-.word 0xaa1303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xd63f0060
-.word 0x93407c00
-.word 0x1400003b
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x9100e300
-.word 0xf9401f00
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0x91004300
-.word 0xf9400b02
-.word 0xaa1903e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x93407c00
-.word 0x1400002c
-.word 0xaa1503e0
-.word 0xb9801aa0
-.word 0xaa0003f6
-.word 0xd2800017
-.word 0xaa1503e0
-.word 0xaa1703e0
-.word 0x93407ee0
-.word 0xb9801aa1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000589
-.word 0xd37df000
-.word 0x8b0002a0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f4
-.word 0xaa1403e3
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa0303e0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-.word 0xf90047a3
-.word 0xf9400c70
-.word 0xd63f0200
-.word 0x93407c00
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xb9006ba0
-.word 0xaa1703e0
-.word 0x110006e0
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xaa1603e1
-.word 0x6b16001f
-.word 0x54fffb6b
-.word 0xb9806ba0
-.word 0xf9402bb1
-.word 0xf9420e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801100
-.word 0xaa1103e1
-bl _p_9
-
-Lme_8e:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs
-wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f8
-.word 0xaa0103f9
-.word 0xaa0203fa
-
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1688]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
 .word 0xf9402bb1
 .word 0xf9405e31
 .word 0xb4000051
@@ -12263,10 +12154,10 @@ ldr x16, [x16, #1688]
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x0, [x16, #1632]
+ldr x0, [x16, #1624]
 .word 0xb9400000
 .word 0x34000140
-bl _p_138
+bl _p_136
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -12367,7 +12258,7 @@ bl _p_7
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801100
+.word 0xd28010e0
 .word 0xaa1103e1
 bl _p_9
 
@@ -12388,7 +12279,7 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_E
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1688]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -12450,7 +12341,7 @@ ldr x16, [x16, #1696]
 .word 0xf9401ba0
 .word 0xaa1603e1
 .word 0xaa1603e1
-bl _p_139
+bl _p_137
 .word 0xf9402fb1
 .word 0xf9413631
 .word 0xb4000051
@@ -12475,7 +12366,7 @@ wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1696]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -12513,7 +12404,7 @@ ldr x16, [x16, #1704]
 .word 0xf9401ba0
 .word 0xaa1603e1
 .word 0xaa1603e1
-bl _p_140
+bl _p_138
 .word 0xf94023b1
 .word 0xf940ca31
 .word 0xb4000051
@@ -12550,7 +12441,7 @@ System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1704]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12785,30 +12676,30 @@ unwind_info:
 
 	.byte 0,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,13,12,31,0,68,14,48,157,6,158,5,68,13,29
 	.byte 13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,22
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,34,12,31,0,68,14,144,2,157,34
-	.byte 158,33,68,13,29,68,147,32,148,31,68,149,30,150,29,68,151,28,152,27,68,153,26,154,25,32,12,31,0,68,14,160
-	.byte 1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12,13,12,31,0,68,14
-	.byte 80,157,10,158,9,68,13,29,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6,16,12
-	.byte 31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,17,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,154
-	.byte 18,13,12,31,0,68,14,96,157,12,158,11,68,13,29,24,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,151
-	.byte 22,152,21,68,153,20,154,19,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14,34,12,31,0,68,14
-	.byte 128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,19,12,31
-	.byte 0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13,34,12,31,0,68,14,128,2,157,32,158,31,68,13,29
-	.byte 68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24,154,23,16,12,31,0,68,14,96,157,12,158,11,68
-	.byte 13,29,68,153,10,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,16,12,31,0,68,14,64,157
-	.byte 8,158,7,68,13,29,68,153,6,34,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18
-	.byte 150,17,68,151,16,152,15,68,153,14,154,13,25,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13
-	.byte 68,152,12,68,154,11,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9,16,12,31,0,68,14,96
-	.byte 157,12,158,11,68,13,29,68,154,10,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,29,12,31,0,68
-	.byte 14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,16,12,31,0,68,14,112
-	.byte 157,14,158,13,68,13,29,68,153,12,28,12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10
-	.byte 152,9,68,153,8,154,7,27,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11
-	.byte 68,154,10,19,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,152,18,153,17,16,12,31,0,68,14,96,157,12
-	.byte 158,11,68,13,29,68,152,10,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,21,12,31,0,68,14,112
-	.byte 157,14,158,13,68,13,29,68,152,12,153,11,68,154,10,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149
-	.byte 14,150,13,68,152,12,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68
-	.byte 151,12,152,11,68,153,10,154,9,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153
-	.byte 9,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16,24,12,31,0,68,14,240,1,157,30
+	.byte 158,29,68,13,29,68,151,28,152,27,68,153,26,154,25,32,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147
+	.byte 18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12,13,12,31,0,68,14,80,157,10,158,9,68,13,29,21,12
+	.byte 31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6,16,12,31,0,68,14,48,157,6,158,5,68
+	.byte 13,29,68,154,4,17,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,154,18,13,12,31,0,68,14,96,157,12
+	.byte 158,11,68,13,29,24,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,151,22,152,21,68,153,20,154,19,17,12
+	.byte 31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68
+	.byte 147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,19,12,31,0,68,14,128,1,157,16,158,15,68
+	.byte 13,29,68,153,14,154,13,34,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27
+	.byte 68,151,26,152,25,68,153,24,154,23,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,18,12,31,0,68
+	.byte 14,80,157,10,158,9,68,13,29,68,153,8,154,7,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,34
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16,152,15,68,153,14
+	.byte 154,13,25,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12,68,154,11,18,12,31,0
+	.byte 68,14,96,157,12,158,11,68,13,29,68,153,10,154,9,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
+	.byte 16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,29,12,31,0,68,14,128,1,157,16,158,15,68,13,29
+	.byte 68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12
+	.byte 28,12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,27,12,31
+	.byte 0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,154,10,22,12,31,0,68,14,144
+	.byte 1,157,18,158,17,68,13,29,68,151,16,152,15,68,154,14,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152
+	.byte 10,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,21,12,31,0,68,14,112,157,14,158,13,68,13,29
+	.byte 68,152,12,153,11,68,154,10,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12,34
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,23,12,31,0,68,14
+	.byte 96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7
 
 .text
 	.align 4
@@ -12819,1125 +12710,1109 @@ plt_UIKit_UIGestureRecognizerDelegate__ctor:
 _p_1:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1720]
 br x16
-.word 1617
+.word 1609
 	.no_dead_strip plt_UIKit_UIApplication_Main_string___string_string
 plt_UIKit_UIApplication_Main_string___string_string:
 _p_2:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1728]
 br x16
-.word 1622
+.word 1614
 	.no_dead_strip plt_UIKit_UIApplicationDelegate__ctor
 plt_UIKit_UIApplicationDelegate__ctor:
 _p_3:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1736]
 br x16
-.word 1627
+.word 1619
 	.no_dead_strip plt_UIKit_UIViewController__ctor_intptr
 plt_UIKit_UIViewController__ctor_intptr:
 _p_4:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1744]
 br x16
-.word 1632
+.word 1624
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_5:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1752]
 br x16
-.word 1637
+.word 1629
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_6:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1760]
 br x16
-.word 1657
+.word 1649
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_7:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1768]
 br x16
-.word 1660
+.word 1652
 	.no_dead_strip plt_ProjectDrunk_Globals_NewGameEvent_get_SpelNaam
 plt_ProjectDrunk_Globals_NewGameEvent_get_SpelNaam:
 _p_8:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1776]
 br x16
-.word 1688
+.word 1680
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_9:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1784]
 br x16
-.word 1693
+.word 1685
 	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
 plt_UIKit_UIViewController_ViewDidLoad:
 _p_10:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1792]
 br x16
-.word 1728
+.word 1720
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_11:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1800]
 br x16
-.word 1733
+.word 1725
 	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel__ctor
 plt_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel__ctor:
 _p_12:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1808]
 br x16
-.word 1741
+.word 1733
 	.no_dead_strip plt_ProjectDrunk_Globals_Spel__ctor_string_string
 plt_ProjectDrunk_Globals_Spel__ctor_string_string:
 _p_13:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1816]
 br x16
-.word 1752
+.word 1744
 	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel_Add_ProjectDrunk_Globals_Spel
 plt_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel_Add_ProjectDrunk_Globals_Spel:
 _p_14:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1824]
 br x16
-.word 1757
+.word 1749
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_15:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1832]
 br x16
-.word 1768
+.word 1760
 	.no_dead_strip plt_ProjectDrunk_iOS_SpelTableViewSource__ctor_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel
 plt_ProjectDrunk_iOS_SpelTableViewSource__ctor_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel:
 _p_16:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1840]
 br x16
-.word 1800
+.word 1792
 	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_set_Source_ProjectDrunk_iOS_SpelTableViewSource
 plt_ProjectDrunk_iOS_GameSelection_set_Source_ProjectDrunk_iOS_SpelTableViewSource:
 _p_17:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1848]
 br x16
-.word 1805
+.word 1797
 	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_get_Source
 plt_ProjectDrunk_iOS_GameSelection_get_Source:
 _p_18:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1856]
 br x16
-.word 1810
+.word 1802
 	.no_dead_strip plt_ProjectDrunk_iOS_SpelTableViewSource_add_ToNewGame_ProjectDrunk_iOS_SpelTableViewSource_NewPageHandler
 plt_ProjectDrunk_iOS_SpelTableViewSource_add_ToNewGame_ProjectDrunk_iOS_SpelTableViewSource_NewPageHandler:
 _p_19:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1864]
 br x16
-.word 1815
+.word 1807
 	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_get_SpelTableView
 plt_ProjectDrunk_iOS_GameSelection_get_SpelTableView:
 _p_20:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1872]
 br x16
-.word 1820
+.word 1812
 	.no_dead_strip plt_UIKit_UITableView_get_AutomaticDimension
 plt_UIKit_UITableView_get_AutomaticDimension:
 _p_21:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1880]
 br x16
-.word 1825
+.word 1817
 	.no_dead_strip plt_UIKit_UITableView_set_Source_UIKit_UITableViewSource
 plt_UIKit_UITableView_set_Source_UIKit_UITableViewSource:
 _p_22:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
+ldr x16, [x16, #1888]
+br x16
+.word 1822
+	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_set_Data_ProjectDrunk_DataLaag_SpelData
+plt_ProjectDrunk_iOS_GameSelection_set_Data_ProjectDrunk_DataLaag_SpelData:
+_p_23:
+adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
+add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 1830
-	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
-plt_wrapper_alloc_object_AllocVector_intptr_intptr:
-_p_23:
+.word 1827
+	.no_dead_strip plt_UIKit_UIViewController_DidReceiveMemoryWarning
+plt_UIKit_UIViewController_DidReceiveMemoryWarning:
+_p_24:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 1835
-	.no_dead_strip plt_Foundation_NSIndexPath_Create_int__
-plt_Foundation_NSIndexPath_Create_int__:
-_p_24:
+.word 1832
+	.no_dead_strip plt_UIKit_UIViewController_PrepareForSegue_UIKit_UIStoryboardSegue_Foundation_NSObject
+plt_UIKit_UIViewController_PrepareForSegue_UIKit_UIStoryboardSegue_Foundation_NSObject:
+_p_25:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 1843
-	.no_dead_strip plt_ProjectDrunk_iOS_SpelTableViewSource_get_Games
-plt_ProjectDrunk_iOS_SpelTableViewSource_get_Games:
-_p_25:
+.word 1837
+	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_get_Data
+plt_ProjectDrunk_iOS_GameSelection_get_Data:
+_p_26:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 1848
-	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel_get_Count
-plt_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel_get_Count:
-_p_26:
+.word 1842
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData
+plt_ProjectDrunk_iOS_HogerLagerViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData:
+_p_27:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 1853
-	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_set_Data_ProjectDrunk_DataLaag_SpelData
-plt_ProjectDrunk_iOS_GameSelection_set_Data_ProjectDrunk_DataLaag_SpelData:
-_p_27:
+.word 1847
+	.no_dead_strip plt_ProjectDrunk_iOS_RingOfFireViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData
+plt_ProjectDrunk_iOS_RingOfFireViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData:
+_p_28:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 1864
-	.no_dead_strip plt_UIKit_UIViewController_DidReceiveMemoryWarning
-plt_UIKit_UIViewController_DidReceiveMemoryWarning:
-_p_28:
+.word 1852
+	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_get_BBack
+plt_ProjectDrunk_iOS_GameSelection_get_BBack:
+_p_29:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 1869
-	.no_dead_strip plt_UIKit_UIViewController_PrepareForSegue_UIKit_UIStoryboardSegue_Foundation_NSObject
-plt_UIKit_UIViewController_PrepareForSegue_UIKit_UIStoryboardSegue_Foundation_NSObject:
-_p_29:
+.word 1857
+	.no_dead_strip plt_Foundation_NSObject_Dispose
+plt_Foundation_NSObject_Dispose:
+_p_30:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 1874
-	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_get_Data
-plt_ProjectDrunk_iOS_GameSelection_get_Data:
-_p_30:
+.word 1862
+	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_set_BBack_UIKit_UIButton
+plt_ProjectDrunk_iOS_GameSelection_set_BBack_UIKit_UIButton:
+_p_31:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 1879
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData
-plt_ProjectDrunk_iOS_HogerLagerViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData:
-_p_31:
+.word 1867
+	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_set_SpelTableView_UIKit_UITableView
+plt_ProjectDrunk_iOS_GameSelection_set_SpelTableView_UIKit_UITableView:
+_p_32:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 1884
-	.no_dead_strip plt_ProjectDrunk_iOS_RingOfFireViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData
-plt_ProjectDrunk_iOS_RingOfFireViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData:
-_p_32:
+.word 1872
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_WerkLabelsBij
+plt_ProjectDrunk_iOS_HogerLagerViewController_WerkLabelsBij:
+_p_33:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 1889
-	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_get_BBack
-plt_ProjectDrunk_iOS_GameSelection_get_BBack:
-_p_33:
+.word 1877
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_LSpeler
+plt_ProjectDrunk_iOS_HogerLagerViewController_get_LSpeler:
+_p_34:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 1894
-	.no_dead_strip plt_Foundation_NSObject_Dispose
-plt_Foundation_NSObject_Dispose:
-_p_34:
+.word 1882
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_Spel
+plt_ProjectDrunk_iOS_HogerLagerViewController_get_Spel:
+_p_35:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 1899
-	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_set_BBack_UIKit_UIButton
-plt_ProjectDrunk_iOS_GameSelection_set_BBack_UIKit_UIButton:
-_p_35:
+.word 1887
+	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_get_HuidigeSpeler
+plt_ProjectDrunk_LogischeLaag_HogerLager_get_HuidigeSpeler:
+_p_36:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 1904
-	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_set_SpelTableView_UIKit_UITableView
-plt_ProjectDrunk_iOS_GameSelection_set_SpelTableView_UIKit_UITableView:
-_p_36:
+.word 1892
+	.no_dead_strip plt_ProjectDrunk_Speler_get_Naam
+plt_ProjectDrunk_Speler_get_Naam:
+_p_37:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 1909
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_WerkLabelsBij
-plt_ProjectDrunk_iOS_HogerLagerViewController_WerkLabelsBij:
-_p_37:
+.word 1897
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_LPunten
+plt_ProjectDrunk_iOS_HogerLagerViewController_get_LPunten:
+_p_38:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 1914
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_LSpeler
-plt_ProjectDrunk_iOS_HogerLagerViewController_get_LSpeler:
-_p_38:
+.word 1902
+	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_get_Streak
+plt_ProjectDrunk_LogischeLaag_HogerLager_get_Streak:
+_p_39:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 1919
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_Spel
-plt_ProjectDrunk_iOS_HogerLagerViewController_get_Spel:
-_p_39:
+.word 1907
+	.no_dead_strip plt_int_ToString
+plt_int_ToString:
+_p_40:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 1924
-	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_get_HuidigeSpeler
-plt_ProjectDrunk_LogischeLaag_HogerLager_get_HuidigeSpeler:
-_p_40:
+.word 1912
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_LKaart
+plt_ProjectDrunk_iOS_HogerLagerViewController_get_LKaart:
+_p_41:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 1929
-	.no_dead_strip plt_ProjectDrunk_Speler_get_Naam
-plt_ProjectDrunk_Speler_get_Naam:
-_p_41:
+.word 1915
+	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_get_HuidigeKaart
+plt_ProjectDrunk_LogischeLaag_HogerLager_get_HuidigeKaart:
+_p_42:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 1934
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_LPunten
-plt_ProjectDrunk_iOS_HogerLagerViewController_get_LPunten:
-_p_42:
+.word 1920
+	.no_dead_strip plt_ProjectDrunk_Globals_Kaart_get_BestandsNaam
+plt_ProjectDrunk_Globals_Kaart_get_BestandsNaam:
+_p_43:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 1939
-	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_get_Streak
-plt_ProjectDrunk_LogischeLaag_HogerLager_get_Streak:
-_p_43:
+.word 1925
+	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager__ctor_ProjectDrunk_DataLaag_SpelData
+plt_ProjectDrunk_LogischeLaag_HogerLager__ctor_ProjectDrunk_DataLaag_SpelData:
+_p_44:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 1944
-	.no_dead_strip plt_int_ToString
-plt_int_ToString:
-_p_44:
+.word 1930
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_Spel_ProjectDrunk_LogischeLaag_HogerLager
+plt_ProjectDrunk_iOS_HogerLagerViewController_set_Spel_ProjectDrunk_LogischeLaag_HogerLager:
+_p_45:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 1949
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_LKaart
-plt_ProjectDrunk_iOS_HogerLagerViewController_get_LKaart:
-_p_45:
+.word 1935
+	.no_dead_strip plt_UIKit_UIAlertView__ctor
+plt_UIKit_UIAlertView__ctor:
+_p_46:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 1952
-	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_get_HuidigeKaart
-plt_ProjectDrunk_LogischeLaag_HogerLager_get_HuidigeKaart:
-_p_46:
+.word 1940
+	.no_dead_strip plt_string_Concat_object_object_object
+plt_string_Concat_object_object_object:
+_p_47:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 1957
-	.no_dead_strip plt_ProjectDrunk_Globals_Kaart_get_BestandsNaam
-plt_ProjectDrunk_Globals_Kaart_get_BestandsNaam:
-_p_47:
+.word 1945
+	.no_dead_strip plt_UIKit_UIAlertView_add_Dismissed_System_EventHandler_1_UIKit_UIButtonEventArgs
+plt_UIKit_UIAlertView_add_Dismissed_System_EventHandler_1_UIKit_UIButtonEventArgs:
+_p_48:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 1962
-	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager__ctor_ProjectDrunk_DataLaag_SpelData
-plt_ProjectDrunk_LogischeLaag_HogerLager__ctor_ProjectDrunk_DataLaag_SpelData:
-_p_48:
+.word 1948
+	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_GokHoger
+plt_ProjectDrunk_LogischeLaag_HogerLager_GokHoger:
+_p_49:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 1967
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_Spel_ProjectDrunk_LogischeLaag_HogerLager
-plt_ProjectDrunk_iOS_HogerLagerViewController_set_Spel_ProjectDrunk_LogischeLaag_HogerLager:
-_p_49:
+.word 1953
+	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_CorrecteGok
+plt_ProjectDrunk_LogischeLaag_HogerLager_CorrecteGok:
+_p_50:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 1972
-	.no_dead_strip plt_UIKit_UIAlertView__ctor
-plt_UIKit_UIAlertView__ctor:
-_p_50:
+.word 1958
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_ShowErrorMessage
+plt_ProjectDrunk_iOS_HogerLagerViewController_ShowErrorMessage:
+_p_51:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 1977
-	.no_dead_strip plt_string_Concat_object_object_object
-plt_string_Concat_object_object_object:
-_p_51:
+.word 1963
+	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_FouteGok
+plt_ProjectDrunk_LogischeLaag_HogerLager_FouteGok:
+_p_52:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 1982
-	.no_dead_strip plt_UIKit_UIAlertView_add_Dismissed_System_EventHandler_1_UIKit_UIButtonEventArgs
-plt_UIKit_UIAlertView_add_Dismissed_System_EventHandler_1_UIKit_UIButtonEventArgs:
-_p_52:
+.word 1968
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
+_p_53:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 1985
-	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_GokHoger
-plt_ProjectDrunk_LogischeLaag_HogerLager_GokHoger:
-_p_53:
+.word 1973
+	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_GokLager
+plt_ProjectDrunk_LogischeLaag_HogerLager_GokLager:
+_p_54:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 1990
-	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_CorrecteGok
-plt_ProjectDrunk_LogischeLaag_HogerLager_CorrecteGok:
-_p_54:
+.word 2012
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_BHoger
+plt_ProjectDrunk_iOS_HogerLagerViewController_get_BHoger:
+_p_55:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 1995
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_ShowErrorMessage
-plt_ProjectDrunk_iOS_HogerLagerViewController_ShowErrorMessage:
-_p_55:
+.word 2017
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_BHoger_UIKit_UIButton
+plt_ProjectDrunk_iOS_HogerLagerViewController_set_BHoger_UIKit_UIButton:
+_p_56:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 2000
-	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_FouteGok
-plt_ProjectDrunk_LogischeLaag_HogerLager_FouteGok:
-_p_56:
+.word 2022
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_BLager
+plt_ProjectDrunk_iOS_HogerLagerViewController_get_BLager:
+_p_57:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 2005
-	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
-plt__jit_icall_mono_thread_get_undeniable_exception:
-_p_57:
+.word 2027
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_BLager_UIKit_UIButton
+plt_ProjectDrunk_iOS_HogerLagerViewController_set_BLager_UIKit_UIButton:
+_p_58:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 2010
-	.no_dead_strip plt_ProjectDrunk_LogischeLaag_HogerLager_GokLager
-plt_ProjectDrunk_LogischeLaag_HogerLager_GokLager:
-_p_58:
+.word 2032
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_LInfo
+plt_ProjectDrunk_iOS_HogerLagerViewController_get_LInfo:
+_p_59:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 2049
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_BHoger
-plt_ProjectDrunk_iOS_HogerLagerViewController_get_BHoger:
-_p_59:
+.word 2037
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_LInfo_UIKit_UILabel
+plt_ProjectDrunk_iOS_HogerLagerViewController_set_LInfo_UIKit_UILabel:
+_p_60:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 2054
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_BHoger_UIKit_UIButton
-plt_ProjectDrunk_iOS_HogerLagerViewController_set_BHoger_UIKit_UIButton:
-_p_60:
+.word 2042
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_LInfo2
+plt_ProjectDrunk_iOS_HogerLagerViewController_get_LInfo2:
+_p_61:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 2059
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_BLager
-plt_ProjectDrunk_iOS_HogerLagerViewController_get_BLager:
-_p_61:
+.word 2047
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_LInfo2_UIKit_UILabel
+plt_ProjectDrunk_iOS_HogerLagerViewController_set_LInfo2_UIKit_UILabel:
+_p_62:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 2064
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_BLager_UIKit_UIButton
-plt_ProjectDrunk_iOS_HogerLagerViewController_set_BLager_UIKit_UIButton:
-_p_62:
+.word 2052
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_LKaart_UIKit_UILabel
+plt_ProjectDrunk_iOS_HogerLagerViewController_set_LKaart_UIKit_UILabel:
+_p_63:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 2069
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_LInfo
-plt_ProjectDrunk_iOS_HogerLagerViewController_get_LInfo:
-_p_63:
+.word 2057
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_LPunten_UIKit_UILabel
+plt_ProjectDrunk_iOS_HogerLagerViewController_set_LPunten_UIKit_UILabel:
+_p_64:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 2074
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_LInfo_UIKit_UILabel
-plt_ProjectDrunk_iOS_HogerLagerViewController_set_LInfo_UIKit_UILabel:
-_p_64:
+.word 2062
+	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_LSpeler_UIKit_UILabel
+plt_ProjectDrunk_iOS_HogerLagerViewController_set_LSpeler_UIKit_UILabel:
+_p_65:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 2079
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_get_LInfo2
-plt_ProjectDrunk_iOS_HogerLagerViewController_get_LInfo2:
-_p_65:
+.word 2067
+	.no_dead_strip plt_ProjectDrunk_IOS_GestureDelegate__ctor
+plt_ProjectDrunk_IOS_GestureDelegate__ctor:
+_p_66:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 2084
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_LInfo2_UIKit_UILabel
-plt_ProjectDrunk_iOS_HogerLagerViewController_set_LInfo2_UIKit_UILabel:
-_p_66:
+.word 2072
+	.no_dead_strip plt_UIKit_UIGestureRecognizer_set_Delegate_UIKit_IUIGestureRecognizerDelegate
+plt_UIKit_UIGestureRecognizer_set_Delegate_UIKit_IUIGestureRecognizerDelegate:
+_p_67:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 2089
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_LKaart_UIKit_UILabel
-plt_ProjectDrunk_iOS_HogerLagerViewController_set_LKaart_UIKit_UILabel:
-_p_67:
+.word 2077
+	.no_dead_strip plt_System_Collections_Generic_List_1_string__ctor
+plt_System_Collections_Generic_List_1_string__ctor:
+_p_68:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 2094
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_LPunten_UIKit_UILabel
-plt_ProjectDrunk_iOS_HogerLagerViewController_set_LPunten_UIKit_UILabel:
-_p_68:
+.word 2082
+	.no_dead_strip plt_System_Collections_Generic_List_1_string_Add_string
+plt_System_Collections_Generic_List_1_string_Add_string:
+_p_69:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 2099
-	.no_dead_strip plt_ProjectDrunk_iOS_HogerLagerViewController_set_LSpeler_UIKit_UILabel
-plt_ProjectDrunk_iOS_HogerLagerViewController_set_LSpeler_UIKit_UILabel:
-_p_69:
+.word 2093
+	.no_dead_strip plt_ProjectDrunk_iOS_TableSource__ctor_System_Collections_Generic_List_1_string
+plt_ProjectDrunk_iOS_TableSource__ctor_System_Collections_Generic_List_1_string:
+_p_70:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
 .word 2104
-	.no_dead_strip plt_ProjectDrunk_IOS_GestureDelegate__ctor
-plt_ProjectDrunk_IOS_GestureDelegate__ctor:
-_p_70:
+	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_set_TableData_ProjectDrunk_iOS_TableSource
+plt_ProjectDrunk_iOS_ViewController_set_TableData_ProjectDrunk_iOS_TableSource:
+_p_71:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
 .word 2109
-	.no_dead_strip plt_UIKit_UIGestureRecognizer_set_Delegate_UIKit_IUIGestureRecognizerDelegate
-plt_UIKit_UIGestureRecognizer_set_Delegate_UIKit_IUIGestureRecognizerDelegate:
-_p_71:
+	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_get_SpelerTabelView
+plt_ProjectDrunk_iOS_ViewController_get_SpelerTabelView:
+_p_72:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
 .word 2114
-	.no_dead_strip plt_System_Collections_Generic_List_1_string__ctor
-plt_System_Collections_Generic_List_1_string__ctor:
-_p_72:
+	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_get_TableData
+plt_ProjectDrunk_iOS_ViewController_get_TableData:
+_p_73:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
 .word 2119
-	.no_dead_strip plt_System_Collections_Generic_List_1_string_Add_string
-plt_System_Collections_Generic_List_1_string_Add_string:
-_p_73:
+	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_EditingDidEnd_UIKit_UITextField
+plt_ProjectDrunk_iOS_ViewController_EditingDidEnd_UIKit_UITextField:
+_p_74:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 2130
-	.no_dead_strip plt_ProjectDrunk_iOS_TableSource__ctor_System_Collections_Generic_List_1_string
-plt_ProjectDrunk_iOS_TableSource__ctor_System_Collections_Generic_List_1_string:
-_p_74:
+.word 2124
+	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Speler__ctor
+plt_System_Collections_Generic_List_1_ProjectDrunk_Speler__ctor:
+_p_75:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 2141
-	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_set_TableData_ProjectDrunk_iOS_TableSource
-plt_ProjectDrunk_iOS_ViewController_set_TableData_ProjectDrunk_iOS_TableSource:
-_p_75:
+.word 2129
+	.no_dead_strip plt_ProjectDrunk_iOS_TableSource_GetLijst
+plt_ProjectDrunk_iOS_TableSource_GetLijst:
+_p_76:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 2146
-	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_get_SpelerTabelView
-plt_ProjectDrunk_iOS_ViewController_get_SpelerTabelView:
-_p_76:
+.word 2140
+	.no_dead_strip plt_System_Collections_Generic_List_1_string_GetEnumerator
+plt_System_Collections_Generic_List_1_string_GetEnumerator:
+_p_77:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 2151
-	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_get_TableData
-plt_ProjectDrunk_iOS_ViewController_get_TableData:
-_p_77:
+.word 2145
+	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_string_get_Current
+plt_System_Collections_Generic_List_1_Enumerator_string_get_Current:
+_p_78:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
 .word 2156
-	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_EditingDidEnd_UIKit_UITextField
-plt_ProjectDrunk_iOS_ViewController_EditingDidEnd_UIKit_UITextField:
-_p_78:
+	.no_dead_strip plt_ProjectDrunk_Speler__ctor_string
+plt_ProjectDrunk_Speler__ctor_string:
+_p_79:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 2161
-	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Speler__ctor
-plt_System_Collections_Generic_List_1_ProjectDrunk_Speler__ctor:
-_p_79:
+.word 2167
+	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_Add_ProjectDrunk_Speler
+plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_Add_ProjectDrunk_Speler:
+_p_80:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 2166
-	.no_dead_strip plt_ProjectDrunk_iOS_TableSource_GetLijst
-plt_ProjectDrunk_iOS_TableSource_GetLijst:
-_p_80:
+.word 2172
+	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_string_MoveNext
+plt_System_Collections_Generic_List_1_Enumerator_string_MoveNext:
+_p_81:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 2177
-	.no_dead_strip plt_System_Collections_Generic_List_1_string_GetEnumerator
-plt_System_Collections_Generic_List_1_string_GetEnumerator:
-_p_81:
+.word 2183
+	.no_dead_strip plt__jit_icall_mono_thread_self_abort
+plt__jit_icall_mono_thread_self_abort:
+_p_82:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 2182
-	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_string_get_Current
-plt_System_Collections_Generic_List_1_Enumerator_string_get_Current:
-_p_82:
+.word 2194
+	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_string_Dispose
+plt_System_Collections_Generic_List_1_Enumerator_string_Dispose:
+_p_83:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 2193
-	.no_dead_strip plt_ProjectDrunk_Speler__ctor_string
-plt_ProjectDrunk_Speler__ctor_string:
-_p_83:
+.word 2219
+	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_get_DrunkBar
+plt_ProjectDrunk_iOS_ViewController_get_DrunkBar:
+_p_84:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 2204
-	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_Add_ProjectDrunk_Speler
-plt_System_Collections_Generic_List_1_ProjectDrunk_Speler_Add_ProjectDrunk_Speler:
-_p_84:
+.word 2240
+	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler
+plt_ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler:
+_p_85:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 2209
-	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_string_MoveNext
-plt_System_Collections_Generic_List_1_Enumerator_string_MoveNext:
-_p_85:
+.word 2245
+	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_SetSpelerData_ProjectDrunk_DataLaag_SpelData
+plt_ProjectDrunk_iOS_GameSelection_SetSpelerData_ProjectDrunk_DataLaag_SpelData:
+_p_86:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 2220
-	.no_dead_strip plt__jit_icall_mono_thread_self_abort
-plt__jit_icall_mono_thread_self_abort:
-_p_86:
+.word 2250
+	.no_dead_strip plt_ProjectDrunk_iOS_TableSource_DeleteSpeler
+plt_ProjectDrunk_iOS_TableSource_DeleteSpeler:
+_p_87:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 2231
-	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_string_Dispose
-plt_System_Collections_Generic_List_1_Enumerator_string_Dispose:
-_p_87:
+.word 2255
+	.no_dead_strip plt_ProjectDrunk_iOS_TableSource_ReplaceItemInList_string_string
+plt_ProjectDrunk_iOS_TableSource_ReplaceItemInList_string_string:
+_p_88:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 2256
-	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_get_DrunkBar
-plt_ProjectDrunk_iOS_ViewController_get_DrunkBar:
-_p_88:
+.word 2260
+	.no_dead_strip plt_UIKit_UIView_UITextField_EndEditing_UIKit_UIView_bool
+plt_UIKit_UIView_UITextField_EndEditing_UIKit_UIView_bool:
+_p_89:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 2277
-	.no_dead_strip plt_ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler
-plt_ProjectDrunk_DataLaag_SpelData__ctor_int_System_Collections_Generic_List_1_ProjectDrunk_Speler:
-_p_89:
+.word 2265
+	.no_dead_strip plt_ProjectDrunk_iOS_TableSource_VoegSpelerToeAanLijst
+plt_ProjectDrunk_iOS_TableSource_VoegSpelerToeAanLijst:
+_p_90:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 2282
-	.no_dead_strip plt_ProjectDrunk_iOS_GameSelection_SetSpelerData_ProjectDrunk_DataLaag_SpelData
-plt_ProjectDrunk_iOS_GameSelection_SetSpelerData_ProjectDrunk_DataLaag_SpelData:
-_p_90:
+.word 2270
+	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_set_DrunkBar_UIKit_UISlider
+plt_ProjectDrunk_iOS_ViewController_set_DrunkBar_UIKit_UISlider:
+_p_91:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 2287
-	.no_dead_strip plt_ProjectDrunk_iOS_TableSource_DeleteSpeler
-plt_ProjectDrunk_iOS_TableSource_DeleteSpeler:
-_p_91:
+.word 2275
+	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_set_SpelerTabelView_UIKit_UITableView
+plt_ProjectDrunk_iOS_ViewController_set_SpelerTabelView_UIKit_UITableView:
+_p_92:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 2292
-	.no_dead_strip plt_ProjectDrunk_iOS_TableSource_ReplaceItemInList_string_string
-plt_ProjectDrunk_iOS_TableSource_ReplaceItemInList_string_string:
-_p_92:
+.word 2280
+	.no_dead_strip plt_UIKit_UITableViewCell__ctor_intptr
+plt_UIKit_UITableViewCell__ctor_intptr:
+_p_93:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 2297
-	.no_dead_strip plt_UIKit_UIView_UITextField_EndEditing_UIKit_UIView_bool
-plt_UIKit_UIView_UITextField_EndEditing_UIKit_UIView_bool:
-_p_93:
+.word 2285
+	.no_dead_strip plt_ProjectDrunk_iOS_ButtonCellClass_get_addButton
+plt_ProjectDrunk_iOS_ButtonCellClass_get_addButton:
+_p_94:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 2302
-	.no_dead_strip plt_ProjectDrunk_iOS_TableSource_VoegSpelerToeAanLijst
-plt_ProjectDrunk_iOS_TableSource_VoegSpelerToeAanLijst:
-_p_94:
+.word 2290
+	.no_dead_strip plt_ProjectDrunk_iOS_ButtonCellClass_set_addButton_UIKit_UIButton
+plt_ProjectDrunk_iOS_ButtonCellClass_set_addButton_UIKit_UIButton:
+_p_95:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 2307
-	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_set_DrunkBar_UIKit_UISlider
-plt_ProjectDrunk_iOS_ViewController_set_DrunkBar_UIKit_UISlider:
-_p_95:
+.word 2295
+	.no_dead_strip plt_UIKit_UITableViewSource__ctor
+plt_UIKit_UITableViewSource__ctor:
+_p_96:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 2312
-	.no_dead_strip plt_ProjectDrunk_iOS_ViewController_set_SpelerTabelView_UIKit_UITableView
-plt_ProjectDrunk_iOS_ViewController_set_SpelerTabelView_UIKit_UITableView:
-_p_96:
+.word 2300
+	.no_dead_strip plt_ProjectDrunk_iOS_TableSource_set_Lijst_System_Collections_Generic_List_1_string
+plt_ProjectDrunk_iOS_TableSource_set_Lijst_System_Collections_Generic_List_1_string:
+_p_97:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 2317
-	.no_dead_strip plt_UIKit_UITableViewCell__ctor_intptr
-plt_UIKit_UITableViewCell__ctor_intptr:
-_p_97:
+.word 2305
+	.no_dead_strip plt_Foundation_NSIndexPath_get_Row
+plt_Foundation_NSIndexPath_get_Row:
+_p_98:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 2322
-	.no_dead_strip plt_ProjectDrunk_iOS_ButtonCellClass_get_addButton
-plt_ProjectDrunk_iOS_ButtonCellClass_get_addButton:
-_p_98:
+.word 2310
+	.no_dead_strip plt_ProjectDrunk_iOS_TableSource_get_Lijst
+plt_ProjectDrunk_iOS_TableSource_get_Lijst:
+_p_99:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 2327
-	.no_dead_strip plt_ProjectDrunk_iOS_ButtonCellClass_set_addButton_UIKit_UIButton
-plt_ProjectDrunk_iOS_ButtonCellClass_set_addButton_UIKit_UIButton:
-_p_99:
+.word 2315
+	.no_dead_strip plt_System_Collections_Generic_List_1_string_get_Count
+plt_System_Collections_Generic_List_1_string_get_Count:
+_p_100:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 2332
-	.no_dead_strip plt_UIKit_UITableViewSource__ctor
-plt_UIKit_UITableViewSource__ctor:
-_p_100:
+.word 2320
+	.no_dead_strip plt_UIKit_UITableView_DequeueReusableCell_string_Foundation_NSIndexPath
+plt_UIKit_UITableView_DequeueReusableCell_string_Foundation_NSIndexPath:
+_p_101:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 2337
-	.no_dead_strip plt_ProjectDrunk_iOS_TableSource_set_Lijst_System_Collections_Generic_List_1_string
-plt_ProjectDrunk_iOS_TableSource_set_Lijst_System_Collections_Generic_List_1_string:
-_p_101:
+.word 2331
+	.no_dead_strip plt_System_Collections_Generic_List_1_string_get_Item_int
+plt_System_Collections_Generic_List_1_string_get_Item_int:
+_p_102:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 2342
-	.no_dead_strip plt_Foundation_NSIndexPath_get_Row
-plt_Foundation_NSIndexPath_get_Row:
-_p_102:
+.word 2336
+	.no_dead_strip plt_ProjectDrunk_iOS_TextCellClass_SetText_string
+plt_ProjectDrunk_iOS_TextCellClass_SetText_string:
+_p_103:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
 .word 2347
-	.no_dead_strip plt_ProjectDrunk_iOS_TableSource_get_Lijst
-plt_ProjectDrunk_iOS_TableSource_get_Lijst:
-_p_103:
+	.no_dead_strip plt_ProjectDrunk_iOS_TextCellClass_SetIndexNummer_int
+plt_ProjectDrunk_iOS_TextCellClass_SetIndexNummer_int:
+_p_104:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
 .word 2352
-	.no_dead_strip plt_System_Collections_Generic_List_1_string_get_Count
-plt_System_Collections_Generic_List_1_string_get_Count:
-_p_104:
+	.no_dead_strip plt_ProjectDrunk_iOS_ButtonCellClass_SetIndexNummer_int
+plt_ProjectDrunk_iOS_ButtonCellClass_SetIndexNummer_int:
+_p_105:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
 .word 2357
-	.no_dead_strip plt_UIKit_UITableView_DequeueReusableCell_string_Foundation_NSIndexPath
-plt_UIKit_UITableView_DequeueReusableCell_string_Foundation_NSIndexPath:
-_p_105:
+	.no_dead_strip plt_System_Collections_Generic_List_1_string_RemoveAt_int
+plt_System_Collections_Generic_List_1_string_RemoveAt_int:
+_p_106:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 2368
-	.no_dead_strip plt_System_Collections_Generic_List_1_string_get_Item_int
-plt_System_Collections_Generic_List_1_string_get_Item_int:
-_p_106:
+.word 2362
+	.no_dead_strip plt_string_Concat_object_object
+plt_string_Concat_object_object:
+_p_107:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
 .word 2373
-	.no_dead_strip plt_ProjectDrunk_iOS_TextCellClass_SetText_string
-plt_ProjectDrunk_iOS_TextCellClass_SetText_string:
-_p_107:
+	.no_dead_strip plt_string_Equals_string
+plt_string_Equals_string:
+_p_108:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 2384
-	.no_dead_strip plt_ProjectDrunk_iOS_TextCellClass_SetIndexNummer_int
-plt_ProjectDrunk_iOS_TextCellClass_SetIndexNummer_int:
-_p_108:
+.word 2376
+	.no_dead_strip plt_System_Collections_Generic_List_1_string_set_Item_int_string
+plt_System_Collections_Generic_List_1_string_set_Item_int_string:
+_p_109:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 2389
-	.no_dead_strip plt_ProjectDrunk_iOS_ButtonCellClass_SetIndexNummer_int
-plt_ProjectDrunk_iOS_ButtonCellClass_SetIndexNummer_int:
-_p_109:
+.word 2379
+	.no_dead_strip plt_ProjectDrunk_iOS_TextCellClass_get_naamField
+plt_ProjectDrunk_iOS_TextCellClass_get_naamField:
+_p_110:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 2394
-	.no_dead_strip plt_System_Collections_Generic_List_1_string_RemoveAt_int
-plt_System_Collections_Generic_List_1_string_RemoveAt_int:
-_p_110:
+.word 2390
+	.no_dead_strip plt_ProjectDrunk_iOS_TextCellClass_set_naamField_UIKit_UITextField
+plt_ProjectDrunk_iOS_TextCellClass_set_naamField_UIKit_UITextField:
+_p_111:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 2399
-	.no_dead_strip plt_string_Concat_object_object
-plt_string_Concat_object_object:
-_p_111:
+.word 2395
+	.no_dead_strip plt_ProjectDrunk_iOS_SpelCell_get_LSpelNaam
+plt_ProjectDrunk_iOS_SpelCell_get_LSpelNaam:
+_p_112:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 2410
-	.no_dead_strip plt_string_Equals_string
-plt_string_Equals_string:
-_p_112:
+.word 2400
+	.no_dead_strip plt_ProjectDrunk_Globals_Spel_get_Naam
+plt_ProjectDrunk_Globals_Spel_get_Naam:
+_p_113:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 2413
-	.no_dead_strip plt_System_Collections_Generic_List_1_string_set_Item_int_string
-plt_System_Collections_Generic_List_1_string_set_Item_int_string:
-_p_113:
+.word 2405
+	.no_dead_strip plt_ProjectDrunk_iOS_SpelCell_get_LSpelInfo
+plt_ProjectDrunk_iOS_SpelCell_get_LSpelInfo:
+_p_114:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 2416
-	.no_dead_strip plt_ProjectDrunk_iOS_TextCellClass_get_naamField
-plt_ProjectDrunk_iOS_TextCellClass_get_naamField:
-_p_114:
+.word 2410
+	.no_dead_strip plt_ProjectDrunk_Globals_Spel_get_Uitleg
+plt_ProjectDrunk_Globals_Spel_get_Uitleg:
+_p_115:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 2427
-	.no_dead_strip plt_ProjectDrunk_iOS_TextCellClass_set_naamField_UIKit_UITextField
-plt_ProjectDrunk_iOS_TextCellClass_set_naamField_UIKit_UITextField:
-_p_115:
+.word 2415
+	.no_dead_strip plt_ProjectDrunk_iOS_SpelCell_set_LSpelInfo_UIKit_UILabel
+plt_ProjectDrunk_iOS_SpelCell_set_LSpelInfo_UIKit_UILabel:
+_p_116:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 2432
-	.no_dead_strip plt_ProjectDrunk_iOS_SpelCell_get_LSpelNaam
-plt_ProjectDrunk_iOS_SpelCell_get_LSpelNaam:
-_p_116:
+.word 2420
+	.no_dead_strip plt_ProjectDrunk_iOS_SpelCell_set_LSpelNaam_UIKit_UILabel
+plt_ProjectDrunk_iOS_SpelCell_set_LSpelNaam_UIKit_UILabel:
+_p_117:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 2437
-	.no_dead_strip plt_ProjectDrunk_Globals_Spel_get_Naam
-plt_ProjectDrunk_Globals_Spel_get_Naam:
-_p_117:
+.word 2425
+	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
+plt_System_Delegate_Combine_System_Delegate_System_Delegate:
+_p_118:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 2442
-	.no_dead_strip plt_ProjectDrunk_iOS_SpelCell_get_LSpelInfo
-plt_ProjectDrunk_iOS_SpelCell_get_LSpelInfo:
-_p_118:
+.word 2430
+	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
+plt_System_Delegate_Remove_System_Delegate_System_Delegate:
+_p_119:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 2447
-	.no_dead_strip plt_ProjectDrunk_Globals_Spel_get_Uitleg
-plt_ProjectDrunk_Globals_Spel_get_Uitleg:
-_p_119:
+.word 2433
+	.no_dead_strip plt_ProjectDrunk_iOS_SpelTableViewSource_set_Games_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel
+plt_ProjectDrunk_iOS_SpelTableViewSource_set_Games_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel:
+_p_120:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 2452
-	.no_dead_strip plt_ProjectDrunk_iOS_SpelCell_set_LSpelInfo_UIKit_UILabel
-plt_ProjectDrunk_iOS_SpelCell_set_LSpelInfo_UIKit_UILabel:
-_p_120:
+.word 2436
+	.no_dead_strip plt_ProjectDrunk_iOS_SpelTableViewSource_get_Games
+plt_ProjectDrunk_iOS_SpelTableViewSource_get_Games:
+_p_121:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 2457
-	.no_dead_strip plt_ProjectDrunk_iOS_SpelCell_set_LSpelNaam_UIKit_UILabel
-plt_ProjectDrunk_iOS_SpelCell_set_LSpelNaam_UIKit_UILabel:
-_p_121:
+.word 2441
+	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel_get_Item_int
+plt_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel_get_Item_int:
+_p_122:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 2462
-	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
-plt_System_Delegate_Combine_System_Delegate_System_Delegate:
-_p_122:
+.word 2446
+	.no_dead_strip plt_ProjectDrunk_iOS_SpelCell_UpdateCell_ProjectDrunk_Globals_Spel
+plt_ProjectDrunk_iOS_SpelCell_UpdateCell_ProjectDrunk_Globals_Spel:
+_p_123:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 2467
-	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
-plt_System_Delegate_Remove_System_Delegate_System_Delegate:
-_p_123:
+.word 2457
+	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel_get_Count
+plt_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel_get_Count:
+_p_124:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 2470
-	.no_dead_strip plt_ProjectDrunk_iOS_SpelTableViewSource_set_Games_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel
-plt_ProjectDrunk_iOS_SpelTableViewSource_set_Games_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel:
-_p_124:
+.word 2462
+	.no_dead_strip plt_ProjectDrunk_Globals_NewGameEvent__ctor_string
+plt_ProjectDrunk_Globals_NewGameEvent__ctor_string:
+_p_125:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
 .word 2473
-	.no_dead_strip plt_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel_get_Item_int
-plt_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel_get_Item_int:
-_p_125:
+	.no_dead_strip plt_ProjectDrunk_iOS_RingOfFireViewController_set_Data_ProjectDrunk_DataLaag_SpelData
+plt_ProjectDrunk_iOS_RingOfFireViewController_set_Data_ProjectDrunk_DataLaag_SpelData:
+_p_126:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
 .word 2478
-	.no_dead_strip plt_ProjectDrunk_iOS_SpelCell_UpdateCell_ProjectDrunk_Globals_Spel
-plt_ProjectDrunk_iOS_SpelCell_UpdateCell_ProjectDrunk_Globals_Spel:
-_p_126:
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
+_p_127:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 2489
-	.no_dead_strip plt_ProjectDrunk_Globals_NewGameEvent__ctor_string
-plt_ProjectDrunk_Globals_NewGameEvent__ctor_string:
-_p_127:
+.word 2507
+	.no_dead_strip plt__jit_icall_mono_generic_class_init
+plt__jit_icall_mono_generic_class_init:
+_p_128:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 2494
-	.no_dead_strip plt_ProjectDrunk_iOS_RingOfFireViewController_set_Data_ProjectDrunk_DataLaag_SpelData
-plt_ProjectDrunk_iOS_RingOfFireViewController_set_Data_ProjectDrunk_DataLaag_SpelData:
-_p_128:
+.word 2515
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
+_p_129:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 2499
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
-_p_129:
+.word 2541
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
+_p_130:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 2528
-	.no_dead_strip plt__jit_icall_mono_generic_class_init
-plt__jit_icall_mono_generic_class_init:
-_p_130:
+.word 2556
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+_p_131:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 2536
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
-_p_131:
+.word 2564
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
+_p_132:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 2562
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
-_p_132:
+.word 2583
+	.no_dead_strip plt_Locale_GetText_string
+plt_Locale_GetText_string:
+_p_133:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 2577
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-_p_133:
+.word 2612
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
+_p_134:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 2585
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
-_p_134:
+.word 2631
+	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_System_Array_Copy_System_Array_int_System_Array_int_int:
+_p_135:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 2604
-	.no_dead_strip plt_Locale_GetText_string
-plt_Locale_GetText_string:
-_p_135:
+.word 2653
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_136:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 2633
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
-_p_136:
+.word 2656
+	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
+plt__jit_icall_mono_delegate_begin_invoke:
+_p_137:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 2652
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
-_p_137:
+.word 2694
+	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
+plt__jit_icall_mono_delegate_end_invoke:
+_p_138:
 adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 2674
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_138:
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #2824]
-br x16
-.word 2677
-	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
-plt__jit_icall_mono_delegate_begin_invoke:
-_p_139:
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #2832]
-br x16
-.word 2715
-	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
-plt__jit_icall_mono_delegate_end_invoke:
-_p_140:
-adrp x16, mono_aot_ProjectDrunk_iOS_got@PAGE+0
-add x16, x16, mono_aot_ProjectDrunk_iOS_got@PAGEOFF
-ldr x16, [x16, #2840]
-br x16
-.word 2744
+.word 2723
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_ProjectDrunk_iOS_got, 2848
+.lcomm mono_aot_ProjectDrunk_iOS_got, 2824
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -13968,7 +13843,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "01091BFC-6619-4B16-8F7B-DE5E92122AA4"
+	.asciz "B1C36C37-C08E-42BD-B635-A03495E47EB3"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -14047,13 +13922,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 215,2848,141,147,70,391195135,0,21030
-	.long 128,8,8,9,0,25,23024,1984
+	.long 214,2824,139,147,70,391195135,0,20852
+	.long 128,8,8,9,0,25,22848,1984
 	.long 1640,864,0,1328,1584,1024,0,704
 	.long 216,1976,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 36,67,184,175,82,221,187,30,130,253,194,63,190,100,85,167
+	.byte 152,44,68,237,167,181,89,253,37,70,204,4,58,231,88,175
 	.globl _mono_aot_module_ProjectDrunk_iOS_info
 	.align 3
 _mono_aot_module_ProjectDrunk_iOS_info:
@@ -16149,29 +16024,7 @@ LDIFF_SYM318=Lme_12 - ProjectDrunk_iOS_GameSelection_HandleNewPage_object_System
 Lfde18_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_45:
 
-	.byte 5
-	.asciz "Foundation_NSIndexPath"
-
-	.byte 40,16
-LDIFF_SYM319=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM319
-	.byte 2,35,0,0,7
-	.asciz "Foundation_NSIndexPath"
-
-LDIFF_SYM320=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM320
-LTDIE_45_POINTER:
-
-	.byte 13
-LDIFF_SYM321=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM321
-LTDIE_45_REFERENCE:
-
-	.byte 14
-LDIFF_SYM322=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM322
 	.byte 2
 	.asciz "ProjectDrunk.iOS.GameSelection:ViewDidLoad"
 	.asciz "ProjectDrunk_iOS_GameSelection_ViewDidLoad"
@@ -16183,50 +16036,29 @@ LDIFF_SYM322=LTDIE_45 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM323=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM323
+LDIFF_SYM319=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM319
 	.byte 1,106,11
 	.asciz "games"
 
-LDIFF_SYM324=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM324
-	.byte 1,105,11
-	.asciz "i"
-
-LDIFF_SYM325=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM325
-	.byte 1,104,11
-	.asciz "test"
-
-LDIFF_SYM326=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM326
-	.byte 1,103,11
-	.asciz "nsindex"
-
-LDIFF_SYM327=LTDIE_45_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM327
-	.byte 1,102,11
-	.asciz "V_4"
-
-LDIFF_SYM328=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM328
-	.byte 1,101,0
+LDIFF_SYM320=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM320
+	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM329=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM329
+LDIFF_SYM321=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM321
 Lfde19_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_GameSelection_ViewDidLoad
 
-LDIFF_SYM330=Lme_13 - ProjectDrunk_iOS_GameSelection_ViewDidLoad
-	.long LDIFF_SYM330
+LDIFF_SYM322=Lme_13 - ProjectDrunk_iOS_GameSelection_ViewDidLoad
+	.long LDIFF_SYM322
 	.long 0
-	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,148,31,68,149,30,150,29,68,151,28,152,27,68,153,26
-	.byte 154,25
+	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,151,28,152,27,68,153,26,154,25
 	.align 3
 Lfde19_end:
 
@@ -16243,27 +16075,27 @@ Lfde19_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM331=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM331
+LDIFF_SYM323=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM323
 	.byte 2,141,16,3
 	.asciz "data"
 
-LDIFF_SYM332=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM332
+LDIFF_SYM324=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM324
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM333=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM333
+LDIFF_SYM325=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM325
 Lfde20_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_GameSelection_SetSpelerData_ProjectDrunk_DataLaag_SpelData
 
-LDIFF_SYM334=Lme_14 - ProjectDrunk_iOS_GameSelection_SetSpelerData_ProjectDrunk_DataLaag_SpelData
-	.long LDIFF_SYM334
+LDIFF_SYM326=Lme_14 - ProjectDrunk_iOS_GameSelection_SetSpelerData_ProjectDrunk_DataLaag_SpelData
+	.long LDIFF_SYM326
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -16282,52 +16114,52 @@ Lfde20_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM335=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM335
+LDIFF_SYM327=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM327
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM336=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM336
+LDIFF_SYM328=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM328
 Lfde21_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_GameSelection_DidReceiveMemoryWarning
 
-LDIFF_SYM337=Lme_15 - ProjectDrunk_iOS_GameSelection_DidReceiveMemoryWarning
-	.long LDIFF_SYM337
+LDIFF_SYM329=Lme_15 - ProjectDrunk_iOS_GameSelection_DidReceiveMemoryWarning
+	.long LDIFF_SYM329
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde21_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_46:
+LTDIE_45:
 
 	.byte 5
 	.asciz "UIKit_UIStoryboardSegue"
 
 	.byte 40,16
-LDIFF_SYM338=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM338
+LDIFF_SYM330=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM330
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIStoryboardSegue"
 
-LDIFF_SYM339=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM339
-LTDIE_46_POINTER:
+LDIFF_SYM331=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM331
+LTDIE_45_POINTER:
 
 	.byte 13
-LDIFF_SYM340=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM340
-LTDIE_46_REFERENCE:
+LDIFF_SYM332=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM332
+LTDIE_45_REFERENCE:
 
 	.byte 14
-LDIFF_SYM341=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM341
-LTDIE_49:
+LDIFF_SYM333=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM333
+LTDIE_48:
 
 	.byte 17
 	.asciz "ProjectDrunk_Interfaces_IDeck"
@@ -16335,33 +16167,76 @@ LTDIE_49:
 	.byte 16,7
 	.asciz "ProjectDrunk_Interfaces_IDeck"
 
-LDIFF_SYM342=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM342
-LTDIE_49_POINTER:
+LDIFF_SYM334=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM334
+LTDIE_48_POINTER:
 
 	.byte 13
-LDIFF_SYM343=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM343
-LTDIE_49_REFERENCE:
+LDIFF_SYM335=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM335
+LTDIE_48_REFERENCE:
 
 	.byte 14
-LDIFF_SYM344=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM344
-LTDIE_50:
+LDIFF_SYM336=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM336
+LTDIE_49:
 
 	.byte 5
 	.asciz "ProjectDrunk_Speler"
 
 	.byte 24,16
-LDIFF_SYM345=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM345
+LDIFF_SYM337=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM337
 	.byte 2,35,0,6
 	.asciz "<Naam>k__BackingField"
 
-LDIFF_SYM346=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM346
+LDIFF_SYM338=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM338
 	.byte 2,35,16,0,7
 	.asciz "ProjectDrunk_Speler"
+
+LDIFF_SYM339=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM339
+LTDIE_49_POINTER:
+
+	.byte 13
+LDIFF_SYM340=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM340
+LTDIE_49_REFERENCE:
+
+	.byte 14
+LDIFF_SYM341=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM341
+LTDIE_50:
+
+	.byte 5
+	.asciz "ProjectDrunk_Globals_Kaart"
+
+	.byte 48,16
+LDIFF_SYM342=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM342
+	.byte 2,35,0,6
+	.asciz "<Nummer>k__BackingField"
+
+LDIFF_SYM343=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM343
+	.byte 2,35,16,6
+	.asciz "<GetalWaarde>k__BackingField"
+
+LDIFF_SYM344=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM344
+	.byte 2,35,40,6
+	.asciz "<Teken>k__BackingField"
+
+LDIFF_SYM345=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM345
+	.byte 2,35,24,6
+	.asciz "<BestandsNaam>k__BackingField"
+
+LDIFF_SYM346=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM346
+	.byte 2,35,32,0,7
+	.asciz "ProjectDrunk_Globals_Kaart"
 
 LDIFF_SYM347=LTDIE_50 - Ldebug_info_start
 	.long LDIFF_SYM347
@@ -16375,211 +16250,168 @@ LTDIE_50_REFERENCE:
 	.byte 14
 LDIFF_SYM349=LTDIE_50 - Ldebug_info_start
 	.long LDIFF_SYM349
-LTDIE_51:
-
-	.byte 5
-	.asciz "ProjectDrunk_Globals_Kaart"
-
-	.byte 48,16
-LDIFF_SYM350=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM350
-	.byte 2,35,0,6
-	.asciz "<Nummer>k__BackingField"
-
-LDIFF_SYM351=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM351
-	.byte 2,35,16,6
-	.asciz "<GetalWaarde>k__BackingField"
-
-LDIFF_SYM352=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM352
-	.byte 2,35,40,6
-	.asciz "<Teken>k__BackingField"
-
-LDIFF_SYM353=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM353
-	.byte 2,35,24,6
-	.asciz "<BestandsNaam>k__BackingField"
-
-LDIFF_SYM354=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM354
-	.byte 2,35,32,0,7
-	.asciz "ProjectDrunk_Globals_Kaart"
-
-LDIFF_SYM355=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM355
-LTDIE_51_POINTER:
-
-	.byte 13
-LDIFF_SYM356=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM356
-LTDIE_51_REFERENCE:
-
-	.byte 14
-LDIFF_SYM357=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM357
-LTDIE_48:
+LTDIE_47:
 
 	.byte 5
 	.asciz "ProjectDrunk_LogischeLaag_HogerLager"
 
 	.byte 56,16
-LDIFF_SYM358=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM358
+LDIFF_SYM350=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM350
 	.byte 2,35,0,6
 	.asciz "<Deck>k__BackingField"
 
-LDIFF_SYM359=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM359
+LDIFF_SYM351=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM351
 	.byte 2,35,16,6
 	.asciz "<Spelers>k__BackingField"
 
-LDIFF_SYM360=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM360
+LDIFF_SYM352=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM352
 	.byte 2,35,24,6
 	.asciz "<HuidigeSpeler>k__BackingField"
 
-LDIFF_SYM361=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM361
+LDIFF_SYM353=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM353
 	.byte 2,35,32,6
 	.asciz "<HuidigeKaart>k__BackingField"
 
-LDIFF_SYM362=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM362
+LDIFF_SYM354=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM354
 	.byte 2,35,40,6
 	.asciz "<Streak>k__BackingField"
 
-LDIFF_SYM363=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM363
+LDIFF_SYM355=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM355
 	.byte 2,35,48,0,7
 	.asciz "ProjectDrunk_LogischeLaag_HogerLager"
 
-LDIFF_SYM364=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM364
-LTDIE_48_POINTER:
+LDIFF_SYM356=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM356
+LTDIE_47_POINTER:
 
 	.byte 13
-LDIFF_SYM365=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM365
-LTDIE_48_REFERENCE:
+LDIFF_SYM357=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM357
+LTDIE_47_REFERENCE:
 
 	.byte 14
-LDIFF_SYM366=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM366
-LTDIE_52:
+LDIFF_SYM358=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM358
+LTDIE_51:
 
 	.byte 5
 	.asciz "UIKit_UILabel"
 
 	.byte 40,16
-LDIFF_SYM367=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM367
+LDIFF_SYM359=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM359
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UILabel"
 
-LDIFF_SYM368=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM368
-LTDIE_52_POINTER:
+LDIFF_SYM360=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM360
+LTDIE_51_POINTER:
 
 	.byte 13
-LDIFF_SYM369=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM369
-LTDIE_52_REFERENCE:
+LDIFF_SYM361=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM361
+LTDIE_51_REFERENCE:
 
 	.byte 14
-LDIFF_SYM370=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM370
-LTDIE_47:
+LDIFF_SYM362=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM362
+LTDIE_46:
 
 	.byte 5
 	.asciz "ProjectDrunk_iOS_HogerLagerViewController"
 
 	.byte 104,16
-LDIFF_SYM371=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM371
+LDIFF_SYM363=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM363
 	.byte 2,35,0,6
 	.asciz "<Spel>k__BackingField"
 
-LDIFF_SYM372=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM372
+LDIFF_SYM364=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM364
 	.byte 2,35,40,6
 	.asciz "<BHoger>k__BackingField"
 
-LDIFF_SYM373=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM373
+LDIFF_SYM365=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM365
 	.byte 2,35,48,6
 	.asciz "<BLager>k__BackingField"
 
-LDIFF_SYM374=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM374
+LDIFF_SYM366=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM366
 	.byte 2,35,56,6
 	.asciz "<LInfo>k__BackingField"
 
-LDIFF_SYM375=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM375
+LDIFF_SYM367=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM367
 	.byte 2,35,64,6
 	.asciz "<LInfo2>k__BackingField"
 
-LDIFF_SYM376=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM376
+LDIFF_SYM368=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM368
 	.byte 2,35,72,6
 	.asciz "<LKaart>k__BackingField"
 
-LDIFF_SYM377=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM377
+LDIFF_SYM369=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM369
 	.byte 2,35,80,6
 	.asciz "<LPunten>k__BackingField"
 
-LDIFF_SYM378=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM378
+LDIFF_SYM370=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM370
 	.byte 2,35,88,6
 	.asciz "<LSpeler>k__BackingField"
 
-LDIFF_SYM379=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM379
+LDIFF_SYM371=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM371
 	.byte 2,35,96,0,7
 	.asciz "ProjectDrunk_iOS_HogerLagerViewController"
 
-LDIFF_SYM380=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM380
-LTDIE_47_POINTER:
+LDIFF_SYM372=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM372
+LTDIE_46_POINTER:
 
 	.byte 13
-LDIFF_SYM381=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM381
-LTDIE_47_REFERENCE:
+LDIFF_SYM373=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM373
+LTDIE_46_REFERENCE:
 
 	.byte 14
-LDIFF_SYM382=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM382
-LTDIE_53:
+LDIFF_SYM374=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM374
+LTDIE_52:
 
 	.byte 5
 	.asciz "ProjectDrunk_iOS_RingOfFireViewController"
 
 	.byte 48,16
-LDIFF_SYM383=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM383
+LDIFF_SYM375=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM375
 	.byte 2,35,0,6
 	.asciz "<Data>k__BackingField"
 
-LDIFF_SYM384=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM384
+LDIFF_SYM376=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM376
 	.byte 2,35,40,0,7
 	.asciz "ProjectDrunk_iOS_RingOfFireViewController"
 
-LDIFF_SYM385=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM385
-LTDIE_53_POINTER:
+LDIFF_SYM377=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM377
+LTDIE_52_POINTER:
 
 	.byte 13
-LDIFF_SYM386=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM386
-LTDIE_53_REFERENCE:
+LDIFF_SYM378=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM378
+LTDIE_52_REFERENCE:
 
 	.byte 14
-LDIFF_SYM387=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM387
+LDIFF_SYM379=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM379
 	.byte 2
 	.asciz "ProjectDrunk.iOS.GameSelection:PrepareForSegue"
 	.asciz "ProjectDrunk_iOS_GameSelection_PrepareForSegue_UIKit_UIStoryboardSegue_Foundation_NSObject"
@@ -16591,52 +16423,52 @@ LDIFF_SYM387=LTDIE_53 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM388=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM388
+LDIFF_SYM380=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM380
 	.byte 3,141,200,0,3
 	.asciz "segue"
 
-LDIFF_SYM389=LTDIE_46_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM389
+LDIFF_SYM381=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM381
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM390=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM390
+LDIFF_SYM382=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM382
 	.byte 3,141,208,0,11
 	.asciz "GameHogerLager"
 
-LDIFF_SYM391=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM391
+LDIFF_SYM383=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM383
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM392=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM392
+LDIFF_SYM384=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM384
 	.byte 1,102,11
 	.asciz "ringOfFireViewController"
 
-LDIFF_SYM393=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM393
+LDIFF_SYM385=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM385
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM394=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM394
+LDIFF_SYM386=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM386
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM395=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM395
+LDIFF_SYM387=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM387
 Lfde22_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_GameSelection_PrepareForSegue_UIKit_UIStoryboardSegue_Foundation_NSObject
 
-LDIFF_SYM396=Lme_16 - ProjectDrunk_iOS_GameSelection_PrepareForSegue_UIKit_UIStoryboardSegue_Foundation_NSObject
-	.long LDIFF_SYM396
+LDIFF_SYM388=Lme_16 - ProjectDrunk_iOS_GameSelection_PrepareForSegue_UIKit_UIStoryboardSegue_Foundation_NSObject
+	.long LDIFF_SYM388
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
 	.align 3
@@ -16655,22 +16487,22 @@ Lfde22_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM397=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM397
+LDIFF_SYM389=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM389
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM398=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM398
+LDIFF_SYM390=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM390
 Lfde23_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_GameSelection_get_BBack
 
-LDIFF_SYM399=Lme_17 - ProjectDrunk_iOS_GameSelection_get_BBack
-	.long LDIFF_SYM399
+LDIFF_SYM391=Lme_17 - ProjectDrunk_iOS_GameSelection_get_BBack
+	.long LDIFF_SYM391
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -16689,27 +16521,27 @@ Lfde23_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM400=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM400
+LDIFF_SYM392=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM392
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM401=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM401
+LDIFF_SYM393=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM393
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM402=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM402
+LDIFF_SYM394=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM394
 Lfde24_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_GameSelection_set_BBack_UIKit_UIButton
 
-LDIFF_SYM403=Lme_18 - ProjectDrunk_iOS_GameSelection_set_BBack_UIKit_UIButton
-	.long LDIFF_SYM403
+LDIFF_SYM395=Lme_18 - ProjectDrunk_iOS_GameSelection_set_BBack_UIKit_UIButton
+	.long LDIFF_SYM395
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -16728,22 +16560,22 @@ Lfde24_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM404=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM404
+LDIFF_SYM396=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM396
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM405=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM405
+LDIFF_SYM397=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM397
 Lfde25_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_GameSelection_get_SpelTableView
 
-LDIFF_SYM406=Lme_19 - ProjectDrunk_iOS_GameSelection_get_SpelTableView
-	.long LDIFF_SYM406
+LDIFF_SYM398=Lme_19 - ProjectDrunk_iOS_GameSelection_get_SpelTableView
+	.long LDIFF_SYM398
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -16762,27 +16594,27 @@ Lfde25_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM407=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM407
+LDIFF_SYM399=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM399
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM408=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM408
+LDIFF_SYM400=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM400
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM409=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM409
+LDIFF_SYM401=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM401
 Lfde26_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_GameSelection_set_SpelTableView_UIKit_UITableView
 
-LDIFF_SYM410=Lme_1a - ProjectDrunk_iOS_GameSelection_set_SpelTableView_UIKit_UITableView
-	.long LDIFF_SYM410
+LDIFF_SYM402=Lme_1a - ProjectDrunk_iOS_GameSelection_set_SpelTableView_UIKit_UITableView
+	.long LDIFF_SYM402
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -16801,27 +16633,27 @@ Lfde26_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM411=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM411
+LDIFF_SYM403=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM403
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM412=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM412
+LDIFF_SYM404=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM404
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM413=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM413
+LDIFF_SYM405=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM405
 Lfde27_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_GameSelection_BBack_TouchUpInside_UIKit_UIButton
 
-LDIFF_SYM414=Lme_1b - ProjectDrunk_iOS_GameSelection_BBack_TouchUpInside_UIKit_UIButton
-	.long LDIFF_SYM414
+LDIFF_SYM406=Lme_1b - ProjectDrunk_iOS_GameSelection_BBack_TouchUpInside_UIKit_UIButton
+	.long LDIFF_SYM406
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -16840,32 +16672,32 @@ Lfde27_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM415=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM415
+LDIFF_SYM407=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM407
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM416=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM416
+LDIFF_SYM408=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM408
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM417=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM417
+LDIFF_SYM409=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM409
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM418=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM418
+LDIFF_SYM410=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM410
 Lfde28_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_GameSelection_ReleaseDesignerOutlets
 
-LDIFF_SYM419=Lme_1c - ProjectDrunk_iOS_GameSelection_ReleaseDesignerOutlets
-	.long LDIFF_SYM419
+LDIFF_SYM411=Lme_1c - ProjectDrunk_iOS_GameSelection_ReleaseDesignerOutlets
+	.long LDIFF_SYM411
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -16884,22 +16716,22 @@ Lfde28_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM420=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM420
+LDIFF_SYM412=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM412
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM421=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM421
+LDIFF_SYM413=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM413
 Lfde29_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_get_Spel
 
-LDIFF_SYM422=Lme_1d - ProjectDrunk_iOS_HogerLagerViewController_get_Spel
-	.long LDIFF_SYM422
+LDIFF_SYM414=Lme_1d - ProjectDrunk_iOS_HogerLagerViewController_get_Spel
+	.long LDIFF_SYM414
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -16918,27 +16750,27 @@ Lfde29_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM423=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM423
+LDIFF_SYM415=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM415
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM424=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM424
+LDIFF_SYM416=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM416
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM425=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM425
+LDIFF_SYM417=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM417
 Lfde30_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_set_Spel_ProjectDrunk_LogischeLaag_HogerLager
 
-LDIFF_SYM426=Lme_1e - ProjectDrunk_iOS_HogerLagerViewController_set_Spel_ProjectDrunk_LogischeLaag_HogerLager
-	.long LDIFF_SYM426
+LDIFF_SYM418=Lme_1e - ProjectDrunk_iOS_HogerLagerViewController_set_Spel_ProjectDrunk_LogischeLaag_HogerLager
+	.long LDIFF_SYM418
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -16957,27 +16789,27 @@ Lfde30_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM427=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM427
+LDIFF_SYM419=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM419
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM428=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM428
+LDIFF_SYM420=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM420
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM429=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM429
+LDIFF_SYM421=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM421
 Lfde31_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController__ctor_intptr
 
-LDIFF_SYM430=Lme_1f - ProjectDrunk_iOS_HogerLagerViewController__ctor_intptr
-	.long LDIFF_SYM430
+LDIFF_SYM422=Lme_1f - ProjectDrunk_iOS_HogerLagerViewController__ctor_intptr
+	.long LDIFF_SYM422
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -16996,22 +16828,22 @@ Lfde31_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM431=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM431
+LDIFF_SYM423=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM423
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM432=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM432
+LDIFF_SYM424=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM424
 Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_ViewDidLoad
 
-LDIFF_SYM433=Lme_20 - ProjectDrunk_iOS_HogerLagerViewController_ViewDidLoad
-	.long LDIFF_SYM433
+LDIFF_SYM425=Lme_20 - ProjectDrunk_iOS_HogerLagerViewController_ViewDidLoad
+	.long LDIFF_SYM425
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -17030,27 +16862,27 @@ Lfde32_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM434=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM434
+LDIFF_SYM426=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM426
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM435=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM435
+LDIFF_SYM427=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM427
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM436=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM436
+LDIFF_SYM428=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM428
 Lfde33_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_WerkLabelsBij
 
-LDIFF_SYM437=Lme_21 - ProjectDrunk_iOS_HogerLagerViewController_WerkLabelsBij
-	.long LDIFF_SYM437
+LDIFF_SYM429=Lme_21 - ProjectDrunk_iOS_HogerLagerViewController_WerkLabelsBij
+	.long LDIFF_SYM429
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,154,18
 	.align 3
@@ -17069,61 +16901,61 @@ Lfde33_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM438=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM438
+LDIFF_SYM430=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM430
 	.byte 2,141,16,3
 	.asciz "data"
 
-LDIFF_SYM439=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM439
+LDIFF_SYM431=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM431
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM440=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM440
+LDIFF_SYM432=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM432
 Lfde34_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData
 
-LDIFF_SYM441=Lme_22 - ProjectDrunk_iOS_HogerLagerViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData
-	.long LDIFF_SYM441
+LDIFF_SYM433=Lme_22 - ProjectDrunk_iOS_HogerLagerViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData
+	.long LDIFF_SYM433
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
 Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_54:
+LTDIE_53:
 
 	.byte 5
 	.asciz "UIKit_UIAlertView"
 
 	.byte 48,16
-LDIFF_SYM442=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM442
+LDIFF_SYM434=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM434
 	.byte 2,35,0,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM443=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM443
+LDIFF_SYM435=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM435
 	.byte 2,35,40,0,7
 	.asciz "UIKit_UIAlertView"
 
-LDIFF_SYM444=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM444
-LTDIE_54_POINTER:
+LDIFF_SYM436=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM436
+LTDIE_53_POINTER:
 
 	.byte 13
-LDIFF_SYM445=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM445
-LTDIE_54_REFERENCE:
+LDIFF_SYM437=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM437
+LTDIE_53_REFERENCE:
 
 	.byte 14
-LDIFF_SYM446=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM446
+LDIFF_SYM438=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM438
 	.byte 2
 	.asciz "ProjectDrunk.iOS.HogerLagerViewController:ShowErrorMessage"
 	.asciz "ProjectDrunk_iOS_HogerLagerViewController_ShowErrorMessage"
@@ -17135,61 +16967,61 @@ LDIFF_SYM446=LTDIE_54 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM447=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM447
+LDIFF_SYM439=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM439
 	.byte 1,106,11
 	.asciz "alert"
 
-LDIFF_SYM448=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM448
+LDIFF_SYM440=LTDIE_53_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM440
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM449=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM449
+LDIFF_SYM441=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM441
 Lfde35_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_ShowErrorMessage
 
-LDIFF_SYM450=Lme_23 - ProjectDrunk_iOS_HogerLagerViewController_ShowErrorMessage
-	.long LDIFF_SYM450
+LDIFF_SYM442=Lme_23 - ProjectDrunk_iOS_HogerLagerViewController_ShowErrorMessage
+	.long LDIFF_SYM442
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,151,22,152,21,68,153,20,154,19
 	.align 3
 Lfde35_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_55:
+LTDIE_54:
 
 	.byte 5
 	.asciz "UIKit_UIButtonEventArgs"
 
 	.byte 24,16
-LDIFF_SYM451=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM451
+LDIFF_SYM443=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM443
 	.byte 2,35,0,6
 	.asciz "<ButtonIndex>k__BackingField"
 
-LDIFF_SYM452=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM452
+LDIFF_SYM444=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM444
 	.byte 2,35,16,0,7
 	.asciz "UIKit_UIButtonEventArgs"
 
-LDIFF_SYM453=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM453
-LTDIE_55_POINTER:
+LDIFF_SYM445=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM445
+LTDIE_54_POINTER:
 
 	.byte 13
-LDIFF_SYM454=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM454
-LTDIE_55_REFERENCE:
+LDIFF_SYM446=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM446
+LTDIE_54_REFERENCE:
 
 	.byte 14
-LDIFF_SYM455=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM455
+LDIFF_SYM447=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM447
 	.byte 2
 	.asciz "ProjectDrunk.iOS.HogerLagerViewController:Alert_Dismissed"
 	.asciz "ProjectDrunk_iOS_HogerLagerViewController_Alert_Dismissed_object_UIKit_UIButtonEventArgs"
@@ -17201,32 +17033,32 @@ LDIFF_SYM455=LTDIE_55 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM456=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM456
+LDIFF_SYM448=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM448
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM457=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM457
+LDIFF_SYM449=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM449
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM458=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM458
+LDIFF_SYM450=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM450
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM459=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM459
+LDIFF_SYM451=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM451
 Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_Alert_Dismissed_object_UIKit_UIButtonEventArgs
 
-LDIFF_SYM460=Lme_24 - ProjectDrunk_iOS_HogerLagerViewController_Alert_Dismissed_object_UIKit_UIButtonEventArgs
-	.long LDIFF_SYM460
+LDIFF_SYM452=Lme_24 - ProjectDrunk_iOS_HogerLagerViewController_Alert_Dismissed_object_UIKit_UIButtonEventArgs
+	.long LDIFF_SYM452
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -17245,22 +17077,22 @@ Lfde36_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM461=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM461
+LDIFF_SYM453=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM453
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM462=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM462
+LDIFF_SYM454=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM454
 Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_DidReceiveMemoryWarning
 
-LDIFF_SYM463=Lme_25 - ProjectDrunk_iOS_HogerLagerViewController_DidReceiveMemoryWarning
-	.long LDIFF_SYM463
+LDIFF_SYM455=Lme_25 - ProjectDrunk_iOS_HogerLagerViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM455
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -17279,22 +17111,22 @@ Lfde37_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM464=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM464
+LDIFF_SYM456=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM456
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM465=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM465
+LDIFF_SYM457=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM457
 Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_get_BHoger
 
-LDIFF_SYM466=Lme_26 - ProjectDrunk_iOS_HogerLagerViewController_get_BHoger
-	.long LDIFF_SYM466
+LDIFF_SYM458=Lme_26 - ProjectDrunk_iOS_HogerLagerViewController_get_BHoger
+	.long LDIFF_SYM458
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -17313,27 +17145,27 @@ Lfde38_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM467=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM467
+LDIFF_SYM459=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM459
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM468=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM468
+LDIFF_SYM460=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM460
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM469=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM469
+LDIFF_SYM461=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM461
 Lfde39_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_set_BHoger_UIKit_UIButton
 
-LDIFF_SYM470=Lme_27 - ProjectDrunk_iOS_HogerLagerViewController_set_BHoger_UIKit_UIButton
-	.long LDIFF_SYM470
+LDIFF_SYM462=Lme_27 - ProjectDrunk_iOS_HogerLagerViewController_set_BHoger_UIKit_UIButton
+	.long LDIFF_SYM462
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -17352,22 +17184,22 @@ Lfde39_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM471=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM471
+LDIFF_SYM463=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM463
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM472=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM472
+LDIFF_SYM464=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM464
 Lfde40_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_get_BLager
 
-LDIFF_SYM473=Lme_28 - ProjectDrunk_iOS_HogerLagerViewController_get_BLager
-	.long LDIFF_SYM473
+LDIFF_SYM465=Lme_28 - ProjectDrunk_iOS_HogerLagerViewController_get_BLager
+	.long LDIFF_SYM465
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -17386,27 +17218,27 @@ Lfde40_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM474=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM474
+LDIFF_SYM466=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM466
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM475=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM475
+LDIFF_SYM467=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM467
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM476=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM476
+LDIFF_SYM468=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM468
 Lfde41_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_set_BLager_UIKit_UIButton
 
-LDIFF_SYM477=Lme_29 - ProjectDrunk_iOS_HogerLagerViewController_set_BLager_UIKit_UIButton
-	.long LDIFF_SYM477
+LDIFF_SYM469=Lme_29 - ProjectDrunk_iOS_HogerLagerViewController_set_BLager_UIKit_UIButton
+	.long LDIFF_SYM469
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -17425,22 +17257,22 @@ Lfde41_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM478=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM478
+LDIFF_SYM470=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM470
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM479=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM479
+LDIFF_SYM471=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM471
 Lfde42_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_get_LInfo
 
-LDIFF_SYM480=Lme_2a - ProjectDrunk_iOS_HogerLagerViewController_get_LInfo
-	.long LDIFF_SYM480
+LDIFF_SYM472=Lme_2a - ProjectDrunk_iOS_HogerLagerViewController_get_LInfo
+	.long LDIFF_SYM472
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -17459,27 +17291,27 @@ Lfde42_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM481=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM481
+LDIFF_SYM473=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM473
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM482=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM482
+LDIFF_SYM474=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM474
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM483=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM483
+LDIFF_SYM475=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM475
 Lfde43_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_set_LInfo_UIKit_UILabel
 
-LDIFF_SYM484=Lme_2b - ProjectDrunk_iOS_HogerLagerViewController_set_LInfo_UIKit_UILabel
-	.long LDIFF_SYM484
+LDIFF_SYM476=Lme_2b - ProjectDrunk_iOS_HogerLagerViewController_set_LInfo_UIKit_UILabel
+	.long LDIFF_SYM476
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -17498,22 +17330,22 @@ Lfde43_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM485=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM485
+LDIFF_SYM477=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM477
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM486=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM486
+LDIFF_SYM478=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM478
 Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_get_LInfo2
 
-LDIFF_SYM487=Lme_2c - ProjectDrunk_iOS_HogerLagerViewController_get_LInfo2
-	.long LDIFF_SYM487
+LDIFF_SYM479=Lme_2c - ProjectDrunk_iOS_HogerLagerViewController_get_LInfo2
+	.long LDIFF_SYM479
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -17532,27 +17364,27 @@ Lfde44_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM488=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM488
+LDIFF_SYM480=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM480
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM489=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM489
+LDIFF_SYM481=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM481
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM490=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM490
+LDIFF_SYM482=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM482
 Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_set_LInfo2_UIKit_UILabel
 
-LDIFF_SYM491=Lme_2d - ProjectDrunk_iOS_HogerLagerViewController_set_LInfo2_UIKit_UILabel
-	.long LDIFF_SYM491
+LDIFF_SYM483=Lme_2d - ProjectDrunk_iOS_HogerLagerViewController_set_LInfo2_UIKit_UILabel
+	.long LDIFF_SYM483
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -17571,22 +17403,22 @@ Lfde45_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM492=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM492
+LDIFF_SYM484=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM484
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM493=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM493
+LDIFF_SYM485=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM485
 Lfde46_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_get_LKaart
 
-LDIFF_SYM494=Lme_2e - ProjectDrunk_iOS_HogerLagerViewController_get_LKaart
-	.long LDIFF_SYM494
+LDIFF_SYM486=Lme_2e - ProjectDrunk_iOS_HogerLagerViewController_get_LKaart
+	.long LDIFF_SYM486
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -17605,27 +17437,27 @@ Lfde46_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM495=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM495
+LDIFF_SYM487=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM487
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM496=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM496
+LDIFF_SYM488=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM488
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM497=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM497
+LDIFF_SYM489=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM489
 Lfde47_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_set_LKaart_UIKit_UILabel
 
-LDIFF_SYM498=Lme_2f - ProjectDrunk_iOS_HogerLagerViewController_set_LKaart_UIKit_UILabel
-	.long LDIFF_SYM498
+LDIFF_SYM490=Lme_2f - ProjectDrunk_iOS_HogerLagerViewController_set_LKaart_UIKit_UILabel
+	.long LDIFF_SYM490
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -17644,22 +17476,22 @@ Lfde47_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM499=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM499
+LDIFF_SYM491=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM491
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM500=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM500
+LDIFF_SYM492=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM492
 Lfde48_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_get_LPunten
 
-LDIFF_SYM501=Lme_30 - ProjectDrunk_iOS_HogerLagerViewController_get_LPunten
-	.long LDIFF_SYM501
+LDIFF_SYM493=Lme_30 - ProjectDrunk_iOS_HogerLagerViewController_get_LPunten
+	.long LDIFF_SYM493
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -17678,27 +17510,27 @@ Lfde48_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM502=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM502
+LDIFF_SYM494=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM494
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM503=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM503
+LDIFF_SYM495=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM495
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM504=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM504
+LDIFF_SYM496=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM496
 Lfde49_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_set_LPunten_UIKit_UILabel
 
-LDIFF_SYM505=Lme_31 - ProjectDrunk_iOS_HogerLagerViewController_set_LPunten_UIKit_UILabel
-	.long LDIFF_SYM505
+LDIFF_SYM497=Lme_31 - ProjectDrunk_iOS_HogerLagerViewController_set_LPunten_UIKit_UILabel
+	.long LDIFF_SYM497
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -17717,22 +17549,22 @@ Lfde49_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM506=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM506
+LDIFF_SYM498=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM498
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM507=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM507
+LDIFF_SYM499=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM499
 Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_get_LSpeler
 
-LDIFF_SYM508=Lme_32 - ProjectDrunk_iOS_HogerLagerViewController_get_LSpeler
-	.long LDIFF_SYM508
+LDIFF_SYM500=Lme_32 - ProjectDrunk_iOS_HogerLagerViewController_get_LSpeler
+	.long LDIFF_SYM500
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -17751,27 +17583,27 @@ Lfde50_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM509=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM509
+LDIFF_SYM501=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM501
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM510=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM510
+LDIFF_SYM502=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM502
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM511=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM511
+LDIFF_SYM503=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM503
 Lfde51_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_set_LSpeler_UIKit_UILabel
 
-LDIFF_SYM512=Lme_33 - ProjectDrunk_iOS_HogerLagerViewController_set_LSpeler_UIKit_UILabel
-	.long LDIFF_SYM512
+LDIFF_SYM504=Lme_33 - ProjectDrunk_iOS_HogerLagerViewController_set_LSpeler_UIKit_UILabel
+	.long LDIFF_SYM504
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -17790,32 +17622,32 @@ Lfde51_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM513=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM513
+LDIFF_SYM505=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM505
 	.byte 2,141,24,3
 	.asciz "sender"
 
-LDIFF_SYM514=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM514
+LDIFF_SYM506=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM506
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM515=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM515
+LDIFF_SYM507=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM507
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM516=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM516
+LDIFF_SYM508=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM508
 Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_GokHoger_UIKit_UIButton
 
-LDIFF_SYM517=Lme_34 - ProjectDrunk_iOS_HogerLagerViewController_GokHoger_UIKit_UIButton
-	.long LDIFF_SYM517
+LDIFF_SYM509=Lme_34 - ProjectDrunk_iOS_HogerLagerViewController_GokHoger_UIKit_UIButton
+	.long LDIFF_SYM509
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
@@ -17834,32 +17666,32 @@ Lfde52_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM518=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM518
+LDIFF_SYM510=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM510
 	.byte 2,141,24,3
 	.asciz "sender"
 
-LDIFF_SYM519=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM519
+LDIFF_SYM511=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM511
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM520=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM520
+LDIFF_SYM512=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM512
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM521=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM521
+LDIFF_SYM513=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM513
 Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_GokLager_UIKit_UIButton
 
-LDIFF_SYM522=Lme_35 - ProjectDrunk_iOS_HogerLagerViewController_GokLager_UIKit_UIButton
-	.long LDIFF_SYM522
+LDIFF_SYM514=Lme_35 - ProjectDrunk_iOS_HogerLagerViewController_GokLager_UIKit_UIButton
+	.long LDIFF_SYM514
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
@@ -17878,57 +17710,57 @@ Lfde53_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM523=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM523
+LDIFF_SYM515=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM515
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM524=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM524
+LDIFF_SYM516=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM516
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM525=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM525
+LDIFF_SYM517=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM517
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM526=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM526
+LDIFF_SYM518=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM518
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM527=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM527
+LDIFF_SYM519=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM519
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM528=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM528
+LDIFF_SYM520=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM520
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM529=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM529
+LDIFF_SYM521=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM521
 	.byte 1,100,11
 	.asciz "V_6"
 
-LDIFF_SYM530=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM530
+LDIFF_SYM522=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM522
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM531=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM531
+LDIFF_SYM523=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM523
 Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_HogerLagerViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM532=Lme_36 - ProjectDrunk_iOS_HogerLagerViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM532
+LDIFF_SYM524=Lme_36 - ProjectDrunk_iOS_HogerLagerViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM524
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
@@ -17936,166 +17768,166 @@ LDIFF_SYM532=Lme_36 - ProjectDrunk_iOS_HogerLagerViewController_ReleaseDesignerO
 Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_58:
+LTDIE_57:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 32,16
-LDIFF_SYM533=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM533
+LDIFF_SYM525=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM525
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM534=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM534
+LDIFF_SYM526=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM526
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM535=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM535
+LDIFF_SYM527=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM527
 	.byte 2,35,24,6
 	.asciz "_version"
 
-LDIFF_SYM536=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM536
+LDIFF_SYM528=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM528
 	.byte 2,35,28,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM537=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM537
-LTDIE_58_POINTER:
+LDIFF_SYM529=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM529
+LTDIE_57_POINTER:
 
 	.byte 13
-LDIFF_SYM538=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM538
-LTDIE_58_REFERENCE:
+LDIFF_SYM530=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM530
+LTDIE_57_REFERENCE:
 
 	.byte 14
-LDIFF_SYM539=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM539
-LTDIE_57:
+LDIFF_SYM531=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM531
+LTDIE_56:
 
 	.byte 5
 	.asciz "ProjectDrunk_iOS_TableSource"
 
 	.byte 48,16
-LDIFF_SYM540=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM540
+LDIFF_SYM532=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM532
 	.byte 2,35,0,6
 	.asciz "<Lijst>k__BackingField"
 
-LDIFF_SYM541=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM541
+LDIFF_SYM533=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM533
 	.byte 2,35,40,0,7
 	.asciz "ProjectDrunk_iOS_TableSource"
 
-LDIFF_SYM542=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM542
-LTDIE_57_POINTER:
+LDIFF_SYM534=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM534
+LTDIE_56_POINTER:
 
 	.byte 13
-LDIFF_SYM543=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM543
-LTDIE_57_REFERENCE:
+LDIFF_SYM535=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM535
+LTDIE_56_REFERENCE:
 
 	.byte 14
-LDIFF_SYM544=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM544
+LDIFF_SYM536=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM536
+LTDIE_58:
+
+	.byte 5
+	.asciz "UIKit_UITextField"
+
+	.byte 40,16
+LDIFF_SYM537=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM537
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UITextField"
+
+LDIFF_SYM538=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM538
+LTDIE_58_POINTER:
+
+	.byte 13
+LDIFF_SYM539=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM539
+LTDIE_58_REFERENCE:
+
+	.byte 14
+LDIFF_SYM540=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM540
 LTDIE_59:
 
 	.byte 5
-	.asciz "UIKit_UITextField"
+	.asciz "UIKit_UISlider"
 
 	.byte 40,16
-LDIFF_SYM545=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM545
+LDIFF_SYM541=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM541
 	.byte 2,35,0,0,7
-	.asciz "UIKit_UITextField"
+	.asciz "UIKit_UISlider"
 
-LDIFF_SYM546=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM546
+LDIFF_SYM542=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM542
 LTDIE_59_POINTER:
 
 	.byte 13
-LDIFF_SYM547=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM547
+LDIFF_SYM543=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM543
 LTDIE_59_REFERENCE:
 
 	.byte 14
-LDIFF_SYM548=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM548
-LTDIE_60:
-
-	.byte 5
-	.asciz "UIKit_UISlider"
-
-	.byte 40,16
-LDIFF_SYM549=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM549
-	.byte 2,35,0,0,7
-	.asciz "UIKit_UISlider"
-
-LDIFF_SYM550=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM550
-LTDIE_60_POINTER:
-
-	.byte 13
-LDIFF_SYM551=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM551
-LTDIE_60_REFERENCE:
-
-	.byte 14
-LDIFF_SYM552=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM552
-LTDIE_56:
+LDIFF_SYM544=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM544
+LTDIE_55:
 
 	.byte 5
 	.asciz "ProjectDrunk_iOS_ViewController"
 
 	.byte 80,16
-LDIFF_SYM553=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM553
+LDIFF_SYM545=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM545
 	.byte 2,35,0,6
 	.asciz "<TableData>k__BackingField"
 
-LDIFF_SYM554=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM554
+LDIFF_SYM546=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM546
 	.byte 2,35,40,6
 	.asciz "oudeNaam"
 
-LDIFF_SYM555=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM555
+LDIFF_SYM547=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM547
 	.byte 2,35,48,6
 	.asciz "huidigeTextField"
 
-LDIFF_SYM556=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM556
+LDIFF_SYM548=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM548
 	.byte 2,35,56,6
 	.asciz "<DrunkBar>k__BackingField"
 
-LDIFF_SYM557=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM557
+LDIFF_SYM549=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM549
 	.byte 2,35,64,6
 	.asciz "<SpelerTabelView>k__BackingField"
 
-LDIFF_SYM558=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM558
+LDIFF_SYM550=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM550
 	.byte 2,35,72,0,7
 	.asciz "ProjectDrunk_iOS_ViewController"
 
-LDIFF_SYM559=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM559
-LTDIE_56_POINTER:
+LDIFF_SYM551=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM551
+LTDIE_55_POINTER:
 
 	.byte 13
-LDIFF_SYM560=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM560
-LTDIE_56_REFERENCE:
+LDIFF_SYM552=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM552
+LTDIE_55_REFERENCE:
 
 	.byte 14
-LDIFF_SYM561=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM561
+LDIFF_SYM553=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM553
 	.byte 2
 	.asciz "ProjectDrunk.iOS.ViewController:get_TableData"
 	.asciz "ProjectDrunk_iOS_ViewController_get_TableData"
@@ -18107,22 +17939,22 @@ LDIFF_SYM561=LTDIE_56 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM562=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM562
+LDIFF_SYM554=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM554
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM563=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM563
+LDIFF_SYM555=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM555
 Lfde55_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_get_TableData
 
-LDIFF_SYM564=Lme_37 - ProjectDrunk_iOS_ViewController_get_TableData
-	.long LDIFF_SYM564
+LDIFF_SYM556=Lme_37 - ProjectDrunk_iOS_ViewController_get_TableData
+	.long LDIFF_SYM556
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -18141,27 +17973,27 @@ Lfde55_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM565=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM565
+LDIFF_SYM557=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM557
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM566=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM566
+LDIFF_SYM558=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM558
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM567=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM567
+LDIFF_SYM559=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM559
 Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_set_TableData_ProjectDrunk_iOS_TableSource
 
-LDIFF_SYM568=Lme_38 - ProjectDrunk_iOS_ViewController_set_TableData_ProjectDrunk_iOS_TableSource
-	.long LDIFF_SYM568
+LDIFF_SYM560=Lme_38 - ProjectDrunk_iOS_ViewController_set_TableData_ProjectDrunk_iOS_TableSource
+	.long LDIFF_SYM560
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -18180,27 +18012,27 @@ Lfde56_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM569=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM569
+LDIFF_SYM561=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM561
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM570=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM570
+LDIFF_SYM562=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM562
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM571=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM571
+LDIFF_SYM563=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM563
 Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController__ctor_intptr
 
-LDIFF_SYM572=Lme_39 - ProjectDrunk_iOS_ViewController__ctor_intptr
-	.long LDIFF_SYM572
+LDIFF_SYM564=Lme_39 - ProjectDrunk_iOS_ViewController__ctor_intptr
+	.long LDIFF_SYM564
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -18219,27 +18051,27 @@ Lfde57_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM573=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM573
+LDIFF_SYM565=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM565
 	.byte 1,106,11
 	.asciz "spelers"
 
-LDIFF_SYM574=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM574
+LDIFF_SYM566=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM566
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM575=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM575
+LDIFF_SYM567=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM567
 Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_ViewDidLoad
 
-LDIFF_SYM576=Lme_3a - ProjectDrunk_iOS_ViewController_ViewDidLoad
-	.long LDIFF_SYM576
+LDIFF_SYM568=Lme_3a - ProjectDrunk_iOS_ViewController_ViewDidLoad
+	.long LDIFF_SYM568
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
 	.align 3
@@ -18258,22 +18090,22 @@ Lfde58_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM577=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM577
+LDIFF_SYM569=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM569
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM578=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM578
+LDIFF_SYM570=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM570
 Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_DidReceiveMemoryWarning
 
-LDIFF_SYM579=Lme_3b - ProjectDrunk_iOS_ViewController_DidReceiveMemoryWarning
-	.long LDIFF_SYM579
+LDIFF_SYM571=Lme_3b - ProjectDrunk_iOS_ViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM571
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -18292,62 +18124,62 @@ Lfde59_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM580=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM580
+LDIFF_SYM572=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM572
 	.byte 1,104,3
 	.asciz "segue"
 
-LDIFF_SYM581=LTDIE_46_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM581
+LDIFF_SYM573=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM573
 	.byte 3,141,208,0,3
 	.asciz "sender"
 
-LDIFF_SYM582=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM582
+LDIFF_SYM574=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM574
 	.byte 3,141,216,0,11
 	.asciz "GameSelectionVar"
 
-LDIFF_SYM583=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM583
+LDIFF_SYM575=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM575
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM584=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM584
+LDIFF_SYM576=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM576
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM585=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM585
+LDIFF_SYM577=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM577
 	.byte 1,101,11
 	.asciz "spelers"
 
-LDIFF_SYM586=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM586
+LDIFF_SYM578=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM578
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM587=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM587
+LDIFF_SYM579=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM579
 	.byte 3,141,144,1,11
 	.asciz "speler"
 
-LDIFF_SYM588=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM588
+LDIFF_SYM580=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM580
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM589=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM589
+LDIFF_SYM581=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM581
 Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_PrepareForSegue_UIKit_UIStoryboardSegue_Foundation_NSObject
 
-LDIFF_SYM590=Lme_3c - ProjectDrunk_iOS_ViewController_PrepareForSegue_UIKit_UIStoryboardSegue_Foundation_NSObject
-	.long LDIFF_SYM590
+LDIFF_SYM582=Lme_3c - ProjectDrunk_iOS_ViewController_PrepareForSegue_UIKit_UIStoryboardSegue_Foundation_NSObject
+	.long LDIFF_SYM582
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24
 	.byte 154,23
@@ -18367,22 +18199,22 @@ Lfde60_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM591=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM591
+LDIFF_SYM583=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM583
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM592=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM592
+LDIFF_SYM584=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM584
 Lfde61_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_get_DrunkBar
 
-LDIFF_SYM593=Lme_3d - ProjectDrunk_iOS_ViewController_get_DrunkBar
-	.long LDIFF_SYM593
+LDIFF_SYM585=Lme_3d - ProjectDrunk_iOS_ViewController_get_DrunkBar
+	.long LDIFF_SYM585
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -18401,27 +18233,27 @@ Lfde61_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM594=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM594
+LDIFF_SYM586=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM586
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM595=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM595
+LDIFF_SYM587=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM587
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM596=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM596
+LDIFF_SYM588=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM588
 Lfde62_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_set_DrunkBar_UIKit_UISlider
 
-LDIFF_SYM597=Lme_3e - ProjectDrunk_iOS_ViewController_set_DrunkBar_UIKit_UISlider
-	.long LDIFF_SYM597
+LDIFF_SYM589=Lme_3e - ProjectDrunk_iOS_ViewController_set_DrunkBar_UIKit_UISlider
+	.long LDIFF_SYM589
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -18440,22 +18272,22 @@ Lfde62_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM598=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM598
+LDIFF_SYM590=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM590
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM599=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM599
+LDIFF_SYM591=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM591
 Lfde63_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_get_SpelerTabelView
 
-LDIFF_SYM600=Lme_3f - ProjectDrunk_iOS_ViewController_get_SpelerTabelView
-	.long LDIFF_SYM600
+LDIFF_SYM592=Lme_3f - ProjectDrunk_iOS_ViewController_get_SpelerTabelView
+	.long LDIFF_SYM592
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -18474,27 +18306,27 @@ Lfde63_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM601=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM601
+LDIFF_SYM593=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM593
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM602=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM602
+LDIFF_SYM594=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM594
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM603=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM603
+LDIFF_SYM595=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM595
 Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_set_SpelerTabelView_UIKit_UITableView
 
-LDIFF_SYM604=Lme_40 - ProjectDrunk_iOS_ViewController_set_SpelerTabelView_UIKit_UITableView
-	.long LDIFF_SYM604
+LDIFF_SYM596=Lme_40 - ProjectDrunk_iOS_ViewController_set_SpelerTabelView_UIKit_UITableView
+	.long LDIFF_SYM596
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -18513,27 +18345,27 @@ Lfde64_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM605=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM605
+LDIFF_SYM597=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM597
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM606=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM606
+LDIFF_SYM598=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM598
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM607=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM607
+LDIFF_SYM599=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM599
 Lfde65_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_DeleteSpeler_UIKit_UIButton
 
-LDIFF_SYM608=Lme_41 - ProjectDrunk_iOS_ViewController_DeleteSpeler_UIKit_UIButton
-	.long LDIFF_SYM608
+LDIFF_SYM600=Lme_41 - ProjectDrunk_iOS_ViewController_DeleteSpeler_UIKit_UIButton
+	.long LDIFF_SYM600
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -18552,27 +18384,27 @@ Lfde65_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM609=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM609
+LDIFF_SYM601=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM601
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM610=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM610
+LDIFF_SYM602=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM602
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM611=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM611
+LDIFF_SYM603=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM603
 Lfde66_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_DrunkBarEditingDidEnd_UIKit_UISlider
 
-LDIFF_SYM612=Lme_42 - ProjectDrunk_iOS_ViewController_DrunkBarEditingDidEnd_UIKit_UISlider
-	.long LDIFF_SYM612
+LDIFF_SYM604=Lme_42 - ProjectDrunk_iOS_ViewController_DrunkBarEditingDidEnd_UIKit_UISlider
+	.long LDIFF_SYM604
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -18591,27 +18423,27 @@ Lfde66_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM613=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM613
+LDIFF_SYM605=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM605
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM614=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM614
+LDIFF_SYM606=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM606
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM615=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM615
+LDIFF_SYM607=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM607
 Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_EditingDidEnd_UIKit_UITextField
 
-LDIFF_SYM616=Lme_43 - ProjectDrunk_iOS_ViewController_EditingDidEnd_UIKit_UITextField
-	.long LDIFF_SYM616
+LDIFF_SYM608=Lme_43 - ProjectDrunk_iOS_ViewController_EditingDidEnd_UIKit_UITextField
+	.long LDIFF_SYM608
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
@@ -18630,56 +18462,56 @@ Lfde67_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM617=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM617
+LDIFF_SYM609=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM609
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM618=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM618
+LDIFF_SYM610=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM610
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM619=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM619
+LDIFF_SYM611=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM611
 Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_StartEditing_UIKit_UITextField
 
-LDIFF_SYM620=Lme_44 - ProjectDrunk_iOS_ViewController_StartEditing_UIKit_UITextField
-	.long LDIFF_SYM620
+LDIFF_SYM612=Lme_44 - ProjectDrunk_iOS_ViewController_StartEditing_UIKit_UITextField
+	.long LDIFF_SYM612
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
 Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_61:
+LTDIE_60:
 
 	.byte 5
 	.asciz "UIKit_UITapGestureRecognizer"
 
 	.byte 48,16
-LDIFF_SYM621=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM621
+LDIFF_SYM613=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM613
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UITapGestureRecognizer"
 
-LDIFF_SYM622=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM622
-LTDIE_61_POINTER:
+LDIFF_SYM614=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM614
+LTDIE_60_POINTER:
 
 	.byte 13
-LDIFF_SYM623=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM623
-LTDIE_61_REFERENCE:
+LDIFF_SYM615=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM615
+LTDIE_60_REFERENCE:
 
 	.byte 14
-LDIFF_SYM624=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM624
+LDIFF_SYM616=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM616
 	.byte 2
 	.asciz "ProjectDrunk.iOS.ViewController:TapOpSCherm"
 	.asciz "ProjectDrunk_iOS_ViewController_TapOpSCherm_UIKit_UITapGestureRecognizer"
@@ -18691,27 +18523,27 @@ LDIFF_SYM624=LTDIE_61 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM625=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM625
+LDIFF_SYM617=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM617
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM626=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM626
+LDIFF_SYM618=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM618
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM627=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM627
+LDIFF_SYM619=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM619
 Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_TapOpSCherm_UIKit_UITapGestureRecognizer
 
-LDIFF_SYM628=Lme_45 - ProjectDrunk_iOS_ViewController_TapOpSCherm_UIKit_UITapGestureRecognizer
-	.long LDIFF_SYM628
+LDIFF_SYM620=Lme_45 - ProjectDrunk_iOS_ViewController_TapOpSCherm_UIKit_UITapGestureRecognizer
+	.long LDIFF_SYM620
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -18730,27 +18562,27 @@ Lfde69_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM629=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM629
+LDIFF_SYM621=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM621
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM630=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM630
+LDIFF_SYM622=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM622
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM631=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM631
+LDIFF_SYM623=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM623
 Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_VoegSpelerToe_UIKit_UIButton
 
-LDIFF_SYM632=Lme_46 - ProjectDrunk_iOS_ViewController_VoegSpelerToe_UIKit_UIButton
-	.long LDIFF_SYM632
+LDIFF_SYM624=Lme_46 - ProjectDrunk_iOS_ViewController_VoegSpelerToe_UIKit_UIButton
+	.long LDIFF_SYM624
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
@@ -18769,94 +18601,94 @@ Lfde70_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM633=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM633
+LDIFF_SYM625=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM625
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM634=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM634
+LDIFF_SYM626=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM626
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM635=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM635
+LDIFF_SYM627=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM627
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM636=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM636
+LDIFF_SYM628=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM628
 Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM637=Lme_47 - ProjectDrunk_iOS_ViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM637
+LDIFF_SYM629=Lme_47 - ProjectDrunk_iOS_ViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM629
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
 Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_63:
+LTDIE_62:
 
 	.byte 5
 	.asciz "UIKit_UITableViewCell"
 
 	.byte 40,16
-LDIFF_SYM638=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM638
+LDIFF_SYM630=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM630
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UITableViewCell"
 
-LDIFF_SYM639=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM639
-LTDIE_63_POINTER:
+LDIFF_SYM631=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM631
+LTDIE_62_POINTER:
 
 	.byte 13
-LDIFF_SYM640=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM640
-LTDIE_63_REFERENCE:
+LDIFF_SYM632=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM632
+LTDIE_62_REFERENCE:
 
 	.byte 14
-LDIFF_SYM641=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM641
-LTDIE_62:
+LDIFF_SYM633=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM633
+LTDIE_61:
 
 	.byte 5
 	.asciz "ProjectDrunk_iOS_ButtonCellClass"
 
 	.byte 56,16
-LDIFF_SYM642=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM642
+LDIFF_SYM634=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM634
 	.byte 2,35,0,6
 	.asciz "indexNummer"
 
-LDIFF_SYM643=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM643
+LDIFF_SYM635=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM635
 	.byte 2,35,48,6
 	.asciz "<addButton>k__BackingField"
 
-LDIFF_SYM644=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM644
+LDIFF_SYM636=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM636
 	.byte 2,35,40,0,7
 	.asciz "ProjectDrunk_iOS_ButtonCellClass"
 
-LDIFF_SYM645=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM645
-LTDIE_62_POINTER:
+LDIFF_SYM637=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM637
+LTDIE_61_POINTER:
 
 	.byte 13
-LDIFF_SYM646=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM646
-LTDIE_62_REFERENCE:
+LDIFF_SYM638=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM638
+LTDIE_61_REFERENCE:
 
 	.byte 14
-LDIFF_SYM647=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM647
+LDIFF_SYM639=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM639
 	.byte 2
 	.asciz "ProjectDrunk.iOS.ButtonCellClass:.ctor"
 	.asciz "ProjectDrunk_iOS_ButtonCellClass__ctor_intptr"
@@ -18868,27 +18700,27 @@ LDIFF_SYM647=LTDIE_62 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM648=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM648
+LDIFF_SYM640=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM640
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM649=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM649
+LDIFF_SYM641=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM641
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM650=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM650
+LDIFF_SYM642=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM642
 Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ButtonCellClass__ctor_intptr
 
-LDIFF_SYM651=Lme_48 - ProjectDrunk_iOS_ButtonCellClass__ctor_intptr
-	.long LDIFF_SYM651
+LDIFF_SYM643=Lme_48 - ProjectDrunk_iOS_ButtonCellClass__ctor_intptr
+	.long LDIFF_SYM643
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -18907,27 +18739,27 @@ Lfde72_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM652=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM652
+LDIFF_SYM644=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM644
 	.byte 2,141,16,3
 	.asciz "i"
 
-LDIFF_SYM653=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM653
+LDIFF_SYM645=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM645
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM654=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM654
+LDIFF_SYM646=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM646
 Lfde73_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ButtonCellClass_SetIndexNummer_int
 
-LDIFF_SYM655=Lme_49 - ProjectDrunk_iOS_ButtonCellClass_SetIndexNummer_int
-	.long LDIFF_SYM655
+LDIFF_SYM647=Lme_49 - ProjectDrunk_iOS_ButtonCellClass_SetIndexNummer_int
+	.long LDIFF_SYM647
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -18946,27 +18778,27 @@ Lfde73_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM656=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM656
+LDIFF_SYM648=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM648
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM657=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM657
+LDIFF_SYM649=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM649
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM658=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM658
+LDIFF_SYM650=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM650
 Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ButtonCellClass_GetIndexNummer
 
-LDIFF_SYM659=Lme_4a - ProjectDrunk_iOS_ButtonCellClass_GetIndexNummer
-	.long LDIFF_SYM659
+LDIFF_SYM651=Lme_4a - ProjectDrunk_iOS_ButtonCellClass_GetIndexNummer
+	.long LDIFF_SYM651
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
@@ -18985,22 +18817,22 @@ Lfde74_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM660=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM660
+LDIFF_SYM652=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM652
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM661=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM661
+LDIFF_SYM653=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM653
 Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ButtonCellClass_get_addButton
 
-LDIFF_SYM662=Lme_4b - ProjectDrunk_iOS_ButtonCellClass_get_addButton
-	.long LDIFF_SYM662
+LDIFF_SYM654=Lme_4b - ProjectDrunk_iOS_ButtonCellClass_get_addButton
+	.long LDIFF_SYM654
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -19019,27 +18851,27 @@ Lfde75_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM663=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM663
+LDIFF_SYM655=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM655
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM664=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM664
+LDIFF_SYM656=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM656
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM665=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM665
+LDIFF_SYM657=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM657
 Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ButtonCellClass_set_addButton_UIKit_UIButton
 
-LDIFF_SYM666=Lme_4c - ProjectDrunk_iOS_ButtonCellClass_set_addButton_UIKit_UIButton
-	.long LDIFF_SYM666
+LDIFF_SYM658=Lme_4c - ProjectDrunk_iOS_ButtonCellClass_set_addButton_UIKit_UIButton
+	.long LDIFF_SYM658
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -19058,27 +18890,27 @@ Lfde76_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM667=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM667
+LDIFF_SYM659=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM659
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM668=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM668
+LDIFF_SYM660=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM660
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM669=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM669
+LDIFF_SYM661=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM661
 Lfde77_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_ButtonCellClass_ReleaseDesignerOutlets
 
-LDIFF_SYM670=Lme_4d - ProjectDrunk_iOS_ButtonCellClass_ReleaseDesignerOutlets
-	.long LDIFF_SYM670
+LDIFF_SYM662=Lme_4d - ProjectDrunk_iOS_ButtonCellClass_ReleaseDesignerOutlets
+	.long LDIFF_SYM662
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -19097,22 +18929,22 @@ Lfde77_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM671=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM671
+LDIFF_SYM663=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM663
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM672=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM672
+LDIFF_SYM664=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM664
 Lfde78_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource_get_Lijst
 
-LDIFF_SYM673=Lme_4e - ProjectDrunk_iOS_TableSource_get_Lijst
-	.long LDIFF_SYM673
+LDIFF_SYM665=Lme_4e - ProjectDrunk_iOS_TableSource_get_Lijst
+	.long LDIFF_SYM665
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -19131,27 +18963,27 @@ Lfde78_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM674=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM674
+LDIFF_SYM666=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM666
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM675=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM675
+LDIFF_SYM667=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM667
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM676=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM676
+LDIFF_SYM668=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM668
 Lfde79_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource_set_Lijst_System_Collections_Generic_List_1_string
 
-LDIFF_SYM677=Lme_4f - ProjectDrunk_iOS_TableSource_set_Lijst_System_Collections_Generic_List_1_string
-	.long LDIFF_SYM677
+LDIFF_SYM669=Lme_4f - ProjectDrunk_iOS_TableSource_set_Lijst_System_Collections_Generic_List_1_string
+	.long LDIFF_SYM669
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -19170,66 +19002,89 @@ Lfde79_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM678=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM678
+LDIFF_SYM670=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM670
 	.byte 1,105,3
 	.asciz "lijst"
 
-LDIFF_SYM679=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM679
+LDIFF_SYM671=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM671
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM680=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM680
+LDIFF_SYM672=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM672
 Lfde80_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource__ctor_System_Collections_Generic_List_1_string
 
-LDIFF_SYM681=Lme_50 - ProjectDrunk_iOS_TableSource__ctor_System_Collections_Generic_List_1_string
-	.long LDIFF_SYM681
+LDIFF_SYM673=Lme_50 - ProjectDrunk_iOS_TableSource__ctor_System_Collections_Generic_List_1_string
+	.long LDIFF_SYM673
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
 Lfde80_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_63:
+
+	.byte 5
+	.asciz "Foundation_NSIndexPath"
+
+	.byte 40,16
+LDIFF_SYM674=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM674
+	.byte 2,35,0,0,7
+	.asciz "Foundation_NSIndexPath"
+
+LDIFF_SYM675=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM675
+LTDIE_63_POINTER:
+
+	.byte 13
+LDIFF_SYM676=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM676
+LTDIE_63_REFERENCE:
+
+	.byte 14
+LDIFF_SYM677=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM677
 LTDIE_64:
 
 	.byte 5
 	.asciz "ProjectDrunk_iOS_TextCellClass"
 
 	.byte 56,16
-LDIFF_SYM682=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM682
+LDIFF_SYM678=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM678
 	.byte 2,35,0,6
 	.asciz "indexNummer"
 
-LDIFF_SYM683=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM683
+LDIFF_SYM679=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM679
 	.byte 2,35,48,6
 	.asciz "<naamField>k__BackingField"
 
-LDIFF_SYM684=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM684
+LDIFF_SYM680=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM680
 	.byte 2,35,40,0,7
 	.asciz "ProjectDrunk_iOS_TextCellClass"
 
-LDIFF_SYM685=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM685
+LDIFF_SYM681=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM681
 LTDIE_64_POINTER:
 
 	.byte 13
-LDIFF_SYM686=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM686
+LDIFF_SYM682=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM682
 LTDIE_64_REFERENCE:
 
 	.byte 14
-LDIFF_SYM687=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM687
+LDIFF_SYM683=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM683
 	.byte 2
 	.asciz "ProjectDrunk.iOS.TableSource:GetCell"
 	.asciz "ProjectDrunk_iOS_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath"
@@ -19241,57 +19096,57 @@ LDIFF_SYM687=LTDIE_64 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM688=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM688
+LDIFF_SYM684=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM684
 	.byte 1,104,3
 	.asciz "tableView"
 
-LDIFF_SYM689=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM689
+LDIFF_SYM685=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM685
 	.byte 1,105,3
 	.asciz "indexPath"
 
-LDIFF_SYM690=LTDIE_45_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM690
+LDIFF_SYM686=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM686
 	.byte 1,106,11
 	.asciz "cell1"
 
-LDIFF_SYM691=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM691
+LDIFF_SYM687=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM687
 	.byte 1,103,11
 	.asciz "cell2"
 
-LDIFF_SYM692=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM692
+LDIFF_SYM688=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM688
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM693=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM693
+LDIFF_SYM689=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM689
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM694=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM694
+LDIFF_SYM690=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM690
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM695=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM695
+LDIFF_SYM691=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM691
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM696=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM696
+LDIFF_SYM692=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM692
 Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
 
-LDIFF_SYM697=Lme_51 - ProjectDrunk_iOS_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
-	.long LDIFF_SYM697
+LDIFF_SYM693=Lme_51 - ProjectDrunk_iOS_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
+	.long LDIFF_SYM693
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16,152,15,68,153,14
 	.byte 154,13
@@ -19311,42 +19166,42 @@ Lfde81_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM698=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM698
+LDIFF_SYM694=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM694
 	.byte 1,104,3
 	.asciz "tableView"
 
-LDIFF_SYM699=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM699
+LDIFF_SYM695=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM695
 	.byte 2,141,48,3
 	.asciz "indexPath"
 
-LDIFF_SYM700=LTDIE_45_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM700
+LDIFF_SYM696=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM696
 	.byte 1,106,11
 	.asciz "cell"
 
-LDIFF_SYM701=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM701
+LDIFF_SYM697=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM697
 	.byte 3,141,208,0,11
 	.asciz "V_1"
 
-LDIFF_SYM702=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM702
+LDIFF_SYM698=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM698
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM703=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM703
+LDIFF_SYM699=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM699
 Lfde82_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
 
-LDIFF_SYM704=Lme_52 - ProjectDrunk_iOS_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
-	.long LDIFF_SYM704
+LDIFF_SYM700=Lme_52 - ProjectDrunk_iOS_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
+	.long LDIFF_SYM700
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12,68,154,11
 	.align 3
@@ -19365,27 +19220,27 @@ Lfde82_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM705=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM705
+LDIFF_SYM701=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM701
 	.byte 2,141,16,3
 	.asciz "speler"
 
-LDIFF_SYM706=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM706
+LDIFF_SYM702=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM702
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM707=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM707
+LDIFF_SYM703=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM703
 Lfde83_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource_VoegSpelerToeAanLijst_string
 
-LDIFF_SYM708=Lme_53 - ProjectDrunk_iOS_TableSource_VoegSpelerToeAanLijst_string
-	.long LDIFF_SYM708
+LDIFF_SYM704=Lme_53 - ProjectDrunk_iOS_TableSource_VoegSpelerToeAanLijst_string
+	.long LDIFF_SYM704
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -19404,27 +19259,27 @@ Lfde83_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM709=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM709
+LDIFF_SYM705=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM705
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM710=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM710
+LDIFF_SYM706=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM706
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM711=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM711
+LDIFF_SYM707=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM707
 Lfde84_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource_DeleteSpeler
 
-LDIFF_SYM712=Lme_54 - ProjectDrunk_iOS_TableSource_DeleteSpeler
-	.long LDIFF_SYM712
+LDIFF_SYM708=Lme_54 - ProjectDrunk_iOS_TableSource_DeleteSpeler
+	.long LDIFF_SYM708
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -19443,22 +19298,22 @@ Lfde84_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM713=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM713
+LDIFF_SYM709=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM709
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM714=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM714
+LDIFF_SYM710=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM710
 Lfde85_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource_VoegSpelerToeAanLijst
 
-LDIFF_SYM715=Lme_55 - ProjectDrunk_iOS_TableSource_VoegSpelerToeAanLijst
-	.long LDIFF_SYM715
+LDIFF_SYM711=Lme_55 - ProjectDrunk_iOS_TableSource_VoegSpelerToeAanLijst
+	.long LDIFF_SYM711
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
@@ -19477,27 +19332,27 @@ Lfde85_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM716=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM716
+LDIFF_SYM712=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM712
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM717=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM717
+LDIFF_SYM713=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM713
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM718=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM718
+LDIFF_SYM714=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM714
 Lfde86_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource_GetLijst
 
-LDIFF_SYM719=Lme_56 - ProjectDrunk_iOS_TableSource_GetLijst
-	.long LDIFF_SYM719
+LDIFF_SYM715=Lme_56 - ProjectDrunk_iOS_TableSource_GetLijst
+	.long LDIFF_SYM715
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
@@ -19516,47 +19371,47 @@ Lfde86_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM720=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM720
+LDIFF_SYM716=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM716
 	.byte 1,104,3
 	.asciz "oud"
 
-LDIFF_SYM721=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM721
+LDIFF_SYM717=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM717
 	.byte 1,105,3
 	.asciz "nieuw"
 
-LDIFF_SYM722=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM722
+LDIFF_SYM718=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM718
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM723=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM723
+LDIFF_SYM719=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM719
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM724=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM724
+LDIFF_SYM720=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM720
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM725=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM725
+LDIFF_SYM721=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM721
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM726=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM726
+LDIFF_SYM722=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM722
 Lfde87_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource_ReplaceItemInList_string_string
 
-LDIFF_SYM727=Lme_57 - ProjectDrunk_iOS_TableSource_ReplaceItemInList_string_string
-	.long LDIFF_SYM727
+LDIFF_SYM723=Lme_57 - ProjectDrunk_iOS_TableSource_ReplaceItemInList_string_string
+	.long LDIFF_SYM723
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
 	.align 3
@@ -19575,47 +19430,47 @@ Lfde87_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM728=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM728
+LDIFF_SYM724=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM724
 	.byte 1,105,3
 	.asciz "s"
 
-LDIFF_SYM729=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM729
+LDIFF_SYM725=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM725
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM730=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM730
+LDIFF_SYM726=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM726
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM731=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM731
+LDIFF_SYM727=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM727
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM732=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM732
+LDIFF_SYM728=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM728
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM733=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM733
+LDIFF_SYM729=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM729
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM734=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM734
+LDIFF_SYM730=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM730
 Lfde88_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource_GetIndexOfItem_string
 
-LDIFF_SYM735=Lme_58 - ProjectDrunk_iOS_TableSource_GetIndexOfItem_string
-	.long LDIFF_SYM735
+LDIFF_SYM731=Lme_58 - ProjectDrunk_iOS_TableSource_GetIndexOfItem_string
+	.long LDIFF_SYM731
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
 	.align 3
@@ -19634,32 +19489,32 @@ Lfde88_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM736=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM736
+LDIFF_SYM732=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM732
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM737=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM737
+LDIFF_SYM733=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM733
 	.byte 2,141,24,3
 	.asciz "nieuweNaam"
 
-LDIFF_SYM738=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM738
+LDIFF_SYM734=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM734
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM739=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM739
+LDIFF_SYM735=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM735
 Lfde89_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource_WijzigLijst_int_string
 
-LDIFF_SYM740=Lme_59 - ProjectDrunk_iOS_TableSource_WijzigLijst_int_string
-	.long LDIFF_SYM740
+LDIFF_SYM736=Lme_59 - ProjectDrunk_iOS_TableSource_WijzigLijst_int_string
+	.long LDIFF_SYM736
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -19678,37 +19533,37 @@ Lfde89_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM741=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM741
+LDIFF_SYM737=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM737
 	.byte 2,141,24,3
 	.asciz "tableview"
 
-LDIFF_SYM742=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM742
+LDIFF_SYM738=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM738
 	.byte 2,141,32,3
 	.asciz "section"
 
-LDIFF_SYM743=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM743
+LDIFF_SYM739=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM739
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM744=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM744
+LDIFF_SYM740=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM740
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM745=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM745
+LDIFF_SYM741=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM741
 Lfde90_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TableSource_RowsInSection_UIKit_UITableView_System_nint
 
-LDIFF_SYM746=Lme_5a - ProjectDrunk_iOS_TableSource_RowsInSection_UIKit_UITableView_System_nint
-	.long LDIFF_SYM746
+LDIFF_SYM742=Lme_5a - ProjectDrunk_iOS_TableSource_RowsInSection_UIKit_UITableView_System_nint
+	.long LDIFF_SYM742
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12
 	.align 3
@@ -19727,27 +19582,27 @@ Lfde90_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM747=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM747
+LDIFF_SYM743=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM743
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM748=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM748
+LDIFF_SYM744=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM744
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM749=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM749
+LDIFF_SYM745=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM745
 Lfde91_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TextCellClass__ctor_intptr
 
-LDIFF_SYM750=Lme_5b - ProjectDrunk_iOS_TextCellClass__ctor_intptr
-	.long LDIFF_SYM750
+LDIFF_SYM746=Lme_5b - ProjectDrunk_iOS_TextCellClass__ctor_intptr
+	.long LDIFF_SYM746
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -19766,27 +19621,27 @@ Lfde91_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM751=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM751
+LDIFF_SYM747=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM747
 	.byte 2,141,16,3
 	.asciz "i"
 
-LDIFF_SYM752=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM752
+LDIFF_SYM748=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM748
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM753=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM753
+LDIFF_SYM749=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM749
 Lfde92_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TextCellClass_SetIndexNummer_int
 
-LDIFF_SYM754=Lme_5c - ProjectDrunk_iOS_TextCellClass_SetIndexNummer_int
-	.long LDIFF_SYM754
+LDIFF_SYM750=Lme_5c - ProjectDrunk_iOS_TextCellClass_SetIndexNummer_int
+	.long LDIFF_SYM750
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -19805,27 +19660,27 @@ Lfde92_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM755=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM755
+LDIFF_SYM751=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM751
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM756=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM756
+LDIFF_SYM752=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM752
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM757=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM757
+LDIFF_SYM753=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM753
 Lfde93_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TextCellClass_GetIndexNummer
 
-LDIFF_SYM758=Lme_5d - ProjectDrunk_iOS_TextCellClass_GetIndexNummer
-	.long LDIFF_SYM758
+LDIFF_SYM754=Lme_5d - ProjectDrunk_iOS_TextCellClass_GetIndexNummer
+	.long LDIFF_SYM754
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
@@ -19844,27 +19699,27 @@ Lfde93_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM759=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM759
+LDIFF_SYM755=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM755
 	.byte 2,141,16,3
 	.asciz "s"
 
-LDIFF_SYM760=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM760
+LDIFF_SYM756=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM756
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM761=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM761
+LDIFF_SYM757=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM757
 Lfde94_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TextCellClass_SetText_string
 
-LDIFF_SYM762=Lme_5e - ProjectDrunk_iOS_TextCellClass_SetText_string
-	.long LDIFF_SYM762
+LDIFF_SYM758=Lme_5e - ProjectDrunk_iOS_TextCellClass_SetText_string
+	.long LDIFF_SYM758
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -19883,22 +19738,22 @@ Lfde94_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM763=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM763
+LDIFF_SYM759=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM759
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM764=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM764
+LDIFF_SYM760=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM760
 Lfde95_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TextCellClass_get_naamField
 
-LDIFF_SYM765=Lme_5f - ProjectDrunk_iOS_TextCellClass_get_naamField
-	.long LDIFF_SYM765
+LDIFF_SYM761=Lme_5f - ProjectDrunk_iOS_TextCellClass_get_naamField
+	.long LDIFF_SYM761
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -19917,27 +19772,27 @@ Lfde95_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM766=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM766
+LDIFF_SYM762=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM762
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM767=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM767
+LDIFF_SYM763=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM763
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM768=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM768
+LDIFF_SYM764=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM764
 Lfde96_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TextCellClass_set_naamField_UIKit_UITextField
 
-LDIFF_SYM769=Lme_60 - ProjectDrunk_iOS_TextCellClass_set_naamField_UIKit_UITextField
-	.long LDIFF_SYM769
+LDIFF_SYM765=Lme_60 - ProjectDrunk_iOS_TextCellClass_set_naamField_UIKit_UITextField
+	.long LDIFF_SYM765
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -19956,27 +19811,27 @@ Lfde96_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM770=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM770
+LDIFF_SYM766=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM766
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM771=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM771
+LDIFF_SYM767=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM767
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM772=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM772
+LDIFF_SYM768=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM768
 Lfde97_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_TextCellClass_ReleaseDesignerOutlets
 
-LDIFF_SYM773=Lme_61 - ProjectDrunk_iOS_TextCellClass_ReleaseDesignerOutlets
-	.long LDIFF_SYM773
+LDIFF_SYM769=Lme_61 - ProjectDrunk_iOS_TextCellClass_ReleaseDesignerOutlets
+	.long LDIFF_SYM769
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
@@ -19989,38 +19844,38 @@ LTDIE_65:
 	.asciz "ProjectDrunk_iOS_SpelCell"
 
 	.byte 64,16
-LDIFF_SYM774=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM774
+LDIFF_SYM770=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM770
 	.byte 2,35,0,6
 	.asciz "<IndexNummer>k__BackingField"
 
-LDIFF_SYM775=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM775
+LDIFF_SYM771=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM771
 	.byte 2,35,56,6
 	.asciz "<LSpelInfo>k__BackingField"
 
-LDIFF_SYM776=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM776
+LDIFF_SYM772=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM772
 	.byte 2,35,40,6
 	.asciz "<LSpelNaam>k__BackingField"
 
-LDIFF_SYM777=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM777
+LDIFF_SYM773=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM773
 	.byte 2,35,48,0,7
 	.asciz "ProjectDrunk_iOS_SpelCell"
 
-LDIFF_SYM778=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM778
+LDIFF_SYM774=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM774
 LTDIE_65_POINTER:
 
 	.byte 13
-LDIFF_SYM779=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM779
+LDIFF_SYM775=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM775
 LTDIE_65_REFERENCE:
 
 	.byte 14
-LDIFF_SYM780=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM780
+LDIFF_SYM776=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM776
 	.byte 2
 	.asciz "ProjectDrunk.iOS.SpelCell:get_IndexNummer"
 	.asciz "ProjectDrunk_iOS_SpelCell_get_IndexNummer"
@@ -20032,22 +19887,22 @@ LDIFF_SYM780=LTDIE_65 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM781=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM781
+LDIFF_SYM777=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM777
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM782=Lfde98_end - Lfde98_start
-	.long LDIFF_SYM782
+LDIFF_SYM778=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM778
 Lfde98_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelCell_get_IndexNummer
 
-LDIFF_SYM783=Lme_62 - ProjectDrunk_iOS_SpelCell_get_IndexNummer
-	.long LDIFF_SYM783
+LDIFF_SYM779=Lme_62 - ProjectDrunk_iOS_SpelCell_get_IndexNummer
+	.long LDIFF_SYM779
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -20066,27 +19921,27 @@ Lfde98_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM784=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM784
+LDIFF_SYM780=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM780
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM785=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM785
+LDIFF_SYM781=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM781
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM786=Lfde99_end - Lfde99_start
-	.long LDIFF_SYM786
+LDIFF_SYM782=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM782
 Lfde99_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelCell_set_IndexNummer_int
 
-LDIFF_SYM787=Lme_63 - ProjectDrunk_iOS_SpelCell_set_IndexNummer_int
-	.long LDIFF_SYM787
+LDIFF_SYM783=Lme_63 - ProjectDrunk_iOS_SpelCell_set_IndexNummer_int
+	.long LDIFF_SYM783
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20105,27 +19960,27 @@ Lfde99_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM788=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM788
+LDIFF_SYM784=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM784
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM789=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM789
+LDIFF_SYM785=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM785
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM790=Lfde100_end - Lfde100_start
-	.long LDIFF_SYM790
+LDIFF_SYM786=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM786
 Lfde100_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelCell__ctor_intptr
 
-LDIFF_SYM791=Lme_64 - ProjectDrunk_iOS_SpelCell__ctor_intptr
-	.long LDIFF_SYM791
+LDIFF_SYM787=Lme_64 - ProjectDrunk_iOS_SpelCell__ctor_intptr
+	.long LDIFF_SYM787
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20138,33 +19993,33 @@ LTDIE_66:
 	.asciz "ProjectDrunk_Globals_Spel"
 
 	.byte 32,16
-LDIFF_SYM792=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM792
+LDIFF_SYM788=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM788
 	.byte 2,35,0,6
 	.asciz "<Naam>k__BackingField"
 
-LDIFF_SYM793=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM793
+LDIFF_SYM789=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM789
 	.byte 2,35,16,6
 	.asciz "<Uitleg>k__BackingField"
 
-LDIFF_SYM794=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM794
+LDIFF_SYM790=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM790
 	.byte 2,35,24,0,7
 	.asciz "ProjectDrunk_Globals_Spel"
 
-LDIFF_SYM795=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM795
+LDIFF_SYM791=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM791
 LTDIE_66_POINTER:
 
 	.byte 13
-LDIFF_SYM796=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM796
+LDIFF_SYM792=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM792
 LTDIE_66_REFERENCE:
 
 	.byte 14
-LDIFF_SYM797=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM797
+LDIFF_SYM793=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM793
 	.byte 2
 	.asciz "ProjectDrunk.iOS.SpelCell:UpdateCell"
 	.asciz "ProjectDrunk_iOS_SpelCell_UpdateCell_ProjectDrunk_Globals_Spel"
@@ -20176,27 +20031,27 @@ LDIFF_SYM797=LTDIE_66 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM798=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM798
+LDIFF_SYM794=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM794
 	.byte 1,105,3
 	.asciz "spel"
 
-LDIFF_SYM799=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM799
+LDIFF_SYM795=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM795
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM800=Lfde101_end - Lfde101_start
-	.long LDIFF_SYM800
+LDIFF_SYM796=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM796
 Lfde101_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelCell_UpdateCell_ProjectDrunk_Globals_Spel
 
-LDIFF_SYM801=Lme_65 - ProjectDrunk_iOS_SpelCell_UpdateCell_ProjectDrunk_Globals_Spel
-	.long LDIFF_SYM801
+LDIFF_SYM797=Lme_65 - ProjectDrunk_iOS_SpelCell_UpdateCell_ProjectDrunk_Globals_Spel
+	.long LDIFF_SYM797
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
@@ -20215,22 +20070,22 @@ Lfde101_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM802=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM802
+LDIFF_SYM798=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM798
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM803=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM803
+LDIFF_SYM799=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM799
 Lfde102_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelCell_get_LSpelInfo
 
-LDIFF_SYM804=Lme_66 - ProjectDrunk_iOS_SpelCell_get_LSpelInfo
-	.long LDIFF_SYM804
+LDIFF_SYM800=Lme_66 - ProjectDrunk_iOS_SpelCell_get_LSpelInfo
+	.long LDIFF_SYM800
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -20249,27 +20104,27 @@ Lfde102_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM805=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM805
+LDIFF_SYM801=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM801
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM806=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM806
+LDIFF_SYM802=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM802
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM807=Lfde103_end - Lfde103_start
-	.long LDIFF_SYM807
+LDIFF_SYM803=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM803
 Lfde103_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelCell_set_LSpelInfo_UIKit_UILabel
 
-LDIFF_SYM808=Lme_67 - ProjectDrunk_iOS_SpelCell_set_LSpelInfo_UIKit_UILabel
-	.long LDIFF_SYM808
+LDIFF_SYM804=Lme_67 - ProjectDrunk_iOS_SpelCell_set_LSpelInfo_UIKit_UILabel
+	.long LDIFF_SYM804
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20288,22 +20143,22 @@ Lfde103_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM809=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM809
+LDIFF_SYM805=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM805
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM810=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM810
+LDIFF_SYM806=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM806
 Lfde104_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelCell_get_LSpelNaam
 
-LDIFF_SYM811=Lme_68 - ProjectDrunk_iOS_SpelCell_get_LSpelNaam
-	.long LDIFF_SYM811
+LDIFF_SYM807=Lme_68 - ProjectDrunk_iOS_SpelCell_get_LSpelNaam
+	.long LDIFF_SYM807
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -20322,27 +20177,27 @@ Lfde104_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM812=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM812
+LDIFF_SYM808=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM808
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM813=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM813
+LDIFF_SYM809=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM809
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM814=Lfde105_end - Lfde105_start
-	.long LDIFF_SYM814
+LDIFF_SYM810=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM810
 Lfde105_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelCell_set_LSpelNaam_UIKit_UILabel
 
-LDIFF_SYM815=Lme_69 - ProjectDrunk_iOS_SpelCell_set_LSpelNaam_UIKit_UILabel
-	.long LDIFF_SYM815
+LDIFF_SYM811=Lme_69 - ProjectDrunk_iOS_SpelCell_set_LSpelNaam_UIKit_UILabel
+	.long LDIFF_SYM811
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20361,32 +20216,32 @@ Lfde105_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM816=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM816
+LDIFF_SYM812=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM812
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM817=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM817
+LDIFF_SYM813=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM813
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM818=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM818
+LDIFF_SYM814=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM814
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM819=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM819
+LDIFF_SYM815=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM815
 Lfde106_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelCell_ReleaseDesignerOutlets
 
-LDIFF_SYM820=Lme_6a - ProjectDrunk_iOS_SpelCell_ReleaseDesignerOutlets
-	.long LDIFF_SYM820
+LDIFF_SYM816=Lme_6a - ProjectDrunk_iOS_SpelCell_ReleaseDesignerOutlets
+	.long LDIFF_SYM816
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
@@ -20405,22 +20260,22 @@ Lfde106_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM821=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM821
+LDIFF_SYM817=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM817
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM822=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM822
+LDIFF_SYM818=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM818
 Lfde107_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelTableViewSource_get_Games
 
-LDIFF_SYM823=Lme_6b - ProjectDrunk_iOS_SpelTableViewSource_get_Games
-	.long LDIFF_SYM823
+LDIFF_SYM819=Lme_6b - ProjectDrunk_iOS_SpelTableViewSource_get_Games
+	.long LDIFF_SYM819
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -20439,27 +20294,27 @@ Lfde107_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM824=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM824
+LDIFF_SYM820=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM820
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM825=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM825
+LDIFF_SYM821=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM821
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM826=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM826
+LDIFF_SYM822=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM822
 Lfde108_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelTableViewSource_set_Games_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel
 
-LDIFF_SYM827=Lme_6c - ProjectDrunk_iOS_SpelTableViewSource_set_Games_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel
-	.long LDIFF_SYM827
+LDIFF_SYM823=Lme_6c - ProjectDrunk_iOS_SpelTableViewSource_set_Games_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel
+	.long LDIFF_SYM823
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20478,42 +20333,42 @@ Lfde108_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM828=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM828
+LDIFF_SYM824=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM824
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM829=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM829
+LDIFF_SYM825=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM825
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM830=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM830
+LDIFF_SYM826=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM826
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM831=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM831
+LDIFF_SYM827=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM827
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM832=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM832
+LDIFF_SYM828=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM828
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM833=Lfde109_end - Lfde109_start
-	.long LDIFF_SYM833
+LDIFF_SYM829=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM829
 Lfde109_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelTableViewSource_add_ToNewGame_ProjectDrunk_iOS_SpelTableViewSource_NewPageHandler
 
-LDIFF_SYM834=Lme_6d - ProjectDrunk_iOS_SpelTableViewSource_add_ToNewGame_ProjectDrunk_iOS_SpelTableViewSource_NewPageHandler
-	.long LDIFF_SYM834
+LDIFF_SYM830=Lme_6d - ProjectDrunk_iOS_SpelTableViewSource_add_ToNewGame_ProjectDrunk_iOS_SpelTableViewSource_NewPageHandler
+	.long LDIFF_SYM830
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
 	.align 3
@@ -20532,42 +20387,42 @@ Lfde109_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM835=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM835
+LDIFF_SYM831=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM831
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM836=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM836
+LDIFF_SYM832=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM832
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM837=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM837
+LDIFF_SYM833=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM833
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM838=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM838
+LDIFF_SYM834=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM834
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM839=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM839
+LDIFF_SYM835=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM835
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM840=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM840
+LDIFF_SYM836=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM836
 Lfde110_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelTableViewSource_remove_ToNewGame_ProjectDrunk_iOS_SpelTableViewSource_NewPageHandler
 
-LDIFF_SYM841=Lme_6e - ProjectDrunk_iOS_SpelTableViewSource_remove_ToNewGame_ProjectDrunk_iOS_SpelTableViewSource_NewPageHandler
-	.long LDIFF_SYM841
+LDIFF_SYM837=Lme_6e - ProjectDrunk_iOS_SpelTableViewSource_remove_ToNewGame_ProjectDrunk_iOS_SpelTableViewSource_NewPageHandler
+	.long LDIFF_SYM837
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
 	.align 3
@@ -20586,27 +20441,27 @@ Lfde110_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM842=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM842
+LDIFF_SYM838=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM838
 	.byte 1,105,3
 	.asciz "games"
 
-LDIFF_SYM843=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM843
+LDIFF_SYM839=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM839
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM844=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM844
+LDIFF_SYM840=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM840
 Lfde111_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelTableViewSource__ctor_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel
 
-LDIFF_SYM845=Lme_6f - ProjectDrunk_iOS_SpelTableViewSource__ctor_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel
-	.long LDIFF_SYM845
+LDIFF_SYM841=Lme_6f - ProjectDrunk_iOS_SpelTableViewSource__ctor_System_Collections_Generic_List_1_ProjectDrunk_Globals_Spel
+	.long LDIFF_SYM841
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
@@ -20625,47 +20480,47 @@ Lfde111_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM846=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM846
+LDIFF_SYM842=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM842
 	.byte 2,141,56,3
 	.asciz "tableView"
 
-LDIFF_SYM847=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM847
+LDIFF_SYM843=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM843
 	.byte 3,141,192,0,3
 	.asciz "indexPath"
 
-LDIFF_SYM848=LTDIE_45_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM848
+LDIFF_SYM844=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM844
 	.byte 1,106,11
 	.asciz "cell"
 
-LDIFF_SYM849=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM849
+LDIFF_SYM845=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM845
 	.byte 1,103,11
 	.asciz "spel"
 
-LDIFF_SYM850=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM850
+LDIFF_SYM846=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM846
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM851=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM851
+LDIFF_SYM847=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM847
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM852=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM852
+LDIFF_SYM848=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM848
 Lfde112_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelTableViewSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
 
-LDIFF_SYM853=Lme_70 - ProjectDrunk_iOS_SpelTableViewSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
-	.long LDIFF_SYM853
+LDIFF_SYM849=Lme_70 - ProjectDrunk_iOS_SpelTableViewSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
+	.long LDIFF_SYM849
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,154,10
 	.align 3
@@ -20684,37 +20539,37 @@ Lfde112_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM854=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM854
+LDIFF_SYM850=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM850
 	.byte 2,141,24,3
 	.asciz "tableview"
 
-LDIFF_SYM855=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM855
+LDIFF_SYM851=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM851
 	.byte 2,141,32,3
 	.asciz "section"
 
-LDIFF_SYM856=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM856
+LDIFF_SYM852=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM852
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM857=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM857
+LDIFF_SYM853=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM853
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM858=Lfde113_end - Lfde113_start
-	.long LDIFF_SYM858
+LDIFF_SYM854=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM854
 Lfde113_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelTableViewSource_RowsInSection_UIKit_UITableView_System_nint
 
-LDIFF_SYM859=Lme_71 - ProjectDrunk_iOS_SpelTableViewSource_RowsInSection_UIKit_UITableView_System_nint
-	.long LDIFF_SYM859
+LDIFF_SYM855=Lme_71 - ProjectDrunk_iOS_SpelTableViewSource_RowsInSection_UIKit_UITableView_System_nint
+	.long LDIFF_SYM855
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12
 	.align 3
@@ -20733,39 +20588,39 @@ Lfde113_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM860=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM860
-	.byte 1,105,3
+LDIFF_SYM856=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM856
+	.byte 1,104,3
 	.asciz "tableView"
 
-LDIFF_SYM861=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM861
-	.byte 2,141,32,3
+LDIFF_SYM857=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM857
+	.byte 2,141,40,3
 	.asciz "indexPath"
 
-LDIFF_SYM862=LTDIE_45_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM862
-	.byte 2,141,40,11
+LDIFF_SYM858=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM858
+	.byte 1,106,11
 	.asciz "viewNaam"
 
-LDIFF_SYM863=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM863
-	.byte 1,104,0
+LDIFF_SYM859=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM859
+	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM864=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM864
+LDIFF_SYM860=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM860
 Lfde114_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelTableViewSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
 
-LDIFF_SYM865=Lme_72 - ProjectDrunk_iOS_SpelTableViewSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
-	.long LDIFF_SYM865
+LDIFF_SYM861=Lme_72 - ProjectDrunk_iOS_SpelTableViewSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
+	.long LDIFF_SYM861
 	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,152,18,153,17
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,154,14
 	.align 3
 Lfde114_end:
 
@@ -20775,39 +20630,39 @@ Lfde114_end:
 	.asciz "ProjectDrunk.iOS.SpelTableViewSource:GetItem"
 	.asciz "ProjectDrunk_iOS_SpelTableViewSource_GetItem_int"
 
-	.byte 17,42
+	.byte 17,45
 	.quad ProjectDrunk_iOS_SpelTableViewSource_GetItem_int
 	.quad Lme_73
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM866=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM866
+LDIFF_SYM862=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM862
 	.byte 2,141,24,3
 	.asciz "id"
 
-LDIFF_SYM867=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM867
+LDIFF_SYM863=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM863
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM868=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM868
+LDIFF_SYM864=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM864
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM869=Lfde115_end - Lfde115_start
-	.long LDIFF_SYM869
+LDIFF_SYM865=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM865
 Lfde115_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_SpelTableViewSource_GetItem_int
 
-LDIFF_SYM870=Lme_73 - ProjectDrunk_iOS_SpelTableViewSource_GetItem_int
-	.long LDIFF_SYM870
+LDIFF_SYM866=Lme_73 - ProjectDrunk_iOS_SpelTableViewSource_GetItem_int
+	.long LDIFF_SYM866
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10
 	.align 3
@@ -20826,22 +20681,22 @@ Lfde115_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM871=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM871
+LDIFF_SYM867=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM867
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM872=Lfde116_end - Lfde116_start
-	.long LDIFF_SYM872
+LDIFF_SYM868=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM868
 Lfde116_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_RingOfFireViewController_get_Data
 
-LDIFF_SYM873=Lme_74 - ProjectDrunk_iOS_RingOfFireViewController_get_Data
-	.long LDIFF_SYM873
+LDIFF_SYM869=Lme_74 - ProjectDrunk_iOS_RingOfFireViewController_get_Data
+	.long LDIFF_SYM869
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -20860,27 +20715,27 @@ Lfde116_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM874=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM874
+LDIFF_SYM870=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM870
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM875=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM875
+LDIFF_SYM871=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM871
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM876=Lfde117_end - Lfde117_start
-	.long LDIFF_SYM876
+LDIFF_SYM872=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM872
 Lfde117_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_RingOfFireViewController_set_Data_ProjectDrunk_DataLaag_SpelData
 
-LDIFF_SYM877=Lme_75 - ProjectDrunk_iOS_RingOfFireViewController_set_Data_ProjectDrunk_DataLaag_SpelData
-	.long LDIFF_SYM877
+LDIFF_SYM873=Lme_75 - ProjectDrunk_iOS_RingOfFireViewController_set_Data_ProjectDrunk_DataLaag_SpelData
+	.long LDIFF_SYM873
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20899,27 +20754,27 @@ Lfde117_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM878=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM878
+LDIFF_SYM874=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM874
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM879=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM879
+LDIFF_SYM875=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM875
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM880=Lfde118_end - Lfde118_start
-	.long LDIFF_SYM880
+LDIFF_SYM876=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM876
 Lfde118_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_RingOfFireViewController__ctor_intptr
 
-LDIFF_SYM881=Lme_76 - ProjectDrunk_iOS_RingOfFireViewController__ctor_intptr
-	.long LDIFF_SYM881
+LDIFF_SYM877=Lme_76 - ProjectDrunk_iOS_RingOfFireViewController__ctor_intptr
+	.long LDIFF_SYM877
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -20938,22 +20793,22 @@ Lfde118_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM882=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM882
+LDIFF_SYM878=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM878
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM883=Lfde119_end - Lfde119_start
-	.long LDIFF_SYM883
+LDIFF_SYM879=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM879
 Lfde119_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_RingOfFireViewController_ViewDidLoad
 
-LDIFF_SYM884=Lme_77 - ProjectDrunk_iOS_RingOfFireViewController_ViewDidLoad
-	.long LDIFF_SYM884
+LDIFF_SYM880=Lme_77 - ProjectDrunk_iOS_RingOfFireViewController_ViewDidLoad
+	.long LDIFF_SYM880
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -20972,27 +20827,27 @@ Lfde119_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM885=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM885
+LDIFF_SYM881=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM881
 	.byte 2,141,16,3
 	.asciz "data"
 
-LDIFF_SYM886=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM886
+LDIFF_SYM882=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM882
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM887=Lfde120_end - Lfde120_start
-	.long LDIFF_SYM887
+LDIFF_SYM883=Lfde120_end - Lfde120_start
+	.long LDIFF_SYM883
 Lfde120_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_RingOfFireViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData
 
-LDIFF_SYM888=Lme_78 - ProjectDrunk_iOS_RingOfFireViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData
-	.long LDIFF_SYM888
+LDIFF_SYM884=Lme_78 - ProjectDrunk_iOS_RingOfFireViewController_SetSpelerData_ProjectDrunk_DataLaag_SpelData
+	.long LDIFF_SYM884
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -21011,22 +20866,22 @@ Lfde120_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM889=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM889
+LDIFF_SYM885=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM885
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM890=Lfde121_end - Lfde121_start
-	.long LDIFF_SYM890
+LDIFF_SYM886=Lfde121_end - Lfde121_start
+	.long LDIFF_SYM886
 Lfde121_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_RingOfFireViewController_DidReceiveMemoryWarning
 
-LDIFF_SYM891=Lme_79 - ProjectDrunk_iOS_RingOfFireViewController_DidReceiveMemoryWarning
-	.long LDIFF_SYM891
+LDIFF_SYM887=Lme_79 - ProjectDrunk_iOS_RingOfFireViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM887
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -21045,22 +20900,22 @@ Lfde121_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM892=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM892
+LDIFF_SYM888=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM888
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM893=Lfde122_end - Lfde122_start
-	.long LDIFF_SYM893
+LDIFF_SYM889=Lfde122_end - Lfde122_start
+	.long LDIFF_SYM889
 Lfde122_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_iOS_RingOfFireViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM894=Lme_7a - ProjectDrunk_iOS_RingOfFireViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM894
+LDIFF_SYM890=Lme_7a - ProjectDrunk_iOS_RingOfFireViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM890
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -21073,23 +20928,23 @@ LTDIE_67:
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM895=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM895
+LDIFF_SYM891=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM891
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM896=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM896
+LDIFF_SYM892=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM892
 LTDIE_67_POINTER:
 
 	.byte 13
-LDIFF_SYM897=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM897
+LDIFF_SYM893=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM893
 LTDIE_67_REFERENCE:
 
 	.byte 14
-LDIFF_SYM898=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM898
+LDIFF_SYM894=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM894
 	.byte 2
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_REF>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF"
@@ -21101,22 +20956,22 @@ LDIFF_SYM898=LTDIE_67 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM899=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM899
+LDIFF_SYM895=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM895
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM900=Lfde123_end - Lfde123_start
-	.long LDIFF_SYM900
+LDIFF_SYM896=Lfde123_end - Lfde123_start
+	.long LDIFF_SYM896
 Lfde123_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM901=Lme_80 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM901
+LDIFF_SYM897=Lme_80 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM897
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
@@ -21135,22 +20990,22 @@ Lfde123_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM902=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM902
+LDIFF_SYM898=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM898
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM903=Lfde124_end - Lfde124_start
-	.long LDIFF_SYM903
+LDIFF_SYM899=Lfde124_end - Lfde124_start
+	.long LDIFF_SYM899
 Lfde124_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM904=Lme_81 - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM904
+LDIFF_SYM900=Lme_81 - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM900
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -21169,22 +21024,22 @@ Lfde124_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM905=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM905
+LDIFF_SYM901=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM901
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM906=Lfde125_end - Lfde125_start
-	.long LDIFF_SYM906
+LDIFF_SYM902=Lfde125_end - Lfde125_start
+	.long LDIFF_SYM902
 Lfde125_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
 
-LDIFF_SYM907=Lme_82 - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM907
+LDIFF_SYM903=Lme_82 - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM903
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -21203,22 +21058,22 @@ Lfde125_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM908=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM908
+LDIFF_SYM904=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM904
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM909=Lfde126_end - Lfde126_start
-	.long LDIFF_SYM909
+LDIFF_SYM905=Lfde126_end - Lfde126_start
+	.long LDIFF_SYM905
 Lfde126_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Clear
 
-LDIFF_SYM910=Lme_83 - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM910
+LDIFF_SYM906=Lme_83 - System_Array_InternalArray__ICollection_Clear
+	.long LDIFF_SYM906
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -21237,27 +21092,27 @@ Lfde126_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM911=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM911
+LDIFF_SYM907=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM907
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM912=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM912
+LDIFF_SYM908=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM908
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM913=Lfde127_end - Lfde127_start
-	.long LDIFF_SYM913
+LDIFF_SYM909=Lfde127_end - Lfde127_start
+	.long LDIFF_SYM909
 Lfde127_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 
-LDIFF_SYM914=Lme_84 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.long LDIFF_SYM914
+LDIFF_SYM910=Lme_84 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.long LDIFF_SYM910
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -21276,27 +21131,27 @@ Lfde127_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM915=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM915
+LDIFF_SYM911=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM911
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM916=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM916
+LDIFF_SYM912=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM912
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM917=Lfde128_end - Lfde128_start
-	.long LDIFF_SYM917
+LDIFF_SYM913=Lfde128_end - Lfde128_start
+	.long LDIFF_SYM913
 Lfde128_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 
-LDIFF_SYM918=Lme_85 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.long LDIFF_SYM918
+LDIFF_SYM914=Lme_85 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM914
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -21315,42 +21170,42 @@ Lfde128_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM919=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM919
+LDIFF_SYM915=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM915
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM920=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM920
+LDIFF_SYM916=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM916
 	.byte 2,141,40,11
 	.asciz "length"
 
-LDIFF_SYM921=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM921
+LDIFF_SYM917=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM917
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM922=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM922
+LDIFF_SYM918=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM918
 	.byte 1,104,11
 	.asciz "value"
 
-LDIFF_SYM923=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM923
+LDIFF_SYM919=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM919
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM924=Lfde129_end - Lfde129_start
-	.long LDIFF_SYM924
+LDIFF_SYM920=Lfde129_end - Lfde129_start
+	.long LDIFF_SYM920
 Lfde129_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM925=Lme_86 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM925
+LDIFF_SYM921=Lme_86 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM921
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
@@ -21369,32 +21224,32 @@ Lfde129_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM926=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM926
+LDIFF_SYM922=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM922
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM927=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM927
+LDIFF_SYM923=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM923
 	.byte 2,141,40,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM928=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM928
+LDIFF_SYM924=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM924
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM929=Lfde130_end - Lfde130_start
-	.long LDIFF_SYM929
+LDIFF_SYM925=Lfde130_end - Lfde130_start
+	.long LDIFF_SYM925
 Lfde130_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM930=Lme_87 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM930
+LDIFF_SYM926=Lme_87 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM926
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12
 	.align 3
@@ -21407,23 +21262,23 @@ LTDIE_68:
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM931=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM931
+LDIFF_SYM927=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM927
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM932=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM932
+LDIFF_SYM928=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM928
 LTDIE_68_POINTER:
 
 	.byte 13
-LDIFF_SYM933=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM933
+LDIFF_SYM929=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM929
 LTDIE_68_REFERENCE:
 
 	.byte 14
-LDIFF_SYM934=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM934
+LDIFF_SYM930=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM930
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<ProjectDrunk.Globals.Spel>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Globals_Spel_invoke_bool_T_ProjectDrunk_Globals_Spel"
@@ -21435,57 +21290,57 @@ LDIFF_SYM934=LTDIE_68 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM935=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM935
+LDIFF_SYM931=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM931
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM936=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM936
+LDIFF_SYM932=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM932
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM937=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM937
+LDIFF_SYM933=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM933
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM938=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM938
+LDIFF_SYM934=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM934
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM939=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM939
+LDIFF_SYM935=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM935
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM940=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM940
+LDIFF_SYM936=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM936
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM941=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM941
+LDIFF_SYM937=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM937
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM942=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM942
+LDIFF_SYM938=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM938
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM943=Lfde131_end - Lfde131_start
-	.long LDIFF_SYM943
+LDIFF_SYM939=Lfde131_end - Lfde131_start
+	.long LDIFF_SYM939
 Lfde131_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Globals_Spel_invoke_bool_T_ProjectDrunk_Globals_Spel
 
-LDIFF_SYM944=Lme_88 - wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Globals_Spel_invoke_bool_T_ProjectDrunk_Globals_Spel
-	.long LDIFF_SYM944
+LDIFF_SYM940=Lme_88 - wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Globals_Spel_invoke_bool_T_ProjectDrunk_Globals_Spel
+	.long LDIFF_SYM940
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -21499,23 +21354,23 @@ LTDIE_69:
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM945=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM945
+LDIFF_SYM941=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM941
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM946=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM946
+LDIFF_SYM942=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM942
 LTDIE_69_POINTER:
 
 	.byte 13
-LDIFF_SYM947=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM947
+LDIFF_SYM943=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM943
 LTDIE_69_REFERENCE:
 
 	.byte 14
-LDIFF_SYM948=LTDIE_69 - Ldebug_info_start
-	.long LDIFF_SYM948
+LDIFF_SYM944=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM944
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<ProjectDrunk.Globals.Spel>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Globals_Spel_invoke_int_T_T_ProjectDrunk_Globals_Spel_ProjectDrunk_Globals_Spel"
@@ -21527,62 +21382,62 @@ LDIFF_SYM948=LTDIE_69 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM949=LTDIE_69_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM949
+LDIFF_SYM945=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM945
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM950=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM950
+LDIFF_SYM946=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM946
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM951=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM951
+LDIFF_SYM947=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM947
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM952=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM952
+LDIFF_SYM948=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM948
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM953=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM953
+LDIFF_SYM949=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM949
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM954=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM954
+LDIFF_SYM950=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM950
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM955=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM955
+LDIFF_SYM951=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM951
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM956=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM956
+LDIFF_SYM952=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM952
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM957=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM957
+LDIFF_SYM953=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM953
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM958=Lfde132_end - Lfde132_start
-	.long LDIFF_SYM958
+LDIFF_SYM954=Lfde132_end - Lfde132_start
+	.long LDIFF_SYM954
 Lfde132_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Globals_Spel_invoke_int_T_T_ProjectDrunk_Globals_Spel_ProjectDrunk_Globals_Spel
 
-LDIFF_SYM959=Lme_89 - wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Globals_Spel_invoke_int_T_T_ProjectDrunk_Globals_Spel_ProjectDrunk_Globals_Spel
-	.long LDIFF_SYM959
+LDIFF_SYM955=Lme_89 - wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Globals_Spel_invoke_int_T_T_ProjectDrunk_Globals_Spel_ProjectDrunk_Globals_Spel
+	.long LDIFF_SYM955
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -21596,23 +21451,23 @@ LTDIE_70:
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM960=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM960
+LDIFF_SYM956=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM956
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM961=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM961
+LDIFF_SYM957=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM957
 LTDIE_70_POINTER:
 
 	.byte 13
-LDIFF_SYM962=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM962
+LDIFF_SYM958=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM958
 LTDIE_70_REFERENCE:
 
 	.byte 14
-LDIFF_SYM963=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM963
+LDIFF_SYM959=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM959
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<UIKit.UIButtonEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs"
@@ -21624,57 +21479,57 @@ LDIFF_SYM963=LTDIE_70 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM964=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM964
+LDIFF_SYM960=LTDIE_70_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM960
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM965=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM965
+LDIFF_SYM961=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM961
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM966=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM966
+LDIFF_SYM962=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM962
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM967=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM967
+LDIFF_SYM963=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM963
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM968=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM968
+LDIFF_SYM964=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM964
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM969=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM969
+LDIFF_SYM965=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM965
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM970=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM970
+LDIFF_SYM966=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM966
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM971=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM971
+LDIFF_SYM967=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM967
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM972=Lfde133_end - Lfde133_start
-	.long LDIFF_SYM972
+LDIFF_SYM968=Lfde133_end - Lfde133_start
+	.long LDIFF_SYM968
 Lfde133_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
 
-LDIFF_SYM973=Lme_8a - wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
-	.long LDIFF_SYM973
+LDIFF_SYM969=Lme_8a - wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIButtonEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIButtonEventArgs
+	.long LDIFF_SYM969
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -21688,23 +21543,23 @@ LTDIE_71:
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM974=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM974
+LDIFF_SYM970=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM970
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM975=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM975
+LDIFF_SYM971=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM971
 LTDIE_71_POINTER:
 
 	.byte 13
-LDIFF_SYM976=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM976
+LDIFF_SYM972=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM972
 LTDIE_71_REFERENCE:
 
 	.byte 14
-LDIFF_SYM977=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM977
+LDIFF_SYM973=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM973
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<string>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string"
@@ -21716,57 +21571,57 @@ LDIFF_SYM977=LTDIE_71 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM978=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM978
+LDIFF_SYM974=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM974
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM979=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM979
+LDIFF_SYM975=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM975
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM980=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM980
+LDIFF_SYM976=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM976
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM981=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM981
+LDIFF_SYM977=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM977
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM982=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM982
+LDIFF_SYM978=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM978
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM983=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM983
+LDIFF_SYM979=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM979
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM984=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM984
+LDIFF_SYM980=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM980
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM985=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM985
+LDIFF_SYM981=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM981
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM986=Lfde134_end - Lfde134_start
-	.long LDIFF_SYM986
+LDIFF_SYM982=Lfde134_end - Lfde134_start
+	.long LDIFF_SYM982
 Lfde134_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string
 
-LDIFF_SYM987=Lme_8b - wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string
-	.long LDIFF_SYM987
+LDIFF_SYM983=Lme_8b - wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string
+	.long LDIFF_SYM983
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -21780,23 +21635,23 @@ LTDIE_72:
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM988=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM988
+LDIFF_SYM984=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM984
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM989=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM989
+LDIFF_SYM985=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM985
 LTDIE_72_POINTER:
 
 	.byte 13
-LDIFF_SYM990=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM990
+LDIFF_SYM986=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM986
 LTDIE_72_REFERENCE:
 
 	.byte 14
-LDIFF_SYM991=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM991
+LDIFF_SYM987=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM987
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<string>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string"
@@ -21808,62 +21663,62 @@ LDIFF_SYM991=LTDIE_72 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM992=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM992
+LDIFF_SYM988=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM988
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM993=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM993
+LDIFF_SYM989=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM989
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM994=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM994
+LDIFF_SYM990=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM990
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM995=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM995
+LDIFF_SYM991=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM991
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM996=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM996
+LDIFF_SYM992=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM992
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM997=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM997
+LDIFF_SYM993=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM993
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM998=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM998
+LDIFF_SYM994=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM994
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM999=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM999
+LDIFF_SYM995=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM995
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1000=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1000
+LDIFF_SYM996=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM996
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1001=Lfde135_end - Lfde135_start
-	.long LDIFF_SYM1001
+LDIFF_SYM997=Lfde135_end - Lfde135_start
+	.long LDIFF_SYM997
 Lfde135_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string
 
-LDIFF_SYM1002=Lme_8c - wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string
-	.long LDIFF_SYM1002
+LDIFF_SYM998=Lme_8c - wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string
+	.long LDIFF_SYM998
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -21877,23 +21732,23 @@ LTDIE_73:
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM1003=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1003
+LDIFF_SYM999=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM999
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM1004=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM1004
+LDIFF_SYM1000=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM1000
 LTDIE_73_POINTER:
 
 	.byte 13
-LDIFF_SYM1005=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM1005
+LDIFF_SYM1001=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM1001
 LTDIE_73_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1006=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM1006
+LDIFF_SYM1002=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM1002
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<ProjectDrunk.Speler>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler"
@@ -21905,57 +21760,57 @@ LDIFF_SYM1006=LTDIE_73 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1007=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1007
+LDIFF_SYM1003=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1003
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1008=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1008
+LDIFF_SYM1004=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1004
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1009=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1009
+LDIFF_SYM1005=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1005
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1010=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1010
+LDIFF_SYM1006=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1006
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1011=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1011
+LDIFF_SYM1007=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1007
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1012=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1012
+LDIFF_SYM1008=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1008
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1013=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1013
+LDIFF_SYM1009=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1009
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1014=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1014
+LDIFF_SYM1010=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1010
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1015=Lfde136_end - Lfde136_start
-	.long LDIFF_SYM1015
+LDIFF_SYM1011=Lfde136_end - Lfde136_start
+	.long LDIFF_SYM1011
 Lfde136_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler
 
-LDIFF_SYM1016=Lme_8d - wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler
-	.long LDIFF_SYM1016
+LDIFF_SYM1012=Lme_8d - wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler
+	.long LDIFF_SYM1012
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -21969,23 +21824,23 @@ LTDIE_74:
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM1017=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1017
+LDIFF_SYM1013=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1013
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1018=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM1018
+LDIFF_SYM1014=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM1014
 LTDIE_74_POINTER:
 
 	.byte 13
-LDIFF_SYM1019=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM1019
+LDIFF_SYM1015=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM1015
 LTDIE_74_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1020=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM1020
+LDIFF_SYM1016=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM1016
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<ProjectDrunk.Speler>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler"
@@ -21997,62 +21852,62 @@ LDIFF_SYM1020=LTDIE_74 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1021=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1021
+LDIFF_SYM1017=LTDIE_74_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1017
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1022=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1022
+LDIFF_SYM1018=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1018
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1023=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1023
+LDIFF_SYM1019=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1019
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1024=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1024
+LDIFF_SYM1020=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1020
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1025=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1025
+LDIFF_SYM1021=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1021
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1026=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1026
+LDIFF_SYM1022=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1022
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1027=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1027
+LDIFF_SYM1023=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1023
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1028=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1028
+LDIFF_SYM1024=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1024
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1029=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1029
+LDIFF_SYM1025=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1025
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1030=Lfde137_end - Lfde137_start
-	.long LDIFF_SYM1030
+LDIFF_SYM1026=Lfde137_end - Lfde137_start
+	.long LDIFF_SYM1026
 Lfde137_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler
 
-LDIFF_SYM1031=Lme_8e - wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler
-	.long LDIFF_SYM1031
+LDIFF_SYM1027=Lme_8e - wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler
+	.long LDIFF_SYM1027
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -22068,18 +21923,18 @@ LTDIE_75:
 	.byte 16,7
 	.asciz "_<Module>"
 
-LDIFF_SYM1032=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM1032
+LDIFF_SYM1028=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM1028
 LTDIE_75_POINTER:
 
 	.byte 13
-LDIFF_SYM1033=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM1033
+LDIFF_SYM1029=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM1029
 LTDIE_75_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1034=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM1034
+LDIFF_SYM1030=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM1030
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_<Module>:invoke_void_object_EventArgs"
 	.asciz "wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs"
@@ -22091,57 +21946,57 @@ LDIFF_SYM1034=LTDIE_75 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1035=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1035
+LDIFF_SYM1031=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1031
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1036=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1036
+LDIFF_SYM1032=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1032
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1037=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1037
+LDIFF_SYM1033=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1033
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1038=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1038
+LDIFF_SYM1034=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1034
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1039=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1039
+LDIFF_SYM1035=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1035
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1040=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1040
+LDIFF_SYM1036=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1036
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1041=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1041
+LDIFF_SYM1037=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1037
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1042=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1042
+LDIFF_SYM1038=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1038
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1043=Lfde138_end - Lfde138_start
-	.long LDIFF_SYM1043
+LDIFF_SYM1039=Lfde138_end - Lfde138_start
+	.long LDIFF_SYM1039
 Lfde138_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs
 
-LDIFF_SYM1044=Lme_8f - wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs
-	.long LDIFF_SYM1044
+LDIFF_SYM1040=Lme_8f - wrapper_delegate_invoke__Module_invoke_void_object_EventArgs_object_System_EventArgs
+	.long LDIFF_SYM1040
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -22155,23 +22010,23 @@ LTDIE_76:
 	.asciz "System_AsyncCallback"
 
 	.byte 112,16
-LDIFF_SYM1045=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM1045
+LDIFF_SYM1041=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM1041
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM1046=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM1046
+LDIFF_SYM1042=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM1042
 LTDIE_76_POINTER:
 
 	.byte 13
-LDIFF_SYM1047=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM1047
+LDIFF_SYM1043=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM1043
 LTDIE_76_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1048=LTDIE_76 - Ldebug_info_start
-	.long LDIFF_SYM1048
+LDIFF_SYM1044=LTDIE_76 - Ldebug_info_start
+	.long LDIFF_SYM1044
 	.byte 2
 	.asciz "(wrapper_delegate-begin-invoke)_<Module>:begin_invoke_IAsyncResult__this___object_EventArgs_AsyncCallback_object"
 	.asciz "wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_EventArgs_AsyncCallback_object_object_System_EventArgs_System_AsyncCallback_object"
@@ -22183,52 +22038,52 @@ LDIFF_SYM1048=LTDIE_76 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1049=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1049
+LDIFF_SYM1045=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1045
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM1050=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1050
+LDIFF_SYM1046=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1046
 	.byte 2,141,56,3
 	.asciz "param1"
 
-LDIFF_SYM1051=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1051
+LDIFF_SYM1047=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1047
 	.byte 3,141,192,0,3
 	.asciz "param2"
 
-LDIFF_SYM1052=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1052
+LDIFF_SYM1048=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1048
 	.byte 3,141,200,0,3
 	.asciz "param3"
 
-LDIFF_SYM1053=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1053
+LDIFF_SYM1049=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1049
 	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1054=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1054
+LDIFF_SYM1050=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1050
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1055=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1055
+LDIFF_SYM1051=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1051
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1056=Lfde139_end - Lfde139_start
-	.long LDIFF_SYM1056
+LDIFF_SYM1052=Lfde139_end - Lfde139_start
+	.long LDIFF_SYM1052
 Lfde139_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_EventArgs_AsyncCallback_object_object_System_EventArgs_System_AsyncCallback_object
 
-LDIFF_SYM1057=Lme_90 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_EventArgs_AsyncCallback_object_object_System_EventArgs_System_AsyncCallback_object
-	.long LDIFF_SYM1057
+LDIFF_SYM1053=Lme_90 - wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___object_EventArgs_AsyncCallback_object_object_System_EventArgs_System_AsyncCallback_object
+	.long LDIFF_SYM1053
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9
 	.align 3
@@ -22243,18 +22098,18 @@ LTDIE_77:
 	.byte 16,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM1058=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM1058
+LDIFF_SYM1054=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM1054
 LTDIE_77_POINTER:
 
 	.byte 13
-LDIFF_SYM1059=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM1059
+LDIFF_SYM1055=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM1055
 LTDIE_77_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1060=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM1060
+LDIFF_SYM1056=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM1056
 	.byte 2
 	.asciz "(wrapper_delegate-end-invoke)_<Module>:end_invoke_void__this___IAsyncResult"
 	.asciz "wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult"
@@ -22266,37 +22121,37 @@ LDIFF_SYM1060=LTDIE_77 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1061=LTDIE_75_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1061
+LDIFF_SYM1057=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1057
 	.byte 2,141,48,3
 	.asciz "param0"
 
-LDIFF_SYM1062=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1062
+LDIFF_SYM1058=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1058
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM1063=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1063
+LDIFF_SYM1059=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1059
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1064=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1064
+LDIFF_SYM1060=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1060
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1065=Lfde140_end - Lfde140_start
-	.long LDIFF_SYM1065
+LDIFF_SYM1061=Lfde140_end - Lfde140_start
+	.long LDIFF_SYM1061
 Lfde140_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
 
-LDIFF_SYM1066=Lme_91 - wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
-	.long LDIFF_SYM1066
+LDIFF_SYM1062=Lme_91 - wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_IAsyncResult
+	.long LDIFF_SYM1062
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7
 	.align 3
@@ -22309,33 +22164,33 @@ LTDIE_78:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM1067=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1067
+LDIFF_SYM1063=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1063
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1068=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1068
+LDIFF_SYM1064=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1064
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM1069=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1069
+LDIFF_SYM1065=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1065
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1070=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM1070
+LDIFF_SYM1066=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM1066
 LTDIE_78_POINTER:
 
 	.byte 13
-LDIFF_SYM1071=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM1071
+LDIFF_SYM1067=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM1067
 LTDIE_78_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1072=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM1072
+LDIFF_SYM1068=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM1068
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
@@ -22347,27 +22202,27 @@ LDIFF_SYM1072=LTDIE_78 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1073=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1073
+LDIFF_SYM1069=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1069
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM1074=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1074
+LDIFF_SYM1070=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1070
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1075=Lfde141_end - Lfde141_start
-	.long LDIFF_SYM1075
+LDIFF_SYM1071=Lfde141_end - Lfde141_start
+	.long LDIFF_SYM1071
 Lfde141_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM1076=Lme_92 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM1076
+LDIFF_SYM1072=Lme_92 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM1072
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3

@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{C7AC4D35-0D4C-4527-B00A-E6125730E147}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ViewControllers/GameSelection.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ViewControllers/ViewController.cs">
     <Files>
-      <File FileName="iOS/SpelTableView/SpelTableViewSource.cs" Line="41" Column="36" />
-      <File FileName="iOS/Main.storyboard" />
+      <File FileName="iOS/SpelTableView/SpelTableViewSource.cs" Line="41" Column="15" />
       <File FileName="iOS/ViewControllers/HogerLagerViewController.cs" Line="1" Column="1" />
-      <File FileName="ProjectDrunk/Globals/NewGameEvent.cs" Line="9" Column="38" />
-      <File FileName="iOS/ViewControllers/GameSelection.cs" Line="54" Column="30" />
-      <File FileName="iOS/ViewControllers/RingOfFireViewController.cs" Line="24" Column="34" />
+      <File FileName="ProjectDrunk/Globals/NewGameEvent.cs" Line="1" Column="1" />
+      <File FileName="iOS/ViewControllers/GameSelection.cs" Line="1" Column="1" />
+      <File FileName="iOS/ViewControllers/RingOfFireViewController.cs" Line="1" Column="1" />
       <File FileName="iOS/Main.cs" Line="1" Column="1" />
       <File FileName="iOS/ViewControllers/RingOfFireViewController.designer.cs" Line="1" Column="1" />
-      <File FileName="iOS/SpelTableView/SpelCell.cs" Line="21" Column="13" />
+      <File FileName="iOS/SpelTableView/SpelCell.cs" Line="1" Column="1" />
       <File FileName="iOS/SpelTableView/SpelCell.designer.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.storyboard" />
+      <File FileName="iOS/ViewControllers/ViewController.cs" Line="72" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
