@@ -29,3 +29,13 @@ C:/Users/BasileBerckmoes/Documents/GitHub/ProjectDrunk2.0/iOS/bin/iPhone/Debug/P
 /Users/basileberckmoes/Documents/ProjectDrunk/iOS/bin/iPhone/Debug/ProjectDrunk.dll.mdb
 /Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/ProjectDrunk.iOS.exe
 /Users/basileberckmoes/Documents/ProjectDrunk/iOS/obj/iPhone/Debug/ProjectDrunk.iOS.pdb
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\iOS\obj\iPhone\Debug\device-builds\iphone8.4-11.4.1\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\iOS\obj\iPhone\Debug\device-builds\iphone8.4-11.4.1\actool\_PartialAppManifest.items
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\iOS\obj\iPhone\Debug\device-builds\iphone8.4-11.4.1\actool\_BundleResourceWithLogicalName.items
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\iOS\obj\iPhone\Debug\device-builds\iphone8.4-11.4.1\coremlc\_PartialAppManifest.items
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\iOS\obj\iPhone\Debug\device-builds\iphone8.4-11.4.1\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\iOS\obj\iPhone\Debug\device-builds\iphone8.4-11.4.1\optimized\
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\iOS\obj\iPhone\Debug\ProjectDrunk.iOS.csprojAssemblyReference.cache
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\iOS\obj\iPhone\Debug\ProjectDrunk.iOS.csproj.CoreCompileInputs.cache
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\iOS\obj\iPhone\Debug\ProjectDrunk.iOS.exe
+C:\Users\BasileBerckmoes\Documents\GitHub\ProjectDrunk2.0\iOS\obj\iPhone\Debug\ProjectDrunk.iOS.pdb
