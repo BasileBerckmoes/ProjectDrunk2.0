@@ -27,8 +27,9 @@ namespace ProjectDrunk.DataLaag
 
 
         public Speler VolgendeSpeler(){
+            HuidigeSpelerIndex++;
             if(HuidigeSpelerIndex < Spelers.Count){
-                return Spelers[HuidigeSpelerIndex++];
+                return Spelers[HuidigeSpelerIndex];
             } else {
                 HuidigeSpelerIndex = 0;
                 return Spelers[HuidigeSpelerIndex];
@@ -38,7 +39,7 @@ namespace ProjectDrunk.DataLaag
         public Speler GeefRandomSpeler()
         {
             HuidigeSpelerIndex = (byte)RndmGetal.Next(Spelers.Count);
-            if (HuidigeSpelerIndex >= Spelers.Count) HuidigeSpelerIndex = 0;
+            //if (HuidigeSpelerIndex >= Spelers.Count) HuidigeSpelerIndex = 0;
             return Spelers[HuidigeSpelerIndex];
         }
 

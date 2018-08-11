@@ -4669,9 +4669,36 @@ ldr x16, [x16, #848]
 .word 0xaa1a03e0
 bl _p_42
 .word 0x53001c00
-.word 0xf9002ba0
+.word 0xf90037a0
 .word 0xf9401bb1
 .word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0x53001c00
+.word 0xaa0003f9
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0x11000720
+.word 0x53001c01
+.word 0xaa1a03e0
+bl _p_41
+.word 0xf9401bb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 31 0
+.word 0xf9401bb1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_42
+.word 0x53001c00
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -4679,7 +4706,7 @@ bl _p_42
 bl _p_43
 .word 0xf90033a0
 .word 0xf9401bb1
-.word 0xf940ba31
+.word 0xf9412231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
@@ -4689,7 +4716,7 @@ bl _p_44
 .word 0x93407c00
 .word 0xf9002fa0
 .word 0xf9401bb1
-.word 0xf940e231
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -4697,76 +4724,49 @@ bl _p_44
 .word 0x6b01001f
 .word 0x9a9fa7e0
 .word 0x53001c00
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0x34000680
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0x340004e0
 .word 0xf9401bb1
-.word 0xf9411231
+.word 0xf9417a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 31 0
+.loc 7 32 0
 .word 0xf9401bb1
-.word 0xf9412231
+.word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_43
-.word 0xf9002fa0
+.word 0xf90033a0
 .word 0xf9401bb1
-.word 0xf9414231
+.word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_42
 .word 0x53001c00
-.word 0xf90033a0
+.word 0xf9002fa0
 .word 0xf9401bb1
-.word 0xf9416631
+.word 0xf941ce31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a0
-.word 0x53001c00
-.word 0xaa0003f8
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0x11000700
-.word 0x53001c01
-.word 0xaa1a03e0
-bl _p_41
-.word 0xf9401bb1
-.word 0xf9419a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fa2
-.word 0xaa1803e1
+.word 0xf9402fa1
+.word 0xf94033a2
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_45
 .word 0xf9002ba0
 .word 0xf9401bb1
-.word 0xf941c231
+.word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xaa0003f7
 .word 0x14000033
-.loc 7 32 0
-.word 0xf9401bb1
-.word 0xf941de31
-.word 0xb4000051
-.word 0xd63f0220
 .loc 7 33 0
-.word 0xf9401bb1
-.word 0xf941ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xaa1a03e0
-.word 0xd2800001
-bl _p_41
 .word 0xf9401bb1
 .word 0xf9421231
 .word 0xb4000051
@@ -4777,11 +4777,25 @@ bl _p_41
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_41
+.word 0xf9401bb1
+.word 0xf9424631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 35 0
+.word 0xf9401bb1
+.word 0xf9425631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_43
 .word 0xf90033a0
 .word 0xf9401bb1
-.word 0xf9424231
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -4790,7 +4804,7 @@ bl _p_42
 .word 0x53001c00
 .word 0xf9002fa0
 .word 0xf9401bb1
-.word 0xf9426631
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa1
@@ -4800,24 +4814,24 @@ bl _p_42
 bl _p_45
 .word 0xf9002ba0
 .word 0xf9401bb1
-.word 0xf9428e31
+.word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xaa0003f7
-.loc 7 36 0
+.loc 7 37 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf942b631
+.word 0xf942ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0xf9401bb1
-.word 0xf942ce31
+.word 0xf9430231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94163b7
@@ -4831,156 +4845,94 @@ Lme_3e:
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
 ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler:
-.loc 7 39 0 prologue_end
+.loc 7 40 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013ba
+.word 0xa9016bb9
 .word 0xaa0003fa
 
 adrp x16, mono_aot_ProjectDrunk_got@PAGE+0
 add x16, x16, mono_aot_ProjectDrunk_got@PAGEOFF
 ldr x16, [x16, #856]
-.word 0xf90017b0
+.word 0xf90013b0
 .word 0xf9400a11
-.word 0xf9001bb1
+.word 0xf90017b1
 .word 0xd2800019
-.word 0xd2800018
-.word 0xf94017b1
-.word 0xf9404231
+.word 0xf94013b1
+.word 0xf9403a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
+.word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9406231
+.word 0xf94013b1
+.word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 40 0
-.word 0xf94017b1
-.word 0xf9407231
+.loc 7 41 0
+.word 0xf94013b1
+.word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_46
-.word 0xf90037a0
-.word 0xf94017b1
-.word 0xf9409631
+.word 0xf9003ba0
+.word 0xf94013b1
+.word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_43
-.word 0xf9003ba0
-.word 0xf94017b1
-.word 0xf940b631
+.word 0xf9003fa0
+.word 0xf94013b1
+.word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9403ba1
+.word 0xf9403fa1
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_44
 .word 0x93407c00
-.word 0xf90033a0
-.word 0xf94017b1
-.word 0xf940de31
+.word 0xf90037a0
+.word 0xf94013b1
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a1
-.word 0xf94037a2
+.word 0xf94037a1
+.word 0xf9403ba2
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9403050
 .word 0xd63f0200
 .word 0x93407c00
-.word 0xf9002fa0
-.word 0xf94017b1
-.word 0xf9410e31
+.word 0xf90033a0
+.word 0xf94013b1
+.word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fa0
+.word 0xf94033a0
 .word 0x53001c01
 .word 0xaa1a03e0
 bl _p_41
-.word 0xf94017b1
-.word 0xf9412e31
+.word 0xf94013b1
+.word 0xf9412631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 41 0
-.word 0xf94017b1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_42
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9416231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_43
-.word 0xf9002ba0
-.word 0xf94017b1
-.word 0xf9418231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_44
-.word 0x93407c00
-.word 0xf90027a0
-.word 0xf94017b1
-.word 0xf941aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xf94027a1
-.word 0x6b01001f
-.word 0x9a9fa7e0
-.word 0xd2800001
-.word 0x6b1f001f
-.word 0x9a9f17e0
-.word 0x53001c00
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0x340001c0
-.word 0xf94017b1
-.word 0xf941e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xaa1a03e0
-.word 0xd2800001
-bl _p_41
-.word 0xf94017b1
-.word 0xf9420a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 42 0
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9422a31
+.loc 7 43 0
+.word 0xf94013b1
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_43
 .word 0xf9002fa0
-.word 0xf94017b1
-.word 0xf9424a31
+.word 0xf94013b1
+.word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -4988,8 +4940,8 @@ bl _p_43
 bl _p_42
 .word 0x53001c00
 .word 0xf9002ba0
-.word 0xf94017b1
-.word 0xf9426e31
+.word 0xf94013b1
+.word 0xf9417a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba1
@@ -4998,26 +4950,25 @@ bl _p_42
 .word 0xf940005e
 bl _p_45
 .word 0xf90027a0
-.word 0xf94017b1
-.word 0xf9429631
+.word 0xf94013b1
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
 .word 0xf90023a0
-.word 0xaa0003f8
-.loc 7 43 0
-.word 0xf94017b1
-.word 0xf942b231
+.word 0xaa0003f9
+.loc 7 44 0
+.word 0xf94013b1
+.word 0xf941be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xaa0003e1
-.word 0xf94017b1
-.word 0xf942ca31
+.word 0xf94013b1
+.word 0xf941d631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94167b8
-.word 0xf94013ba
+.word 0xa9416bb9
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
@@ -5027,7 +4978,7 @@ Lme_3f:
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler
 ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler:
-.loc 7 45 0 prologue_end
+.loc 7 46 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -5051,7 +5002,7 @@ ldr x16, [x16, #864]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 46 0
+.loc 7 47 0
 .word 0xf94013b1
 .word 0xf9406631
 .word 0xb4000051
@@ -5072,7 +5023,7 @@ bl _p_47
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 47 0
+.loc 7 48 0
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -5090,7 +5041,7 @@ Lme_40:
 	.align 4
 	.no_dead_strip ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler
 ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler:
-.loc 7 50 0 prologue_end
+.loc 7 51 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -5114,7 +5065,7 @@ ldr x16, [x16, #872]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 51 0
+.loc 7 52 0
 .word 0xf94013b1
 .word 0xf9406631
 .word 0xb4000051
@@ -5136,7 +5087,7 @@ bl _p_48
 .word 0xf940aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 52 0
+.loc 7 53 0
 .word 0xf94013b1
 .word 0xf940ba31
 .word 0xb4000051
@@ -6257,10 +6208,11 @@ unwind_info:
 	.byte 96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7,21,12,31,0,68,14,80,157,10,158,9,68,13,29
 	.byte 68,152,8,153,7,68,154,6,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,16,12,31,0,68,14,80
 	.byte 157,10,158,9,68,13,29,68,152,8,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10
-	.byte 154,9,13,12,31,0,68,14,80,157,10,158,9,68,13,29,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154
-	.byte 12,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10,22,12,31,0,68,14,128,1,157
-	.byte 16,158,15,68,13,29,68,149,14,150,13,68,152,12,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16
-	.byte 148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
+	.byte 154,9,19,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13,13,12,31,0,68,14,80,157,10,158
+	.byte 9,68,13,29,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,21,12,31,0,68,14,112,157,14,158,13
+	.byte 68,13,29,68,152,12,153,11,68,154,10,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68
+	.byte 152,12,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11
+	.byte 68,153,10,154,9
 
 .text
 	.align 4
@@ -6764,7 +6716,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "31F29A4A-E750-4816-A61B-D77C06A71171"
+	.asciz "8CB82743-EF59-496C-A9BC-BC5305AB20A6"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -6843,13 +6795,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 122,1448,59,78,70,391195135,0,9143
-	.long 128,8,8,9,0,25,10280,1128
+	.long 122,1448,59,78,70,391195135,0,9067
+	.long 128,8,8,9,0,25,10208,1128
 	.long 952,496,0,776,920,592,0,400
 	.long 128,1120,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 51,232,222,110,247,82,82,114,206,194,46,174,102,205,143,163
+	.byte 38,122,115,227,65,21,98,15,103,53,234,217,82,185,176,210
 	.globl _mono_aot_module_ProjectDrunk_info
 	.align 3
 _mono_aot_module_ProjectDrunk_info:
@@ -9520,12 +9472,12 @@ LDIFF_SYM315=LTDIE_4_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM316=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM316=LDIE_U1 - Ldebug_info_start
 	.long LDIFF_SYM316
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM317=LDIE_U1 - Ldebug_info_start
+LDIFF_SYM317=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM317
 	.byte 1,104,11
 	.asciz "V_2"
@@ -9557,7 +9509,7 @@ Lfde55_end:
 	.asciz "ProjectDrunk.DataLaag.SpelData:GeefRandomSpeler"
 	.asciz "ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler"
 
-	.byte 7,39
+	.byte 7,40
 	.quad ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
 	.quad Lme_3f
 
@@ -9569,29 +9521,24 @@ LDIFF_SYM321=LTDIE_4_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM322=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM322=LTDIE_0_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM322
-	.byte 1,105,11
-	.asciz "V_1"
-
-LDIFF_SYM323=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM323
-	.byte 1,104,0
+	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM324=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM324
+LDIFF_SYM323=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM323
 Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
 
-LDIFF_SYM325=Lme_3f - ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
-	.long LDIFF_SYM325
+LDIFF_SYM324=Lme_3f - ProjectDrunk_DataLaag_SpelData_GeefRandomSpeler
+	.long LDIFF_SYM324
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13,68,154,12
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
 	.align 3
 Lfde56_end:
 
@@ -9601,34 +9548,34 @@ Lfde56_end:
 	.asciz "ProjectDrunk.DataLaag.SpelData:VoegSpelerToe"
 	.asciz "ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler"
 
-	.byte 7,45
+	.byte 7,46
 	.quad ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler
 	.quad Lme_40
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM326=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM326
+LDIFF_SYM325=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM325
 	.byte 2,141,16,3
 	.asciz "nieuwe"
 
-LDIFF_SYM327=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM327
+LDIFF_SYM326=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM326
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM328=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM328
+LDIFF_SYM327=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM327
 Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler
 
-LDIFF_SYM329=Lme_40 - ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler
-	.long LDIFF_SYM329
+LDIFF_SYM328=Lme_40 - ProjectDrunk_DataLaag_SpelData_VoegSpelerToe_ProjectDrunk_Speler
+	.long LDIFF_SYM328
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -9640,34 +9587,34 @@ Lfde57_end:
 	.asciz "ProjectDrunk.DataLaag.SpelData:VerwijderSpeler"
 	.asciz "ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler"
 
-	.byte 7,50
+	.byte 7,51
 	.quad ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler
 	.quad Lme_41
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM330=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM330
+LDIFF_SYM329=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM329
 	.byte 2,141,16,3
 	.asciz "oude"
 
-LDIFF_SYM331=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM331
+LDIFF_SYM330=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM330
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM332=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM332
+LDIFF_SYM331=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM331
 Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler
 
-LDIFF_SYM333=Lme_41 - ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler
-	.long LDIFF_SYM333
+LDIFF_SYM332=Lme_41 - ProjectDrunk_DataLaag_SpelData_VerwijderSpeler_ProjectDrunk_Speler
+	.long LDIFF_SYM332
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
@@ -9680,23 +9627,23 @@ LTDIE_16:
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM334=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM334
+LDIFF_SYM333=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM333
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM335=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM335
+LDIFF_SYM334=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM334
 LTDIE_16_POINTER:
 
 	.byte 13
-LDIFF_SYM336=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM336
+LDIFF_SYM335=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM335
 LTDIE_16_REFERENCE:
 
 	.byte 14
-LDIFF_SYM337=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM337
+LDIFF_SYM336=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM336
 	.byte 2
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_REF>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF"
@@ -9708,22 +9655,22 @@ LDIFF_SYM337=LTDIE_16 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM338=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM338
+LDIFF_SYM337=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM337
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM339=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM339
+LDIFF_SYM338=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM338
 Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM340=Lme_43 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM340
+LDIFF_SYM339=Lme_43 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM339
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
@@ -9742,22 +9689,22 @@ Lfde59_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM341=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM341
+LDIFF_SYM340=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM340
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM342=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM342
+LDIFF_SYM341=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM341
 Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM343=Lme_44 - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM343
+LDIFF_SYM342=Lme_44 - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM342
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -9776,22 +9723,22 @@ Lfde60_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM344=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM344
+LDIFF_SYM343=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM343
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM345=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM345
+LDIFF_SYM344=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM344
 Lfde61_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
 
-LDIFF_SYM346=Lme_45 - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM346
+LDIFF_SYM345=Lme_45 - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM345
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -9810,22 +9757,22 @@ Lfde61_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM347=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM347
+LDIFF_SYM346=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM346
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM348=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM348
+LDIFF_SYM347=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM347
 Lfde62_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Clear
 
-LDIFF_SYM349=Lme_46 - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM349
+LDIFF_SYM348=Lme_46 - System_Array_InternalArray__ICollection_Clear
+	.long LDIFF_SYM348
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -9844,27 +9791,27 @@ Lfde62_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM350=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM350
+LDIFF_SYM349=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM349
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM351=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM351
+LDIFF_SYM350=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM350
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM352=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM352
+LDIFF_SYM351=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM351
 Lfde63_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 
-LDIFF_SYM353=Lme_47 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.long LDIFF_SYM353
+LDIFF_SYM352=Lme_47 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.long LDIFF_SYM352
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -9883,27 +9830,27 @@ Lfde63_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM354=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM354
+LDIFF_SYM353=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM353
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM355=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM355
+LDIFF_SYM354=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM354
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM356=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM356
+LDIFF_SYM355=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM355
 Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 
-LDIFF_SYM357=Lme_48 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.long LDIFF_SYM357
+LDIFF_SYM356=Lme_48 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM356
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -9922,42 +9869,42 @@ Lfde64_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM358=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM358
+LDIFF_SYM357=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM357
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM359=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM359
+LDIFF_SYM358=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM358
 	.byte 2,141,40,11
 	.asciz "length"
 
-LDIFF_SYM360=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM360
+LDIFF_SYM359=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM359
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM361=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM361
+LDIFF_SYM360=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM360
 	.byte 1,104,11
 	.asciz "value"
 
-LDIFF_SYM362=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM362
+LDIFF_SYM361=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM361
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM363=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM363
+LDIFF_SYM362=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM362
 Lfde65_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM364=Lme_49 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM364
+LDIFF_SYM363=Lme_49 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM363
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
@@ -9976,32 +9923,32 @@ Lfde65_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM365=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM365
+LDIFF_SYM364=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM364
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM366=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM366
+LDIFF_SYM365=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM365
 	.byte 2,141,40,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM367=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM367
+LDIFF_SYM366=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM366
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM368=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM368
+LDIFF_SYM367=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM367
 Lfde66_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM369=Lme_4a - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM369
+LDIFF_SYM368=Lme_4a - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM368
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,152,12
 	.align 3
@@ -10014,259 +9961,259 @@ LTDIE_22:
 	.asciz "System_Reflection_MemberInfo"
 
 	.byte 16,16
-LDIFF_SYM370=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM370
+LDIFF_SYM369=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM369
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MemberInfo"
 
-LDIFF_SYM371=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM371
+LDIFF_SYM370=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM370
 LTDIE_22_POINTER:
 
 	.byte 13
-LDIFF_SYM372=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM372
+LDIFF_SYM371=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM371
 LTDIE_22_REFERENCE:
 
 	.byte 14
-LDIFF_SYM373=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM373
+LDIFF_SYM372=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM372
 LTDIE_21:
 
 	.byte 5
 	.asciz "System_Reflection_MethodBase"
 
 	.byte 16,16
-LDIFF_SYM374=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM374
+LDIFF_SYM373=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM373
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MethodBase"
 
-LDIFF_SYM375=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM375
+LDIFF_SYM374=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM374
 LTDIE_21_POINTER:
 
 	.byte 13
-LDIFF_SYM376=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM376
+LDIFF_SYM375=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM375
 LTDIE_21_REFERENCE:
 
 	.byte 14
-LDIFF_SYM377=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM377
+LDIFF_SYM376=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM376
 LTDIE_20:
 
 	.byte 5
 	.asciz "System_Reflection_MethodInfo"
 
 	.byte 16,16
-LDIFF_SYM378=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM378
+LDIFF_SYM377=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM377
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_MethodInfo"
 
-LDIFF_SYM379=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM379
+LDIFF_SYM378=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM378
 LTDIE_20_POINTER:
 
 	.byte 13
-LDIFF_SYM380=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM380
+LDIFF_SYM379=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM379
 LTDIE_20_REFERENCE:
 
 	.byte 14
-LDIFF_SYM381=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM381
+LDIFF_SYM380=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM380
 LTDIE_24:
 
 	.byte 5
 	.asciz "System_Type"
 
 	.byte 24,16
-LDIFF_SYM382=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM382
+LDIFF_SYM381=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM381
 	.byte 2,35,0,6
 	.asciz "_impl"
 
-LDIFF_SYM383=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM383
+LDIFF_SYM382=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM382
 	.byte 2,35,16,0,7
 	.asciz "System_Type"
 
-LDIFF_SYM384=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM384
+LDIFF_SYM383=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM383
 LTDIE_24_POINTER:
 
 	.byte 13
-LDIFF_SYM385=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM385
+LDIFF_SYM384=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM384
 LTDIE_24_REFERENCE:
 
 	.byte 14
-LDIFF_SYM386=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM386
+LDIFF_SYM385=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM385
 LTDIE_23:
 
 	.byte 5
 	.asciz "System_DelegateData"
 
 	.byte 32,16
-LDIFF_SYM387=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM387
+LDIFF_SYM386=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM386
 	.byte 2,35,0,6
 	.asciz "target_type"
 
-LDIFF_SYM388=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM388
+LDIFF_SYM387=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM387
 	.byte 2,35,16,6
 	.asciz "method_name"
 
-LDIFF_SYM389=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM389
+LDIFF_SYM388=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM388
 	.byte 2,35,24,0,7
 	.asciz "System_DelegateData"
 
-LDIFF_SYM390=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM390
+LDIFF_SYM389=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM389
 LTDIE_23_POINTER:
 
 	.byte 13
-LDIFF_SYM391=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM391
+LDIFF_SYM390=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM390
 LTDIE_23_REFERENCE:
 
 	.byte 14
-LDIFF_SYM392=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM392
+LDIFF_SYM391=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM391
 LTDIE_19:
 
 	.byte 5
 	.asciz "System_Delegate"
 
 	.byte 104,16
-LDIFF_SYM393=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM393
+LDIFF_SYM392=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM392
 	.byte 2,35,0,6
 	.asciz "method_ptr"
 
-LDIFF_SYM394=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM394
+LDIFF_SYM393=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM393
 	.byte 2,35,16,6
 	.asciz "invoke_impl"
 
-LDIFF_SYM395=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM395
+LDIFF_SYM394=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM394
 	.byte 2,35,24,6
 	.asciz "m_target"
 
-LDIFF_SYM396=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM396
+LDIFF_SYM395=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM395
 	.byte 2,35,32,6
 	.asciz "method"
 
-LDIFF_SYM397=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM397
+LDIFF_SYM396=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM396
 	.byte 2,35,40,6
 	.asciz "delegate_trampoline"
 
-LDIFF_SYM398=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM398
+LDIFF_SYM397=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM397
 	.byte 2,35,48,6
 	.asciz "extra_arg"
 
-LDIFF_SYM399=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM399
+LDIFF_SYM398=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM398
 	.byte 2,35,56,6
 	.asciz "method_code"
 
-LDIFF_SYM400=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM400
+LDIFF_SYM399=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM399
 	.byte 2,35,64,6
 	.asciz "method_info"
 
-LDIFF_SYM401=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM401
+LDIFF_SYM400=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM400
 	.byte 2,35,72,6
 	.asciz "original_method_info"
 
-LDIFF_SYM402=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM402
+LDIFF_SYM401=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM401
 	.byte 2,35,80,6
 	.asciz "data"
 
-LDIFF_SYM403=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM403
+LDIFF_SYM402=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM402
 	.byte 2,35,88,6
 	.asciz "method_is_virtual"
 
-LDIFF_SYM404=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM404
+LDIFF_SYM403=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM403
 	.byte 2,35,96,0,7
 	.asciz "System_Delegate"
 
-LDIFF_SYM405=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM405
+LDIFF_SYM404=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM404
 LTDIE_19_POINTER:
 
 	.byte 13
-LDIFF_SYM406=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM406
+LDIFF_SYM405=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM405
 LTDIE_19_REFERENCE:
 
 	.byte 14
-LDIFF_SYM407=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM407
+LDIFF_SYM406=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM406
 LTDIE_18:
 
 	.byte 5
 	.asciz "System_MulticastDelegate"
 
 	.byte 112,16
-LDIFF_SYM408=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM408
+LDIFF_SYM407=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM407
 	.byte 2,35,0,6
 	.asciz "delegates"
 
-LDIFF_SYM409=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM409
+LDIFF_SYM408=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM408
 	.byte 2,35,104,0,7
 	.asciz "System_MulticastDelegate"
 
-LDIFF_SYM410=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM410
+LDIFF_SYM409=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM409
 LTDIE_18_POINTER:
 
 	.byte 13
-LDIFF_SYM411=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM411
+LDIFF_SYM410=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM410
 LTDIE_18_REFERENCE:
 
 	.byte 14
-LDIFF_SYM412=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM412
+LDIFF_SYM411=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM411
 LTDIE_17:
 
 	.byte 5
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM413=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM413
+LDIFF_SYM412=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM412
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM414=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM414
+LDIFF_SYM413=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM413
 LTDIE_17_POINTER:
 
 	.byte 13
-LDIFF_SYM415=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM415
+LDIFF_SYM414=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM414
 LTDIE_17_REFERENCE:
 
 	.byte 14
-LDIFF_SYM416=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM416
+LDIFF_SYM415=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM415
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<ProjectDrunk.Speler>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler"
@@ -10278,57 +10225,57 @@ LDIFF_SYM416=LTDIE_17 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM417=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM417
+LDIFF_SYM416=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM416
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM418=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM418
+LDIFF_SYM417=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM417
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM419=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM419
+LDIFF_SYM418=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM418
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM420=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM420
+LDIFF_SYM419=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM419
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM421=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM421
+LDIFF_SYM420=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM420
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM422=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM422
+LDIFF_SYM421=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM421
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM423=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM423
+LDIFF_SYM422=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM422
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM424=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM424
+LDIFF_SYM423=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM423
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM425=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM425
+LDIFF_SYM424=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM424
 Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler
 
-LDIFF_SYM426=Lme_4b - wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler
-	.long LDIFF_SYM426
+LDIFF_SYM425=Lme_4b - wrapper_delegate_invoke_System_Predicate_1_ProjectDrunk_Speler_invoke_bool_T_ProjectDrunk_Speler
+	.long LDIFF_SYM425
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -10342,23 +10289,23 @@ LTDIE_25:
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM427=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM427
+LDIFF_SYM426=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM426
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM428=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM428
+LDIFF_SYM427=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM427
 LTDIE_25_POINTER:
 
 	.byte 13
-LDIFF_SYM429=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM429
+LDIFF_SYM428=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM428
 LTDIE_25_REFERENCE:
 
 	.byte 14
-LDIFF_SYM430=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM430
+LDIFF_SYM429=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM429
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<ProjectDrunk.Speler>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler"
@@ -10370,62 +10317,62 @@ LDIFF_SYM430=LTDIE_25 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM431=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM431
+LDIFF_SYM430=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM430
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM432=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM432
+LDIFF_SYM431=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM431
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM433=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM433
+LDIFF_SYM432=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM432
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM434=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM434
+LDIFF_SYM433=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM433
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM435=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM435
+LDIFF_SYM434=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM434
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM436=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM436
+LDIFF_SYM435=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM435
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM437=LTDIE_18_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM437
+LDIFF_SYM436=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM436
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM438=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM438
+LDIFF_SYM437=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM437
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM439=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM439
+LDIFF_SYM438=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM438
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM440=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM440
+LDIFF_SYM439=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM439
 Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler
 
-LDIFF_SYM441=Lme_4c - wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler
-	.long LDIFF_SYM441
+LDIFF_SYM440=Lme_4c - wrapper_delegate_invoke_System_Comparison_1_ProjectDrunk_Speler_invoke_int_T_T_ProjectDrunk_Speler_ProjectDrunk_Speler
+	.long LDIFF_SYM440
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -10439,33 +10386,33 @@ LTDIE_26:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM442=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM442
+LDIFF_SYM441=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM441
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM443=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM443
+LDIFF_SYM442=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM442
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM444=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM444
+LDIFF_SYM443=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM443
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM445=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM445
+LDIFF_SYM444=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM444
 LTDIE_26_POINTER:
 
 	.byte 13
-LDIFF_SYM446=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM446
+LDIFF_SYM445=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM445
 LTDIE_26_REFERENCE:
 
 	.byte 14
-LDIFF_SYM447=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM447
+LDIFF_SYM446=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM446
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
@@ -10477,27 +10424,27 @@ LDIFF_SYM447=LTDIE_26 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM448=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM448
+LDIFF_SYM447=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM447
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM449=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM449
+LDIFF_SYM448=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM448
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM450=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM450
+LDIFF_SYM449=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM449
 Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM451=Lme_4d - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM451
+LDIFF_SYM450=Lme_4d - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM450
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3

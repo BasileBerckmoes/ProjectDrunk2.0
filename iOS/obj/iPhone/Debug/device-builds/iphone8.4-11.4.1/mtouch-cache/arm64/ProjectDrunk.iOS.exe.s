@@ -13843,7 +13843,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "B1C36C37-C08E-42BD-B635-A03495E47EB3"
+	.asciz "4F8F62FD-EBD1-47E3-BC8A-9ADBE1338CE1"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -13928,7 +13928,7 @@ _mono_aot_file_info:
 	.long 216,1976,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 152,44,68,237,167,181,89,253,37,70,204,4,58,231,88,175
+	.byte 212,151,101,177,95,0,201,57,14,14,132,185,195,26,91,124
 	.globl _mono_aot_module_ProjectDrunk_iOS_info
 	.align 3
 _mono_aot_module_ProjectDrunk_iOS_info:
