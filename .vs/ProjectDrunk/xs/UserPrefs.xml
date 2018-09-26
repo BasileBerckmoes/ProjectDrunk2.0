@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{C7AC4D35-0D4C-4527-B00A-E6125730E147}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.storyboard">
     <Files>
-      <File FileName="iOS/ViewControllers/HogerLagerViewController.cs" Line="29" Column="1" />
-      <File FileName="ProjectDrunk/LogischeLaag/HogerLager.cs" Line="77" Column="1" />
-      <File FileName="ProjectDrunk/DataLaag/SpelData.cs" Line="30" Column="34" />
-      <File FileName="iOS/ViewControllers/ViewController.cs" Line="69" Column="1" />
+      <File FileName="iOS/ViewControllers/HogerLagerViewController.cs" Line="1" Column="1" />
+      <File FileName="ProjectDrunk/LogischeLaag/HogerLager.cs" Line="1" Column="1" />
+      <File FileName="ProjectDrunk/DataLaag/SpelData.cs" Line="1" Column="1" />
+      <File FileName="iOS/ViewControllers/ViewController.cs" Line="1" Column="1" />
       <File FileName="iOS/Main.storyboard" />
+      <File FileName="ProjectDrunk/Globals/ColorsEnum.cs" Line="1" Column="1" />
+      <File FileName="ProjectDrunk/LogischeLaag/RingOfFire.cs" Line="1" Column="1" />
+      <File FileName="ProjectDrunk/Globals/Kleur.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

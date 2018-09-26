@@ -38,6 +38,9 @@
     <Compile Include="LogischeLaag\HogerLager.cs" />
     <Compile Include="Globals\Spel.cs" />
     <Compile Include="Globals\NewGameEvent.cs" />
+    <Compile Include="Globals\ColorsEnum.cs" />
+    <Compile Include="LogischeLaag\RingOfFire.cs" />
+    <Compile Include="Globals\Kleur.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
